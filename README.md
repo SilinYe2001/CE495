@@ -1,2 +1,2 @@
 # CE495-Digital-design-and-Verification
-Northwestern CE3887/CE495
+Northwestern CE387/CE495
