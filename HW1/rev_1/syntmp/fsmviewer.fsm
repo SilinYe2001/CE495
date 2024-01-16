@@ -1,0 +1,23 @@
+fsm_options -device {state[2:0]}
+
+define_state S0 00 {/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci.sv} 43 6 43 7
+state_output S0 {state[0]} 1
+
+define_state S1 01 {/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci.sv} 50 6 50 7
+state_output S1 {state[1]} 1
+
+define_state S2 10 {/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci.sv} 58 6 58 7
+state_output S2 {state[2]} 1
+
+fsm_options -resetState S0
+
+define_transition S2 S2 {n_state8,start = --}
+define_transition S1 S2 {n_state8,start = 1-}
+define_transition S1 S1 {n_state8,start = 0-}
+define_transition S0 S1 {n_state8,start = -1}
+define_transition S0 S0 {n_state8,start = -0}
+fsm_options -SRSPath {/home/sfs6562/CE495-Digital-design-and-Verification/HW1/rev_1/synwork/fibonacci_tb_mult.srs}
+fsm_options -SRSTime 1705383229
+fsm_options -FSMPath {fib.state[2:0]}
+fsm_options -view {work.fibonacci_fib.verilog|i:state[2:0]}
+fsm_options -ID {6182181}

@@ -1,0 +1,76 @@
+#Build: Synplify (R) Premier O-2018.09-SP1, Build 3588R, Nov 27 2018
+#install: /vol/synopsys/fpga/O-2018.09-SP1
+#OS: Linux 
+#Hostname: selina.ece.northwestern.edu
+
+# Mon Jan 15 23:07:36 2024
+
+#Implementation: rev_1
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify (R) Premier
+Build: O-2018.09-SP1
+Install: /vol/synopsys/fpga/O-2018.09-SP1
+OS: Red Hat Enterprise Linux 8.9 (Ootpa)
+Hostname: selina.ece.northwestern.edu
+max virtual memory: unlimited (bytes)
+max user processes: 126574
+max stack size: 8388608 (bytes)
+
+
+Implementation : rev_1
+Synopsys HDL Compiler, Version comp2018q4p1, Build 004R, Built Nov 27 2018 21:19:49
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify (R) Premier
+Build: O-2018.09-SP1
+Install: /vol/synopsys/fpga/O-2018.09-SP1
+OS: Red Hat Enterprise Linux 8.9 (Ootpa)
+Hostname: selina.ece.northwestern.edu
+max virtual memory: unlimited (bytes)
+max user processes: 126574
+max stack size: 8388608 (bytes)
+
+
+Implementation : rev_1
+Synopsys Verilog Compiler, Version comp2018q4p1, Build 004R, Built Nov 27 2018 21:19:49
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+
+@I::"/vol/synopsys/fpga/O-2018.09-SP1/lib/generic/speedster22i.v" (library work)
+@I::"/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/hypermods.v" (library __hyper__lib__)
+@I::"/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/umr_capim.v" (library snps_haps)
+@I::"/vol/synopsys/fpga/O-2018.09-SP1/lib/synip/hcei/zceistubs.v" (library snps_haps)
+@I::"/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/scemi_objects.v" (library snps_haps)
+@I::"/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/scemi_pipes.svh" (library snps_haps)
+@I::"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci.sv" (library work)
+@E: CS187 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci.sv":55:12:55:12|Expecting ,
+@E: CS187 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci.sv":64:0:64:8|Expecting endmodule
+@I::"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci_tb.sv" (library work)
+@E: CG285 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci_tb.sv":22:2:22:4|Expecting statement
+@E: CS187 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci_tb.sv":59:0:59:8|Expecting endmodule
+4 syntax errors
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jan 15 23:07:37 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jan 15 23:07:37 2024
+
+###########################################################]

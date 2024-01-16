@@ -1,0 +1,3 @@
+@E: CG285 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci_tb.sv":22:2:22:4|Expecting statement
+@E: CS187 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci_tb.sv":59:0:59:8|Expecting endmodule
+

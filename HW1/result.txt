@@ -1,0 +1,34 @@
+simulation cycle count: N clock cycles for N's fibonacci number
+
+max frequency: 286.1MHZ
+
+
+resource utilization:
+
+
+Design view:work.fibonacci(verilog)
+Selecting part EP4CE6E22A7
+@N:FA174 :  | The following device usage report estimates place and route data. Please look at the place and route report for final resource usage. 
+
+Total combinational functions 131 of 6272 ( 2%)
+Logic element usage by number of inputs
+          4 input functions      46
+          3 input functions      33
+          [=2 input functions    52
+Logic elements by mode
+          normal mode            98
+          arithmetic mode        33
+Total registers 54 of 6272 ( 0%)
+I/O pins 36 of 180 (20%), total I/O based on largest package of this part.
+
+Number of I/O registers
+            Input DDRs    :0
+            Output DDRs   :0
+
+DSP Blocks:     0  (0 nine-bit DSP elements).
+DSP Utilization: 0.00% of available 15 blocks (30 nine-bit).
+ShiftTap:       0  (0 registers)
+Ena:             0
+Sload:           31
+Sclr:            15
+Total ESB:      0 bits 

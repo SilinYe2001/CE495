@@ -1,0 +1,17 @@
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF915 |Option synthesis_strategy=advanced is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MT206 |Auto Constrain mode is enabled
+@N: FA101 |Net "start_c" with "34" loads has been buffered by "1" buffers due to hard fanout limit of "30" 
+@N: FA101 |Net "reset_c" with "50" loads has been buffered by "1" buffers due to hard fanout limit of "30" 
+@N: FA100 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci.sv":18:2:18:10|Instance "state[1]" with "83" loads has been replicated "2" time(s) due to hard fanout limit of "30" 
+@N: FA100 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci.sv":18:2:18:10|Instance "state[0]" with "68" loads has been replicated "2" time(s) due to hard fanout limit of "30" 
+@N: FA101 |Net "reset_c_buf" with "54" loads has been buffered by "1" buffers due to hard fanout limit of "30" 
+@N: FA101 |Net "start_c_buf" with "34" loads has been buffered by "1" buffers due to hard fanout limit of "30" 
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+@N: FA174 |The following device usage report estimates place and route data. Please look at the place and route report for final resource usage.
