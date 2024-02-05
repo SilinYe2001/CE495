@@ -1,0 +1,7 @@
+
+. Module name, ATOMS, ARITHMETIC MODE, REGISTERS, SYNC RAMS, MACs
+. bram_block, 39, 0, 37, 4, 0
+.	. bram_10s_8s, 15, 0, 10, 1, 0
+.	. bram_10s_8s_0, 8, 0, 9, 1, 0
+.	. bram_10s_8s_1, 8, 0, 9, 1, 0
+.	. bram_10s_8s_2, 8, 0, 9, 1, 0

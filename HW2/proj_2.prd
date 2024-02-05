@@ -1,0 +1,18 @@
+#--  Synopsys, Inc.
+#--  Version O-2018.09-SP1
+#--  Project file /home/sfs6562/CE495-Digital-design-and-Verification/HW2/proj_2.prd
+#--  Written on Mon Jan 22 21:55:57 2024
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear
+
+#HDL Parameters
+set_option -hdl_param -add DATA_WIDTH ""
+set_option -hdl_param -add MATRIX_ADDR ""
+set_option -hdl_param -add MATRIX_SIZE ""

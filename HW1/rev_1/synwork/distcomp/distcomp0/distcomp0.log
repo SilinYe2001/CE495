@@ -9,9 +9,9 @@ Tool: Synplify (R) Premier
 Build: O-2018.09-SP1
 Install: /vol/synopsys/fpga/O-2018.09-SP1
 OS: Red Hat Enterprise Linux 8.9 (Ootpa)
-Hostname: cobblepott.ece.northwestern.edu
+Hostname: moore.wot.eecs.northwestern.edu
 max virtual memory: unlimited (bytes)
-max user processes: 126575
+max user processes: 1027961
 max stack size: 8388608 (bytes)
 
 
@@ -61,22 +61,22 @@ Synopsys Verilog Compiler, Version comp2018q4p1, Build 004R, Built Nov 27 2018 2
 @I::"/vol/synopsys/fpga/O-2018.09-SP1/lib/synip/hcei/zceistubs.v" (library snps_haps)
 @I::"/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/scemi_objects.v" (library snps_haps)
 @I::"/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/scemi_pipes.svh" (library snps_haps)
-@I::"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci.sv" (library work)
+@I::"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv" (library work)
 Verilog syntax check successful!
-Options changed - recompiling
-@N:: Applying property .distcompmodetop with value 1 on module fibonacci in library work
-@N:: Applying property .distcompnoprune with value 1 on module fibonacci in library work
-@N:: Applying property .noprune with value 1 on module fibonacci in library work
-Selecting top level module fibonacci
-@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci.sv":1:7:1:15|Synthesizing module fibonacci in library work.
-Running optimization stage 1 on fibonacci .......
-Running optimization stage 2 on fibonacci .......
-@N: CL201 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci.sv":18:2:18:10|Trying to extract state machine for register state.
-Extracted state machine for register state
-State machine has 3 reachable states with original encodings of:
-   00
-   01
-   10
+File /home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul_copy1.sv changed - recompiling
+@N:: Applying property .distcompmodetop with value 1 on module matmul in library work
+@N:: Applying property .distcompnoprune with value 1 on module matmul in library work
+@N:: Applying property .noprune with value 1 on module matmul in library work
+Selecting top level module matmul
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":1:7:1:12|Synthesizing module matmul in library work.
+@E: CS153 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":59:16:59:16|Can't mix blocking and non-blocking assignments to a variable
+@E: CS153 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":70:15:70:15|Can't mix blocking and non-blocking assignments to a variable
+@E: CS153 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":80:23:80:23|Can't mix blocking and non-blocking assignments to a variable
+@E: CS153 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":90:23:90:23|Can't mix blocking and non-blocking assignments to a variable
+@E: CS153 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":95:19:95:19|Can't mix blocking and non-blocking assignments to a variable
+@E: CS153 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":103:15:103:15|Can't mix blocking and non-blocking assignments to a variable
+@E: CS153 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":115:12:115:12|Can't mix blocking and non-blocking assignments to a variable
+@N: CG706 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":1:7:1:12|Selected top-level module matmul is a black box, ignoring black box ...
 
 For a summary of runtime and memory usage per design unit, please see file:
 ==========================================================
@@ -84,11 +84,11 @@ For a summary of runtime and memory usage per design unit, please see file:
 
 @END
 
-At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 80MB peak: 81MB)
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 79MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Jan 16 12:44:13 2024
+# Tue Jan 23 23:52:52 2024
 
 ###########################################################]

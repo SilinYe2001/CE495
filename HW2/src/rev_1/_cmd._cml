@@ -1,0 +1,1 @@
+-distcompmode -link    -encrypt       -top work.matmul -osyn /home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/rev_1/synwork/matmul_copy_comp.srs /home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/rev_1/synwork//distcomp/distcomp0/distcomp0.srs    

@@ -1,0 +1,2 @@
+@W: FA406 |Environment variable QUARTUS_ROOTDIR not set. Cannot determine PAR version.
+@W: MT529 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/bram/sv/bram.sv":16:2:16:10|Found inferred clock bram_block|clock which controls 72 sequential elements including brams\[0\].mem[7:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

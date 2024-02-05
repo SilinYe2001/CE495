@@ -1,0 +1,4 @@
+@W:: Distributed compilation : All files are passed to distribution points
+@W: FA406 |Environment variable QUARTUS_ROOTDIR not set. Cannot determine PAR version.
+@W: FA406 |Environment variable QUARTUS_ROOTDIR not set. Cannot determine PAR version.
+

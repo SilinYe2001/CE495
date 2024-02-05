@@ -1,0 +1,21 @@
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF915 |Option synthesis_strategy=advanced is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":53:0:53:10|Tristate driver done (in view: work.matmul(verilog)) on net done (in view: work.matmul(verilog)) has its enable tied to GND.
+@N: MT206 |Auto Constrain mode is enabled
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":10:34:10:42|Tristate driver done_r (in view: work.matmul(verilog)) on net N_1 (in view: work.matmul(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":10:34:10:42|Tristate driver done_r_0 (in view: work.matmul(verilog)) on net N_2 (in view: work.matmul(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":10:34:10:42|Tristate driver done_r_1 (in view: work.matmul(verilog)) on net N_3 (in view: work.matmul(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":10:34:10:42|Tristate driver done_r_2 (in view: work.matmul(verilog)) on net N_4 (in view: work.matmul(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":10:34:10:42|Tristate driver done_r_3 (in view: work.matmul(verilog)) on net N_5 (in view: work.matmul(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":10:34:10:42|Tristate driver done_r_4 (in view: work.matmul(verilog)) on net N_6 (in view: work.matmul(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":12:34:12:42|Tristate driver done_r_5 (in view: work.matmul(verilog)) on net N_7 (in view: work.matmul(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":12:34:12:42|Tristate driver done_r_6 (in view: work.matmul(verilog)) on net N_8 (in view: work.matmul(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":12:34:12:42|Tristate driver done_r_7 (in view: work.matmul(verilog)) on net N_9 (in view: work.matmul(verilog)) has its enable tied to GND.
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+@N: FA174 |The following device usage report estimates place and route data. Please look at the place and route report for final resource usage.

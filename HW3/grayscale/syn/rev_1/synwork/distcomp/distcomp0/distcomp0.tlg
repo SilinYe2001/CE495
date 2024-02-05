@@ -1,0 +1,37 @@
+@N:: Applying property .distcompmodetop with value 1 on module grayscale_top in library work
+@N:: Applying property .distcompnoprune with value 1 on module grayscale_top in library work
+@N:: Applying property .noprune with value 1 on module grayscale_top in library work
+@N:: Applying property .distcompnoprune with value 1 on module fifo in library work
+@N:: Applying property .noprune with value 1 on module fifo in library work
+@N:: Applying property .distcompnoprune with value 1 on module grayscale in library work
+@N:: Applying property .noprune with value 1 on module grayscale in library work
+Selecting top level module grayscale_top
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification/hw3/grayscale/sv/grayscale.sv":2:7:2:15|Synthesizing module grayscale in library work.
+Running optimization stage 1 on grayscale .......
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification/hw3/grayscale/sv/fifo.sv":2:7:2:10|Synthesizing module fifo in library work.
+
+	FIFO_DATA_WIDTH=32'b00000000000000000000000000011000
+	FIFO_BUFFER_SIZE=32'b00000000000000000000000000100000
+	FIFO_ADDR_WIDTH=32'b00000000000000000000000000000110
+   Generated name = fifo_24s_32s_6s
+Running optimization stage 1 on fifo_24s_32s_6s .......
+@N: CL134 :"/home/sfs6562/CE495-Digital-design-and-Verification/hw3/grayscale/sv/fifo.sv":35:4:35:12|Found RAM fifo_buf, depth=32, width=24
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification/hw3/grayscale/sv/fifo.sv":2:7:2:10|Synthesizing module fifo in library work.
+
+	FIFO_DATA_WIDTH=32'b00000000000000000000000000001000
+	FIFO_BUFFER_SIZE=32'b00000000000000000000000000100000
+	FIFO_ADDR_WIDTH=32'b00000000000000000000000000000110
+   Generated name = fifo_8s_32s_6s
+Running optimization stage 1 on fifo_8s_32s_6s .......
+@N: CL134 :"/home/sfs6562/CE495-Digital-design-and-Verification/hw3/grayscale/sv/fifo.sv":35:4:35:12|Found RAM fifo_buf, depth=32, width=8
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification/hw3/grayscale/sv/grayscale_top.sv":2:7:2:19|Synthesizing module grayscale_top in library work.
+Running optimization stage 1 on grayscale_top .......
+Running optimization stage 2 on grayscale_top .......
+Running optimization stage 2 on fifo_8s_32s_6s .......
+Running optimization stage 2 on fifo_24s_32s_6s .......
+Running optimization stage 2 on grayscale .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/sfs6562/CE495-Digital-design-and-Verification/hw3/grayscale/syn/rev_1/synwork//distcomp/distcomp0/distcomp0.rt.csv
+

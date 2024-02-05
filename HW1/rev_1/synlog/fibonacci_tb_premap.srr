@@ -1,4 +1,4 @@
-# Tue Jan 16 12:44:17 2024
+# Tue Jan 23 23:52:55 2024
 
 
 Copyright (C) 1994-2018 Synopsys, Inc.
@@ -10,9 +10,9 @@ Tool: Synplify (R) Premier
 Build: O-2018.09-SP1
 Install: /vol/synopsys/fpga/O-2018.09-SP1
 OS: Red Hat Enterprise Linux 8.9 (Ootpa)
-Hostname: cobblepott.ece.northwestern.edu
+Hostname: moore.wot.eecs.northwestern.edu
 max virtual memory: unlimited (bytes)
-max user processes: 126575
+max user processes: 1027961
 max stack size: 8388608 (bytes)
 
 
@@ -42,6 +42,7 @@ Finished Clear Box Flow. (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:
 
 @N: MH105 |UMR3 is only supported for HAPS-80.
 @N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":42:0:42:10|Tristate driver done (in view: work.matmul(verilog)) on net done (in view: work.matmul(verilog)) has its enable tied to GND.
 
 Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 117MB)
 
@@ -50,48 +51,40 @@ Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 Clock Summary
 ******************
 
-          Start             Requested     Requested     Clock        Clock                     Clock
-Level     Clock             Frequency     Period        Type         Group                     Load 
-----------------------------------------------------------------------------------------------------
-0 -       fibonacci|clk     365.3 MHz     2.737         inferred     Autoconstr_clkgroup_0     51   
-====================================================================================================
+          Start     Requested     Requested     Clock     Clock     Clock
+Level     Clock     Frequency     Period        Type      Group     Load 
+-------------------------------------------------------------------------
+=========================================================================
 
 
 
 Clock Load Summary
 ***********************
 
-                  Clock     Source        Clock Pin        Non-clock Pin     Non-clock Pin
-Clock             Load      Pin           Seq Example      Seq Example       Comb Example 
-------------------------------------------------------------------------------------------
-fibonacci|clk     51        clk(port)     state[2:0].C     -                 -            
-==========================================================================================
-
-@W: MT529 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci.sv":18:2:18:10|Found inferred clock fibonacci|clk which controls 51 sequential elements including count[15:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+          Clock     Source     Clock Pin       Non-clock Pin     Non-clock Pin
+Clock     Load      Pin        Seq Example     Seq Example       Comb Example 
+------------------------------------------------------------------------------
+==============================================================================
 
 Finished Pre Mapping Phase.
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":42:0:42:10|Tristate driver done (in view: work.matmul(verilog)) on net done (in view: work.matmul(verilog)) has its enable tied to GND.
 @N: BN225 |Writing default property annotation file /home/sfs6562/CE495-Digital-design-and-Verification/HW1/rev_1/fibonacci_tb.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 118MB)
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 117MB)
 
-Encoding state machine state[2:0] (in view: work.fibonacci(verilog))
-original code -> new code
-   00 -> 00
-   01 -> 01
-   10 -> 10
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 118MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 117MB)
 
 None
 None
 
-Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 118MB)
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 117MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 31MB peak: 118MB)
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 30MB peak: 117MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Jan 16 12:44:17 2024
+# Tue Jan 23 23:52:56 2024
 
 ###########################################################]

@@ -1,0 +1,19 @@
+fsm_options -device {state[1:0]}
+
+define_state s0 00 {/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv} 57 8 57 9
+state_output s0 {state[0]} 1
+
+define_state s1 01 {/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv} 70 8 70 9
+state_output s1 {state[1]} 1
+
+fsm_options -resetState s0
+
+define_transition s1 s1 {i[3],start = 0-}
+define_transition s0 s1 {i[3],start = -1}
+define_transition s1 s0 {i[3],start = 1-}
+define_transition s0 s0 {i[3],start = -0}
+fsm_options -SRSPath {/home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/synwork/matmul_mult.srs}
+fsm_options -SRSTime 1706307144
+fsm_options -FSMPath {matmul_instance.state[1:0]}
+fsm_options -view {work.matmul_32s_6s_8s_matmul_instance.verilog|i:state[1:0]}
+fsm_options -ID {10270271}

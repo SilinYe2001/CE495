@@ -1,0 +1,171 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.01, Jan 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/sfs6562/CE495-Digital-design-and-Verification/HW2/sim
+T_opt
+!s110 1706305887
+VR;7RhY[^YT6?<16<Q0m730
+04 9 4 work matmul_tb fast 0
+=1-a4bb6d3f6a6c-65b4295f-f721-4ad0
+o-quiet -auto_acc_if_foreign -work work -L work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.1;71
+vbram
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1706305886
+!i10b 1
+!s100 a=ch>5S_KTm?E6aBDE4Ue2
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IB<<66A2793MTI6blJ0N`Z3
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1706117305
+8../src/bram.sv
+F../src/bram.sv
+!i122 290
+L0 1 23
+Z6 OL;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1706305885.000000
+!s107 ../src/bram.sv|
+!s90 -reportprogress|300|-work|work|../src/bram.sv|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vbram_block
+R2
+!s110 1706041098
+!i10b 1
+!s100 :j?RaiJ:I6<`4V]@VkYZk2
+R4
+I4^m88M0n`WR2==82dzFCj2
+R5
+S1
+R0
+w1706038170
+8../src/bram_block.sv
+F../src/bram_block.sv
+!i122 242
+L0 2 42
+R6
+r1
+!s85 0
+31
+!s108 1706041098.000000
+!s107 ../src/bram_block.sv|
+!s90 -reportprogress|300|-work|work|../src/bram_block.sv|
+!i113 0
+R7
+R1
+vmatmul
+R2
+R3
+!i10b 1
+!s100 HS^[`^>Mm2If18LPME2S^1
+R4
+I1z>mUYakA<cKJj1^[?27>3
+R5
+S1
+R0
+w1706305859
+8../src/matmul.sv
+F../src/matmul.sv
+!i122 291
+L0 1 118
+R6
+r1
+!s85 0
+31
+Z8 !s108 1706305886.000000
+!s107 ../src/matmul.sv|
+!s90 -reportprogress|300|-work|work|../src/matmul.sv|
+!i113 0
+R7
+R1
+vmatmul_tb
+R2
+R3
+!i10b 1
+!s100 _X9Bm`m^L:Bm_KXaC;L5a0
+R4
+Io3hAz_I[3_lHfYazjKk:i1
+R5
+S1
+R0
+w1706041736
+Z9 8../src/matmul_tb.sv
+Z10 F../src/matmul_tb.sv
+!i122 293
+L0 2 212
+R6
+r1
+!s85 0
+31
+R8
+Z11 !s107 ../src/matmul_tb.sv|
+Z12 !s90 -reportprogress|300|-work|work|../src/matmul_tb.sv|
+!i113 0
+R7
+R1
+vtb_matmul
+R2
+!s110 1705717962
+!i10b 1
+!s100 LU3fFZ3Xe>aD@^m9]`SUh1
+R4
+IAFZVkEIZI9iYbPd5N?kgb2
+R5
+S1
+R0
+w1705717954
+R9
+R10
+!i122 3
+L0 1 111
+R6
+r1
+!s85 0
+31
+!s108 1705717962.000000
+R11
+R12
+!i113 0
+R7
+R1
+vTop
+R2
+R3
+!i10b 1
+!s100 NzP6VHNIg`g^?Cl?`nECV1
+R4
+IG[JHn3gB_VM^IAQ0eTRzF1
+R5
+S1
+R0
+w1706041688
+8../src/Top.sv
+F../src/Top.sv
+!i122 292
+L0 2 87
+R6
+r1
+!s85 0
+31
+R8
+!s107 ../src/Top.sv|
+!s90 -reportprogress|300|-work|work|../src/Top.sv|
+!i113 0
+R7
+R1
+n@top

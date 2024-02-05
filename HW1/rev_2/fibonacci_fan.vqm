@@ -1,0 +1,150 @@
+//
+// Written by Synplify Premier 
+// Product Version "O-2018.09-SP1"
+// Program "Synplify Premier", Mapper "maprc, Build 4745R"
+// Wed Jan 17 21:02:43 2024
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "\/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/altera.v "
+// file 1 "\/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/cycloneive.v "
+// file 2 "\/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v "
+// file 3 "\/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_lpm.v "
+// file 4 "\/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_primitives.v "
+// file 5 "\/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/hypermods.v "
+// file 6 "\/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/umr_capim.v "
+// file 7 "\/vol/synopsys/fpga/O-2018.09-SP1/lib/synip/hcei/zceistubs.v "
+// file 8 "\/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/scemi_objects.v "
+// file 9 "\/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/scemi_pipes.svh "
+// file 10 "\/home/sfs6562/FAN/sv/fibonacci_fan.sv "
+// file 11 "\/vol/synopsys/fpga/O-2018.09-SP1/lib/nlconst.dat "
+
+// VQM4.1+ 
+module fibonacci (
+  clk,
+  reset,
+  din,
+  start,
+  dout,
+  done
+)
+;
+input clk ;
+input reset ;
+input [15:0] din ;
+input start ;
+output [15:0] dout ;
+output done ;
+wire clk ;
+wire reset ;
+wire start ;
+wire done ;
+wire GND ;
+wire VCC ;
+  assign VCC = 1'b1;
+//@0:1
+  assign GND = 1'b0;
+// @10:7
+  cycloneive_io_obuf done_out (
+	.o(done),
+	.i(GND),
+	.oe(GND)
+);
+// @10:6
+  cycloneive_io_obuf dout_out_15_ (
+	.o(dout[15]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:6
+  cycloneive_io_obuf dout_out_14_ (
+	.o(dout[14]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:6
+  cycloneive_io_obuf dout_out_13_ (
+	.o(dout[13]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:6
+  cycloneive_io_obuf dout_out_12_ (
+	.o(dout[12]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:6
+  cycloneive_io_obuf dout_out_11_ (
+	.o(dout[11]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:6
+  cycloneive_io_obuf dout_out_10_ (
+	.o(dout[10]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:6
+  cycloneive_io_obuf dout_out_9_ (
+	.o(dout[9]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:6
+  cycloneive_io_obuf dout_out_8_ (
+	.o(dout[8]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:6
+  cycloneive_io_obuf dout_out_7_ (
+	.o(dout[7]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:6
+  cycloneive_io_obuf dout_out_6_ (
+	.o(dout[6]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:6
+  cycloneive_io_obuf dout_out_5_ (
+	.o(dout[5]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:6
+  cycloneive_io_obuf dout_out_4_ (
+	.o(dout[4]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:6
+  cycloneive_io_obuf dout_out_3_ (
+	.o(dout[3]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:6
+  cycloneive_io_obuf dout_out_2_ (
+	.o(dout[2]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:6
+  cycloneive_io_obuf dout_out_1_ (
+	.o(dout[1]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:6
+  cycloneive_io_obuf dout_out_0_ (
+	.o(dout[0]),
+	.i(GND),
+	.oe(GND)
+);
+endmodule /* fibonacci */
+

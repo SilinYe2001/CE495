@@ -8,15 +8,15 @@ Tool: Synplify (R) Premier
 Build: O-2018.09-SP1
 Install: /vol/synopsys/fpga/O-2018.09-SP1
 OS: Red Hat Enterprise Linux 8.9 (Ootpa)
-Hostname: cobblepott.ece.northwestern.edu
+Hostname: moore.wot.eecs.northwestern.edu
 max virtual memory: unlimited (bytes)
-max user processes: 126575
+max user processes: 1027961
 max stack size: 8388608 (bytes)
 
 
 Implementation : rev_1
 
-# Written on Tue Jan 16 12:44:17 2024
+# Written on Tue Jan 23 23:52:55 2024
 
 ##### FILES SYNTAX CHECKED ##############################################
 Constraint File(s):      (none)
@@ -33,18 +33,16 @@ No issues found in constraint syntax.
 Clock Summary
 *************
 
-          Start             Requested     Requested     Clock        Clock                     Clock
-Level     Clock             Frequency     Period        Type         Group                     Load 
-----------------------------------------------------------------------------------------------------
-0 -       fibonacci|clk     365.3 MHz     2.737         inferred     Autoconstr_clkgroup_0     51   
-====================================================================================================
+          Start     Requested     Requested     Clock     Clock     Clock
+Level     Clock     Frequency     Period        Type      Group     Load 
+-------------------------------------------------------------------------
+=========================================================================
 
 
 Clock Load Summary
 ******************
 
-                  Clock     Source        Clock Pin        Non-clock Pin     Non-clock Pin
-Clock             Load      Pin           Seq Example      Seq Example       Comb Example 
-------------------------------------------------------------------------------------------
-fibonacci|clk     51        clk(port)     state[2:0].C     -                 -            
-==========================================================================================
+          Clock     Source     Clock Pin       Non-clock Pin     Non-clock Pin
+Clock     Load      Pin        Seq Example     Seq Example       Comb Example 
+------------------------------------------------------------------------------
+==============================================================================

@@ -1,0 +1,13 @@
+@P:  Part : ep4ce115fc23-7
+@P:  Worst Slack : NA
+@P:  bram_block|clock - Estimated Frequency : NA
+@P:  bram_block|clock - Requested Frequency : 1.0 MHz
+@P:  bram_block|clock - Estimated Period : NA
+@P:  bram_block|clock - Requested Period : 1000.000
+@P:  bram_block|clock - Slack : NA
+@P: bram_block Part : ep4ce115fc23-7
+@P: bram_block I/O ATOMs : 57
+@P: bram_block Total LUTs : 39 
+@P: bram_block Register bits : 37
+@P: bram_block DSP Blocks : 0 (0 nine-bit DSP elements)
+@P:  CPU Time : 0h:00m:00s

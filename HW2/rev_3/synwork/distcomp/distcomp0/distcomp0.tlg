@@ -1,0 +1,15 @@
+@N:: Applying property .distcompmodetop with value 1 on module matmul in library work
+@N:: Applying property .distcompnoprune with value 1 on module matmul in library work
+@N:: Applying property .noprune with value 1 on module matmul in library work
+Selecting top level module matmul
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":1:7:1:12|Synthesizing module matmul in library work.
+@E: CS153 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":63:20:63:20|Can't mix blocking and non-blocking assignments to a variable
+@E: CS153 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":80:27:80:27|Can't mix blocking and non-blocking assignments to a variable
+@E: CS153 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":87:27:87:27|Can't mix blocking and non-blocking assignments to a variable
+@E: CS153 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":114:16:114:16|Can't mix blocking and non-blocking assignments to a variable
+@N: CG706 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":1:7:1:12|Selected top-level module matmul is a black box, ignoring black box ...
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_3/synwork//distcomp/distcomp0/distcomp0.rt.csv
+

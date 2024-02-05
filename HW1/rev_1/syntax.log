@@ -81,19 +81,19 @@ Synopsys Verilog Compiler, Version comp2018q4p1, Build 004R, Built Nov 27 2018 2
 @I::"/vol/synopsys/fpga/O-2018.09-SP1/lib/synip/hcei/zceistubs.v" (library snps_haps)
 @I::"/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/scemi_objects.v" (library snps_haps)
 @I::"/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/scemi_pipes.svh" (library snps_haps)
-@I::"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci.sv" (library work)
-@I::"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci_tb.sv" (library work)
+@I::"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv" (library work)
 Verilog syntax check successful!
-
-Compiler output is up to date.  No re-compile necessary
-
+Options changed - recompiling
+Selecting top level module matmul
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":1:7:1:12|Synthesizing module matmul in library work.
+Running optimization stage 1 on matmul .......
 
 At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 78MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Jan 16 12:26:54 2024
+# Tue Jan 23 19:12:32 2024
 
 ###########################################################]
 Cannot open file dependency file .//containment.fdep.
@@ -104,6 +104,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Jan 16 12:26:54 2024
+# Tue Jan 23 19:12:32 2024
 
 ###########################################################]

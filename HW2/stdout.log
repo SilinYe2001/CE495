@@ -1,0 +1,260 @@
+
+                             Synplify (R) Premier 
+
+                Version O-2018.09-SP1 for RHEL64 - Nov 27, 2018 
+
+                    Copyright (c) 1988 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Starting:    /vol/synopsys/fpga/O-2018.09-SP1/linux_a_64/mbin/synplify
+Install:     /vol/synopsys/fpga/O-2018.09-SP1
+Hostname:    cobblepott.ece.northwestern.edu
+Date:        Fri Jan 26 15:51:48 2024
+Version:     O-2018.09-SP1
+
+Arguments:   -product synplify_premier
+ProductType: synplify_premier
+
+License checkout: synplifypremierdp
+License: synplifypremierdp from server synopsyslm.ece.northwestern.edu (Using premium license)
+Licensed Vendor: All FPGA
+License Option: ident
+
+
+
+Removed file: /home/sfs6562/CE495-Digital-design-and-Verification/HW2/muti.sv
+log file: "/home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/matmul.srr"
+Running: rev_1 in foreground
+
+Running proj_1|rev_1
+
+Running Flow: compile (Compile) on proj_1|rev_1
+# Fri Jan 26 15:52:11 2024
+
+Running Flow: compile_flow (Compile Process) on proj_1|rev_1
+# Fri Jan 26 15:52:11 2024
+License granted for 4 parallel jobs
+
+Running: compiler (Compile Input) on proj_1|rev_1
+# Fri Jan 26 15:52:11 2024
+Copied /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/synwork/matmul_comp.srs to /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/matmul.srs
+
+compiler completed
+# Fri Jan 26 15:52:16 2024
+
+Return Code: 0
+Run Time:00h:00m:05s
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|rev_1
+# Fri Jan 26 15:52:16 2024
+
+multi_srs_gen completed
+# Fri Jan 26 15:52:16 2024
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/synwork/matmul_mult.srs to /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/matmul.srs
+Complete: Compile Process on proj_1|rev_1
+
+Running: premap (Premap) on proj_1|rev_1
+# Fri Jan 26 15:52:16 2024
+
+premap completed with warnings
+# Fri Jan 26 15:52:17 2024
+
+Return Code: 1
+Run Time:00h:00m:01s
+Complete: Compile on proj_1|rev_1
+
+Running Flow: map (Map) on proj_1|rev_1
+# Fri Jan 26 15:52:17 2024
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on proj_1|rev_1
+# Fri Jan 26 15:52:17 2024
+Copied /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/synwork/matmul_m.srm to /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/matmul.srm
+
+fpga_mapper completed with warnings
+# Fri Jan 26 15:52:18 2024
+
+Return Code: 1
+Run Time:00h:00m:01s
+Complete: Map on proj_1|rev_1
+Complete: Logic Synthesis on proj_1|rev_1
+0Mouse stroke not recognized
+Mouse stroke not recognized
+log file: "/home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/matmul.srr"
+Running: rev_1 in foreground
+
+Running proj_1|rev_1
+
+Running Flow: compile (Compile) on proj_1|rev_1
+# Fri Jan 26 16:03:03 2024
+
+Running Flow: compile_flow (Compile Process) on proj_1|rev_1
+# Fri Jan 26 16:03:03 2024
+License granted for 4 parallel jobs
+
+Running: compiler (Compile Input) on proj_1|rev_1
+# Fri Jan 26 16:03:03 2024
+Copied /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/synwork/matmul_comp.srs to /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/matmul.srs
+
+compiler completed
+# Fri Jan 26 16:03:07 2024
+
+Return Code: 0
+Run Time:00h:00m:04s
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|rev_1
+# Fri Jan 26 16:03:07 2024
+
+multi_srs_gen completed
+# Fri Jan 26 16:03:07 2024
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/synwork/matmul_mult.srs to /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/matmul.srs
+Complete: Compile Process on proj_1|rev_1
+
+Running: premap (Premap) on proj_1|rev_1
+# Fri Jan 26 16:03:07 2024
+
+premap completed with warnings
+# Fri Jan 26 16:03:08 2024
+
+Return Code: 1
+Run Time:00h:00m:01s
+Complete: Compile on proj_1|rev_1
+
+Running Flow: map (Map) on proj_1|rev_1
+# Fri Jan 26 16:03:08 2024
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on proj_1|rev_1
+# Fri Jan 26 16:03:08 2024
+Copied /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/synwork/matmul_m.srm to /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/matmul.srm
+
+fpga_mapper completed with warnings
+# Fri Jan 26 16:03:09 2024
+
+Return Code: 1
+Run Time:00h:00m:01s
+Complete: Map on proj_1|rev_1
+Complete: Logic Synthesis on proj_1|rev_1
+0FSM Viewer - mapped register encodings are not available
+s1
+log file: "/home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/matmul.srr"
+Running: rev_1 in foreground
+
+Running proj_1|rev_1
+
+Running Flow: compile (Compile) on proj_1|rev_1
+# Fri Jan 26 16:12:20 2024
+
+Running Flow: compile_flow (Compile Process) on proj_1|rev_1
+# Fri Jan 26 16:12:20 2024
+License granted for 4 parallel jobs
+
+Running: compiler (Compile Input) on proj_1|rev_1
+# Fri Jan 26 16:12:20 2024
+Copied /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/synwork/matmul_comp.srs to /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/matmul.srs
+
+compiler completed
+# Fri Jan 26 16:12:24 2024
+
+Return Code: 0
+Run Time:00h:00m:04s
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|rev_1
+# Fri Jan 26 16:12:24 2024
+
+multi_srs_gen completed
+# Fri Jan 26 16:12:24 2024
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/synwork/matmul_mult.srs to /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/matmul.srs
+Complete: Compile Process on proj_1|rev_1
+
+Running: premap (Premap) on proj_1|rev_1
+# Fri Jan 26 16:12:24 2024
+
+premap completed with warnings
+# Fri Jan 26 16:12:25 2024
+
+Return Code: 1
+Run Time:00h:00m:01s
+Complete: Compile on proj_1|rev_1
+
+Running Flow: map (Map) on proj_1|rev_1
+# Fri Jan 26 16:12:25 2024
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on proj_1|rev_1
+# Fri Jan 26 16:12:25 2024
+Copied /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/synwork/matmul_m.srm to /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/matmul.srm
+
+fpga_mapper completed with warnings
+# Fri Jan 26 16:12:27 2024
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Map on proj_1|rev_1
+Complete: Logic Synthesis on proj_1|rev_1
+0log file: "/home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/matmul.srr"
+Running: rev_1 in foreground
+
+Running proj_1|rev_1
+
+Running Flow: compile (Compile) on proj_1|rev_1
+# Fri Jan 26 16:12:49 2024
+
+Running Flow: compile_flow (Compile Process) on proj_1|rev_1
+# Fri Jan 26 16:12:49 2024
+License granted for 4 parallel jobs
+
+Running: compiler (Compile Input) on proj_1|rev_1
+# Fri Jan 26 16:12:49 2024
+
+compiler completed
+# Fri Jan 26 16:12:52 2024
+
+Return Code: 0
+Run Time:00h:00m:03s
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|rev_1
+# Fri Jan 26 16:12:52 2024
+Up-To-Date: multi_srs_gen. No run necessary
+Complete: Compile Process on proj_1|rev_1
+
+Running: premap (Premap) on proj_1|rev_1
+# Fri Jan 26 16:12:52 2024
+
+premap completed with warnings
+# Fri Jan 26 16:12:53 2024
+
+Return Code: 1
+Run Time:00h:00m:01s
+Complete: Compile on proj_1|rev_1
+
+Running Flow: map (Map) on proj_1|rev_1
+# Fri Jan 26 16:12:53 2024
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on proj_1|rev_1
+# Fri Jan 26 16:12:53 2024
+Copied /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/synwork/matmul_m.srm to /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/matmul.srm
+
+fpga_mapper completed with warnings
+# Fri Jan 26 16:12:55 2024
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Map on proj_1|rev_1
+Complete: Logic Synthesis on proj_1|rev_1
+0FSM Viewer - mapped register encodings are not available
+exit status=0
+License checkin: synplifypremierdp

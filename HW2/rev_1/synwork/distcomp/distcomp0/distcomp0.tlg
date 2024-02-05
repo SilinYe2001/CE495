@@ -1,0 +1,39 @@
+@N:: Applying property .distcompmodetop with value 1 on module Top in library work
+@N:: Applying property .distcompnoprune with value 1 on module Top in library work
+@N:: Applying property .noprune with value 1 on module Top in library work
+@N:: Applying property .distcompnoprune with value 1 on module bram in library work
+@N:: Applying property .noprune with value 1 on module bram in library work
+@N:: Applying property .distcompnoprune with value 1 on module matmul in library work
+@N:: Applying property .noprune with value 1 on module matmul in library work
+Selecting top level module Top
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":1:7:1:12|Synthesizing module matmul in library work.
+
+	BRAM_DATA_WIDTH=32'b00000000000000000000000000100000
+	BRAM_ADDR_WIDTH=32'b00000000000000000000000000000110
+	MATRIX_SIZE=32'b00000000000000000000000000001000
+   Generated name = matmul_32s_6s_8s
+Running optimization stage 1 on matmul_32s_6s_8s .......
+@W: CL118 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":56:4:56:7|Latch generated from always block for signal z_din[31:0]; possible missing assignment in an if or case statement.
+@W: CL217 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":56:4:56:7|always_comb does not infer combinatorial logic
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":1:7:1:10|Synthesizing module bram in library work.
+
+	BRAM_ADDR_WIDTH=32'b00000000000000000000000000000110
+	BRAM_DATA_WIDTH=32'b00000000000000000000000000100000
+   Generated name = bram_6s_32s
+Running optimization stage 1 on bram_6s_32s .......
+@N: CL134 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Found RAM mem, depth=64, width=32
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/Top.sv":2:7:2:9|Synthesizing module Top in library work.
+Running optimization stage 1 on Top .......
+Running optimization stage 2 on Top .......
+Running optimization stage 2 on bram_6s_32s .......
+Running optimization stage 2 on matmul_32s_6s_8s .......
+@N: CL201 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":27:0:27:8|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 2 reachable states with original encodings of:
+   00
+   01
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/synwork//distcomp/distcomp0/distcomp0.rt.csv
+

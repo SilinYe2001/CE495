@@ -13,13 +13,13 @@ The file contains the area information from mapper to be displayed as part of th
 <title>Hierarchical Area Report</title>
 </report_link>
 <parameter tcl_name="total_luts" tooltip="Total LUTs for combinational functions used" name="LUTs for combinational functions">
-<data>131</data>
+<data>0</data>
 </parameter>
 <parameter tcl_name="non_io_reg" tooltip="Total Non I/O Registers used" name="Non I/O Registers">
-<data>54</data>
+<data>0</data>
 </parameter>
 <parameter tooltip="Total I/O Pins used" name="I/O Pins">
-<data>36</data>
+<data>119</data>
 </parameter>
 <parameter tcl_name="total_io_reg" tooltip="Total I/O registers used" name="I/O registers">
 <data>0</data>

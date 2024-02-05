@@ -4,10 +4,10 @@
 #
 # Created by Synplify Verilog HDL Compiler version comp2018q4p1, Build 004R from Synplicity, Inc.
 # Copyright (C) 1994-2018 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
-# Synthesis Netlist written on Tue Jan 16 12:17:57 2024
+# Synthesis Netlist written on Tue Jan 23 19:12:32 2024
 #
 #
-#OPTIONS:"|-layerid|0|-orig_srs|osyn|-prodtype|synplify_premier|-useclone|-ui|-synchk|-I|/home/sfs6562/CE495-Digital-design-and-Verification/HW1/|-I|/vol/synopsys/fpga/O-2018.09-SP1/lib|-sysv|-verification_mode|0|-infer_seqShift|-primux|-fixsmult|-dspmac|-nram|-divnmod|-continue_on_error|-nostructver|-devicelib|/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/altera.v|-devicelib|/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/cycloneive.v|-devicelib|/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v|-devicelib|/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_lpm.v|-devicelib|/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_primitives.v|-distcompmode|-noobf|-auto_infer_blackbox|0|-proto|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-fast_synthesis|0|-lib|work|-fsysv|-lib|work|-fsysv"
+#OPTIONS:"|-layerid|0|-orig_srs|osyn|-prodtype|synplify_premier|-useclone|-ui|-synchk|-I|/home/sfs6562/CE495-Digital-design-and-Verification/HW1/|-I|/vol/synopsys/fpga/O-2018.09-SP1/lib|-sysv|-verification_mode|0|-infer_seqShift|-primux|-fixsmult|-dspmac|-nram|-divnmod|-continue_on_error|-nostructver|-devicelib|/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/altera.v|-devicelib|/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/cycloneive.v|-devicelib|/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v|-devicelib|/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_lpm.v|-devicelib|/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_primitives.v|-distcompmode|-noobf|-auto_infer_blackbox|0|-proto|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-fast_synthesis|0|-lib|work|-fsysv"
 #CUR:"/vol/synopsys/fpga/O-2018.09-SP1/linux_a_64/c_ver":1543382462
 #CUR:"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/altera.v":1543381811
 #CUR:"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/cycloneive.v":1543381840
@@ -19,8 +19,7 @@
 #CUR:"/vol/synopsys/fpga/O-2018.09-SP1/lib/synip/hcei/zceistubs.v":1543381931
 #CUR:"/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/scemi_objects.v":1543382268
 #CUR:"/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/scemi_pipes.svh":1543382268
-#CUR:"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci.sv":1705385510
-#CUR:"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci_tb.sv":1705428630
+#CUR:"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":1706057708
 f "/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/altera.v"; # file 0
 af .standard "sv";
 af .is_verilog 1;
@@ -51,50 +50,37 @@ af .is_verilog 1;
 f "/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/scemi_pipes.svh"; # file 9
 af .standard "sv";
 af .is_verilog 1;
-f "/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci.sv"; # file 10
-af .standard "sv";
-af .is_verilog 1;
-f "/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci_tb.sv"; # file 11
+f "/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv"; # file 10
 af .standard "sv";
 af .is_verilog 1;
 ftell;
-n @@10:1:7:1:15 work fibonacci verilog;
-av .formal_cellname "fibonacci";
-av .isverilog 1;
-av .is_verilog 1;
-av .origName "fibonacci";
-av orig_inst_of "fibonacci";
-av .origlibname "work";
-av .layerid 0;
-av .hyperInstPathModScope "fibonacci_tb.fib";
-av .stmtlistmemusage 0.000000;
-av .stmtlisttime 0.000001;
-i @@10:2:14:2:16 clk clk;
-i @@10:3:14:3:18 reset reset;
-i @@10:4:21:4:23 din[15:0] din[15:0];
-i @@10:5:14:5:18 start start;
-o @@10:6:22:6:25 dout[15:0] ;
-o @@10:7:15:7:18 done ;
-#----------------------------------
-ftell;
-n @@11:3:7:3:18 work fibonacci_tb verilog;
-av .formal_cellname "fibonacci_tb";
+n @@10:1:7:1:12 work matmul verilog;
+av .formal_cellname "matmul";
 av syn_possibletop 1;
 av .isverilog 1;
 av .is_verilog 1;
-av .origName "fibonacci_tb";
-av orig_inst_of "fibonacci_tb";
+av .origName "matmul";
+av orig_inst_of "matmul";
+av .langParams "BRAM_DATA_WIDTH BRAM_ADDR_WIDTH MATRIX_SIZE";
+av BRAM_DATA_WIDTH 32;
+av BRAM_ADDR_WIDTH 6;
+av MATRIX_SIZE 8;
+av .syn_attformatsize "BRAM_DATA_WIDTH=32 BRAM_ADDR_WIDTH=32 MATRIX_SIZE=32 ";
+av .syn_attformat "BRAM_DATA_WIDTH=D BRAM_ADDR_WIDTH=D MATRIX_SIZE=D ";
 av .origlibname "work";
 av .layerid 0;
-av .hyperInstPathModScope "fibonacci_tb";
+av .hyperInstPathModScope "matmul";
 av .stmtlistmemusage 0.000000;
 av .stmtlisttime 0.000002;
-r @@11:14:12:14:14 work fibonacci verilog fib
-	clk=clk_fib
-	reset=reset_fib
-	din[15:0]=din_fib[15:0]
-	start=start_fib
-	dout[15:0]=dout_fib[15:0]
-	done=done_fib;
-ai syn_noprune 1;
+i @@10:7:12:7:16 clock clock;
+i @@10:8:12:8:16 reset reset;
+i @@10:9:12:9:16 start start;
+o @@10:10:34:10:42 x_rd_addr[5:0] ;
+i @@10:11:33:11:38 x_dout[31:0] x_dout[31:0];
+o @@10:12:34:12:42 y_rd_addr[5:0] ;
+i @@10:13:33:13:38 y_dout[31:0] y_dout[31:0];
+o @@10:14:34:14:42 z_wr_addr[5:0] ;
+o @@10:15:34:15:38 z_din[31:0] ;
+o @@10:16:13:16:19 z_wr_en ;
+o @@10:17:13:17:16 done ;
 e;

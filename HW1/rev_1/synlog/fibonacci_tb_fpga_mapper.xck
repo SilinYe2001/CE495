@@ -1,1 +1,1 @@
-CKID0001:@|S:clk_in@|E:state_rep2[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0001:@|S:clock@|E:ram_x.mem.eq_reg[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 

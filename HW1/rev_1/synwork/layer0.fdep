@@ -10,13 +10,13 @@
 #CUR:"/vol/synopsys/fpga/O-2018.09-SP1/lib/synip/hcei/zceistubs.v":1543381931
 #CUR:"/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/scemi_objects.v":1543382268
 #CUR:"/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/scemi_pipes.svh":1543382268
-#CUR:"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci.sv":1705385510
+#CUR:"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":1706075541
 #numinternalfiles:10
 #defaultlanguage:verilog
-0			"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci.sv" verilog
+0			"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv" verilog
 #Dependency Lists(Uses List)
 0 -1
 #Dependency Lists(Users Of)
 0 -1
 #Design Unit to File Association
-module work fibonacci 0
+module work matmul 0

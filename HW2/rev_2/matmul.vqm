@@ -1,0 +1,379 @@
+//
+// Written by Synplify Premier 
+// Product Version "O-2018.09-SP1"
+// Program "Synplify Premier", Mapper "maprc, Build 4745R"
+// Mon Jan 22 21:55:24 2024
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "\/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/altera.v "
+// file 1 "\/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/cycloneive.v "
+// file 2 "\/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v "
+// file 3 "\/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_lpm.v "
+// file 4 "\/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_primitives.v "
+// file 5 "\/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/hypermods.v "
+// file 6 "\/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/umr_capim.v "
+// file 7 "\/vol/synopsys/fpga/O-2018.09-SP1/lib/synip/hcei/zceistubs.v "
+// file 8 "\/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/scemi_objects.v "
+// file 9 "\/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/scemi_pipes.svh "
+// file 10 "\/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv "
+// file 11 "\/vol/synopsys/fpga/O-2018.09-SP1/lib/nlconst.dat "
+
+// VQM4.1+ 
+module matmul (
+  clock,
+  reset,
+  start,
+  x_rd_addr,
+  x_dout,
+  y_rd_addr,
+  y_dout,
+  z_wr_addr,
+  z_din,
+  z_wr_en,
+  done
+)
+;
+
+/*  Synopsys
+.origName=matmul
+.langParams="BRAM_DATA_WIDTH BRAM_ADDR_WIDTH MATRIX_SIZE"
+BRAM_DATA_WIDTH=32
+BRAM_ADDR_WIDTH=6
+MATRIX_SIZE=8
+ */
+input clock ;
+input reset ;
+input start ;
+output [5:0] x_rd_addr ;
+input [31:0] x_dout ;
+output [5:0] y_rd_addr ;
+input [31:0] y_dout ;
+output [5:0] z_wr_addr ;
+output [31:0] z_din ;
+output z_wr_en ;
+output done ;
+wire clock ;
+wire reset ;
+wire start ;
+wire z_wr_en ;
+wire done ;
+wire GND ;
+wire VCC ;
+  assign VCC = 1'b1;
+//@0:1
+  assign GND = 1'b0;
+// @10:18
+  cycloneive_io_obuf done_out (
+	.o(done),
+	.i(GND),
+	.oe(GND)
+);
+// @10:17
+  cycloneive_io_obuf z_wr_en_out (
+	.o(z_wr_en),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_31_ (
+	.o(z_din[31]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_30_ (
+	.o(z_din[30]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_29_ (
+	.o(z_din[29]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_28_ (
+	.o(z_din[28]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_27_ (
+	.o(z_din[27]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_26_ (
+	.o(z_din[26]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_25_ (
+	.o(z_din[25]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_24_ (
+	.o(z_din[24]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_23_ (
+	.o(z_din[23]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_22_ (
+	.o(z_din[22]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_21_ (
+	.o(z_din[21]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_20_ (
+	.o(z_din[20]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_19_ (
+	.o(z_din[19]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_18_ (
+	.o(z_din[18]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_17_ (
+	.o(z_din[17]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_16_ (
+	.o(z_din[16]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_15_ (
+	.o(z_din[15]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_14_ (
+	.o(z_din[14]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_13_ (
+	.o(z_din[13]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_12_ (
+	.o(z_din[12]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_11_ (
+	.o(z_din[11]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_10_ (
+	.o(z_din[10]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_9_ (
+	.o(z_din[9]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_8_ (
+	.o(z_din[8]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_7_ (
+	.o(z_din[7]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_6_ (
+	.o(z_din[6]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_5_ (
+	.o(z_din[5]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_4_ (
+	.o(z_din[4]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_3_ (
+	.o(z_din[3]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_2_ (
+	.o(z_din[2]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_1_ (
+	.o(z_din[1]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:16
+  cycloneive_io_obuf z_din_out_0_ (
+	.o(z_din[0]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:15
+  cycloneive_io_obuf z_wr_addr_out_5_ (
+	.o(z_wr_addr[5]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:15
+  cycloneive_io_obuf z_wr_addr_out_4_ (
+	.o(z_wr_addr[4]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:15
+  cycloneive_io_obuf z_wr_addr_out_3_ (
+	.o(z_wr_addr[3]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:15
+  cycloneive_io_obuf z_wr_addr_out_2_ (
+	.o(z_wr_addr[2]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:15
+  cycloneive_io_obuf z_wr_addr_out_1_ (
+	.o(z_wr_addr[1]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:15
+  cycloneive_io_obuf z_wr_addr_out_0_ (
+	.o(z_wr_addr[0]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:13
+  cycloneive_io_obuf y_rd_addr_out_5_ (
+	.o(y_rd_addr[5]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:13
+  cycloneive_io_obuf y_rd_addr_out_4_ (
+	.o(y_rd_addr[4]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:13
+  cycloneive_io_obuf y_rd_addr_out_3_ (
+	.o(y_rd_addr[3]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:13
+  cycloneive_io_obuf y_rd_addr_out_2_ (
+	.o(y_rd_addr[2]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:13
+  cycloneive_io_obuf y_rd_addr_out_1_ (
+	.o(y_rd_addr[1]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:13
+  cycloneive_io_obuf y_rd_addr_out_0_ (
+	.o(y_rd_addr[0]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:11
+  cycloneive_io_obuf x_rd_addr_out_5_ (
+	.o(x_rd_addr[5]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:11
+  cycloneive_io_obuf x_rd_addr_out_4_ (
+	.o(x_rd_addr[4]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:11
+  cycloneive_io_obuf x_rd_addr_out_3_ (
+	.o(x_rd_addr[3]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:11
+  cycloneive_io_obuf x_rd_addr_out_2_ (
+	.o(x_rd_addr[2]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:11
+  cycloneive_io_obuf x_rd_addr_out_1_ (
+	.o(x_rd_addr[1]),
+	.i(GND),
+	.oe(GND)
+);
+// @10:11
+  cycloneive_io_obuf x_rd_addr_out_0_ (
+	.o(x_rd_addr[0]),
+	.i(GND),
+	.oe(GND)
+);
+endmodule /* matmul */
+

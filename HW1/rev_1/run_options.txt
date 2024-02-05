@@ -1,11 +1,11 @@
 #--  Synopsys, Inc.
 #--  Version O-2018.09-SP1
 #--  Project file /home/sfs6562/CE495-Digital-design-and-Verification/HW1/rev_1/run_options.txt
-#--  Written on Tue Jan 16 12:44:13 2024
+#--  Written on Tue Jan 23 23:52:51 2024
 
 
 #project files
-add_file -verilog -vlog_std sysv "sv/fibonacci.sv"
+add_file -verilog -vlog_std sysv "../HW2/src/matmul.sv"
 
 
 

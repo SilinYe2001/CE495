@@ -1,0 +1,6 @@
+
+. Module name, ATOMS, ARITHMETIC MODE, REGISTERS, SYNC RAMS, MACs
+. grayscale_top, 75, 0, 35, 2, 0
+.	. fifo_24s_32s_6s, 25, 0, 13, 1, 0
+.	. fifo_8s_32s_6s, 26, 0, 13, 1, 0
+.	. grayscale, 23, 0, 9, 0, 0

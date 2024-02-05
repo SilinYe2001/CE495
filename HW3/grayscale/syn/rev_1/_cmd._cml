@@ -1,0 +1,1 @@
+-distcompmode -link    -encrypt       -top work.grayscale_top -osyn /home/sfs6562/CE495-Digital-design-and-Verification/hw3/grayscale/syn/rev_1/synwork/grayscale_top_comp.srs /home/sfs6562/CE495-Digital-design-and-Verification/hw3/grayscale/syn/rev_1/synwork//distcomp/distcomp0/distcomp0.srs    

@@ -1,0 +1,139 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53001:16:53001:28|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53051:16:53051:27|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53060:16:53060:28|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53074:16:53074:27|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53221:20:53221:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53226:20:53226:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53229:20:53229:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53232:20:53232:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53346:20:53346:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53351:20:53351:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53354:20:53354:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53357:20:53357:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53446:20:53446:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53451:20:53451:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53454:20:53454:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53457:20:53457:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53545:20:53545:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53550:20:53550:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53553:20:53553:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53556:20:53556:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53642:20:53642:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53647:20:53647:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53650:20:53650:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53653:20:53653:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53861:12:53861:24|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53875:12:53875:23|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":54140:12:54140:24|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":54154:12:54154:23|Read directive translate_on.
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":1:7:1:12|Synthesizing module matmul in library work.
+@N|Running in 64-bit mode
+@N: NF107 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":1:7:1:12|Selected library: work cell: matmul view verilog as top level
+@N: NF107 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":1:7:1:12|Selected library: work cell: matmul view verilog as top level
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: NF107 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":1:7:1:12|Selected library: work cell: matmul view verilog as top level
+@N: NF107 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":1:7:1:12|Selected library: work cell: matmul view verilog as top level
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF915 |Option synthesis_strategy=advanced is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":41:0:41:10|Tristate driver done (in view: work.matmul(verilog)) on net done (in view: work.matmul(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":41:0:41:10|Tristate driver done (in view: work.matmul(verilog)) on net done (in view: work.matmul(verilog)) has its enable tied to GND.
+@N: BN225 |Writing default property annotation file /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/matmul.sap.
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF915 |Option synthesis_strategy=advanced is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":41:0:41:10|Tristate driver done (in view: work.matmul(verilog)) on net done (in view: work.matmul(verilog)) has its enable tied to GND.
+@N: MT206 |Auto Constrain mode is enabled
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":11:34:11:42|Tristate driver done_r (in view: work.matmul(verilog)) on net N_1 (in view: work.matmul(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":11:34:11:42|Tristate driver done_r_0 (in view: work.matmul(verilog)) on net N_2 (in view: work.matmul(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":11:34:11:42|Tristate driver done_r_1 (in view: work.matmul(verilog)) on net N_3 (in view: work.matmul(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":11:34:11:42|Tristate driver done_r_2 (in view: work.matmul(verilog)) on net N_4 (in view: work.matmul(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":11:34:11:42|Tristate driver done_r_3 (in view: work.matmul(verilog)) on net N_5 (in view: work.matmul(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":11:34:11:42|Tristate driver done_r_4 (in view: work.matmul(verilog)) on net N_6 (in view: work.matmul(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":13:34:13:42|Tristate driver done_r_5 (in view: work.matmul(verilog)) on net N_7 (in view: work.matmul(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":13:34:13:42|Tristate driver done_r_6 (in view: work.matmul(verilog)) on net N_8 (in view: work.matmul(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":13:34:13:42|Tristate driver done_r_7 (in view: work.matmul(verilog)) on net N_9 (in view: work.matmul(verilog)) has its enable tied to GND.
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT535 |Writing timing correlation to file /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/matmul_ctd.txt 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+@N: FA174 |The following device usage report estimates place and route data. Please look at the place and route report for final resource usage.
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53001:16:53001:28|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53051:16:53051:27|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53060:16:53060:28|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53074:16:53074:27|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53221:20:53221:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53226:20:53226:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53229:20:53229:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53232:20:53232:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53346:20:53346:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53351:20:53351:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53354:20:53354:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53357:20:53357:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53446:20:53446:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53451:20:53451:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53454:20:53454:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53457:20:53457:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53545:20:53545:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53550:20:53550:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53553:20:53553:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53556:20:53556:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53642:20:53642:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53647:20:53647:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53650:20:53650:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53653:20:53653:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53861:12:53861:24|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53875:12:53875:23|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":54140:12:54140:24|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":54154:12:54154:23|Read directive translate_on.
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":1:7:1:12|Synthesizing module matmul in library work.
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53001:16:53001:28|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53051:16:53051:27|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53060:16:53060:28|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53074:16:53074:27|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53221:20:53221:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53226:20:53226:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53229:20:53229:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53232:20:53232:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53346:20:53346:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53351:20:53351:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53354:20:53354:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53357:20:53357:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53446:20:53446:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53451:20:53451:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53454:20:53454:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53457:20:53457:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53545:20:53545:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53550:20:53550:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53553:20:53553:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53556:20:53556:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53642:20:53642:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53647:20:53647:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53650:20:53650:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53653:20:53653:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53861:12:53861:24|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53875:12:53875:23|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":54140:12:54140:24|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":54154:12:54154:23|Read directive translate_on.
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":1:7:1:12|Synthesizing module matmul in library work.
+

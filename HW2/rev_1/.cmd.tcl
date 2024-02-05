@@ -1,0 +1,1 @@
+set tmp [q_correlate_db_qii -paths_per 1 -qor 1 -sdc_verif -impl_name /home/sfs6562/CE495-Digital-design-and-Verification/HW2/proj_1.prj|rev_1 -impl_result /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/matmul.vqm -load_sta -no_gui]

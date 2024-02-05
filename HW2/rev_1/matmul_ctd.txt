@@ -1,0 +1,882 @@
+
+
+End Points:
+
+Index     Instance                       Pin              Type     Start Clock     End Clock       Clock Delay     Req Per     Slack      Data path delay     Constraint
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1         matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.269      9.617                         
+2         matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.269      9.617                         
+3         matmul_instance/z[30]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.335      9.551                         
+4         matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.335      9.551                         
+5         matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.335      9.551                         
+6         matmul_instance/z[29]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.401      9.485                         
+7         matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.401      9.485                         
+8         matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.401      9.485                         
+9         matmul_instance/z[28]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.467      9.419                         
+10        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.467      9.419                         
+11        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.467      9.419                         
+12        matmul_instance/z[27]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.533      9.353                         
+13        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.533      9.353                         
+14        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.533      9.353                         
+15        matmul_instance/z[26]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.599      9.287                         
+16        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.599      9.287                         
+17        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.599      9.287                         
+18        matmul_instance/z[25]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.665      9.221                         
+19        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.665      9.221                         
+20        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.665      9.221                         
+21        matmul_instance/z[24]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.731      9.155                         
+22        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.731      9.155                         
+23        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.731      9.155                         
+24        matmul_instance/z[23]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.797      9.089                         
+25        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.797      9.089                         
+26        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.797      9.089                         
+27        matmul_instance/z[22]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.863      9.023                         
+28        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.863      9.023                         
+29        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.863      9.023                         
+30        matmul_instance/z[21]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.929      8.957                         
+31        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.929      8.957                         
+32        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.929      8.957                         
+33        matmul_instance/z[20]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.995      8.891                         
+34        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.995      8.891                         
+35        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      0.995      8.891                         
+36        matmul_instance/z[19]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.061      8.825                         
+37        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.061      8.825                         
+38        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.061      8.825                         
+39        matmul_instance/z[18]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.127      8.759                         
+40        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.127      8.759                         
+41        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.127      8.759                         
+42        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.200      8.686                         
+43        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.200      8.686                         
+44        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.266      8.620                         
+45        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.266      8.620                         
+46        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.333      8.554                         
+47        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.333      8.554                         
+48        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.399      8.488                         
+49        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.399      8.488                         
+50        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.448      8.439                         
+51        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.464      8.422                         
+52        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.514      8.373                         
+53        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.530      8.356                         
+54        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.579      8.307                         
+55        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.597      8.290                         
+56        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.645      8.241                         
+57        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.663      8.224                         
+58        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.712      8.175                         
+59        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.728      8.158                         
+60        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.778      8.109                         
+61        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.794      8.092                         
+62        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.843      8.043                         
+63        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.861      8.026                         
+64        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.909      7.977                         
+65        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.927      7.960                         
+66        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.976      7.911                         
+67        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      1.992      7.894                         
+68        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      2.042      7.845                         
+69        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      2.058      7.828                         
+70        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      2.107      7.779                         
+71        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      2.124      7.762                         
+72        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      2.174      7.713                         
+73        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      2.191      7.696                         
+74        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      2.240      7.647                         
+75        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      2.256      7.630                         
+76        matmul_instance/z[17]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      2.282      7.605                         
+77        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      2.305      7.581                         
+78        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      2.317      7.569                         
+79        matmul_instance/z[16]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      2.348      7.539                         
+80        matmul_instance/z[15]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      2.414      7.473                         
+81        matmul_instance/z[14]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      2.480      7.407                         
+82        matmul_instance/z[13]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      2.546      7.341                         
+83        matmul_instance/z[12]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      2.612      7.275                         
+84        matmul_instance/z[11]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      2.678      7.209                         
+85        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      2.729      10.466                        
+86        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      2.729      10.466                        
+87        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      2.735      10.460                        
+88        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      2.735      10.460                        
+89        matmul_instance/z[10]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      2.744      7.143                         
+90        matmul_instance/z[9]           d                reg      Top|clock:f     Top|clock:r     0.000           13.514      2.810      7.077                         
+91        matmul_instance/z[8]           d                reg      Top|clock:f     Top|clock:r     0.000           13.514      2.876      7.011                         
+92        matmul_instance/z[7]           d                reg      Top|clock:f     Top|clock:r     0.000           13.514      2.942      6.945                         
+93        matmul_instance/z[6]           d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.008      6.879                         
+94        matmul_instance/z[5]           d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.074      6.813                         
+95        matmul_instance/z[4]           d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.140      6.747                         
+96        matmul_instance/z[3]           d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.206      6.681                         
+97        matmul_instance/z[2]           d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.272      6.615                         
+98        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.304      9.891                         
+99        matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.304      9.891                         
+100       matmul_instance/z[1]           d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.338      6.549                         
+101       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.370      9.825                         
+102       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.370      9.825                         
+103       matmul_instance/z[0]           d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.399      6.488                         
+104       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.436      9.759                         
+105       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.436      9.759                         
+106       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.502      9.693                         
+107       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.502      9.693                         
+108       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.568      9.627                         
+109       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.568      9.627                         
+110       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.634      9.561                         
+111       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.634      9.561                         
+112       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.700      9.495                         
+113       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.700      9.495                         
+114       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.766      9.429                         
+115       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.766      9.429                         
+116       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.832      9.363                         
+117       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.832      9.363                         
+118       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.898      9.297                         
+119       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.898      9.297                         
+120       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.964      9.231                         
+121       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      3.964      9.231                         
+122       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.030      9.165                         
+123       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.030      9.165                         
+124       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.096      9.099                         
+125       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.096      9.099                         
+126       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.162      9.033                         
+127       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.162      9.033                         
+128       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.236      8.960                         
+129       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.236      8.960                         
+130       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.301      8.894                         
+131       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.301      8.894                         
+132       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.367      8.828                         
+133       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.367      8.828                         
+134       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.434      8.762                         
+135       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.434      8.762                         
+136       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.482      8.713                         
+137       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.500      8.696                         
+138       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.548      8.647                         
+139       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.566      8.630                         
+140       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.614      8.581                         
+141       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.631      8.564                         
+142       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.681      8.515                         
+143       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.697      8.498                         
+144       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.747      8.449                         
+145       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.763      8.432                         
+146       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.812      8.383                         
+147       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.830      8.366                         
+148       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.878      8.317                         
+149       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.896      8.300                         
+150       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.944      8.251                         
+151       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      4.962      8.234                         
+152       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      5.011      8.185                         
+153       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      5.027      8.168                         
+154       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      5.077      8.119                         
+155       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      5.093      8.102                         
+156       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      5.143      8.053                         
+157       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      5.160      8.036                         
+158       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      5.208      7.987                         
+159       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      5.226      7.970                         
+160       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      5.274      7.921                         
+161       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      5.292      7.904                         
+162       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      5.340      7.855                         
+163       matmul_instance/z[31]          d                reg      Top|clock:f     Top|clock:r     0.000           13.514      5.353      7.843                         
+164       ram_x/mem.eq_reg[0]            d                reg      Top|clock:r     Top|clock:f     0.000           13.514      10.887     2.308                         
+165       ram_z/mem.eq_reg[0]            d                reg      Top|clock:r     Top|clock:f     0.000           13.514      10.887     2.308                         
+166       ram_z/mem.eq_reg[0]            d                reg      Top|clock:r     Top|clock:f     0.000           13.514      11.066     2.130                         
+167       ram_x/mem.eq_reg[0]            d                reg      Top|clock:r     Top|clock:f     0.000           13.514      11.087     2.109                         
+168       ram_x/mem.eq_reg[0]            d                reg      Top|clock:r     Top|clock:f     0.000           13.514      11.095     2.100                         
+169       ram_z/mem.eq_reg[0]            d                reg      Top|clock:r     Top|clock:f     0.000           13.514      11.146     2.049                         
+170       ram_x/mem.eq_reg[0]            d                reg      Top|clock:r     Top|clock:f     0.000           13.514      11.161     2.034                         
+171       ram_x/mem.eq_reg[0]            d                reg      Top|clock:r     Top|clock:f     0.000           13.514      11.428     1.768                         
+172       ram_y/mem.eq_reg[0]            d                reg      Top|clock:r     Top|clock:f     0.000           13.514      11.435     1.760                         
+173       ram_x/mem.eq_reg[0]            d                reg      Top|clock:r     Top|clock:f     0.000           13.514      11.613     1.582                         
+174       ram_z/mem.eq_reg[0]            d                reg      Top|clock:r     Top|clock:f     0.000           13.514      11.613     1.582                         
+175       ram_x/mem.eq_reg[0]            d                reg      Top|clock:r     Top|clock:f     0.000           13.514      11.917     1.279                         
+176       ram_z/mem                      address_a[4]     reg      Top|clock:r     Top|clock:f     0.000           13.514      12.416     1.226                         
+177       ram_z/mem                      address_a[5]     reg      Top|clock:r     Top|clock:f     0.000           13.514      12.416     1.226                         
+178       ram_z/mem                      address_a[3]     reg      Top|clock:r     Top|clock:f     0.000           13.514      12.422     1.220                         
+179       ram_y/mem                      address_b[3]     reg      Top|clock:r     Top|clock:f     0.000           13.514      12.426     1.219                         
+180       ram_x/mem                      address_b[4]     reg      Top|clock:r     Top|clock:f     0.000           13.514      12.439     1.205                         
+181       ram_x/mem                      address_b[5]     reg      Top|clock:r     Top|clock:f     0.000           13.514      12.439     1.205                         
+182       ram_x/mem                      address_b[3]     reg      Top|clock:r     Top|clock:f     0.000           13.514      12.445     1.199                         
+183       ram_z/mem                      wren_a           reg      Top|clock:r     Top|clock:f     0.000           13.514      12.816     0.340                         
+184       ram_z/mem.wereg[0]             d                reg      Top|clock:r     Top|clock:f     0.000           13.514      12.855     0.340                         
+185       ram_z/mem                      address_a[0]     reg      Top|clock:r     Top|clock:f     0.000           13.514      13.258     0.385                         
+186       ram_z/mem                      address_a[1]     reg      Top|clock:r     Top|clock:f     0.000           13.514      13.258     0.385                         
+187       ram_x/mem                      address_b[0]     reg      Top|clock:r     Top|clock:f     0.000           13.514      13.260     0.385                         
+188       ram_y/mem                      address_b[0]     reg      Top|clock:r     Top|clock:f     0.000           13.514      13.260     0.385                         
+189       ram_y/mem                      address_b[1]     reg      Top|clock:r     Top|clock:f     0.000           13.514      13.260     0.385                         
+190       ram_z/mem                      address_a[2]     reg      Top|clock:r     Top|clock:f     0.000           13.514      13.273     0.370                         
+191       ram_x/mem                      address_b[1]     reg      Top|clock:r     Top|clock:f     0.000           13.514      13.274     0.370                         
+192       ram_x/mem                      address_b[2]     reg      Top|clock:r     Top|clock:f     0.000           13.514      13.274     0.370                         
+193       ram_y/mem                      address_b[2]     reg      Top|clock:r     Top|clock:f     0.000           13.514      13.274     0.370                         
+194       ram_y/mem                      address_b[4]     reg      Top|clock:r     Top|clock:f     0.000           13.514      13.274     0.370                         
+195       ram_y/mem                      address_b[5]     reg      Top|clock:r     Top|clock:f     0.000           13.514      13.274     0.370                         
+196       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      22.798     3.911                         
+197       matmul_instance/z[30]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      22.864     3.845                         
+198       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      22.864     3.845                         
+199       matmul_instance/z[29]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      22.930     3.779                         
+200       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      22.930     3.779                         
+201       matmul_instance/z[28]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      22.996     3.713                         
+202       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      22.996     3.713                         
+203       matmul_instance/z[27]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      23.062     3.647                         
+204       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      23.062     3.647                         
+205       matmul_instance/z[26]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      23.128     3.581                         
+206       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      23.128     3.581                         
+207       matmul_instance/z[25]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      23.194     3.515                         
+208       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      23.194     3.515                         
+209       matmul_instance/z[24]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      23.260     3.449                         
+210       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      23.260     3.449                         
+211       matmul_instance/z[23]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      23.326     3.383                         
+212       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      23.326     3.383                         
+213       matmul_instance/z[22]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      23.392     3.317                         
+214       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      23.392     3.317                         
+215       matmul_instance/z[21]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      23.458     3.251                         
+216       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      23.458     3.251                         
+217       matmul_instance/z[20]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      23.524     3.185                         
+218       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      23.524     3.185                         
+219       matmul_instance/z[19]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      23.590     3.119                         
+220       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      23.590     3.119                         
+221       matmul_instance/z[18]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      23.656     3.053                         
+222       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      23.656     3.053                         
+223       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      23.722     2.987                         
+224       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      23.788     2.921                         
+225       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      23.854     2.855                         
+226       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      23.920     2.789                         
+227       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      23.986     2.723                         
+228       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      24.052     2.657                         
+229       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      24.118     2.591                         
+230       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      24.184     2.525                         
+231       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      24.250     2.459                         
+232       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      24.316     2.393                         
+233       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      24.382     2.327                         
+234       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      24.448     2.261                         
+235       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      24.514     2.195                         
+236       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      24.580     2.129                         
+237       matmul_instance/state_ret      d                reg      Top|clock:r     Top|clock:r     0.000           27.027      24.631     2.078                         
+238       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      24.646     2.063                         
+239       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      24.712     1.997                         
+240       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      24.778     1.931                         
+241       matmul_instance/k_0[3]         d                reg      Top|clock:r     Top|clock:r     0.000           27.027      24.786     1.923                         
+242       matmul_instance/z[17]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      24.811     1.898                         
+243       matmul_instance/state_ret      d                reg      Top|clock:r     Top|clock:r     0.000           27.027      24.818     1.891                         
+244       matmul_instance/z[0]           ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+245       matmul_instance/z[10]          ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+246       matmul_instance/z[11]          ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+247       matmul_instance/z[12]          ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+248       matmul_instance/z[13]          ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+249       matmul_instance/z[14]          ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+250       matmul_instance/z[15]          ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+251       matmul_instance/z[16]          ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+252       matmul_instance/z[17]          ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+253       matmul_instance/z[18]          ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+254       matmul_instance/z[19]          ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+255       matmul_instance/z[1]           ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+256       matmul_instance/z[20]          ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+257       matmul_instance/z[21]          ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+258       matmul_instance/z[22]          ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+259       matmul_instance/z[23]          ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+260       matmul_instance/z[24]          ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+261       matmul_instance/z[25]          ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+262       matmul_instance/z[26]          ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+263       matmul_instance/z[27]          ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+264       matmul_instance/z[28]          ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+265       matmul_instance/z[29]          ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+266       matmul_instance/z[2]           ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+267       matmul_instance/z[30]          ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+268       matmul_instance/z[31]          ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+269       matmul_instance/z[3]           ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+270       matmul_instance/z[4]           ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+271       matmul_instance/z[5]           ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+272       matmul_instance/z[6]           ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+273       matmul_instance/z[7]           ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+274       matmul_instance/z[8]           ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+275       matmul_instance/z[9]           ena              reg      Top|clock:r     Top|clock:r     0.000           27.027      24.827     1.278                         
+276       matmul_instance/z[31]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      24.844     1.865                         
+277       matmul_instance/state_ret      d                reg      Top|clock:r     Top|clock:r     0.000           27.027      24.845     1.864                         
+278       matmul_instance/z[16]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      24.877     1.832                         
+279       matmul_instance/z[0]           sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+280       matmul_instance/z[10]          sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+281       matmul_instance/z[11]          sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+282       matmul_instance/z[12]          sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+283       matmul_instance/z[13]          sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+284       matmul_instance/z[14]          sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+285       matmul_instance/z[15]          sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+286       matmul_instance/z[16]          sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+287       matmul_instance/z[17]          sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+288       matmul_instance/z[18]          sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+289       matmul_instance/z[19]          sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+290       matmul_instance/z[1]           sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+291       matmul_instance/z[20]          sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+292       matmul_instance/z[21]          sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+293       matmul_instance/z[22]          sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+294       matmul_instance/z[23]          sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+295       matmul_instance/z[24]          sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+296       matmul_instance/z[25]          sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+297       matmul_instance/z[26]          sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+298       matmul_instance/z[27]          sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+299       matmul_instance/z[28]          sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+300       matmul_instance/z[29]          sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+301       matmul_instance/z[2]           sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+302       matmul_instance/z[30]          sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+303       matmul_instance/z[31]          sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+304       matmul_instance/z[3]           sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+305       matmul_instance/z[4]           sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+306       matmul_instance/z[5]           sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+307       matmul_instance/z[6]           sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+308       matmul_instance/z[7]           sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+309       matmul_instance/z[8]           sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+310       matmul_instance/z[9]           sclr             reg      Top|clock:r     Top|clock:r     0.000           27.027      24.908     1.278                         
+311       matmul_instance/z[15]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      24.943     1.766                         
+312       matmul_instance/z[14]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.009     1.700                         
+313       matmul_instance/k[0]           d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.032     1.677                         
+314       matmul_instance/j[0]           d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.067     1.642                         
+315       matmul_instance/j[2]           d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.067     1.642                         
+316       matmul_instance/j[3]           d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.067     1.642                         
+317       matmul_instance/z[13]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.075     1.634                         
+318       matmul_instance/k[2]           d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.119     1.590                         
+319       matmul_instance/z[12]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.141     1.568                         
+320       matmul_instance/z[11]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.207     1.502                         
+321       matmul_instance/z[10]          d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.273     1.436                         
+322       matmul_instance/k[1]           d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.306     1.403                         
+323       matmul_instance/j[1]           d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.321     1.388                         
+324       matmul_instance/i[2]           d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.328     1.381                         
+325       matmul_instance/i[3]           d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.328     1.381                         
+326       matmul_instance/z[9]           d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.339     1.370                         
+327       matmul_instance/i[1]           d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.341     1.368                         
+328       matmul_instance/z[8]           d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.405     1.304                         
+329       matmul_instance/z[7]           d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.471     1.238                         
+330       matmul_instance/z[6]           d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.537     1.172                         
+331       matmul_instance/z[5]           d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.603     1.106                         
+332       matmul_instance/z[4]           d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.669     1.040                         
+333       matmul_instance/z[3]           d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.735     0.974                         
+334       matmul_instance/z[2]           d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.801     0.908                         
+335       matmul_instance/i[0]           d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.816     0.893                         
+336       matmul_instance/state_0[0]     d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.816     0.893                         
+337       matmul_instance/z[1]           d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.867     0.842                         
+338       matmul_instance/z[0]           d                reg      Top|clock:r     Top|clock:r     0.000           27.027      25.933     0.776                         
+339       ram_z/mem.datareg[0]           d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+340       ram_z/mem.datareg[10]          d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+341       ram_z/mem.datareg[11]          d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+342       ram_z/mem.datareg[12]          d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+343       ram_z/mem.datareg[13]          d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+344       ram_z/mem.datareg[14]          d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+345       ram_z/mem.datareg[15]          d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+346       ram_z/mem.datareg[16]          d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+347       ram_z/mem.datareg[17]          d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+348       ram_z/mem.datareg[18]          d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+349       ram_z/mem.datareg[19]          d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+350       ram_z/mem.datareg[1]           d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+351       ram_z/mem.datareg[20]          d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+352       ram_z/mem.datareg[21]          d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+353       ram_z/mem.datareg[22]          d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+354       ram_z/mem.datareg[23]          d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+355       ram_z/mem.datareg[24]          d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+356       ram_z/mem.datareg[25]          d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+357       ram_z/mem.datareg[26]          d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+358       ram_z/mem.datareg[27]          d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+359       ram_z/mem.datareg[28]          d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+360       ram_z/mem.datareg[29]          d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+361       ram_z/mem.datareg[2]           d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+362       ram_z/mem.datareg[30]          d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+363       ram_z/mem.datareg[31]          d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+364       ram_z/mem.datareg[3]           d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+365       ram_z/mem.datareg[4]           d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+366       ram_z/mem.datareg[5]           d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+367       ram_z/mem.datareg[6]           d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+368       ram_z/mem.datareg[7]           d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+369       ram_z/mem.datareg[8]           d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+370       ram_z/mem.datareg[9]           d                reg      System          Top|clock:f     0.000           27.027      26.376     0.333                         
+371       matmul_instance/z_din[0]       DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+372       matmul_instance/z_din[10]      DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+373       matmul_instance/z_din[11]      DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+374       matmul_instance/z_din[12]      DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+375       matmul_instance/z_din[13]      DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+376       matmul_instance/z_din[14]      DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+377       matmul_instance/z_din[15]      DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+378       matmul_instance/z_din[16]      DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+379       matmul_instance/z_din[17]      DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+380       matmul_instance/z_din[18]      DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+381       matmul_instance/z_din[19]      DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+382       matmul_instance/z_din[1]       DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+383       matmul_instance/z_din[20]      DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+384       matmul_instance/z_din[21]      DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+385       matmul_instance/z_din[22]      DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+386       matmul_instance/z_din[23]      DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+387       matmul_instance/z_din[24]      DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+388       matmul_instance/z_din[25]      DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+389       matmul_instance/z_din[26]      DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+390       matmul_instance/z_din[27]      DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+391       matmul_instance/z_din[28]      DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+392       matmul_instance/z_din[29]      DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+393       matmul_instance/z_din[2]       DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+394       matmul_instance/z_din[30]      DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+395       matmul_instance/z_din[31]      DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+396       matmul_instance/z_din[3]       DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+397       matmul_instance/z_din[4]       DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+398       matmul_instance/z_din[5]       DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+399       matmul_instance/z_din[6]       DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+400       matmul_instance/z_din[7]       DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+401       matmul_instance/z_din[8]       DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+402       matmul_instance/z_din[9]       DATA[0]          reg      Top|clock:r     System          0.000           27.027      26.480     0.333                         
+403       ram_z/mem                      data_a[0]        reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+404       ram_z/mem                      data_a[10]       reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+405       ram_z/mem                      data_a[11]       reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+406       ram_z/mem                      data_a[12]       reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+407       ram_z/mem                      data_a[13]       reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+408       ram_z/mem                      data_a[14]       reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+409       ram_z/mem                      data_a[15]       reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+410       ram_z/mem                      data_a[16]       reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+411       ram_z/mem                      data_a[17]       reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+412       ram_z/mem                      data_a[18]       reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+413       ram_z/mem                      data_a[19]       reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+414       ram_z/mem                      data_a[1]        reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+415       ram_z/mem                      data_a[20]       reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+416       ram_z/mem                      data_a[21]       reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+417       ram_z/mem                      data_a[22]       reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+418       ram_z/mem                      data_a[23]       reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+419       ram_z/mem                      data_a[24]       reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+420       ram_z/mem                      data_a[25]       reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+421       ram_z/mem                      data_a[26]       reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+422       ram_z/mem                      data_a[27]       reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+423       ram_z/mem                      data_a[28]       reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+424       ram_z/mem                      data_a[29]       reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+425       ram_z/mem                      data_a[2]        reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+426       ram_z/mem                      data_a[30]       reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+427       ram_z/mem                      data_a[31]       reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+428       ram_z/mem                      data_a[3]        reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+429       ram_z/mem                      data_a[4]        reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+430       ram_z/mem                      data_a[5]        reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+431       ram_z/mem                      data_a[6]        reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+432       ram_z/mem                      data_a[7]        reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+433       ram_z/mem                      data_a[8]        reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+434       ram_z/mem                      data_a[9]        reg      System          Top|clock:f     0.000           27.027      26.827     0.333                         
+========================================================================================================================================================================
+
+
+Start Points:
+
+Index     Instance                       Pin         Type     Start Clock     Clock Delay     Slack 
+----------------------------------------------------------------------------------------------------
+1         ram_x/mem                      q_b[0]      reg      Top|clock:f     0.000           0.269 
+2         ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           0.269 
+3         ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           0.335 
+4         ram_x/mem                      q_b[1]      reg      Top|clock:f     0.000           0.335 
+5         ram_y/mem                      q_b[1]      reg      Top|clock:f     0.000           0.335 
+6         ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           0.401 
+7         ram_x/mem                      q_b[2]      reg      Top|clock:f     0.000           0.401 
+8         ram_y/mem                      q_b[2]      reg      Top|clock:f     0.000           0.401 
+9         ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           0.467 
+10        ram_x/mem                      q_b[3]      reg      Top|clock:f     0.000           0.467 
+11        ram_y/mem                      q_b[3]      reg      Top|clock:f     0.000           0.467 
+12        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           0.533 
+13        ram_x/mem                      q_b[4]      reg      Top|clock:f     0.000           0.533 
+14        ram_y/mem                      q_b[4]      reg      Top|clock:f     0.000           0.533 
+15        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           0.599 
+16        ram_x/mem                      q_b[5]      reg      Top|clock:f     0.000           0.599 
+17        ram_y/mem                      q_b[5]      reg      Top|clock:f     0.000           0.599 
+18        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           0.665 
+19        ram_x/mem                      q_b[6]      reg      Top|clock:f     0.000           0.665 
+20        ram_y/mem                      q_b[6]      reg      Top|clock:f     0.000           0.665 
+21        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           0.731 
+22        ram_x/mem                      q_b[7]      reg      Top|clock:f     0.000           0.731 
+23        ram_y/mem                      q_b[7]      reg      Top|clock:f     0.000           0.731 
+24        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           0.797 
+25        ram_x/mem                      q_b[8]      reg      Top|clock:f     0.000           0.797 
+26        ram_y/mem                      q_b[8]      reg      Top|clock:f     0.000           0.797 
+27        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           0.863 
+28        ram_x/mem                      q_b[9]      reg      Top|clock:f     0.000           0.863 
+29        ram_y/mem                      q_b[9]      reg      Top|clock:f     0.000           0.863 
+30        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           0.929 
+31        ram_x/mem                      q_b[10]     reg      Top|clock:f     0.000           0.929 
+32        ram_y/mem                      q_b[10]     reg      Top|clock:f     0.000           0.929 
+33        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           0.995 
+34        ram_x/mem                      q_b[11]     reg      Top|clock:f     0.000           0.995 
+35        ram_y/mem                      q_b[11]     reg      Top|clock:f     0.000           0.995 
+36        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           1.061 
+37        ram_x/mem                      q_b[12]     reg      Top|clock:f     0.000           1.061 
+38        ram_y/mem                      q_b[12]     reg      Top|clock:f     0.000           1.061 
+39        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           1.127 
+40        ram_x/mem                      q_b[13]     reg      Top|clock:f     0.000           1.127 
+41        ram_y/mem                      q_b[13]     reg      Top|clock:f     0.000           1.127 
+42        ram_x/mem                      q_b[14]     reg      Top|clock:f     0.000           1.200 
+43        ram_y/mem                      q_b[14]     reg      Top|clock:f     0.000           1.200 
+44        ram_x/mem                      q_b[15]     reg      Top|clock:f     0.000           1.266 
+45        ram_y/mem                      q_b[15]     reg      Top|clock:f     0.000           1.266 
+46        ram_x/mem                      q_b[16]     reg      Top|clock:f     0.000           1.333 
+47        ram_y/mem                      q_b[16]     reg      Top|clock:f     0.000           1.333 
+48        ram_x/mem                      q_b[17]     reg      Top|clock:f     0.000           1.399 
+49        ram_y/mem                      q_b[17]     reg      Top|clock:f     0.000           1.399 
+50        ram_x/mem                      q_b[18]     reg      Top|clock:f     0.000           1.448 
+51        ram_y/mem                      q_b[18]     reg      Top|clock:f     0.000           1.464 
+52        ram_x/mem                      q_b[19]     reg      Top|clock:f     0.000           1.514 
+53        ram_y/mem                      q_b[19]     reg      Top|clock:f     0.000           1.530 
+54        ram_x/mem                      q_b[20]     reg      Top|clock:f     0.000           1.579 
+55        ram_y/mem                      q_b[20]     reg      Top|clock:f     0.000           1.597 
+56        ram_x/mem                      q_b[21]     reg      Top|clock:f     0.000           1.645 
+57        ram_y/mem                      q_b[21]     reg      Top|clock:f     0.000           1.663 
+58        ram_x/mem                      q_b[22]     reg      Top|clock:f     0.000           1.712 
+59        ram_y/mem                      q_b[22]     reg      Top|clock:f     0.000           1.728 
+60        ram_x/mem                      q_b[23]     reg      Top|clock:f     0.000           1.778 
+61        ram_y/mem                      q_b[23]     reg      Top|clock:f     0.000           1.794 
+62        ram_x/mem                      q_b[24]     reg      Top|clock:f     0.000           1.843 
+63        ram_y/mem                      q_b[24]     reg      Top|clock:f     0.000           1.861 
+64        ram_x/mem                      q_b[25]     reg      Top|clock:f     0.000           1.909 
+65        ram_y/mem                      q_b[25]     reg      Top|clock:f     0.000           1.927 
+66        ram_x/mem                      q_b[26]     reg      Top|clock:f     0.000           1.976 
+67        ram_y/mem                      q_b[26]     reg      Top|clock:f     0.000           1.992 
+68        ram_x/mem                      q_b[27]     reg      Top|clock:f     0.000           2.042 
+69        ram_y/mem                      q_b[27]     reg      Top|clock:f     0.000           2.058 
+70        ram_x/mem                      q_b[28]     reg      Top|clock:f     0.000           2.107 
+71        ram_y/mem                      q_b[28]     reg      Top|clock:f     0.000           2.124 
+72        ram_x/mem                      q_b[29]     reg      Top|clock:f     0.000           2.174 
+73        ram_y/mem                      q_b[29]     reg      Top|clock:f     0.000           2.191 
+74        ram_x/mem                      q_b[30]     reg      Top|clock:f     0.000           2.240 
+75        ram_y/mem                      q_b[30]     reg      Top|clock:f     0.000           2.256 
+76        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           2.282 
+77        ram_x/mem                      q_b[31]     reg      Top|clock:f     0.000           2.305 
+78        ram_y/mem                      q_b[31]     reg      Top|clock:f     0.000           2.317 
+79        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           2.348 
+80        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           2.414 
+81        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           2.480 
+82        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           2.546 
+83        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           2.612 
+84        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           2.678 
+85        ram_x/mem.wereg[0]             q           reg      Top|clock:f     0.000           2.729 
+86        ram_y/mem.wereg[0]             q           reg      Top|clock:f     0.000           2.729 
+87        ram_x/mem.eq_reg[0]            q           reg      Top|clock:f     0.000           2.735 
+88        ram_y/mem.eq_reg[0]            q           reg      Top|clock:f     0.000           2.735 
+89        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           2.744 
+90        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           2.810 
+91        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           2.876 
+92        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           2.942 
+93        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           3.008 
+94        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           3.074 
+95        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           3.140 
+96        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           3.206 
+97        ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           3.272 
+98        ram_x/mem.datareg[0]           q           reg      Top|clock:f     0.000           3.304 
+99        ram_y/mem.datareg[0]           q           reg      Top|clock:f     0.000           3.304 
+100       ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           3.338 
+101       ram_x/mem.datareg[1]           q           reg      Top|clock:f     0.000           3.370 
+102       ram_y/mem.datareg[1]           q           reg      Top|clock:f     0.000           3.370 
+103       ram_y/mem                      q_b[0]      reg      Top|clock:f     0.000           3.399 
+104       ram_x/mem.datareg[2]           q           reg      Top|clock:f     0.000           3.436 
+105       ram_y/mem.datareg[2]           q           reg      Top|clock:f     0.000           3.436 
+106       ram_x/mem.datareg[3]           q           reg      Top|clock:f     0.000           3.502 
+107       ram_y/mem.datareg[3]           q           reg      Top|clock:f     0.000           3.502 
+108       ram_x/mem.datareg[4]           q           reg      Top|clock:f     0.000           3.568 
+109       ram_y/mem.datareg[4]           q           reg      Top|clock:f     0.000           3.568 
+110       ram_x/mem.datareg[5]           q           reg      Top|clock:f     0.000           3.634 
+111       ram_y/mem.datareg[5]           q           reg      Top|clock:f     0.000           3.634 
+112       ram_x/mem.datareg[6]           q           reg      Top|clock:f     0.000           3.700 
+113       ram_y/mem.datareg[6]           q           reg      Top|clock:f     0.000           3.700 
+114       ram_x/mem.datareg[7]           q           reg      Top|clock:f     0.000           3.766 
+115       ram_y/mem.datareg[7]           q           reg      Top|clock:f     0.000           3.766 
+116       ram_x/mem.datareg[8]           q           reg      Top|clock:f     0.000           3.832 
+117       ram_y/mem.datareg[8]           q           reg      Top|clock:f     0.000           3.832 
+118       ram_x/mem.datareg[9]           q           reg      Top|clock:f     0.000           3.898 
+119       ram_y/mem.datareg[9]           q           reg      Top|clock:f     0.000           3.898 
+120       ram_x/mem.datareg[10]          q           reg      Top|clock:f     0.000           3.964 
+121       ram_y/mem.datareg[10]          q           reg      Top|clock:f     0.000           3.964 
+122       ram_x/mem.datareg[11]          q           reg      Top|clock:f     0.000           4.030 
+123       ram_y/mem.datareg[11]          q           reg      Top|clock:f     0.000           4.030 
+124       ram_x/mem.datareg[12]          q           reg      Top|clock:f     0.000           4.096 
+125       ram_y/mem.datareg[12]          q           reg      Top|clock:f     0.000           4.096 
+126       ram_x/mem.datareg[13]          q           reg      Top|clock:f     0.000           4.162 
+127       ram_y/mem.datareg[13]          q           reg      Top|clock:f     0.000           4.162 
+128       ram_x/mem.datareg[14]          q           reg      Top|clock:f     0.000           4.236 
+129       ram_y/mem.datareg[14]          q           reg      Top|clock:f     0.000           4.236 
+130       ram_x/mem.datareg[15]          q           reg      Top|clock:f     0.000           4.301 
+131       ram_y/mem.datareg[15]          q           reg      Top|clock:f     0.000           4.301 
+132       ram_x/mem.datareg[16]          q           reg      Top|clock:f     0.000           4.367 
+133       ram_y/mem.datareg[16]          q           reg      Top|clock:f     0.000           4.367 
+134       ram_x/mem.datareg[17]          q           reg      Top|clock:f     0.000           4.434 
+135       ram_y/mem.datareg[17]          q           reg      Top|clock:f     0.000           4.434 
+136       ram_x/mem.datareg[18]          q           reg      Top|clock:f     0.000           4.482 
+137       ram_y/mem.datareg[18]          q           reg      Top|clock:f     0.000           4.500 
+138       ram_x/mem.datareg[19]          q           reg      Top|clock:f     0.000           4.548 
+139       ram_y/mem.datareg[19]          q           reg      Top|clock:f     0.000           4.566 
+140       ram_x/mem.datareg[20]          q           reg      Top|clock:f     0.000           4.614 
+141       ram_y/mem.datareg[20]          q           reg      Top|clock:f     0.000           4.631 
+142       ram_x/mem.datareg[21]          q           reg      Top|clock:f     0.000           4.681 
+143       ram_y/mem.datareg[21]          q           reg      Top|clock:f     0.000           4.697 
+144       ram_x/mem.datareg[22]          q           reg      Top|clock:f     0.000           4.747 
+145       ram_y/mem.datareg[22]          q           reg      Top|clock:f     0.000           4.763 
+146       ram_x/mem.datareg[23]          q           reg      Top|clock:f     0.000           4.812 
+147       ram_y/mem.datareg[23]          q           reg      Top|clock:f     0.000           4.830 
+148       ram_x/mem.datareg[24]          q           reg      Top|clock:f     0.000           4.878 
+149       ram_y/mem.datareg[24]          q           reg      Top|clock:f     0.000           4.896 
+150       ram_x/mem.datareg[25]          q           reg      Top|clock:f     0.000           4.944 
+151       ram_y/mem.datareg[25]          q           reg      Top|clock:f     0.000           4.962 
+152       ram_x/mem.datareg[26]          q           reg      Top|clock:f     0.000           5.011 
+153       ram_y/mem.datareg[26]          q           reg      Top|clock:f     0.000           5.027 
+154       ram_x/mem.datareg[27]          q           reg      Top|clock:f     0.000           5.077 
+155       ram_y/mem.datareg[27]          q           reg      Top|clock:f     0.000           5.093 
+156       ram_x/mem.datareg[28]          q           reg      Top|clock:f     0.000           5.143 
+157       ram_y/mem.datareg[28]          q           reg      Top|clock:f     0.000           5.160 
+158       ram_x/mem.datareg[29]          q           reg      Top|clock:f     0.000           5.208 
+159       ram_y/mem.datareg[29]          q           reg      Top|clock:f     0.000           5.226 
+160       ram_x/mem.datareg[30]          q           reg      Top|clock:f     0.000           5.274 
+161       ram_y/mem.datareg[30]          q           reg      Top|clock:f     0.000           5.292 
+162       ram_x/mem.datareg[31]          q           reg      Top|clock:f     0.000           5.340 
+163       ram_y/mem.datareg[31]          q           reg      Top|clock:f     0.000           5.353 
+164       matmul_instance/k[2]           q           reg      Top|clock:r     0.000           10.887
+165       matmul_instance/j[2]           q           reg      Top|clock:r     0.000           10.887
+166       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           11.066
+167       matmul_instance/k_0[3]         q           reg      Top|clock:r     0.000           11.087
+168       matmul_instance/i[0]           q           reg      Top|clock:r     0.000           11.095
+169       matmul_instance/j[1]           q           reg      Top|clock:r     0.000           11.146
+170       matmul_instance/k[1]           q           reg      Top|clock:r     0.000           11.161
+171       matmul_instance/i[1]           q           reg      Top|clock:r     0.000           11.428
+172       matmul_instance/k[2]           q           reg      Top|clock:r     0.000           11.435
+173       matmul_instance/k[0]           q           reg      Top|clock:r     0.000           11.613
+174       matmul_instance/j[0]           q           reg      Top|clock:r     0.000           11.613
+175       matmul_instance/i[2]           q           reg      Top|clock:r     0.000           11.917
+176       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           12.416
+177       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           12.416
+178       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           12.422
+179       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           12.426
+180       matmul_instance/k_0[3]         q           reg      Top|clock:r     0.000           12.439
+181       matmul_instance/k_0[3]         q           reg      Top|clock:r     0.000           12.439
+182       matmul_instance/k_0[3]         q           reg      Top|clock:r     0.000           12.445
+183       matmul_instance/state_ret      q           reg      Top|clock:r     0.000           12.816
+184       matmul_instance/state_ret      q           reg      Top|clock:r     0.000           12.855
+185       matmul_instance/j[0]           q           reg      Top|clock:r     0.000           13.258
+186       matmul_instance/j[1]           q           reg      Top|clock:r     0.000           13.258
+187       matmul_instance/k[0]           q           reg      Top|clock:r     0.000           13.260
+188       matmul_instance/j[0]           q           reg      Top|clock:r     0.000           13.260
+189       matmul_instance/j[1]           q           reg      Top|clock:r     0.000           13.260
+190       matmul_instance/j[2]           q           reg      Top|clock:r     0.000           13.273
+191       matmul_instance/k[1]           q           reg      Top|clock:r     0.000           13.274
+192       matmul_instance/k[2]           q           reg      Top|clock:r     0.000           13.274
+193       matmul_instance/j[2]           q           reg      Top|clock:r     0.000           13.274
+194       matmul_instance/k[1]           q           reg      Top|clock:r     0.000           13.274
+195       matmul_instance/k[2]           q           reg      Top|clock:r     0.000           13.274
+196       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           22.798
+197       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           22.864
+198       matmul_instance/z[1]           q           reg      Top|clock:r     0.000           22.864
+199       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           22.930
+200       matmul_instance/z[2]           q           reg      Top|clock:r     0.000           22.930
+201       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           22.996
+202       matmul_instance/z[3]           q           reg      Top|clock:r     0.000           22.996
+203       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           23.062
+204       matmul_instance/z[4]           q           reg      Top|clock:r     0.000           23.062
+205       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           23.128
+206       matmul_instance/z[5]           q           reg      Top|clock:r     0.000           23.128
+207       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           23.194
+208       matmul_instance/z[6]           q           reg      Top|clock:r     0.000           23.194
+209       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           23.260
+210       matmul_instance/z[7]           q           reg      Top|clock:r     0.000           23.260
+211       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           23.326
+212       matmul_instance/z[8]           q           reg      Top|clock:r     0.000           23.326
+213       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           23.392
+214       matmul_instance/z[9]           q           reg      Top|clock:r     0.000           23.392
+215       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           23.458
+216       matmul_instance/z[10]          q           reg      Top|clock:r     0.000           23.458
+217       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           23.524
+218       matmul_instance/z[11]          q           reg      Top|clock:r     0.000           23.524
+219       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           23.590
+220       matmul_instance/z[12]          q           reg      Top|clock:r     0.000           23.590
+221       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           23.656
+222       matmul_instance/z[13]          q           reg      Top|clock:r     0.000           23.656
+223       matmul_instance/z[14]          q           reg      Top|clock:r     0.000           23.722
+224       matmul_instance/z[15]          q           reg      Top|clock:r     0.000           23.788
+225       matmul_instance/z[16]          q           reg      Top|clock:r     0.000           23.854
+226       matmul_instance/z[17]          q           reg      Top|clock:r     0.000           23.920
+227       matmul_instance/z[18]          q           reg      Top|clock:r     0.000           23.986
+228       matmul_instance/z[19]          q           reg      Top|clock:r     0.000           24.052
+229       matmul_instance/z[20]          q           reg      Top|clock:r     0.000           24.118
+230       matmul_instance/z[21]          q           reg      Top|clock:r     0.000           24.184
+231       matmul_instance/z[22]          q           reg      Top|clock:r     0.000           24.250
+232       matmul_instance/z[23]          q           reg      Top|clock:r     0.000           24.316
+233       matmul_instance/z[24]          q           reg      Top|clock:r     0.000           24.382
+234       matmul_instance/z[25]          q           reg      Top|clock:r     0.000           24.448
+235       matmul_instance/z[26]          q           reg      Top|clock:r     0.000           24.514
+236       matmul_instance/z[27]          q           reg      Top|clock:r     0.000           24.580
+237       matmul_instance/k[0]           q           reg      Top|clock:r     0.000           24.631
+238       matmul_instance/z[28]          q           reg      Top|clock:r     0.000           24.646
+239       matmul_instance/z[29]          q           reg      Top|clock:r     0.000           24.712
+240       matmul_instance/z[30]          q           reg      Top|clock:r     0.000           24.778
+241       matmul_instance/k[0]           q           reg      Top|clock:r     0.000           24.786
+242       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           24.811
+243       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.818
+244       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+245       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+246       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+247       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+248       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+249       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+250       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+251       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+252       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+253       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+254       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+255       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+256       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+257       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+258       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+259       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+260       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+261       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+262       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+263       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+264       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+265       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+266       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+267       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+268       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+269       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+270       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+271       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+272       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+273       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+274       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+275       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           24.827
+276       matmul_instance/z[31]          q           reg      Top|clock:r     0.000           24.844
+277       matmul_instance/i[3]           q           reg      Top|clock:r     0.000           24.845
+278       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           24.877
+279       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+280       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+281       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+282       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+283       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+284       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+285       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+286       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+287       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+288       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+289       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+290       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+291       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+292       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+293       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+294       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+295       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+296       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+297       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+298       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+299       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+300       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+301       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+302       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+303       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+304       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+305       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+306       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+307       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+308       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+309       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+310       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           24.908
+311       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           24.943
+312       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           25.009
+313       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           25.032
+314       matmul_instance/k_0[3]         q           reg      Top|clock:r     0.000           25.067
+315       matmul_instance/k_0[3]         q           reg      Top|clock:r     0.000           25.067
+316       matmul_instance/k_0[3]         q           reg      Top|clock:r     0.000           25.067
+317       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           25.075
+318       matmul_instance/k[0]           q           reg      Top|clock:r     0.000           25.119
+319       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           25.141
+320       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           25.207
+321       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           25.273
+322       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           25.306
+323       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           25.321
+324       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           25.328
+325       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           25.328
+326       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           25.339
+327       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           25.341
+328       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           25.405
+329       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           25.471
+330       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           25.537
+331       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           25.603
+332       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           25.669
+333       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           25.735
+334       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           25.801
+335       matmul_instance/j[3]           q           reg      Top|clock:r     0.000           25.816
+336       matmul_instance/state_0[0]     q           reg      Top|clock:r     0.000           25.816
+337       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           25.867
+338       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           25.933
+339       matmul_instance/z_din[0]       Q[0]        reg      System          0.000           26.376
+340       matmul_instance/z_din[10]      Q[0]        reg      System          0.000           26.376
+341       matmul_instance/z_din[11]      Q[0]        reg      System          0.000           26.376
+342       matmul_instance/z_din[12]      Q[0]        reg      System          0.000           26.376
+343       matmul_instance/z_din[13]      Q[0]        reg      System          0.000           26.376
+344       matmul_instance/z_din[14]      Q[0]        reg      System          0.000           26.376
+345       matmul_instance/z_din[15]      Q[0]        reg      System          0.000           26.376
+346       matmul_instance/z_din[16]      Q[0]        reg      System          0.000           26.376
+347       matmul_instance/z_din[17]      Q[0]        reg      System          0.000           26.376
+348       matmul_instance/z_din[18]      Q[0]        reg      System          0.000           26.376
+349       matmul_instance/z_din[19]      Q[0]        reg      System          0.000           26.376
+350       matmul_instance/z_din[1]       Q[0]        reg      System          0.000           26.376
+351       matmul_instance/z_din[20]      Q[0]        reg      System          0.000           26.376
+352       matmul_instance/z_din[21]      Q[0]        reg      System          0.000           26.376
+353       matmul_instance/z_din[22]      Q[0]        reg      System          0.000           26.376
+354       matmul_instance/z_din[23]      Q[0]        reg      System          0.000           26.376
+355       matmul_instance/z_din[24]      Q[0]        reg      System          0.000           26.376
+356       matmul_instance/z_din[25]      Q[0]        reg      System          0.000           26.376
+357       matmul_instance/z_din[26]      Q[0]        reg      System          0.000           26.376
+358       matmul_instance/z_din[27]      Q[0]        reg      System          0.000           26.376
+359       matmul_instance/z_din[28]      Q[0]        reg      System          0.000           26.376
+360       matmul_instance/z_din[29]      Q[0]        reg      System          0.000           26.376
+361       matmul_instance/z_din[2]       Q[0]        reg      System          0.000           26.376
+362       matmul_instance/z_din[30]      Q[0]        reg      System          0.000           26.376
+363       matmul_instance/z_din[31]      Q[0]        reg      System          0.000           26.376
+364       matmul_instance/z_din[3]       Q[0]        reg      System          0.000           26.376
+365       matmul_instance/z_din[4]       Q[0]        reg      System          0.000           26.376
+366       matmul_instance/z_din[5]       Q[0]        reg      System          0.000           26.376
+367       matmul_instance/z_din[6]       Q[0]        reg      System          0.000           26.376
+368       matmul_instance/z_din[7]       Q[0]        reg      System          0.000           26.376
+369       matmul_instance/z_din[8]       Q[0]        reg      System          0.000           26.376
+370       matmul_instance/z_din[9]       Q[0]        reg      System          0.000           26.376
+371       matmul_instance/z[0]           q           reg      Top|clock:r     0.000           26.480
+372       matmul_instance/z[10]          q           reg      Top|clock:r     0.000           26.480
+373       matmul_instance/z[11]          q           reg      Top|clock:r     0.000           26.480
+374       matmul_instance/z[12]          q           reg      Top|clock:r     0.000           26.480
+375       matmul_instance/z[13]          q           reg      Top|clock:r     0.000           26.480
+376       matmul_instance/z[14]          q           reg      Top|clock:r     0.000           26.480
+377       matmul_instance/z[15]          q           reg      Top|clock:r     0.000           26.480
+378       matmul_instance/z[16]          q           reg      Top|clock:r     0.000           26.480
+379       matmul_instance/z[17]          q           reg      Top|clock:r     0.000           26.480
+380       matmul_instance/z[18]          q           reg      Top|clock:r     0.000           26.480
+381       matmul_instance/z[19]          q           reg      Top|clock:r     0.000           26.480
+382       matmul_instance/z[1]           q           reg      Top|clock:r     0.000           26.480
+383       matmul_instance/z[20]          q           reg      Top|clock:r     0.000           26.480
+384       matmul_instance/z[21]          q           reg      Top|clock:r     0.000           26.480
+385       matmul_instance/z[22]          q           reg      Top|clock:r     0.000           26.480
+386       matmul_instance/z[23]          q           reg      Top|clock:r     0.000           26.480
+387       matmul_instance/z[24]          q           reg      Top|clock:r     0.000           26.480
+388       matmul_instance/z[25]          q           reg      Top|clock:r     0.000           26.480
+389       matmul_instance/z[26]          q           reg      Top|clock:r     0.000           26.480
+390       matmul_instance/z[27]          q           reg      Top|clock:r     0.000           26.480
+391       matmul_instance/z[28]          q           reg      Top|clock:r     0.000           26.480
+392       matmul_instance/z[29]          q           reg      Top|clock:r     0.000           26.480
+393       matmul_instance/z[2]           q           reg      Top|clock:r     0.000           26.480
+394       matmul_instance/z[30]          q           reg      Top|clock:r     0.000           26.480
+395       matmul_instance/z[31]          q           reg      Top|clock:r     0.000           26.480
+396       matmul_instance/z[3]           q           reg      Top|clock:r     0.000           26.480
+397       matmul_instance/z[4]           q           reg      Top|clock:r     0.000           26.480
+398       matmul_instance/z[5]           q           reg      Top|clock:r     0.000           26.480
+399       matmul_instance/z[6]           q           reg      Top|clock:r     0.000           26.480
+400       matmul_instance/z[7]           q           reg      Top|clock:r     0.000           26.480
+401       matmul_instance/z[8]           q           reg      Top|clock:r     0.000           26.480
+402       matmul_instance/z[9]           q           reg      Top|clock:r     0.000           26.480
+403       matmul_instance/z_din[0]       Q[0]        reg      System          0.000           26.827
+404       matmul_instance/z_din[10]      Q[0]        reg      System          0.000           26.827
+405       matmul_instance/z_din[11]      Q[0]        reg      System          0.000           26.827
+406       matmul_instance/z_din[12]      Q[0]        reg      System          0.000           26.827
+407       matmul_instance/z_din[13]      Q[0]        reg      System          0.000           26.827
+408       matmul_instance/z_din[14]      Q[0]        reg      System          0.000           26.827
+409       matmul_instance/z_din[15]      Q[0]        reg      System          0.000           26.827
+410       matmul_instance/z_din[16]      Q[0]        reg      System          0.000           26.827
+411       matmul_instance/z_din[17]      Q[0]        reg      System          0.000           26.827
+412       matmul_instance/z_din[18]      Q[0]        reg      System          0.000           26.827
+413       matmul_instance/z_din[19]      Q[0]        reg      System          0.000           26.827
+414       matmul_instance/z_din[1]       Q[0]        reg      System          0.000           26.827
+415       matmul_instance/z_din[20]      Q[0]        reg      System          0.000           26.827
+416       matmul_instance/z_din[21]      Q[0]        reg      System          0.000           26.827
+417       matmul_instance/z_din[22]      Q[0]        reg      System          0.000           26.827
+418       matmul_instance/z_din[23]      Q[0]        reg      System          0.000           26.827
+419       matmul_instance/z_din[24]      Q[0]        reg      System          0.000           26.827
+420       matmul_instance/z_din[25]      Q[0]        reg      System          0.000           26.827
+421       matmul_instance/z_din[26]      Q[0]        reg      System          0.000           26.827
+422       matmul_instance/z_din[27]      Q[0]        reg      System          0.000           26.827
+423       matmul_instance/z_din[28]      Q[0]        reg      System          0.000           26.827
+424       matmul_instance/z_din[29]      Q[0]        reg      System          0.000           26.827
+425       matmul_instance/z_din[2]       Q[0]        reg      System          0.000           26.827
+426       matmul_instance/z_din[30]      Q[0]        reg      System          0.000           26.827
+427       matmul_instance/z_din[31]      Q[0]        reg      System          0.000           26.827
+428       matmul_instance/z_din[3]       Q[0]        reg      System          0.000           26.827
+429       matmul_instance/z_din[4]       Q[0]        reg      System          0.000           26.827
+430       matmul_instance/z_din[5]       Q[0]        reg      System          0.000           26.827
+431       matmul_instance/z_din[6]       Q[0]        reg      System          0.000           26.827
+432       matmul_instance/z_din[7]       Q[0]        reg      System          0.000           26.827
+433       matmul_instance/z_din[8]       Q[0]        reg      System          0.000           26.827
+434       matmul_instance/z_din[9]       Q[0]        reg      System          0.000           26.827
+====================================================================================================

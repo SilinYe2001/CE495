@@ -1,0 +1,8 @@
+/vol/synopsys/fpga/O-2018.09-SP1/bin/syn_nfilter  -link  -multisrs  /home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/rev_1/synwork/matmul_copy_comp.srs  -osyn  /home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/rev_1/synwork/matmul_copy_mult.srs  -log  /home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/rev_1/synlog/matmul_copy_multi_srs_gen.srr 
+relcom:/vol/synopsys/fpga/O-2018.09-SP1/bin/syn_nfilter -link -multisrs ../synwork/matmul_copy_comp.srs -osyn ../synwork/matmul_copy_mult.srs -log ../synlog/matmul_copy_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:../synwork/matmul_copy_comp.srs|io:i|time:1706058154|size:2161|exec:0|csum:546461BC78E374756FFF198E807EEE5B
+file:../synwork/matmul_copy_mult.srs|io:o|time:1706058155|size:1796|exec:0|csum:
+file:../synlog/matmul_copy_multi_srs_gen.srr|io:o|time:1706058155|size:1582|exec:0|csum:
+file:/vol/synopsys/fpga/O-2018.09-SP1/linux_a_64/syn_nfilter|io:i|time:1543382463|size:12202632|exec:1|csum:2CF5CA82A12C53A85C3E36D57C2461DC
+file:/vol/synopsys/fpga/O-2018.09-SP1/bin/syn_nfilter|io:i|time:1543382354|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0

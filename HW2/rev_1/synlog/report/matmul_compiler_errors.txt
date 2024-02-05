@@ -1,0 +1,2 @@
+@E: CG849 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":25:0:25:0|Unexpected ) after , missing port in ANSI list
+

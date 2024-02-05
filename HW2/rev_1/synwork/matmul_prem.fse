@@ -1,0 +1,8 @@
+
+fsm_encoding {10270271} sequential
+
+fsm_state_encoding {10270271} s0 {0}
+
+fsm_state_encoding {10270271} s1 {1}
+
+fsm_registers {10270271} {state[0]} 

@@ -1,0 +1,4 @@
+bram_block.brams\[3\] work bram 0 1
+bram_block.brams\[2\] work bram 0 1
+bram_block.brams\[1\] work bram 0 1
+bram_block.brams\[0\] work bram 0 1

@@ -1,0 +1,2 @@
+@W: FA406 |Environment variable QUARTUS_ROOTDIR not set. Cannot determine PAR version.
+@W: MT529 :"/home/sfs6562/CE495-Digital-design-and-Verification/hw3/grayscale/sv/grayscale.sv":18:0:18:8|Found inferred clock grayscale_top|clock which controls 99 sequential elements including grayscale_inst.gs[7:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

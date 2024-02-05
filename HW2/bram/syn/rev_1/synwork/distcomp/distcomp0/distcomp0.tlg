@@ -1,0 +1,22 @@
+@N:: Applying property .distcompmodetop with value 1 on module bram_block in library work
+@N:: Applying property .distcompnoprune with value 1 on module bram_block in library work
+@N:: Applying property .noprune with value 1 on module bram_block in library work
+@N:: Applying property .distcompnoprune with value 1 on module bram in library work
+@N:: Applying property .noprune with value 1 on module bram in library work
+Selecting top level module bram_block
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/bram/sv/bram.sv":1:7:1:10|Synthesizing module bram in library work.
+
+	BRAM_ADDR_WIDTH=32'b00000000000000000000000000001010
+	BRAM_DATA_WIDTH=32'b00000000000000000000000000001000
+   Generated name = bram_10s_8s
+Running optimization stage 1 on bram_10s_8s .......
+@N: CL134 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/bram/sv/bram.sv":16:2:16:10|Found RAM mem, depth=1024, width=8
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/bram/sv/bram_block.sv":2:7:2:16|Synthesizing module bram_block in library work.
+Running optimization stage 1 on bram_block .......
+Running optimization stage 2 on bram_block .......
+Running optimization stage 2 on bram_10s_8s .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/sfs6562/CE495-Digital-design-and-Verification/HW2/bram/syn/rev_1/synwork//distcomp/distcomp0/distcomp0.rt.csv
+

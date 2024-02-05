@@ -1,0 +1,84 @@
+# //  ModelSim SE-64 2020.1 Jan 28 2020 Linux 4.18.0-513.11.1.el8_9.x86_64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+cd sim
+# reading modelsim.ini
+do sim.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 2020.1 Lib Mapping Utility 2020.01 Jan 28 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+# Start time: 15:51:25 on Jan 26,2024
+# vlog -reportprogress 300 -work work ../src/bram.sv 
+# -- Compiling module bram
+# 
+# Top level modules:
+# 	bram
+# End time: 15:51:26 on Jan 26,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+# Start time: 15:51:26 on Jan 26,2024
+# vlog -reportprogress 300 -work work ../src/matmul.sv 
+# -- Compiling module matmul
+# 
+# Top level modules:
+# 	matmul
+# End time: 15:51:26 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+# Start time: 15:51:26 on Jan 26,2024
+# vlog -reportprogress 300 -work work ../src/Top.sv 
+# -- Compiling module Top
+# 
+# Top level modules:
+# 	Top
+# End time: 15:51:26 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+# Start time: 15:51:26 on Jan 26,2024
+# vlog -reportprogress 300 -work work ../src/matmul_tb.sv 
+# -- Compiling module matmul_tb
+# 
+# Top level modules:
+# 	matmul_tb
+# End time: 15:51:26 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -classdebug -voptargs="+acc" "+notimingchecks" -L work work.matmul_tb -wlf matmul_tb.wlf 
+# Start time: 15:51:26 on Jan 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vopt-143) Recognized 1 FSM in module "matmul(fast)".
+# Loading sv_std.std
+# Loading work.matmul_tb(fast)
+# Loading work.Top(fast)
+# Loading work.matmul(fast)
+# Loading work.bram(fast)
+# x load start
+# y load start
+# y load completed
+# x load completed
+# @ 0:Starting the testbench
+# @ 6515:Testbench completed
+# @ 6520 Store output data begin
+# @ 7805 Store output data finish
+# @ 7805 Compare data with z.txt...
+# Memory contents comparision success !!
+# Memory contents comparision finish at @ 8445
+# total simulation cycle count: 584
+# ** Note: $finish    : ../src/matmul_tb.sv(90)
+#    Time: 8445 ns  Iteration: 2  Instance: /matmul_tb
+# 1
+# Break in Module matmul_tb at ../src/matmul_tb.sv line 90
+# End time: 16:15:16 on Jan 26,2024, Elapsed time: 0:23:50
+# Errors: 0, Warnings: 0

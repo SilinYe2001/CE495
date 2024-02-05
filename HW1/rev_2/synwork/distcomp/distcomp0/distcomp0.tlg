@@ -1,0 +1,12 @@
+@N:: Applying property .distcompmodetop with value 1 on module fibonacci in library work
+@N:: Applying property .distcompnoprune with value 1 on module fibonacci in library work
+@N:: Applying property .noprune with value 1 on module fibonacci in library work
+Selecting top level module fibonacci
+@N: CG364 :"/home/sfs6562/FAN/sv/fibonacci_fan.sv":1:7:1:15|Synthesizing module fibonacci in library work.
+@E: CS153 :"/home/sfs6562/FAN/sv/fibonacci_fan.sv":34:29:34:29|Can't mix blocking and non-blocking assignments to a variable
+@N: CG706 :"/home/sfs6562/FAN/sv/fibonacci_fan.sv":1:7:1:15|Selected top-level module fibonacci is a black box, ignoring black box ...
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/sfs6562/CE495-Digital-design-and-Verification/HW1/rev_2/synwork//distcomp/distcomp0/distcomp0.rt.csv
+

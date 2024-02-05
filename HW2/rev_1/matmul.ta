@@ -1,0 +1,564 @@
+# Tue Jan 23 13:19:42 2024
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify (R) Premier
+Build: O-2018.09-SP1
+Install: /vol/synopsys/fpga/O-2018.09-SP1
+OS: Red Hat Enterprise Linux 8.9 (Ootpa)
+Hostname: cobblepott.ece.northwestern.edu
+max virtual memory: unlimited (bytes)
+max user processes: 126575
+max stack size: 8388608 (bytes)
+
+
+Implementation : rev_1
+Synopsys Intel FPGA Technology Mapper, Version maprc, Build 4745R, Built Nov 27 2018 21:14:52
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF915 |Option synthesis_strategy=advanced is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+@W: FA406 |Environment variable QUARTUS_ROOTDIR not set. Cannot determine PAR version.
+Adding property syn_ta_report_clock_domain_crossing, value 0 to view:work.Top(verilog)
+Adding property syn_ta_max_display_worst_paths, value 5 to view:work.Top(verilog)
+@N: MF284 |Setting synthesis effort to medium for the design
+
+Start Timing Analyst (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 118MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 118MB)
+
+@W: MT246 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/Top.sv":38:6:38:20|Blackbox matmul_32s_6s_8s is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock Top|clock with period 1000.00ns. Please declare a user-defined clock on port clock.
+@N: MT535 |Writing timing correlation to file /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/matmul_ctd.txt 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Jan 23 13:19:42 2024
+#
+
+
+Top view:               Top
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 994.401
+
+                   Requested     Estimated     Requested     Estimated                 Clock        Clock                
+Starting Clock     Frequency     Frequency     Period        Period        Slack       Type         Group                
+-------------------------------------------------------------------------------------------------------------------------
+Top|clock          1.0 MHz       178.6 MHz     1000.000      5.599         994.401     inferred     Autoconstr_clkgroup_0
+System             1.0 MHz       600.7 MHz     1000.000      1.665         998.335     system       system_clkgroup      
+=========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                |    rise  to  rise   |    fall  to  fall   |    rise  to  fall     |    fall  to  rise   
+----------------------------------------------------------------------------------------------------------------
+Starting   Ending     |  constraint  slack  |  constraint  slack  |  constraint  slack    |  constraint  slack  
+----------------------------------------------------------------------------------------------------------------
+System     Top|clock  |  No paths    -      |  No paths    -      |  1000.000    998.335  |  No paths    -      
+Top|clock  System     |  No paths    -      |  No paths    -      |  No paths    -        |  1000.000    994.401
+================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: Top|clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                         Starting                                                                  Arrival            
+Instance                 Reference     Type                                Pin        Net          Time        Slack  
+                         Clock                                                                                        
+----------------------------------------------------------------------------------------------------------------------
+ram_y.brams\[2\].mem     Top|clock     synplicity_altsyncram_RAM_R_W_5     q_b[0]     q_b_5[0]     4.154       994.401
+ram_y.brams\[3\].mem     Top|clock     synplicity_altsyncram_RAM_R_W_6     q_b[0]     q_b_6[0]     4.154       994.401
+ram_x.brams\[2\].mem     Top|clock     synplicity_altsyncram_RAM_R_W_1     q_b[0]     q_b_1[0]     4.154       994.401
+ram_y.brams\[1\].mem     Top|clock     synplicity_altsyncram_RAM_R_W_4     q_b[0]     q_b_4[0]     4.154       994.401
+ram_y.brams\[0\].mem     Top|clock     synplicity_altsyncram_RAM_R_W_3     q_b[0]     q_b_3[0]     4.154       994.401
+ram_x.brams\[1\].mem     Top|clock     synplicity_altsyncram_RAM_R_W_0     q_b[0]     q_b_0[0]     4.154       994.401
+ram_x.brams\[3\].mem     Top|clock     synplicity_altsyncram_RAM_R_W_2     q_b[0]     q_b_2[0]     4.154       994.401
+ram_x.brams\[0\].mem     Top|clock     synplicity_altsyncram_RAM_R_W       q_b[0]     q_b[0]       4.154       994.401
+ram_y.brams\[2\].mem     Top|clock     synplicity_altsyncram_RAM_R_W_5     q_b[1]     q_b_5[1]     4.154       994.401
+ram_x.brams\[1\].mem     Top|clock     synplicity_altsyncram_RAM_R_W_0     q_b[1]     q_b_0[1]     4.154       994.401
+======================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                                            Required            
+Instance            Reference     Type                 Pin           Net                                Time         Slack  
+                    Clock                                                                                                   
+----------------------------------------------------------------------------------------------------------------------------
+matmul_instance     Top|clock     matmul_32s_6s_8s     x_dout[0]     ram_x.brams\[0\].mem.dataout       1000.000     994.401
+matmul_instance     Top|clock     matmul_32s_6s_8s     x_dout[1]     ram_x.brams\[0\].mem.dataout_0     1000.000     994.401
+matmul_instance     Top|clock     matmul_32s_6s_8s     x_dout[2]     ram_x.brams\[0\].mem.dataout_1     1000.000     994.401
+matmul_instance     Top|clock     matmul_32s_6s_8s     x_dout[3]     ram_x.brams\[0\].mem.dataout_2     1000.000     994.401
+matmul_instance     Top|clock     matmul_32s_6s_8s     x_dout[4]     ram_x.brams\[0\].mem.dataout_3     1000.000     994.401
+matmul_instance     Top|clock     matmul_32s_6s_8s     x_dout[5]     ram_x.brams\[0\].mem.dataout_4     1000.000     994.401
+matmul_instance     Top|clock     matmul_32s_6s_8s     x_dout[6]     ram_x.brams\[0\].mem.dataout_5     1000.000     994.401
+matmul_instance     Top|clock     matmul_32s_6s_8s     x_dout[7]     ram_x.brams\[0\].mem.dataout_6     1000.000     994.401
+matmul_instance     Top|clock     matmul_32s_6s_8s     x_dout[8]     ram_x.brams\[1\].mem.dataout       1000.000     994.401
+matmul_instance     Top|clock     matmul_32s_6s_8s     x_dout[9]     ram_x.brams\[1\].mem.dataout_0     1000.000     994.401
+============================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1000.000
+
+    - Propagation time:                      5.599
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     994.401
+
+    Number of logic level(s):                1
+    Starting point:                          ram_y.brams\[2\].mem / q_b[0]
+    Ending point:                            matmul_instance / y_dout[16]
+    The start point is clocked by            Top|clock [falling] on pin clock0
+    The end   point is clocked by            System [falling]
+
+Instance / Net                                                                   Pin            Pin               Arrival     No. of    
+Name                                         Type                                Name           Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------
+ram_y.brams\[2\].mem                         synplicity_altsyncram_RAM_R_W_5     q_b[0]         Out     4.154     4.154       -         
+q_b_5[0]                                     Net                                 -              -       0.326     -           1         
+ram_y.brams\[2\].mem.datareg_RNID8681[0]     cycloneive_lcell_comb               datad          In      -         4.480       -         
+ram_y.brams\[2\].mem.datareg_RNID8681[0]     cycloneive_lcell_comb               combout        Out     0.155     4.635       -         
+dataout                                      Net                                 -              -       0.965     -           1         
+matmul_instance                              matmul_32s_6s_8s                    y_dout[16]     In      -         5.599       -         
+========================================================================================================================================
+Total path delay (propagation time + setup) of 5.599 is 4.309(77.0%) logic and 1.290(23.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1000.000
+
+    - Propagation time:                      5.599
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     994.401
+
+    Number of logic level(s):                1
+    Starting point:                          ram_y.brams\[3\].mem / q_b[0]
+    Ending point:                            matmul_instance / y_dout[24]
+    The start point is clocked by            Top|clock [falling] on pin clock0
+    The end   point is clocked by            System [falling]
+
+Instance / Net                                                                   Pin            Pin               Arrival     No. of    
+Name                                         Type                                Name           Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------
+ram_y.brams\[3\].mem                         synplicity_altsyncram_RAM_R_W_6     q_b[0]         Out     4.154     4.154       -         
+q_b_6[0]                                     Net                                 -              -       0.326     -           1         
+ram_y.brams\[3\].mem.datareg_RNIGB451[0]     cycloneive_lcell_comb               datad          In      -         4.480       -         
+ram_y.brams\[3\].mem.datareg_RNIGB451[0]     cycloneive_lcell_comb               combout        Out     0.155     4.635       -         
+dataout                                      Net                                 -              -       0.965     -           1         
+matmul_instance                              matmul_32s_6s_8s                    y_dout[24]     In      -         5.599       -         
+========================================================================================================================================
+Total path delay (propagation time + setup) of 5.599 is 4.309(77.0%) logic and 1.290(23.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1000.000
+
+    - Propagation time:                      5.599
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     994.401
+
+    Number of logic level(s):                1
+    Starting point:                          ram_x.brams\[2\].mem / q_b[0]
+    Ending point:                            matmul_instance / x_dout[16]
+    The start point is clocked by            Top|clock [falling] on pin clock0
+    The end   point is clocked by            System [falling]
+
+Instance / Net                                                                   Pin            Pin               Arrival     No. of    
+Name                                         Type                                Name           Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------
+ram_x.brams\[2\].mem                         synplicity_altsyncram_RAM_R_W_1     q_b[0]         Out     4.154     4.154       -         
+q_b_1[0]                                     Net                                 -              -       0.326     -           1         
+ram_x.brams\[2\].mem.datareg_RNI9MT81[0]     cycloneive_lcell_comb               datad          In      -         4.480       -         
+ram_x.brams\[2\].mem.datareg_RNI9MT81[0]     cycloneive_lcell_comb               combout        Out     0.155     4.635       -         
+dataout                                      Net                                 -              -       0.965     -           1         
+matmul_instance                              matmul_32s_6s_8s                    x_dout[16]     In      -         5.599       -         
+========================================================================================================================================
+Total path delay (propagation time + setup) of 5.599 is 4.309(77.0%) logic and 1.290(23.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1000.000
+
+    - Propagation time:                      5.599
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     994.401
+
+    Number of logic level(s):                1
+    Starting point:                          ram_y.brams\[1\].mem / q_b[0]
+    Ending point:                            matmul_instance / y_dout[8]
+    The start point is clocked by            Top|clock [falling] on pin clock0
+    The end   point is clocked by            System [falling]
+
+Instance / Net                                                                  Pin           Pin               Arrival     No. of    
+Name                                        Type                                Name          Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------
+ram_y.brams\[1\].mem                        synplicity_altsyncram_RAM_R_W_4     q_b[0]        Out     4.154     4.154       -         
+q_b_4[0]                                    Net                                 -             -       0.326     -           1         
+ram_y.brams\[1\].mem.datareg_RNIA58R[0]     cycloneive_lcell_comb               datad         In      -         4.480       -         
+ram_y.brams\[1\].mem.datareg_RNIA58R[0]     cycloneive_lcell_comb               combout       Out     0.155     4.635       -         
+dataout                                     Net                                 -             -       0.965     -           1         
+matmul_instance                             matmul_32s_6s_8s                    y_dout[8]     In      -         5.599       -         
+======================================================================================================================================
+Total path delay (propagation time + setup) of 5.599 is 4.309(77.0%) logic and 1.290(23.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1000.000
+
+    - Propagation time:                      5.599
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     994.401
+
+    Number of logic level(s):                1
+    Starting point:                          ram_y.brams\[0\].mem / q_b[0]
+    Ending point:                            matmul_instance / y_dout[0]
+    The start point is clocked by            Top|clock [falling] on pin clock0
+    The end   point is clocked by            System [falling]
+
+Instance / Net                                                                  Pin           Pin               Arrival     No. of    
+Name                                        Type                                Name          Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------
+ram_y.brams\[0\].mem                        synplicity_altsyncram_RAM_R_W_3     q_b[0]        Out     4.154     4.154       -         
+q_b_3[0]                                    Net                                 -             -       0.326     -           1         
+ram_y.brams\[0\].mem.datareg_RNI72AU[0]     cycloneive_lcell_comb               datad         In      -         4.480       -         
+ram_y.brams\[0\].mem.datareg_RNI72AU[0]     cycloneive_lcell_comb               combout       Out     0.155     4.635       -         
+dataout                                     Net                                 -             -       0.965     -           1         
+matmul_instance                             matmul_32s_6s_8s                    y_dout[0]     In      -         5.599       -         
+======================================================================================================================================
+Total path delay (propagation time + setup) of 5.599 is 4.309(77.0%) logic and 1.290(23.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                    Starting                                                             Arrival            
+Instance            Reference     Type                 Pin              Net              Time        Slack  
+                    Clock                                                                                   
+------------------------------------------------------------------------------------------------------------
+matmul_instance     System        matmul_32s_6s_8s     x_rd_addr[1]     x_rd_addr[1]     0.000       998.335
+matmul_instance     System        matmul_32s_6s_8s     y_rd_addr[1]     y_rd_addr[1]     0.000       998.335
+matmul_instance     System        matmul_32s_6s_8s     z_wr_addr[1]     z_wr_addr[1]     0.000       998.335
+matmul_instance     System        matmul_32s_6s_8s     x_rd_addr[5]     x_rd_addr[5]     0.000       998.341
+matmul_instance     System        matmul_32s_6s_8s     y_rd_addr[5]     y_rd_addr[5]     0.000       998.341
+matmul_instance     System        matmul_32s_6s_8s     z_wr_addr[5]     z_wr_addr[5]     0.000       998.341
+matmul_instance     System        matmul_32s_6s_8s     x_rd_addr[3]     x_rd_addr[3]     0.000       998.349
+matmul_instance     System        matmul_32s_6s_8s     y_rd_addr[3]     y_rd_addr[3]     0.000       998.349
+matmul_instance     System        matmul_32s_6s_8s     z_wr_addr[3]     z_wr_addr[3]     0.000       998.349
+matmul_instance     System        matmul_32s_6s_8s     x_rd_addr[0]     x_rd_addr[0]     0.000       998.609
+============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                    Starting                                                                            Required            
+Instance                            Reference     Type                                 Pin        Net                   Time         Slack  
+                                    Clock                                                                                                   
+--------------------------------------------------------------------------------------------------------------------------------------------
+ram_z.brams\[0\].mem.eq_reg[0]      System        dffeas                               d          addr_eq_NE_i_0_g0     1000.527     998.335
+ram_x.brams\[0\].mem.eq_reg[0]      System        dffeas                               d          addr_eq_NE_i_0_g0     1000.527     998.335
+ram_y.brams\[0\].mem.eq_reg[0]      System        dffeas                               d          addr_eq_NE_i_0_g0     1000.527     998.335
+ram_z.brams\[2\].mem                System        synplicity_altsyncram_RAM_R_W_9      wren_a     z_wr_en_0             1000.488     999.516
+ram_z.brams\[3\].mem                System        synplicity_altsyncram_RAM_R_W_10     wren_a     z_wr_en_0             1000.488     999.516
+ram_z.brams\[0\].mem                System        synplicity_altsyncram_RAM_R_W_7      wren_a     z_wr_en_0             1000.488     999.516
+ram_z.brams\[1\].mem                System        synplicity_altsyncram_RAM_R_W_8      wren_a     z_wr_en_0             1000.488     999.516
+ram_z.brams\[3\].mem.datareg[0]     System        dffeas                               d          z_din_0               1000.527     999.555
+ram_z.brams\[0\].mem.datareg[0]     System        dffeas                               d          z_din_0               1000.527     999.555
+ram_z.brams\[1\].mem.datareg[0]     System        dffeas                               d          z_din_0               1000.527     999.555
+============================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.086
+    + Intrinsic clock delay:                 0.613
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1000.527
+
+    - Propagation time:                      2.192
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 998.335
+
+    Number of logic level(s):                2
+    Starting point:                          matmul_instance / x_rd_addr[1]
+    Ending point:                            ram_x.brams\[0\].mem.eq_reg[0] / d
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            Top|clock [falling] on pin clk
+
+Instance / Net                                                     Pin              Pin               Arrival     No. of    
+Name                                     Type                      Name             Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------
+matmul_instance                          matmul_32s_6s_8s          x_rd_addr[1]     Out     0.000     0.000       -         
+x_rd_addr[1]                             Net                       -                -       0.994     -           5         
+ram_x.brams\[0\].mem.eq_reg_RNO_1[0]     cycloneive_lcell_comb     datac            In      -         0.994       -         
+ram_x.brams\[0\].mem.eq_reg_RNO_1[0]     cycloneive_lcell_comb     combout          Out     0.429     1.423       -         
+addr_eq_NE_i_0_g0_1                      Net                       -                -       0.326     -           1         
+ram_x.brams\[0\].mem.eq_reg_RNO[0]       cycloneive_lcell_comb     datab            In      -         1.749       -         
+ram_x.brams\[0\].mem.eq_reg_RNO[0]       cycloneive_lcell_comb     combout          Out     0.443     2.192       -         
+addr_eq_NE_i_0_g0                        Net                       -                -       0.000     -           1         
+ram_x.brams\[0\].mem.eq_reg[0]           dffeas                    d                In      -         2.192       -         
+============================================================================================================================
+Total path delay (propagation time + setup - ICD at endpoint) of 1.665 is 0.345(20.7%) logic and 1.320(79.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.086
+    + Intrinsic clock delay:                 0.613
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1000.527
+
+    - Propagation time:                      2.192
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 998.335
+
+    Number of logic level(s):                2
+    Starting point:                          matmul_instance / y_rd_addr[1]
+    Ending point:                            ram_y.brams\[0\].mem.eq_reg[0] / d
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            Top|clock [falling] on pin clk
+
+Instance / Net                                                     Pin              Pin               Arrival     No. of    
+Name                                     Type                      Name             Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------
+matmul_instance                          matmul_32s_6s_8s          y_rd_addr[1]     Out     0.000     0.000       -         
+y_rd_addr[1]                             Net                       -                -       0.994     -           5         
+ram_y.brams\[0\].mem.eq_reg_RNO_1[0]     cycloneive_lcell_comb     datac            In      -         0.994       -         
+ram_y.brams\[0\].mem.eq_reg_RNO_1[0]     cycloneive_lcell_comb     combout          Out     0.429     1.423       -         
+addr_eq_NE_i_0_g0_1                      Net                       -                -       0.326     -           1         
+ram_y.brams\[0\].mem.eq_reg_RNO[0]       cycloneive_lcell_comb     datab            In      -         1.749       -         
+ram_y.brams\[0\].mem.eq_reg_RNO[0]       cycloneive_lcell_comb     combout          Out     0.443     2.192       -         
+addr_eq_NE_i_0_g0                        Net                       -                -       0.000     -           1         
+ram_y.brams\[0\].mem.eq_reg[0]           dffeas                    d                In      -         2.192       -         
+============================================================================================================================
+Total path delay (propagation time + setup - ICD at endpoint) of 1.665 is 0.345(20.7%) logic and 1.320(79.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.086
+    + Intrinsic clock delay:                 0.613
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1000.527
+
+    - Propagation time:                      2.192
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 998.335
+
+    Number of logic level(s):                2
+    Starting point:                          matmul_instance / z_wr_addr[1]
+    Ending point:                            ram_z.brams\[0\].mem.eq_reg[0] / d
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            Top|clock [falling] on pin clk
+
+Instance / Net                                                     Pin              Pin               Arrival     No. of    
+Name                                     Type                      Name             Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------
+matmul_instance                          matmul_32s_6s_8s          z_wr_addr[1]     Out     0.000     0.000       -         
+z_wr_addr[1]                             Net                       -                -       0.994     -           5         
+ram_z.brams\[0\].mem.eq_reg_RNO_1[0]     cycloneive_lcell_comb     datac            In      -         0.994       -         
+ram_z.brams\[0\].mem.eq_reg_RNO_1[0]     cycloneive_lcell_comb     combout          Out     0.429     1.423       -         
+addr_eq_NE_i_0_g0_1                      Net                       -                -       0.326     -           1         
+ram_z.brams\[0\].mem.eq_reg_RNO[0]       cycloneive_lcell_comb     datab            In      -         1.749       -         
+ram_z.brams\[0\].mem.eq_reg_RNO[0]       cycloneive_lcell_comb     combout          Out     0.443     2.192       -         
+addr_eq_NE_i_0_g0                        Net                       -                -       0.000     -           1         
+ram_z.brams\[0\].mem.eq_reg[0]           dffeas                    d                In      -         2.192       -         
+============================================================================================================================
+Total path delay (propagation time + setup - ICD at endpoint) of 1.665 is 0.345(20.7%) logic and 1.320(79.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.086
+    + Intrinsic clock delay:                 0.613
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1000.527
+
+    - Propagation time:                      2.186
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 998.341
+
+    Number of logic level(s):                2
+    Starting point:                          matmul_instance / x_rd_addr[5]
+    Ending point:                            ram_x.brams\[0\].mem.eq_reg[0] / d
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            Top|clock [falling] on pin clk
+
+Instance / Net                                                     Pin              Pin               Arrival     No. of    
+Name                                     Type                      Name             Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------
+matmul_instance                          matmul_32s_6s_8s          x_rd_addr[5]     Out     0.000     0.000       -         
+x_rd_addr[5]                             Net                       -                -       0.994     -           5         
+ram_x.brams\[0\].mem.eq_reg_RNO_0[0]     cycloneive_lcell_comb     datac            In      -         0.994       -         
+ram_x.brams\[0\].mem.eq_reg_RNO_0[0]     cycloneive_lcell_comb     combout          Out     0.429     1.423       -         
+addr_eq_NE_i_0_g0_0                      Net                       -                -       0.326     -           1         
+ram_x.brams\[0\].mem.eq_reg_RNO[0]       cycloneive_lcell_comb     dataa            In      -         1.749       -         
+ram_x.brams\[0\].mem.eq_reg_RNO[0]       cycloneive_lcell_comb     combout          Out     0.437     2.186       -         
+addr_eq_NE_i_0_g0                        Net                       -                -       0.000     -           1         
+ram_x.brams\[0\].mem.eq_reg[0]           dffeas                    d                In      -         2.186       -         
+============================================================================================================================
+Total path delay (propagation time + setup - ICD at endpoint) of 1.659 is 0.339(20.4%) logic and 1.320(79.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.086
+    + Intrinsic clock delay:                 0.613
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1000.527
+
+    - Propagation time:                      2.186
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 998.341
+
+    Number of logic level(s):                2
+    Starting point:                          matmul_instance / y_rd_addr[5]
+    Ending point:                            ram_y.brams\[0\].mem.eq_reg[0] / d
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            Top|clock [falling] on pin clk
+
+Instance / Net                                                     Pin              Pin               Arrival     No. of    
+Name                                     Type                      Name             Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------
+matmul_instance                          matmul_32s_6s_8s          y_rd_addr[5]     Out     0.000     0.000       -         
+y_rd_addr[5]                             Net                       -                -       0.994     -           5         
+ram_y.brams\[0\].mem.eq_reg_RNO_0[0]     cycloneive_lcell_comb     datac            In      -         0.994       -         
+ram_y.brams\[0\].mem.eq_reg_RNO_0[0]     cycloneive_lcell_comb     combout          Out     0.429     1.423       -         
+addr_eq_NE_i_0_g0_0                      Net                       -                -       0.326     -           1         
+ram_y.brams\[0\].mem.eq_reg_RNO[0]       cycloneive_lcell_comb     dataa            In      -         1.749       -         
+ram_y.brams\[0\].mem.eq_reg_RNO[0]       cycloneive_lcell_comb     combout          Out     0.437     2.186       -         
+addr_eq_NE_i_0_g0                        Net                       -                -       0.000     -           1         
+ram_y.brams\[0\].mem.eq_reg[0]           dffeas                    d                In      -         2.186       -         
+============================================================================================================================
+Total path delay (propagation time + setup - ICD at endpoint) of 1.659 is 0.339(20.4%) logic and 1.320(79.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 118MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 118MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 118MB)
+
+Writing Analyst data base /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/matmul_ta.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 118MB)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 20MB peak: 118MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Jan 23 13:19:42 2024
+
+###########################################################]

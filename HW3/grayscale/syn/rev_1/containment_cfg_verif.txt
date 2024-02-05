@@ -1,0 +1,3 @@
+grayscale_top.fifo_out_inst work fifo 0 1
+grayscale_top.fifo_in_inst work fifo 0 1
+grayscale_top.grayscale_inst work grayscale 0 1

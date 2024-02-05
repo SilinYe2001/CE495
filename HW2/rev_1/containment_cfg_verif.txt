@@ -1,0 +1,4 @@
+Top.ram_z work bram 0 1
+Top.ram_y work bram 0 1
+Top.ram_x work bram 0 1
+Top.matmul_instance work matmul 0 1

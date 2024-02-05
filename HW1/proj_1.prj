@@ -1,12 +1,13 @@
 #--  Synopsys, Inc.
 #--  Version O-2018.09-SP1
 #--  Project file /home/sfs6562/CE495-Digital-design-and-Verification/HW1/proj_1.prj
-#--  Written on Tue Jan 16 12:16:55 2024
+#--  Written on Tue Jan 23 19:56:31 2024
 
 
 #project files
-add_file -verilog -vlog_std sysv "sv/fibonacci.sv"
-add_file -verilog -vlog_std sysv "sv/fibonacci_tb.sv"
+add_file -verilog -vlog_std sysv "../HW2/src/matmul.sv"
+add_file -verilog -vlog_std sysv "../HW2/src/Top.sv"
+add_file -verilog -vlog_std sysv "../HW2/src/bram.sv"
 
 
 

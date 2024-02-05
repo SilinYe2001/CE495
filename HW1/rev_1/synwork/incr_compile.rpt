@@ -8,28 +8,30 @@ Tool: Synplify (R) Premier
 Build: O-2018.09-SP1
 Install: /vol/synopsys/fpga/O-2018.09-SP1
 OS: Red Hat Enterprise Linux 8.9 (Ootpa)
-Hostname: cobblepott.ece.northwestern.edu
+Hostname: moore.wot.eecs.northwestern.edu
 max virtual memory: unlimited (bytes)
-max user processes: 126575
+max user processes: 1027961
 max stack size: 8388608 (bytes)
 
 
 Implementation : rev_1
 Synopsys HDL compiler and linker, Version comp2018q4p1, Build 004R, Built Nov 27 2018 21:19:49
 
-Modified Files: 1
+Modified Files: 2
 FID:  path (prevtimestamp, timestamp)
-2        /home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci_tb.sv (2024-01-16 12:10:30, N/A)
+14       /home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv (N/A, 2024-01-23 23:52:21)
+17       /home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul_copy1.sv (2024-01-23 23:48:56, N/A)
 
 *******************************************************************
-Modules that may have changed as a result of file changes: 0
+Modules that may have changed as a result of file changes: 1
 MID:  lib.cell.view
+2        work.matmul.verilog may have changed because the following files changed:
+                        /home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv (N/A, 2024-01-23 23:52:21) <-- (module definition)
 
 *******************************************************************
-Unmodified files: 12
+Unmodified files: 11
 FID:  path (timestamp)
 0        /home/sfs6562/CE495-Digital-design-and-Verification/HW1/rev_1/synwork//distcomp/distcomp0/distcomp0.xmr (2024-01-15 23:33:46)
-1        /home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci.sv (2024-01-16 00:11:50)
 9        /vol/synopsys/fpga/O-2018.09-SP1/lib/altera/altera.v (2018-11-27 23:10:11)
 10       /vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_lpm.v (2018-11-27 23:10:39)
 11       /vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v (2018-11-27 23:10:39)
@@ -42,6 +44,5 @@ FID:  path (timestamp)
 8        /vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/umr_capim.v (2018-08-08 02:43:25)
 
 *******************************************************************
-Unchanged modules: 1
+Unchanged modules: 0
 MID:  lib.cell.view
-0        work.fibonacci.verilog

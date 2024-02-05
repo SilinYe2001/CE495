@@ -5,4 +5,6 @@
 @N: MF284 |Setting synthesis effort to medium for the design
 @N: MH105 |UMR3 is only supported for HAPS-80.
 @N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":42:0:42:10|Tristate driver done (in view: work.matmul(verilog)) on net done (in view: work.matmul(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":42:0:42:10|Tristate driver done (in view: work.matmul(verilog)) on net done (in view: work.matmul(verilog)) has its enable tied to GND.
 @N: BN225 |Writing default property annotation file /home/sfs6562/CE495-Digital-design-and-Verification/HW1/rev_1/fibonacci_tb.sap.

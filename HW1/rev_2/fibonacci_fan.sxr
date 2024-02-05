@@ -1,0 +1,19 @@
+
+BeginView fibonacci fibonacci
+Inst: dout_out[15]   dout_out_15_ cycloneive_io_obuf 
+Inst: dout_out[14]   dout_out_14_ cycloneive_io_obuf 
+Inst: dout_out[13]   dout_out_13_ cycloneive_io_obuf 
+Inst: dout_out[12]   dout_out_12_ cycloneive_io_obuf 
+Inst: dout_out[11]   dout_out_11_ cycloneive_io_obuf 
+Inst: dout_out[10]   dout_out_10_ cycloneive_io_obuf 
+Inst: dout_out[9]   dout_out_9_ cycloneive_io_obuf 
+Inst: dout_out[8]   dout_out_8_ cycloneive_io_obuf 
+Inst: dout_out[7]   dout_out_7_ cycloneive_io_obuf 
+Inst: dout_out[6]   dout_out_6_ cycloneive_io_obuf 
+Inst: dout_out[5]   dout_out_5_ cycloneive_io_obuf 
+Inst: dout_out[4]   dout_out_4_ cycloneive_io_obuf 
+Inst: dout_out[3]   dout_out_3_ cycloneive_io_obuf 
+Inst: dout_out[2]   dout_out_2_ cycloneive_io_obuf 
+Inst: dout_out[1]   dout_out_1_ cycloneive_io_obuf 
+Inst: dout_out[0]   dout_out_0_ cycloneive_io_obuf 
+EndView fibonacci fibonacci

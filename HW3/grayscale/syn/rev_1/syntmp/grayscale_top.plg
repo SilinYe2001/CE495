@@ -1,0 +1,13 @@
+@P:  Part : ep4ce115fc23-7
+@P:  Worst Slack : -2.016
+@P:  grayscale_top|clock - Estimated Frequency : 74.4 MHz
+@P:  grayscale_top|clock - Requested Frequency : 87.5 MHz
+@P:  grayscale_top|clock - Estimated Period : 13.438
+@P:  grayscale_top|clock - Requested Period : 11.422
+@P:  grayscale_top|clock - Slack : -2.016
+@P: grayscale_top Part : ep4ce115fc23-7
+@P: grayscale_top I/O ATOMs : 28
+@P: grayscale_top Total LUTs : 122 
+@P: grayscale_top Register bits : 35
+@P: grayscale_top DSP Blocks : 0 (0 nine-bit DSP elements)
+@P:  CPU Time : 0h:00m:01s

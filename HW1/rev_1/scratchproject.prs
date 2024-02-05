@@ -3,7 +3,7 @@
 #--  Project file /home/sfs6562/CE495-Digital-design-and-Verification/HW1/rev_1/scratchproject.prs
 
 #project files
-add_file -verilog -vlog_std sysv "/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci.sv"
+add_file -verilog -vlog_std sysv "/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv"
 
 
 

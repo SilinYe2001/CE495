@@ -9,9 +9,9 @@ Tool: Synplify (R) Premier
 Build: O-2018.09-SP1
 Install: /vol/synopsys/fpga/O-2018.09-SP1
 OS: Red Hat Enterprise Linux 8.9 (Ootpa)
-Hostname: cobblepott.ece.northwestern.edu
+Hostname: moore.wot.eecs.northwestern.edu
 max virtual memory: unlimited (bytes)
-max user processes: 126575
+max user processes: 1027961
 max stack size: 8388608 (bytes)
 
 
@@ -20,14 +20,14 @@ Synopsys Synopsys Netlist Linker, Version comp2018q4p1, Build 004R, Built Nov 27
 
 @N|Running in 64-bit mode
 File /home/sfs6562/CE495-Digital-design-and-Verification/HW1/rev_1/synwork/fibonacci_tb_comp.srs changed - recompiling
-@N: NF107 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci.sv":1:7:1:15|Selected library: work cell: fibonacci view verilog as top level
-@N: NF107 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci.sv":1:7:1:15|Selected library: work cell: fibonacci view verilog as top level
+@N: NF107 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":1:7:1:12|Selected library: work cell: matmul view verilog as top level
+@N: NF107 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":1:7:1:12|Selected library: work cell: matmul view verilog as top level
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Jan 16 12:44:16 2024
+# Tue Jan 23 23:52:55 2024
 
 ###########################################################]

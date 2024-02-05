@@ -1,0 +1,553 @@
+# Fri Jan 26 16:12:53 2024
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify (R) Premier
+Build: O-2018.09-SP1
+Install: /vol/synopsys/fpga/O-2018.09-SP1
+OS: Red Hat Enterprise Linux 8.9 (Ootpa)
+Hostname: cobblepott.ece.northwestern.edu
+max virtual memory: unlimited (bytes)
+max user processes: 126575
+max stack size: 8388608 (bytes)
+
+
+Implementation : rev_1
+Synopsys Intel FPGA Technology Mapper, Version maprc, Build 4745R, Built Nov 27 2018 21:14:52
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF915 |Option synthesis_strategy=advanced is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@W: FA406 |Environment variable QUARTUS_ROOTDIR not set. Cannot determine PAR version.
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 117MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 118MB)
+
+@N: MO231 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":27:0:27:8|Found counter in view:work.matmul_32s_6s_8s(verilog) instance j[3:0] 
+@N: MO231 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":27:0:27:8|Found counter in view:work.matmul_32s_6s_8s(verilog) instance i[3:0] 
+Encoding state machine state[1:0] (in view: work.matmul_32s_6s_8s(verilog))
+original code -> new code
+   00 -> 0
+   01 -> 1
+@N: MO225 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":27:0:27:8|There are no possible illegal states for state machine state[1:0] (in view: work.matmul_32s_6s_8s(verilog)); safe FSM implementation is not required.
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 118MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 118MB)
+
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Removing sequential instance ram_z.read_addr[0] (in view: work.Top(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A: BN291 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Boundary register ram_z.read_addr[0] (in view: work.Top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Removing sequential instance ram_z.read_addr[1] (in view: work.Top(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A: BN291 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Boundary register ram_z.read_addr[1] (in view: work.Top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Removing sequential instance ram_z.read_addr[2] (in view: work.Top(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A: BN291 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Boundary register ram_z.read_addr[2] (in view: work.Top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Removing sequential instance ram_z.read_addr[3] (in view: work.Top(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A: BN291 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Boundary register ram_z.read_addr[3] (in view: work.Top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Removing sequential instance ram_z.read_addr[4] (in view: work.Top(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A: BN291 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Boundary register ram_z.read_addr[4] (in view: work.Top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Removing sequential instance ram_z.read_addr[5] (in view: work.Top(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A: BN291 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Boundary register ram_z.read_addr[5] (in view: work.Top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Removing sequential instance ram_y.read_addr[0] (in view: work.Top(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Removing sequential instance ram_y.read_addr[1] (in view: work.Top(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Removing sequential instance ram_y.read_addr[2] (in view: work.Top(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Removing sequential instance ram_y.read_addr[3] (in view: work.Top(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Removing sequential instance ram_y.read_addr[4] (in view: work.Top(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Removing sequential instance ram_y.read_addr[5] (in view: work.Top(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Removing sequential instance ram_x.read_addr[0] (in view: work.Top(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Removing sequential instance ram_x.read_addr[1] (in view: work.Top(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Removing sequential instance ram_x.read_addr[2] (in view: work.Top(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Removing sequential instance ram_x.read_addr[3] (in view: work.Top(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Removing sequential instance ram_x.read_addr[4] (in view: work.Top(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Removing sequential instance ram_x.read_addr[5] (in view: work.Top(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A: BN291 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/bram.sv":18:2:18:10|Boundary register ram_z.read_addr[5:0] (in view: work.Top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: MF794 |RAM ram_z.mem[31:0] required 102 registers during mapping 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 119MB)
+
+Auto Dissolve of matmul_instance (inst of view:work.matmul_32s_6s_8s(verilog))
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 119MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 122MB)
+
+@N: MF578 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":56:4:56:7|Incompatible asynchronous control logic preventing generated clock conversion of matmul_instance.z_din[31] (in view: work.Top(verilog)). Check "Force Generated Clock Conversion with Asynchronous Signals" in "GCC & Prototyping Tools" tab or set force_async_genclk_conv option to 1 in project file to enable. This should only be set if asynchronous control logic cannot cause a clock edge.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":27:0:27:8|Removing sequential instance matmul_instance.state[0] (in view: work.Top(verilog)) of type view:ALTERA_APEX.S_DFF_N(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":27:0:27:8|Removing sequential instance matmul_instance.k[3] (in view: work.Top(verilog)) of type view:ALTERA_APEX.S_DFF_N(PRIM) because it does not drive other instances.
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 122MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 122MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 122MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 122MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 122MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 122MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 122MB)
+
+@N: MF794 |RAM ram_z.mem[31:0] required 102 registers during mapping 
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 122MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 122MB)
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 122MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 123MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 151 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+================================ Non-Gated/Non-Generated Clocks =================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance          
+-------------------------------------------------------------------------------------------------
+@K:CKID0001       clock_in            cycloneive_io_ibuf     151        matmul_instance.state_ret
+=================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 123MB)
+
+Writing Analyst data base /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/synwork/matmul_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 123MB)
+
+Writing Verilog Netlist and constraint files
+Writing .vqm output for Quartus
+
+Writing scf file... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 124MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+Writing FDC file /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/matmul_synplify.fdc
+
+Finished Writing Verilog Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 124MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 124MB)
+
+@W: MT420 |Found inferred clock Top|clock with period 27.03ns. Please declare a user-defined clock on port clock.
+@N: MT535 |Writing timing correlation to file /home/sfs6562/CE495-Digital-design-and-Verification/HW2/rev_1/matmul_ctd.txt 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Jan 26 16:12:54 2024
+#
+
+
+Top view:               Top
+Requested Frequency:    37.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 0.269
+
+                   Requested     Estimated      Requested     Estimated                Clock        Clock              
+Starting Clock     Frequency     Frequency      Period        Period        Slack      Type         Group              
+-----------------------------------------------------------------------------------------------------------------------
+Top|clock          37.0 MHz      37.8 MHz       27.027        26.489        0.269      inferred     Inferred_clkgroup_0
+System             37.0 MHz      1536.1 MHz     27.027        0.651         26.376     system       system_clkgroup    
+=======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                |    rise  to  rise    |    fall  to  fall   |    rise  to  fall    |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------
+Starting   Ending     |  constraint  slack   |  constraint  slack  |  constraint  slack   |  constraint  slack
+--------------------------------------------------------------------------------------------------------------
+System     Top|clock  |  No paths    -       |  No paths    -      |  27.027      26.376  |  No paths    -    
+Top|clock  System     |  27.027      26.480  |  No paths    -      |  No paths    -       |  No paths    -    
+Top|clock  Top|clock  |  27.027      22.798  |  No paths    -      |  13.514      10.887  |  13.514      0.269
+==============================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: Top|clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+              Starting                                                                 Arrival          
+Instance      Reference     Type                                Pin        Net         Time        Slack
+              Clock                                                                                     
+--------------------------------------------------------------------------------------------------------
+ram_y.mem     Top|clock     synplicity_altsyncram_RAM_R_W_0     q_b[0]     q_b_0_0     4.154       0.269
+ram_x.mem     Top|clock     synplicity_altsyncram_RAM_R_W       q_b[0]     q_b_0       4.154       0.269
+ram_y.mem     Top|clock     synplicity_altsyncram_RAM_R_W_0     q_b[1]     q_b_0_1     4.154       0.335
+ram_x.mem     Top|clock     synplicity_altsyncram_RAM_R_W       q_b[1]     q_b_1       4.154       0.335
+ram_y.mem     Top|clock     synplicity_altsyncram_RAM_R_W_0     q_b[2]     q_b_0_2     4.154       0.401
+ram_x.mem     Top|clock     synplicity_altsyncram_RAM_R_W       q_b[2]     q_b_2       4.154       0.401
+ram_y.mem     Top|clock     synplicity_altsyncram_RAM_R_W_0     q_b[3]     q_b_0_3     4.154       0.467
+ram_x.mem     Top|clock     synplicity_altsyncram_RAM_R_W       q_b[3]     q_b_3       4.154       0.467
+ram_y.mem     Top|clock     synplicity_altsyncram_RAM_R_W_0     q_b[4]     q_b_0_4     4.154       0.533
+ram_x.mem     Top|clock     synplicity_altsyncram_RAM_R_W       q_b[4]     q_b_4       4.154       0.533
+========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                          Starting                                           Required          
+Instance                  Reference     Type       Pin     Net               Time         Slack
+                          Clock                                                                
+-----------------------------------------------------------------------------------------------
+matmul_instance.z[31]     Top|clock     dffeas     d       un2_n_z_add13     14.040       0.269
+matmul_instance.z[30]     Top|clock     dffeas     d       un2_n_z_add12     14.040       0.335
+matmul_instance.z[29]     Top|clock     dffeas     d       un2_n_z_add11     14.040       0.401
+matmul_instance.z[28]     Top|clock     dffeas     d       un2_n_z_add10     14.040       0.467
+matmul_instance.z[27]     Top|clock     dffeas     d       un2_n_z_add9      14.040       0.533
+matmul_instance.z[26]     Top|clock     dffeas     d       un2_n_z_add8      14.040       0.599
+matmul_instance.z[25]     Top|clock     dffeas     d       un2_n_z_add7      14.040       0.665
+matmul_instance.z[24]     Top|clock     dffeas     d       un2_n_z_add6      14.040       0.731
+matmul_instance.z[23]     Top|clock     dffeas     d       un2_n_z_add5      14.040       0.797
+matmul_instance.z[22]     Top|clock     dffeas     d       un2_n_z_add4      14.040       0.863
+===============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      13.514
+    - Setup time:                            0.086
+    + Intrinsic clock delay:                 0.613
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         14.040
+
+    - Propagation time:                      13.771
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     0.269
+
+    Number of logic level(s):                35
+    Starting point:                          ram_y.mem / q_b[0]
+    Ending point:                            matmul_instance.z[31] / d
+    The start point is clocked by            Top|clock [falling] on pin clock0
+    The end   point is clocked by            Top|clock [rising] on pin clk
+
+Instance / Net                                                                       Pin           Pin               Arrival     No. of    
+Name                                             Type                                Name          Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------
+ram_y.mem                                        synplicity_altsyncram_RAM_R_W_0     q_b[0]        Out     4.154     4.154       -         
+q_b_0_0                                          Net                                 -             -       0.326     -           1         
+matmul_instance.un3_n_z_ml_ml_m[0]               cycloneive_lcell_comb               datad         In      -         4.480       -         
+matmul_instance.un3_n_z_ml_ml_m[0]               cycloneive_lcell_comb               combout       Out     0.155     4.635       -         
+un3_n_z_ml_ml_m[0]                               Net                                 -             -       0.333     -           2         
+matmul_instance.un3_n_z_ml_ml_muladd_0[31:0]     Top_SYN_MULT_ADD_1_18_18_36_0_3     dataa[0]      In      -         4.968       -         
+matmul_instance.un3_n_z_ml_ml_muladd_0[31:0]     Top_SYN_MULT_ADD_1_18_18_36_0_3     result[0]     Out     4.302     9.270       -         
+un3_n_z_ml_ml_2_F[0]                             Net                                 -             -       0.935     -           1         
+matmul_instance.un2_n_z_0_add0_0                 cycloneive_lcell_comb               dataa         In      -         10.205      -         
+matmul_instance.un2_n_z_0_add0_0                 cycloneive_lcell_comb               cout          Out     0.498     10.703      -         
+un2_n_z_0_carry_0_0                              Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add1_0                 cycloneive_lcell_comb               cin           In      -         10.703      -         
+matmul_instance.un2_n_z_0_add1_0                 cycloneive_lcell_comb               cout          Out     0.066     10.769      -         
+un2_n_z_0_carry_1_0                              Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add2_0                 cycloneive_lcell_comb               cin           In      -         10.769      -         
+matmul_instance.un2_n_z_0_add2_0                 cycloneive_lcell_comb               cout          Out     0.066     10.835      -         
+un2_n_z_0_carry_2_0                              Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add3_0                 cycloneive_lcell_comb               cin           In      -         10.835      -         
+matmul_instance.un2_n_z_0_add3_0                 cycloneive_lcell_comb               cout          Out     0.066     10.901      -         
+un2_n_z_0_carry_3_0                              Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add4_0                 cycloneive_lcell_comb               cin           In      -         10.901      -         
+matmul_instance.un2_n_z_0_add4_0                 cycloneive_lcell_comb               cout          Out     0.066     10.967      -         
+un2_n_z_0_carry_4_0                              Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add5_0                 cycloneive_lcell_comb               cin           In      -         10.967      -         
+matmul_instance.un2_n_z_0_add5_0                 cycloneive_lcell_comb               cout          Out     0.066     11.033      -         
+un2_n_z_0_carry_5_0                              Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add6_0                 cycloneive_lcell_comb               cin           In      -         11.033      -         
+matmul_instance.un2_n_z_0_add6_0                 cycloneive_lcell_comb               cout          Out     0.066     11.099      -         
+un2_n_z_0_carry_6_0                              Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add7_0                 cycloneive_lcell_comb               cin           In      -         11.099      -         
+matmul_instance.un2_n_z_0_add7_0                 cycloneive_lcell_comb               cout          Out     0.066     11.165      -         
+un2_n_z_0_carry_7_0                              Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add8_0                 cycloneive_lcell_comb               cin           In      -         11.165      -         
+matmul_instance.un2_n_z_0_add8_0                 cycloneive_lcell_comb               cout          Out     0.066     11.231      -         
+un2_n_z_0_carry_8_0                              Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add9_0                 cycloneive_lcell_comb               cin           In      -         11.231      -         
+matmul_instance.un2_n_z_0_add9_0                 cycloneive_lcell_comb               cout          Out     0.066     11.297      -         
+un2_n_z_0_carry_9_0                              Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add10_0                cycloneive_lcell_comb               cin           In      -         11.297      -         
+matmul_instance.un2_n_z_0_add10_0                cycloneive_lcell_comb               cout          Out     0.066     11.363      -         
+un2_n_z_0_carry_10_0                             Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add11_0                cycloneive_lcell_comb               cin           In      -         11.363      -         
+matmul_instance.un2_n_z_0_add11_0                cycloneive_lcell_comb               cout          Out     0.066     11.429      -         
+un2_n_z_0_carry_11_0                             Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add12_0                cycloneive_lcell_comb               cin           In      -         11.429      -         
+matmul_instance.un2_n_z_0_add12_0                cycloneive_lcell_comb               cout          Out     0.066     11.495      -         
+un2_n_z_0_carry_12_0                             Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add13_0                cycloneive_lcell_comb               cin           In      -         11.495      -         
+matmul_instance.un2_n_z_0_add13_0                cycloneive_lcell_comb               cout          Out     0.066     11.561      -         
+un2_n_z_0_carry_13_0                             Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add14                  cycloneive_lcell_comb               cin           In      -         11.561      -         
+matmul_instance.un2_n_z_0_add14                  cycloneive_lcell_comb               cout          Out     0.066     11.627      -         
+un2_n_z_0_carry_14                               Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add15                  cycloneive_lcell_comb               cin           In      -         11.627      -         
+matmul_instance.un2_n_z_0_add15                  cycloneive_lcell_comb               cout          Out     0.066     11.693      -         
+un2_n_z_0_carry_15                               Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add16                  cycloneive_lcell_comb               cin           In      -         11.693      -         
+matmul_instance.un2_n_z_0_add16                  cycloneive_lcell_comb               cout          Out     0.066     11.759      -         
+un2_n_z_0_carry_16                               Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add17                  cycloneive_lcell_comb               cin           In      -         11.759      -         
+matmul_instance.un2_n_z_0_add17                  cycloneive_lcell_comb               cout          Out     0.066     11.825      -         
+un2_n_z_0_carry_17                               Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add18                  cycloneive_lcell_comb               cin           In      -         11.825      -         
+matmul_instance.un2_n_z_0_add18                  cycloneive_lcell_comb               cout          Out     0.066     11.891      -         
+un2_n_z_0_carry_18                               Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add19                  cycloneive_lcell_comb               cin           In      -         11.891      -         
+matmul_instance.un2_n_z_0_add19                  cycloneive_lcell_comb               cout          Out     0.066     11.957      -         
+un2_n_z_0_carry_19                               Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add20                  cycloneive_lcell_comb               cin           In      -         11.957      -         
+matmul_instance.un2_n_z_0_add20                  cycloneive_lcell_comb               cout          Out     0.066     12.023      -         
+un2_n_z_0_carry_20                               Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add21                  cycloneive_lcell_comb               cin           In      -         12.023      -         
+matmul_instance.un2_n_z_0_add21                  cycloneive_lcell_comb               cout          Out     0.066     12.089      -         
+un2_n_z_0_carry_21                               Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add22                  cycloneive_lcell_comb               cin           In      -         12.089      -         
+matmul_instance.un2_n_z_0_add22                  cycloneive_lcell_comb               cout          Out     0.066     12.155      -         
+un2_n_z_0_carry_22                               Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add23                  cycloneive_lcell_comb               cin           In      -         12.155      -         
+matmul_instance.un2_n_z_0_add23                  cycloneive_lcell_comb               cout          Out     0.066     12.221      -         
+un2_n_z_0_carry_23                               Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add24                  cycloneive_lcell_comb               cin           In      -         12.221      -         
+matmul_instance.un2_n_z_0_add24                  cycloneive_lcell_comb               cout          Out     0.066     12.287      -         
+un2_n_z_0_carry_24                               Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add25                  cycloneive_lcell_comb               cin           In      -         12.287      -         
+matmul_instance.un2_n_z_0_add25                  cycloneive_lcell_comb               cout          Out     0.066     12.353      -         
+un2_n_z_0_carry_25                               Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add26                  cycloneive_lcell_comb               cin           In      -         12.353      -         
+matmul_instance.un2_n_z_0_add26                  cycloneive_lcell_comb               cout          Out     0.066     12.419      -         
+un2_n_z_0_carry_26                               Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add27                  cycloneive_lcell_comb               cin           In      -         12.419      -         
+matmul_instance.un2_n_z_0_add27                  cycloneive_lcell_comb               cout          Out     0.066     12.485      -         
+un2_n_z_0_carry_27                               Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add28                  cycloneive_lcell_comb               cin           In      -         12.485      -         
+matmul_instance.un2_n_z_0_add28                  cycloneive_lcell_comb               cout          Out     0.066     12.551      -         
+un2_n_z_0_carry_28                               Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add29                  cycloneive_lcell_comb               cin           In      -         12.551      -         
+matmul_instance.un2_n_z_0_add29                  cycloneive_lcell_comb               cout          Out     0.066     12.617      -         
+un2_n_z_0_carry_29                               Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add30                  cycloneive_lcell_comb               cin           In      -         12.617      -         
+matmul_instance.un2_n_z_0_add30                  cycloneive_lcell_comb               cout          Out     0.066     12.683      -         
+un2_n_z_0_carry_30                               Net                                 -             -       0.000     -           1         
+matmul_instance.un2_n_z_0_add31                  cycloneive_lcell_comb               cin           In      -         12.683      -         
+matmul_instance.un2_n_z_0_add31                  cycloneive_lcell_comb               combout       Out     0.000     12.683      -         
+un2_n_z_0_add31                                  Net                                 -             -       0.652     -           1         
+matmul_instance.un2_n_z_add13                    cycloneive_lcell_comb               dataa         In      -         13.334      -         
+matmul_instance.un2_n_z_add13                    cycloneive_lcell_comb               combout       Out     0.437     13.771      -         
+un2_n_z_add13                                    Net                                 -             -       0.000     -           1         
+matmul_instance.z[31]                            dffeas                              d             In      -         13.771      -         
+===========================================================================================================================================
+Total path delay (propagation time + setup - ICD at endpoint) of 13.244 is 10.999(83.0%) logic and 2.245(17.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                             Starting                                           Arrival           
+Instance                     Reference     Type            Pin      Net         Time        Slack 
+                             Clock                                                                
+--------------------------------------------------------------------------------------------------
+matmul_instance.z_din[0]     System        SYNLPM_LAT1     Q[0]     z_din_0     0.845       26.376
+matmul_instance.z_din[1]     System        SYNLPM_LAT1     Q[0]     z_din_1     0.845       26.376
+matmul_instance.z_din[2]     System        SYNLPM_LAT1     Q[0]     z_din_2     0.845       26.376
+matmul_instance.z_din[3]     System        SYNLPM_LAT1     Q[0]     z_din_3     0.845       26.376
+matmul_instance.z_din[4]     System        SYNLPM_LAT1     Q[0]     z_din_4     0.845       26.376
+matmul_instance.z_din[5]     System        SYNLPM_LAT1     Q[0]     z_din_5     0.845       26.376
+matmul_instance.z_din[6]     System        SYNLPM_LAT1     Q[0]     z_din_6     0.845       26.376
+matmul_instance.z_din[7]     System        SYNLPM_LAT1     Q[0]     z_din_7     0.845       26.376
+matmul_instance.z_din[8]     System        SYNLPM_LAT1     Q[0]     z_din_8     0.845       26.376
+matmul_instance.z_din[9]     System        SYNLPM_LAT1     Q[0]     z_din_9     0.845       26.376
+==================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                         Starting                                     Required           
+Instance                 Reference     Type       Pin     Net         Time         Slack 
+                         Clock                                                           
+-----------------------------------------------------------------------------------------
+ram_z.mem.datareg[0]     System        dffeas     d       z_din_0     27.554       26.376
+ram_z.mem.datareg[1]     System        dffeas     d       z_din_1     27.554       26.376
+ram_z.mem.datareg[2]     System        dffeas     d       z_din_2     27.554       26.376
+ram_z.mem.datareg[3]     System        dffeas     d       z_din_3     27.554       26.376
+ram_z.mem.datareg[4]     System        dffeas     d       z_din_4     27.554       26.376
+ram_z.mem.datareg[5]     System        dffeas     d       z_din_5     27.554       26.376
+ram_z.mem.datareg[6]     System        dffeas     d       z_din_6     27.554       26.376
+ram_z.mem.datareg[7]     System        dffeas     d       z_din_7     27.554       26.376
+ram_z.mem.datareg[8]     System        dffeas     d       z_din_8     27.554       26.376
+ram_z.mem.datareg[9]     System        dffeas     d       z_din_9     27.554       26.376
+=========================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      27.027
+    - Setup time:                            0.086
+    + Intrinsic clock delay:                 0.613
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         27.554
+
+    - Propagation time:                      1.178
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 26.376
+
+    Number of logic level(s):                0
+    Starting point:                          matmul_instance.z_din[0] / Q[0]
+    Ending point:                            ram_z.mem.datareg[0] / d
+    The start point is clocked by            System [rising] on pin GATE
+    The end   point is clocked by            Top|clock [falling] on pin clk
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                         Type            Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+matmul_instance.z_din[0]     SYNLPM_LAT1     Q[0]     Out     0.845     0.845       -         
+z_din_0                      Net             -        -       0.333     -           2         
+ram_z.mem.datareg[0]         dffeas          d        In      -         1.178       -         
+==============================================================================================
+Total path delay (propagation time + setup - ICD at endpoint) of 0.651 is 0.318(48.8%) logic and 0.333(51.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 124MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 124MB)
+
+##### START OF AREA REPORT #####[
+Design view:work.Top(verilog)
+Selecting part EP4CE6E22A7
+@N: FA174 |The following device usage report estimates place and route data. Please look at the place and route report for final resource usage.
+
+Total combinational functions 198 of 6272 ( 3%)
+Logic element usage by number of inputs
+		  4 input functions 	 120
+		  3 input functions 	 10
+		  <=2 input functions 	 68
+Logic elements by mode
+		  normal mode            138
+		  arithmetic mode        60
+Total registers 148 of 6272 ( 2%)
+I/O pins 120 of 180 (67%), total I/O based on largest package of this part.
+
+Number of I/O registers
+			Input DDRs    :0
+			Output DDRs   :0
+
+DSP.Simple_Multipliers_18_bit: 3
+DSP Blocks:     3  (6 nine-bit DSP elements).
+DSP Utilization: 20.00% of available 15 blocks (30 nine-bit).
+ShiftTap:       0  (0 registers)
+Ena:             32
+Sload:           0
+Sclr:            32
+Total ESB:      6144 bits 
+
+LPM latches:    32
+
+##### END OF AREA REPORT #####]
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 28MB peak: 124MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Jan 26 16:12:55 2024
+
+###########################################################]

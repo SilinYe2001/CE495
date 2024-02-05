@@ -8,9 +8,9 @@ Tool: Synplify (R) Premier
 Build: O-2018.09-SP1
 Install: /vol/synopsys/fpga/O-2018.09-SP1
 OS: Red Hat Enterprise Linux 8.9 (Ootpa)
-Hostname: cobblepott.ece.northwestern.edu
+Hostname: moore.wot.eecs.northwestern.edu
 max virtual memory: unlimited (bytes)
-max user processes: 126575
+max user processes: 1027961
 max stack size: 8388608 (bytes)
 
 
@@ -29,9 +29,9 @@ Tool: Synplify (R) Premier
 Build: O-2018.09-SP1
 Install: /vol/synopsys/fpga/O-2018.09-SP1
 OS: Red Hat Enterprise Linux 8.9 (Ootpa)
-Hostname: cobblepott.ece.northwestern.edu
+Hostname: moore.wot.eecs.northwestern.edu
 max virtual memory: unlimited (bytes)
-max user processes: 126575
+max user processes: 1027961
 max stack size: 8388608 (bytes)
 
 
@@ -81,19 +81,19 @@ Synopsys Verilog Compiler, Version comp2018q4p1, Build 004R, Built Nov 27 2018 2
 @I::"/vol/synopsys/fpga/O-2018.09-SP1/lib/synip/hcei/zceistubs.v" (library snps_haps)
 @I::"/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/scemi_objects.v" (library snps_haps)
 @I::"/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/scemi_pipes.svh" (library snps_haps)
-@I::"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci.sv" (library work)
+@I::"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv" (library work)
 Verilog syntax check successful!
-Options changed - recompiling
-Selecting top level module fibonacci
-@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci.sv":1:7:1:15|Synthesizing module fibonacci in library work.
-Running optimization stage 1 on fibonacci .......
+File /home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul_copy1.sv changed - recompiling
+Selecting top level module matmul
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":1:7:1:12|Synthesizing module matmul in library work.
+Running optimization stage 1 on matmul .......
 
 At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 78MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Jan 16 12:44:13 2024
+# Tue Jan 23 23:52:52 2024
 
 ###########################################################]
 ###########################################################[
@@ -107,9 +107,9 @@ Tool: Synplify (R) Premier
 Build: O-2018.09-SP1
 Install: /vol/synopsys/fpga/O-2018.09-SP1
 OS: Red Hat Enterprise Linux 8.9 (Ootpa)
-Hostname: cobblepott.ece.northwestern.edu
+Hostname: moore.wot.eecs.northwestern.edu
 max virtual memory: unlimited (bytes)
-max user processes: 126575
+max user processes: 1027961
 max stack size: 8388608 (bytes)
 
 
@@ -118,15 +118,15 @@ Synopsys Synopsys Netlist Linker, Version comp2018q4p1, Build 004R, Built Nov 27
 
 @N|Running in 64-bit mode
 File /home/sfs6562/CE495-Digital-design-and-Verification/HW1/rev_1/synwork/layer0.srs changed - recompiling
-@N: NF107 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci.sv":1:7:1:15|Selected library: work cell: fibonacci view verilog as top level
-@N: NF107 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/sv/fibonacci.sv":1:7:1:15|Selected library: work cell: fibonacci view verilog as top level
+@N: NF107 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":1:7:1:12|Selected library: work cell: matmul view verilog as top level
+@N: NF107 :"/home/sfs6562/CE495-Digital-design-and-Verification/HW2/src/matmul.sv":1:7:1:12|Selected library: work cell: matmul view verilog as top level
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Jan 16 12:44:13 2024
+# Tue Jan 23 23:52:52 2024
 
 ###########################################################]
 
@@ -134,17 +134,17 @@ Finished Containment srs generation. (Real Time elapsed 0h:00m:00s; CPU Time ela
 
 @W:: Distributed compilation : All files are passed to distribution points
 Divided design in to 1 groups
-@L:"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/rev_1/synwork//distcomp/distcomp0/distcomp0.log" "Log file for distribution node work.fibonacci.verilog "
-Compiling work_fibonacci_verilog as a separate process
-Compilation of node work.fibonacci finished successfully.Real start time 0h:00m:00s, Real end time = 0h:00m:01s, Total real run time = 0h:00m:01s
+@L:"/home/sfs6562/CE495-Digital-design-and-Verification/HW1/rev_1/synwork//distcomp/distcomp0/distcomp0.log" "Log file for distribution node work.matmul.verilog "
+Compiling work_matmul_verilog as a separate process
+Compilation of node work.matmul finished successfully.Real start time 0h:00m:00s, Real end time = 0h:00m:01s, Total real run time = 0h:00m:01s
 
 Distributed Compiler Report
 ***************************
 
-DP Name                    Status      Start time     End Time       Total Real Time     Log File                                                                                               
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-work.fibonacci.verilog     Success     0h:00m:00s     0h:00m:01s     0h:00m:01s          /home/sfs6562/CE495-Digital-design-and-Verification/HW1/rev_1/synwork//distcomp/distcomp0/distcomp0.log
-================================================================================================================================================================================================
+DP Name                 Status      Start time     End Time       Total Real Time     Log File                                                                                               
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+work.matmul.verilog     Success     0h:00m:00s     0h:00m:01s     0h:00m:01s          /home/sfs6562/CE495-Digital-design-and-Verification/HW1/rev_1/synwork//distcomp/distcomp0/distcomp0.log
+=============================================================================================================================================================================================
 ###########################################################[
 
 Copyright (C) 1994-2018 Synopsys, Inc.
@@ -156,9 +156,9 @@ Tool: Synplify (R) Premier
 Build: O-2018.09-SP1
 Install: /vol/synopsys/fpga/O-2018.09-SP1
 OS: Red Hat Enterprise Linux 8.9 (Ootpa)
-Hostname: cobblepott.ece.northwestern.edu
+Hostname: moore.wot.eecs.northwestern.edu
 max virtual memory: unlimited (bytes)
-max user processes: 126575
+max user processes: 1027961
 max stack size: 8388608 (bytes)
 
 
@@ -173,7 +173,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Jan 16 12:44:15 2024
+# Tue Jan 23 23:52:54 2024
 
 ###########################################################]
 @END
@@ -183,6 +183,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:02s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Jan 16 12:44:15 2024
+# Tue Jan 23 23:52:54 2024
 
 ###########################################################]

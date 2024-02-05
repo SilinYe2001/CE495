@@ -1,0 +1,1 @@
+-distcompmode -link    -encrypt       -top work.bram_block -osyn /home/sfs6562/CE495-Digital-design-and-Verification/HW2/bram/syn/rev_1/synwork/bram_block_comp.srs /home/sfs6562/CE495-Digital-design-and-Verification/HW2/bram/syn/rev_1/synwork//distcomp/distcomp0/distcomp0.srs    

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the information about resource utilization per module to be displayed in the summary report.
+*******************************************************************************************-->
+<modules>
+<column_headers>
+<data>Module name</data>
+<data>ATOMS</data>
+<data>ARITHMETIC MODE</data>
+<data>REGISTERS</data>
+<data>SYNC RAMS</data>
+<data>MACs</data>
+</column_headers>
+<module>
+<data>bram_block</data>
+<data>39</data>
+<data>0</data>
+<data>37</data>
+<data>4</data>
+<data>0</data>
+<module>
+<data>bram_10s_8s</data>
+<data>15</data>
+<data>0</data>
+<data>10</data>
+<data>1</data>
+<data>0</data>
+</module>
+<module>
+<data>bram_10s_8s_0</data>
+<data>8</data>
+<data>0</data>
+<data>9</data>
+<data>1</data>
+<data>0</data>
+</module>
+<module>
+<data>bram_10s_8s_1</data>
+<data>8</data>
+<data>0</data>
+<data>9</data>
+<data>1</data>
+<data>0</data>
+</module>
+<module>
+<data>bram_10s_8s_2</data>
+<data>8</data>
+<data>0</data>
+<data>9</data>
+<data>1</data>
+<data>0</data>
+</module>
+</module>
+</modules>
