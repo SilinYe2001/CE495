@@ -1,0 +1,290 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW4/uvm/sid_model
+T_opt
+!s110 1707365626
+VS8=hB05z@c97D<i2Hn2Sl3
+Z1 04 12 4 work grayscale_tb fast 0
+=1-000ae431a4f1-65c454f9-e82a6-10b827
+Z2 o-quiet -auto_acc_if_foreign -work work -L work +acc
+Z3 tCvgOpt 0
+n@_opt
+OE;O;2019.3_2;69
+R0
+T_opt1
+Z4 !s110 1707623486
+V2`c@UbGCAW;oH;a]561eY2
+R1
+=1-a4bb6d3e80f5-65c8443e-c439e-1f58a
+R2
+R3
+n@_opt1
+Z5 OL;O;2020.1;71
+T_opt2
+!s110 1707614804
+V;k3MV[Eka]zbl[RjoWEom0
+04 7 4 work test_tb fast 0
+=1-a4bb6d3e80f5-65c82254-26a0-1bcec
+R2
+R3
+n@_opt2
+R5
+R0
+vedge_detect
+Z6 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z7 !s110 1707623485
+!i10b 1
+!s100 _ob=1_4GYF9Yk6[Cbc^Sf3
+Z8 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I>:6A]nBdoi3]oUie9^Y[22
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1707600349
+Z10 8../sv/grayscale_top.sv
+Z11 F../sv/grayscale_top.sv
+!i122 569
+L0 2 156
+Z12 OL;L;2020.1;71
+r1
+!s85 0
+31
+Z13 !s108 1707623485.000000
+Z14 !s107 ../sv/grayscale_top.sv|
+Z15 !s90 -reportprogress|300|-work|work|../sv/grayscale_top.sv|
+!i113 0
+Z16 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vfifo
+R6
+R7
+!i10b 1
+!s100 JJ9WTn?^46FJn6Sib6ECo1
+R8
+Ij:[k:a4XRZ6Im<1oU4m=41
+R9
+S1
+R0
+w1644080212
+8../sv/fifo.sv
+F../sv/fifo.sv
+!i122 567
+L0 2 77
+R12
+r1
+!s85 0
+31
+!s108 1707623484.000000
+!s107 ../sv/fifo.sv|
+!s90 -reportprogress|300|-work|work|../sv/fifo.sv|
+!i113 0
+R16
+R3
+vgrayscale
+R6
+R7
+!i10b 1
+!s100 8JLUJ9T3UeM43Li4TSPiF1
+R8
+IRSEYA5Pmk4nF]egDm4N5A1
+R9
+S1
+R0
+w1643085752
+8../sv/grayscale.sv
+F../sv/grayscale.sv
+!i122 568
+L0 2 62
+R12
+r1
+!s85 0
+31
+R13
+!s107 ../sv/grayscale.sv|
+!s90 -reportprogress|300|-work|work|../sv/grayscale.sv|
+!i113 0
+R16
+R3
+vgrayscale_tb
+R6
+R7
+!i10b 1
+!s100 5F3SQ?V3UjM;gZR5mcc=U0
+R8
+IKHFQFfNkH2>2B4DSGNaXd2
+R9
+S1
+R0
+w1707622252
+8../sv/grayscale_tb.sv
+F../sv/grayscale_tb.sv
+!i122 571
+Z17 L0 4 164
+R12
+r1
+!s85 0
+31
+R13
+!s107 ../sv/grayscale_tb.sv|
+!s90 -reportprogress|300|-work|work|../sv/grayscale_tb.sv|
+!i113 0
+R16
+R3
+vgrayscale_top
+R6
+!s110 1707365625
+!i10b 1
+!s100 R1faU6bEPa9ZLXUaj7XKH3
+!s11b >DKmPL4>;[TN?f6n@g6h02
+Id0a=98DoWgaoJmFg5DME=3
+R9
+S1
+R0
+w1707364877
+R10
+R11
+!i122 -1
+L0 2
+OE;L;2019.3_2;69
+r1
+!s85 0
+31
+!s108 1707365625.000000
+R14
+R15
+!i113 0
+R16
+R3
+vpadding
+R6
+R7
+!i10b 1
+!s100 3096Se7bd;BKg?lR8nHCL3
+R8
+IBnDbdVfGMKUf?<AYNNbm?0
+R9
+S1
+R0
+w1707623274
+8../sv/padding.sv
+F../sv/padding.sv
+!i122 570
+L0 2 91
+R12
+r1
+!s85 0
+31
+R13
+!s107 ../sv/padding.sv|
+!s90 -reportprogress|300|-work|work|../sv/padding.sv|
+!i113 0
+R16
+R3
+vshift_reg
+R6
+R4
+!i10b 1
+!s100 ]]6`R5VVN8`C4W9^kW:_R2
+R8
+I:MK[@=OPcX_^8H6@izMoJ1
+R9
+S1
+R0
+w1707618402
+8../sv/shift_reg.sv
+F../sv/shift_reg.sv
+!i122 572
+L0 1 49
+R12
+r1
+!s85 0
+31
+R13
+!s107 ../sv/shift_reg.sv|
+!s90 -reportprogress|300|-work|work|../sv/shift_reg.sv|
+!i113 0
+R16
+R3
+vsobel
+R6
+R4
+!i10b 1
+!s100 _bGCma>G5]gbmR0@ZSg=P0
+R8
+IQb61_c?FNZ9BQWAmzWMf@3
+R9
+S1
+R0
+w1707623479
+8../sv/sobel.sv
+F../sv/sobel.sv
+!i122 574
+L0 1 130
+R12
+r1
+!s85 0
+31
+Z18 !s108 1707623486.000000
+!s107 ../sv/sobel.sv|
+!s90 -reportprogress|300|-work|work|../sv/sobel.sv|
+!i113 0
+R16
+R3
+vsobel_filter
+R6
+R4
+!i10b 1
+!s100 IT63[;6`9koE5VAhCU>Ag2
+R8
+IM3VgU09?[64jW?W7:DeRj0
+R9
+S1
+R0
+w1707623175
+8../sv/sobel_filter.sv
+F../sv/sobel_filter.sv
+!i122 573
+L0 1 35
+R12
+r1
+!s85 0
+31
+R18
+!s107 ../sv/sobel_filter.sv|
+!s90 -reportprogress|300|-work|work|../sv/sobel_filter.sv|
+!i113 0
+R16
+R3
+vtest_tb
+R6
+!s110 1707614803
+!i10b 1
+!s100 VcSOFhJASSN0A=QS<aBT=2
+R8
+I2_P6LmQ`E6n7<XbXQ[PmR3
+R9
+S1
+R0
+w1707614797
+8../sv/test_tb.sv
+F../sv/test_tb.sv
+!i122 502
+R17
+R12
+r1
+!s85 0
+31
+!s108 1707614803.000000
+!s107 ../sv/test_tb.sv|
+!s90 -reportprogress|300|-work|work|../sv/test_tb.sv|
+!i113 0
+R16
+R3

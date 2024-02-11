@@ -257,12 +257,12 @@ void hysteresis_filter(unsigned char *in_data, int height, int width, unsigned c
 
 
 int main(int argc, char *argv[]) {
-	struct pixel *rgb_data = (struct pixel *)malloc(720*540*sizeof(struct pixel));
-	unsigned char *gs_data = (unsigned char *)malloc(720*540*sizeof(unsigned char));
-	unsigned char *gb_data = (unsigned char *)malloc(720*540*sizeof(unsigned char));
-	unsigned char *sobel_data = (unsigned char *)malloc(720*540*sizeof(unsigned char));
-	unsigned char *nms_data = (unsigned char *)malloc(720*540*sizeof(unsigned char));
-	unsigned char *h_data = (unsigned char *)malloc(720*540*sizeof(unsigned char));
+	struct pixel *rgb_data = (struct pixel *)malloc(720*720*sizeof(struct pixel));
+	unsigned char *gs_data = (unsigned char *)malloc(720*720*sizeof(unsigned char));
+	unsigned char *gb_data = (unsigned char *)malloc(720*720*sizeof(unsigned char));
+	unsigned char *sobel_data = (unsigned char *)malloc(720*720*sizeof(unsigned char));
+	unsigned char *nms_data = (unsigned char *)malloc(720*720*sizeof(unsigned char));
+	unsigned char *h_data = (unsigned char *)malloc(720*720*sizeof(unsigned char));
 	unsigned char header[64];
 	int height, width;
 

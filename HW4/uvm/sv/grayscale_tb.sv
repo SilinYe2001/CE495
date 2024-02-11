@@ -3,9 +3,9 @@
 
 module grayscale_tb;
 
-localparam string IMG_IN_NAME  = "image.bmp";
-localparam string IMG_OUT_NAME = "output.bmp";
-localparam string IMG_CMP_NAME = "grayscale.bmp";
+localparam string IMG_IN_NAME  = "tracks_720_720.bmp";
+localparam string IMG_OUT_NAME = "stage1.bmp";
+localparam string IMG_CMP_NAME = "stage2_sobel.bmp";
 localparam CLOCK_PERIOD = 10;
 
 logic clock = 1'b1;
@@ -26,15 +26,16 @@ logic   out_read_done = '0;
 integer out_errors    = '0;
 
 localparam WIDTH = 720;
-localparam HEIGHT = 540;
+localparam HEIGHT = 720;
 localparam BMP_HEADER_SIZE = 54;
 localparam BYTES_PER_PIXEL = 3;
 localparam BMP_DATA_SIZE = WIDTH*HEIGHT*BYTES_PER_PIXEL;
+//localparam BMP_DATA_SIZE_OUT = 720*720*BYTES_PER_PIXEL;
 
-grayscale_top #(
+edge_detect #(
     .WIDTH(WIDTH),
     .HEIGHT(HEIGHT)
-) grayscale_top_inst (
+) edge_detect (
     .clock(clock),
     .reset(reset),
     .in_full(in_full),
@@ -152,6 +153,7 @@ initial begin : img_write_process
             end
             out_rd_en = 1'b1;
             i += BYTES_PER_PIXEL;
+            // $display("i: %0d", i);
         end
     end
 

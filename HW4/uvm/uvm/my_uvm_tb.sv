@@ -10,10 +10,10 @@ module my_uvm_tb;
 
     my_uvm_if vif();
 
-    grayscale_top #(
+    edge_detect #(
         .WIDTH(IMG_WIDTH),
         .HEIGHT(IMG_HEIGHT)
-    ) grayscale_inst (
+    ) edge_detect (
         .clock(vif.clock),
         .reset(vif.reset),
         .in_full(vif.in_full),

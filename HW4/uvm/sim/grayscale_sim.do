@@ -7,7 +7,11 @@ vmap work work
 vlog -work work "../sv/fifo.sv"
 vlog -work work "../sv/grayscale.sv"
 vlog -work work "../sv/grayscale_top.sv"
-#vlog -work work "../sv/grayscale_tb.sv"
+vlog -work work "../sv/padding.sv"
+vlog -work work "../sv/grayscale_tb.sv"
+vlog -work work "../sv/shift_reg.sv"
+vlog -work work "../sv/sobel_filter.sv"
+vlog -work work "../sv/sobel.sv"
 
 # uvm library
 vlog -work work +incdir+$env(UVM_HOME)/src $env(UVM_HOME)/src/uvm.sv

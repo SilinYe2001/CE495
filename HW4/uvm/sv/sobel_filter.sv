@@ -1,69 +1,35 @@
 module sobel_filter #(
-    parameter  DATA_NUM=720*720,
-    parameter INDEX_WIDTH=10,
-    parameter BUFFER_SIZE = 3;
-    parameter DATA_WIDTH_GRAY = 8 
+    parameter GRAY_DATA_WIDTH = 8 
+    // parameter BUFFER_WIDTH = 3;
 )(
-    input  logic        clock,
-    input  logic        reset,
-    output logic        in_rd_en,
-    input  logic        in_empty,
-    input  logic [DATA_WIDTH_GRAY-1:0] in_dout,
-    output logic        out_wr_en,
-    input  logic        out_full,
-    output logic [DATA_WIDTH_GRAY-1:0]  out_din
+    input  logic [8:0][GRAY_DATA_WIDTH-1:0]din ,
+    output logic [GRAY_DATA_WIDTH-1:0] dout
 );
-typedef enum logic [0:0] {s0, s1} state_types;
-state_types state, state_c;
-logic [INDEX_WIDTH-1:0]x,y;
-logic [1:0] i,j;
-logic [BUFFER_SIZE-1:0] buffer[BUFFER_SIZE-1:0];
-int horizontal[BUFFER_SIZE-1:0][BUFFER_SIZE-1:0] ;
-int vertical[BUFFER_SIZE-1:0][BUFFER_SIZE-1:0] ;
-logic [DATA_WIDTH_GRAY-1:0] sf, sf_c;
-assign horizontal={{}}
-always_ff @(posedge clock or posedge reset) begin
-    if (reset == 1'b1) begin
-        state <= s0;
-        sf <= 8'h0;
-    end else begin
-        state <= state_c;
-        sf <= sf_c;
-    end
-end  
+
+
+shortint h,v;
+//logic [GRAY_DATA_WIDTH+2:0] abs_h,abs_v;
+shortint result;
 
 always_comb begin
-    in_rd_en  = 1'b0;
-    out_wr_en = 1'b0;
-    out_din   = 8'b0;
-    state_c   = state;
-    gs_c = gs;
+    h = din[6]+2*din[7]+ din[8]- din[0]-2*din[1]- din[2];
+    v = din[2]+2*din[5]+ din[8]- din[0]-2*din[3]- din[6];
 
-    case (state)
-        s0: begin
-            if (in_empty == 1'b0) begin
-                gs_c = 8'(($unsigned({2'b0, in_dout[23:16]}) + $unsigned({2'b0, in_dout[15:8]}) + $unsigned({2'b0, in_dout[7:0]})) / $unsigned(10'd3));
-                in_rd_en = 1'b1;
-                state_c = s1;
-            end
-        end
-
-        s1: begin
-            if (out_full == 1'b0) begin
-                out_din = gs;
-                out_wr_en = 1'b1;
-                state_c = s0;
-            end
-        end
-
-        default: begin
-            in_rd_en  = 1'b0;
-            out_wr_en = 1'b0;
-            out_din = 8'b0;
-            state_c = s0;
-            gs_c = 8'hX;
-        end
-
-    endcase
+    dout=(abs(h)+abs(v))/2;
+    // if (result>'d255) begin
+    //     dout='d255;
+    // end
+    // else begin
+    //     dout=result[GRAY_DATA_WIDTH-1:0];
+    // end
+   // dout=result >'d255 ? 'd255:result[GRAY_DATA_WIDTH-1:0];
 end
+
+function shortint abs(input shortint a);
+    if(a>=0) 
+        return (a);
+    else
+        return (-a);  
+endfunction 
+
 endmodule
