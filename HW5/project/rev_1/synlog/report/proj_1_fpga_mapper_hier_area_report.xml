@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the information about resource utilization per module to be displayed in the summary report.
+*******************************************************************************************-->
+<modules>
+<column_headers>
+<data>Module name</data>
+<data>ATOMS</data>
+<data>ARITHMETIC MODE</data>
+<data>REGISTERS</data>
+<data>SYNC RAMS</data>
+<data>MACs</data>
+</column_headers>
+<module>
+<data>udp_top</data>
+<data>150</data>
+<data>0</data>
+<data>78</data>
+<data>3</data>
+<data>0</data>
+<module>
+<data>fifo_8s_32s_6s_1</data>
+<data>26</data>
+<data>0</data>
+<data>13</data>
+<data>1</data>
+<data>0</data>
+</module>
+<module>
+<data>fifo_ctrl_8s_32s</data>
+<data>66</data>
+<data>0</data>
+<data>26</data>
+<data>2</data>
+<data>0</data>
+<module>
+<data>fifo_2s_32s_6s</data>
+<data>31</data>
+<data>0</data>
+<data>13</data>
+<data>1</data>
+<data>0</data>
+</module>
+<module>
+<data>fifo_8s_32s_6s</data>
+<data>33</data>
+<data>0</data>
+<data>13</data>
+<data>1</data>
+<data>0</data>
+</module>
+</module>
+<module>
+<data>read_data</data>
+<data>56</data>
+<data>0</data>
+<data>39</data>
+<data>0</data>
+<data>0</data>
+</module>
+</module>
+</modules>

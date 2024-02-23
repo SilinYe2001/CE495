@@ -1,0 +1,30 @@
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF915 |Option synthesis_strategy=advanced is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MT206 |Auto Constrain mode is enabled
+@N: MO231 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/read_data.sv":80:0:80:8|Found counter in view:work.read_data(verilog) instance num_bytes[15:0] 
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[0] (in view: work.fifo_2s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[1] (in view: work.fifo_2s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[0] (in view: work.fifo_8s_32s_6s_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[1] (in view: work.fifo_8s_32s_6s_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[2] (in view: work.fifo_8s_32s_6s_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[3] (in view: work.fifo_8s_32s_6s_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[4] (in view: work.fifo_8s_32s_6s_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[5] (in view: work.fifo_8s_32s_6s_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[6] (in view: work.fifo_8s_32s_6s_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[7] (in view: work.fifo_8s_32s_6s_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[0] (in view: work.fifo_8s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[1] (in view: work.fifo_8s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[2] (in view: work.fifo_8s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[3] (in view: work.fifo_8s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[4] (in view: work.fifo_8s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[5] (in view: work.fifo_8s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[6] (in view: work.fifo_8s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[7] (in view: work.fifo_8s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+@N: FA174 |The following device usage report estimates place and route data. Please look at the place and route report for final resource usage.

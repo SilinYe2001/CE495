@@ -1,0 +1,1216 @@
+# //  ModelSim SE-64 2020.1 Jan 28 2020 Linux 4.18.0-513.11.1.el8_9.x86_64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+pwd
+# /home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW4
+ls
+# ECE 387 - Lecture 7.pdf
+# ECE 387 - Lecture 8.pdf
+# edge_detect
+# hw4.pdf
+# HW4.zip
+# modelsim.sh
+# proj_1.prj
+# synplify.sh
+# transcript
+# uvm
+cd uvm
+cd sid_model
+# reading modelsim.ini
+do sim.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 2020.1 Lib Mapping Utility 2020.01 Jan 28 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+# Start time: 19:39:42 on Feb 17,2024
+# vlog -reportprogress 300 -work work ../sv/fifo.sv 
+# -- Compiling module fifo
+# 
+# Top level modules:
+# 	fifo
+# End time: 19:39:42 on Feb 17,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+# Start time: 19:39:42 on Feb 17,2024
+# vlog -reportprogress 300 -work work ../sv/grayscale.sv 
+# -- Compiling module grayscale
+# 
+# Top level modules:
+# 	grayscale
+# End time: 19:39:43 on Feb 17,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+# Start time: 19:39:43 on Feb 17,2024
+# vlog -reportprogress 300 -work work ../sv/grayscale_top.sv 
+# -- Compiling module edge_detect
+# 
+# Top level modules:
+# 	edge_detect
+# End time: 19:39:43 on Feb 17,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+# Start time: 19:39:43 on Feb 17,2024
+# vlog -reportprogress 300 -work work ../sv/padding.sv 
+# -- Compiling module padding
+# 
+# Top level modules:
+# 	padding
+# End time: 19:39:43 on Feb 17,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+# Start time: 19:39:43 on Feb 17,2024
+# vlog -reportprogress 300 -work work ../sv/grayscale_tb.sv 
+# -- Compiling module grayscale_tb
+# 
+# Top level modules:
+# 	grayscale_tb
+# End time: 19:39:43 on Feb 17,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+# Start time: 19:39:43 on Feb 17,2024
+# vlog -reportprogress 300 -work work ../sv/shift_reg.sv 
+# -- Compiling module shift_reg
+# 
+# Top level modules:
+# 	shift_reg
+# End time: 19:39:43 on Feb 17,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+# Start time: 19:39:43 on Feb 17,2024
+# vlog -reportprogress 300 -work work ../sv/sobel_filter.sv 
+# -- Compiling module sobel_filter
+# ** Warning: ../sv/sobel_filter.sv(5): (vlog-13314) Defaulting port 'din' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	sobel_filter
+# End time: 19:39:43 on Feb 17,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+# Start time: 19:39:43 on Feb 17,2024
+# vlog -reportprogress 300 -work work ../sv/sobel.sv 
+# -- Compiling module sobel
+# 
+# Top level modules:
+# 	sobel
+# End time: 19:39:44 on Feb 17,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -classdebug -voptargs="+acc" "+notimingchecks" -L work work.grayscale_tb -wlf grayscale_tb.wlf 
+# Start time: 19:39:44 on Feb 17,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading sv_std.std
+# Loading work.grayscale_tb(fast)
+# Loading work.edge_detect(fast)
+# Loading work.grayscale(fast)
+# Loading work.fifo(fast)
+# Loading work.fifo(fast__1)
+# Loading work.padding(fast)
+# Loading work.sobel(fast)
+# Loading work.shift_reg(fast)
+# Loading work.sobel_filter(fast)
+# @ 20: Loading file tracks_720_720.bmp...
+# @ 25: Comparing file stage1.bmp...
+# @ 30: Beginning simulation...
+# @ 29025: stage1.bmp(1): ERROR: d9d9d9 != 000000 at address 0x00000000.
+# @ 29045: stage1.bmp(4): ERROR: 8d8d8d != 000000 at address 0x00000003.
+# @ 29065: stage1.bmp(7): ERROR: 929292 != 000000 at address 0x00000006.
+# @ 29085: stage1.bmp(10): ERROR: 9a9a9a != 000000 at address 0x00000009.
+# @ 29105: stage1.bmp(13): ERROR: a1a1a1 != 000000 at address 0x0000000c.
+# @ 29125: stage1.bmp(16): ERROR: b3b3b3 != 000000 at address 0x0000000f.
+# @ 29145: stage1.bmp(19): ERROR: bebebe != 000000 at address 0x00000012.
+# @ 29165: stage1.bmp(22): ERROR: afafaf != 000000 at address 0x00000015.
+# @ 29185: stage1.bmp(25): ERROR: 989898 != 000000 at address 0x00000018.
+# @ 29205: stage1.bmp(28): ERROR: 868686 != 000000 at address 0x0000001b.
+# @ 29225: stage1.bmp(31): ERROR: 828282 != 000000 at address 0x0000001e.
+# @ 29245: stage1.bmp(34): ERROR: 818181 != 000000 at address 0x00000021.
+# @ 29265: stage1.bmp(37): ERROR: 767676 != 000000 at address 0x00000024.
+# @ 29285: stage1.bmp(40): ERROR: 777777 != 000000 at address 0x00000027.
+# @ 29305: stage1.bmp(43): ERROR: 777777 != 000000 at address 0x0000002a.
+# @ 29325: stage1.bmp(46): ERROR: 7d7d7d != 000000 at address 0x0000002d.
+# @ 29345: stage1.bmp(49): ERROR: 7d7d7d != 000000 at address 0x00000030.
+# @ 29365: stage1.bmp(52): ERROR: 797979 != 000000 at address 0x00000033.
+# @ 29385: stage1.bmp(55): ERROR: 7e7e7e != 000000 at address 0x00000036.
+# @ 29405: stage1.bmp(58): ERROR: 7b7b7b != 000000 at address 0x00000039.
+# @ 29425: stage1.bmp(61): ERROR: 6f6f6f != 000000 at address 0x0000003c.
+# @ 29445: stage1.bmp(64): ERROR: 737373 != 000000 at address 0x0000003f.
+# @ 29465: stage1.bmp(67): ERROR: 757575 != 000000 at address 0x00000042.
+# @ 29485: stage1.bmp(70): ERROR: 858585 != 000000 at address 0x00000045.
+# @ 29505: stage1.bmp(73): ERROR: 989898 != 000000 at address 0x00000048.
+# @ 29525: stage1.bmp(76): ERROR: 939393 != 000000 at address 0x0000004b.
+# @ 29545: stage1.bmp(79): ERROR: 979797 != 000000 at address 0x0000004e.
+# @ 29565: stage1.bmp(82): ERROR: 8e8e8e != 000000 at address 0x00000051.
+# @ 29585: stage1.bmp(85): ERROR: 838383 != 000000 at address 0x00000054.
+# @ 29605: stage1.bmp(88): ERROR: c7c7c7 != 000000 at address 0x00000057.
+# @ 29625: stage1.bmp(91): ERROR: 181818 != 000000 at address 0x0000005a.
+# @ 29645: stage1.bmp(94): ERROR: 323232 != 000000 at address 0x0000005d.
+# @ 29665: stage1.bmp(97): ERROR: 222222 != 000000 at address 0x00000060.
+# @ 29685: stage1.bmp(100): ERROR: 151515 != 000000 at address 0x00000063.
+# @ 29705: stage1.bmp(103): ERROR: 101010 != 000000 at address 0x00000066.
+# @ 29725: stage1.bmp(106): ERROR: 0d0d0d != 000000 at address 0x00000069.
+# @ 29745: stage1.bmp(109): ERROR: 151515 != 000000 at address 0x0000006c.
+# @ 29765: stage1.bmp(112): ERROR: 222222 != 000000 at address 0x0000006f.
+# @ 29785: stage1.bmp(115): ERROR: 1a1a1a != 000000 at address 0x00000072.
+# @ 29805: stage1.bmp(118): ERROR: f0f0f0 != 000000 at address 0x00000075.
+# @ 29825: stage1.bmp(121): ERROR: bdbdbd != 000000 at address 0x00000078.
+# @ 29845: stage1.bmp(124): ERROR: d3d3d3 != 000000 at address 0x0000007b.
+# @ 29865: stage1.bmp(127): ERROR: 2e2e2e != 000000 at address 0x0000007e.
+# @ 29885: stage1.bmp(130): ERROR: 595959 != 000000 at address 0x00000081.
+# @ 29905: stage1.bmp(133): ERROR: 2b2b2b != 000000 at address 0x00000084.
+# @ 29925: stage1.bmp(136): ERROR: 353535 != 000000 at address 0x00000087.
+# @ 29945: stage1.bmp(139): ERROR: 191919 != 000000 at address 0x0000008a.
+# @ 29965: stage1.bmp(142): ERROR: eaeaea != 000000 at address 0x0000008d.
+# @ 29985: stage1.bmp(145): ERROR: f5f5f5 != 000000 at address 0x00000090.
+# @ 30005: stage1.bmp(148): ERROR: 0e0e0e != 000000 at address 0x00000093.
+# @ 30025: stage1.bmp(151): ERROR: 1a1a1a != 000000 at address 0x00000096.
+# @ 30045: stage1.bmp(154): ERROR: 1e1e1e != 000000 at address 0x00000099.
+# @ 30065: stage1.bmp(157): ERROR: 1f1f1f != 000000 at address 0x0000009c.
+# @ 30085: stage1.bmp(160): ERROR: 232323 != 000000 at address 0x0000009f.
+# @ 30105: stage1.bmp(163): ERROR: 272727 != 000000 at address 0x000000a2.
+# @ 30125: stage1.bmp(166): ERROR: 252525 != 000000 at address 0x000000a5.
+# @ 30145: stage1.bmp(169): ERROR: 272727 != 000000 at address 0x000000a8.
+# @ 30165: stage1.bmp(172): ERROR: 232323 != 000000 at address 0x000000ab.
+# @ 30185: stage1.bmp(175): ERROR: 1c1c1c != 000000 at address 0x000000ae.
+# @ 30205: stage1.bmp(178): ERROR: 222222 != 000000 at address 0x000000b1.
+# @ 30225: stage1.bmp(181): ERROR: 282828 != 000000 at address 0x000000b4.
+# @ 30245: stage1.bmp(184): ERROR: 2f2f2f != 000000 at address 0x000000b7.
+# @ 30265: stage1.bmp(187): ERROR: 2c2c2c != 000000 at address 0x000000ba.
+# @ 30285: stage1.bmp(190): ERROR: 353535 != 000000 at address 0x000000bd.
+# @ 30305: stage1.bmp(193): ERROR: 373737 != 000000 at address 0x000000c0.
+# @ 30325: stage1.bmp(196): ERROR: 292929 != 000000 at address 0x000000c3.
+# @ 30345: stage1.bmp(199): ERROR: 0e0e0e != 000000 at address 0x000000c6.
+# @ 30365: stage1.bmp(202): ERROR: fcfcfc != 000000 at address 0x000000c9.
+# @ 30425: stage1.bmp(211): ERROR: f0f0f0 != 000000 at address 0x000000d2.
+# @ 30445: stage1.bmp(214): ERROR: d7d7d7 != 000000 at address 0x000000d5.
+# @ 30465: stage1.bmp(217): ERROR: c1c1c1 != 000000 at address 0x000000d8.
+# @ 30485: stage1.bmp(220): ERROR: bfbfbf != 000000 at address 0x000000db.
+# @ 30505: stage1.bmp(223): ERROR: d7d7d7 != 000000 at address 0x000000de.
+# @ 30525: stage1.bmp(226): ERROR: dddddd != 000000 at address 0x000000e1.
+# @ 30545: stage1.bmp(229): ERROR: bdbdbd != 000000 at address 0x000000e4.
+# @ 30565: stage1.bmp(232): ERROR: 888888 != 000000 at address 0x000000e7.
+# @ 30585: stage1.bmp(235): ERROR: 5a5a5a != 000000 at address 0x000000ea.
+# @ 30605: stage1.bmp(238): ERROR: 424242 != 000000 at address 0x000000ed.
+# @ 30625: stage1.bmp(241): ERROR: 393939 != 000000 at address 0x000000f0.
+# @ 30645: stage1.bmp(244): ERROR: 393939 != 000000 at address 0x000000f3.
+# @ 30665: stage1.bmp(247): ERROR: 383838 != 000000 at address 0x000000f6.
+# @ 30685: stage1.bmp(250): ERROR: 383838 != 000000 at address 0x000000f9.
+# @ 30705: stage1.bmp(253): ERROR: 3b3b3b != 000000 at address 0x000000fc.
+# @ 30725: stage1.bmp(256): ERROR: 3e3e3e != 000000 at address 0x000000ff.
+# @ 30745: stage1.bmp(259): ERROR: 3f3f3f != 000000 at address 0x00000102.
+# @ 30765: stage1.bmp(262): ERROR: 404040 != 000000 at address 0x00000105.
+# @ 30785: stage1.bmp(265): ERROR: 424242 != 000000 at address 0x00000108.
+# @ 30805: stage1.bmp(268): ERROR: 414141 != 000000 at address 0x0000010b.
+# @ 30825: stage1.bmp(271): ERROR: 414141 != 000000 at address 0x0000010e.
+# @ 30845: stage1.bmp(274): ERROR: 434343 != 000000 at address 0x00000111.
+# @ 30865: stage1.bmp(277): ERROR: 434343 != 000000 at address 0x00000114.
+# @ 30885: stage1.bmp(280): ERROR: 414141 != 000000 at address 0x00000117.
+# @ 30905: stage1.bmp(283): ERROR: 383838 != 000000 at address 0x0000011a.
+# @ 30925: stage1.bmp(286): ERROR: 292929 != 000000 at address 0x0000011d.
+# @ 30945: stage1.bmp(289): ERROR: 1f1f1f != 000000 at address 0x00000120.
+# @ 30965: stage1.bmp(292): ERROR: 1c1c1c != 000000 at address 0x00000123.
+# @ 30985: stage1.bmp(295): ERROR: 1e1e1e != 000000 at address 0x00000126.
+# @ 31005: stage1.bmp(298): ERROR: 1f1f1f != 000000 at address 0x00000129.
+# @ 31025: stage1.bmp(301): ERROR: 1e1e1e != 000000 at address 0x0000012c.
+# @ 31045: stage1.bmp(304): ERROR: 1e1e1e != 000000 at address 0x0000012f.
+# @ 31065: stage1.bmp(307): ERROR: 1e1e1e != 000000 at address 0x00000132.
+# @ 31085: stage1.bmp(310): ERROR: 1f1f1f != 000000 at address 0x00000135.
+# @ 31105: stage1.bmp(313): ERROR: 1e1e1e != 000000 at address 0x00000138.
+# @ 31125: stage1.bmp(316): ERROR: 1f1f1f != 000000 at address 0x0000013b.
+# @ 31145: stage1.bmp(319): ERROR: 232323 != 000000 at address 0x0000013e.
+# @ 31165: stage1.bmp(322): ERROR: 272727 != 000000 at address 0x00000141.
+# @ 31185: stage1.bmp(325): ERROR: 2b2b2b != 000000 at address 0x00000144.
+# @ 31205: stage1.bmp(328): ERROR: 2c2c2c != 000000 at address 0x00000147.
+# @ 31225: stage1.bmp(331): ERROR: 292929 != 000000 at address 0x0000014a.
+# @ 31245: stage1.bmp(334): ERROR: 282828 != 000000 at address 0x0000014d.
+# @ 31265: stage1.bmp(337): ERROR: 252525 != 000000 at address 0x00000150.
+# @ 31285: stage1.bmp(340): ERROR: 212121 != 000000 at address 0x00000153.
+# @ 31305: stage1.bmp(343): ERROR: 1c1c1c != 000000 at address 0x00000156.
+# @ 31325: stage1.bmp(346): ERROR: 1c1c1c != 000000 at address 0x00000159.
+# @ 31345: stage1.bmp(349): ERROR: 1d1d1d != 000000 at address 0x0000015c.
+# @ 31365: stage1.bmp(352): ERROR: 1c1c1c != 000000 at address 0x0000015f.
+# @ 31385: stage1.bmp(355): ERROR: 1d1d1d != 000000 at address 0x00000162.
+# @ 31405: stage1.bmp(358): ERROR: 1d1d1d != 000000 at address 0x00000165.
+# @ 31425: stage1.bmp(361): ERROR: 1e1e1e != 000000 at address 0x00000168.
+# @ 31445: stage1.bmp(364): ERROR: 212121 != 000000 at address 0x0000016b.
+# @ 31465: stage1.bmp(367): ERROR: 1e1e1e != 000000 at address 0x0000016e.
+# @ 31485: stage1.bmp(370): ERROR: 2a2a2a != 000000 at address 0x00000171.
+# @ 31505: stage1.bmp(373): ERROR: 353535 != 000000 at address 0x00000174.
+# @ 31525: stage1.bmp(376): ERROR: 363636 != 000000 at address 0x00000177.
+# @ 31545: stage1.bmp(379): ERROR: 383838 != 000000 at address 0x0000017a.
+# @ 31565: stage1.bmp(382): ERROR: 3e3e3e != 000000 at address 0x0000017d.
+# @ 31585: stage1.bmp(385): ERROR: 3e3e3e != 000000 at address 0x00000180.
+# @ 31605: stage1.bmp(388): ERROR: 3c3c3c != 000000 at address 0x00000183.
+# @ 31625: stage1.bmp(391): ERROR: 3e3e3e != 000000 at address 0x00000186.
+# @ 31645: stage1.bmp(394): ERROR: 3e3e3e != 000000 at address 0x00000189.
+# @ 31665: stage1.bmp(397): ERROR: 383838 != 000000 at address 0x0000018c.
+# @ 31685: stage1.bmp(400): ERROR: 333333 != 000000 at address 0x0000018f.
+# @ 31705: stage1.bmp(403): ERROR: 2e2e2e != 000000 at address 0x00000192.
+# @ 31725: stage1.bmp(406): ERROR: 303030 != 000000 at address 0x00000195.
+# @ 31745: stage1.bmp(409): ERROR: 3b3b3b != 000000 at address 0x00000198.
+# @ 31765: stage1.bmp(412): ERROR: 434343 != 000000 at address 0x0000019b.
+# @ 31785: stage1.bmp(415): ERROR: 4a4a4a != 000000 at address 0x0000019e.
+# @ 31805: stage1.bmp(418): ERROR: 4e4e4e != 000000 at address 0x000001a1.
+# @ 31825: stage1.bmp(421): ERROR: 4e4e4e != 000000 at address 0x000001a4.
+# @ 31845: stage1.bmp(424): ERROR: 535353 != 000000 at address 0x000001a7.
+# @ 31865: stage1.bmp(427): ERROR: 595959 != 000000 at address 0x000001aa.
+# @ 31885: stage1.bmp(430): ERROR: 5a5a5a != 000000 at address 0x000001ad.
+# @ 31905: stage1.bmp(433): ERROR: 5d5d5d != 000000 at address 0x000001b0.
+# @ 31925: stage1.bmp(436): ERROR: 676767 != 000000 at address 0x000001b3.
+# @ 31945: stage1.bmp(439): ERROR: 6f6f6f != 000000 at address 0x000001b6.
+# @ 31965: stage1.bmp(442): ERROR: 6c6c6c != 000000 at address 0x000001b9.
+# @ 31985: stage1.bmp(445): ERROR: 737373 != 000000 at address 0x000001bc.
+# @ 32005: stage1.bmp(448): ERROR: 646464 != 000000 at address 0x000001bf.
+# @ 32025: stage1.bmp(451): ERROR: 494949 != 000000 at address 0x000001c2.
+# @ 32045: stage1.bmp(454): ERROR: 454545 != 000000 at address 0x000001c5.
+# @ 32065: stage1.bmp(457): ERROR: 4a4a4a != 000000 at address 0x000001c8.
+# @ 32085: stage1.bmp(460): ERROR: 474747 != 000000 at address 0x000001cb.
+# @ 32105: stage1.bmp(463): ERROR: 4c4c4c != 000000 at address 0x000001ce.
+# @ 32125: stage1.bmp(466): ERROR: 4b4b4b != 000000 at address 0x000001d1.
+# @ 32145: stage1.bmp(469): ERROR: 434343 != 000000 at address 0x000001d4.
+# @ 32165: stage1.bmp(472): ERROR: 393939 != 000000 at address 0x000001d7.
+# @ 32185: stage1.bmp(475): ERROR: 323232 != 000000 at address 0x000001da.
+# @ 32205: stage1.bmp(478): ERROR: 363636 != 000000 at address 0x000001dd.
+# @ 32225: stage1.bmp(481): ERROR: 353535 != 000000 at address 0x000001e0.
+# @ 32245: stage1.bmp(484): ERROR: 363636 != 000000 at address 0x000001e3.
+# @ 32265: stage1.bmp(487): ERROR: 444444 != 000000 at address 0x000001e6.
+# @ 32285: stage1.bmp(490): ERROR: 545454 != 000000 at address 0x000001e9.
+# @ 32305: stage1.bmp(493): ERROR: 585858 != 000000 at address 0x000001ec.
+# @ 32325: stage1.bmp(496): ERROR: 535353 != 000000 at address 0x000001ef.
+# @ 32345: stage1.bmp(499): ERROR: 4d4d4d != 000000 at address 0x000001f2.
+# @ 32365: stage1.bmp(502): ERROR: 4d4d4d != 000000 at address 0x000001f5.
+# @ 32385: stage1.bmp(505): ERROR: 545454 != 000000 at address 0x000001f8.
+# @ 32405: stage1.bmp(508): ERROR: 5c5c5c != 000000 at address 0x000001fb.
+# @ 32425: stage1.bmp(511): ERROR: 666666 != 000000 at address 0x000001fe.
+# @ 32445: stage1.bmp(514): ERROR: 6b6b6b != 000000 at address 0x00000201.
+# @ 32465: stage1.bmp(517): ERROR: 777777 != 000000 at address 0x00000204.
+# @ 32485: stage1.bmp(520): ERROR: 787878 != 000000 at address 0x00000207.
+# @ 32505: stage1.bmp(523): ERROR: 6d6d6d != 000000 at address 0x0000020a.
+# @ 32525: stage1.bmp(526): ERROR: 616161 != 000000 at address 0x0000020d.
+# @ 32545: stage1.bmp(529): ERROR: 555555 != 000000 at address 0x00000210.
+# @ 32565: stage1.bmp(532): ERROR: 484848 != 000000 at address 0x00000213.
+# @ 32585: stage1.bmp(535): ERROR: 3d3d3d != 000000 at address 0x00000216.
+# @ 32605: stage1.bmp(538): ERROR: 444444 != 000000 at address 0x00000219.
+# @ 32625: stage1.bmp(541): ERROR: 4a4a4a != 000000 at address 0x0000021c.
+# @ 32645: stage1.bmp(544): ERROR: 4e4e4e != 000000 at address 0x0000021f.
+# @ 32665: stage1.bmp(547): ERROR: 525252 != 000000 at address 0x00000222.
+# @ 32685: stage1.bmp(550): ERROR: 5a5a5a != 000000 at address 0x00000225.
+# @ 32705: stage1.bmp(553): ERROR: 5c5c5c != 000000 at address 0x00000228.
+# @ 32725: stage1.bmp(556): ERROR: 585858 != 000000 at address 0x0000022b.
+# @ 32745: stage1.bmp(559): ERROR: 585858 != 000000 at address 0x0000022e.
+# @ 32765: stage1.bmp(562): ERROR: 525252 != 000000 at address 0x00000231.
+# @ 32785: stage1.bmp(565): ERROR: 515151 != 000000 at address 0x00000234.
+# @ 32805: stage1.bmp(568): ERROR: 565656 != 000000 at address 0x00000237.
+# @ 32825: stage1.bmp(571): ERROR: 5b5b5b != 000000 at address 0x0000023a.
+# @ 32845: stage1.bmp(574): ERROR: 676767 != 000000 at address 0x0000023d.
+# @ 32865: stage1.bmp(577): ERROR: 717171 != 000000 at address 0x00000240.
+# @ 32885: stage1.bmp(580): ERROR: 737373 != 000000 at address 0x00000243.
+# @ 32905: stage1.bmp(583): ERROR: 6c6c6c != 000000 at address 0x00000246.
+# @ 32925: stage1.bmp(586): ERROR: 6d6d6d != 000000 at address 0x00000249.
+# @ 32945: stage1.bmp(589): ERROR: 676767 != 000000 at address 0x0000024c.
+# @ 32965: stage1.bmp(592): ERROR: 636363 != 000000 at address 0x0000024f.
+# @ 32985: stage1.bmp(595): ERROR: 626262 != 000000 at address 0x00000252.
+# @ 33005: stage1.bmp(598): ERROR: 5c5c5c != 000000 at address 0x00000255.
+# @ 33025: stage1.bmp(601): ERROR: 535353 != 000000 at address 0x00000258.
+# @ 33045: stage1.bmp(604): ERROR: 484848 != 000000 at address 0x0000025b.
+# @ 33065: stage1.bmp(607): ERROR: 4c4c4c != 000000 at address 0x0000025e.
+# @ 33085: stage1.bmp(610): ERROR: 4c4c4c != 000000 at address 0x00000261.
+# @ 33105: stage1.bmp(613): ERROR: 4b4b4b != 000000 at address 0x00000264.
+# @ 33125: stage1.bmp(616): ERROR: 4a4a4a != 000000 at address 0x00000267.
+# @ 33145: stage1.bmp(619): ERROR: 494949 != 000000 at address 0x0000026a.
+# @ 33165: stage1.bmp(622): ERROR: 474747 != 000000 at address 0x0000026d.
+# @ 33185: stage1.bmp(625): ERROR: 484848 != 000000 at address 0x00000270.
+# @ 33205: stage1.bmp(628): ERROR: 4b4b4b != 000000 at address 0x00000273.
+# @ 33225: stage1.bmp(631): ERROR: 525252 != 000000 at address 0x00000276.
+# @ 33245: stage1.bmp(634): ERROR: 545454 != 000000 at address 0x00000279.
+# @ 33265: stage1.bmp(637): ERROR: 4e4e4e != 000000 at address 0x0000027c.
+# @ 33285: stage1.bmp(640): ERROR: 505050 != 000000 at address 0x0000027f.
+# @ 33305: stage1.bmp(643): ERROR: 5d5d5d != 000000 at address 0x00000282.
+# @ 33325: stage1.bmp(646): ERROR: 646464 != 000000 at address 0x00000285.
+# @ 33345: stage1.bmp(649): ERROR: 5d5d5d != 000000 at address 0x00000288.
+# @ 33365: stage1.bmp(652): ERROR: 585858 != 000000 at address 0x0000028b.
+# @ 33385: stage1.bmp(655): ERROR: 575757 != 000000 at address 0x0000028e.
+# @ 33405: stage1.bmp(658): ERROR: 525252 != 000000 at address 0x00000291.
+# @ 33425: stage1.bmp(661): ERROR: 494949 != 000000 at address 0x00000294.
+# @ 33445: stage1.bmp(664): ERROR: 454545 != 000000 at address 0x00000297.
+# @ 33465: stage1.bmp(667): ERROR: 474747 != 000000 at address 0x0000029a.
+# @ 33485: stage1.bmp(670): ERROR: 484848 != 000000 at address 0x0000029d.
+# @ 33505: stage1.bmp(673): ERROR: 444444 != 000000 at address 0x000002a0.
+# @ 33525: stage1.bmp(676): ERROR: 3b3b3b != 000000 at address 0x000002a3.
+# @ 33545: stage1.bmp(679): ERROR: 484848 != 000000 at address 0x000002a6.
+# @ 33565: stage1.bmp(682): ERROR: 7f7f7f != 000000 at address 0x000002a9.
+# @ 33585: stage1.bmp(685): ERROR: a9a9a9 != 000000 at address 0x000002ac.
+# @ 33605: stage1.bmp(688): ERROR: b0b0b0 != 000000 at address 0x000002af.
+# @ 33625: stage1.bmp(691): ERROR: a2a2a2 != 000000 at address 0x000002b2.
+# @ 33645: stage1.bmp(694): ERROR: adadad != 000000 at address 0x000002b5.
+# @ 33665: stage1.bmp(697): ERROR: a0a0a0 != 000000 at address 0x000002b8.
+# @ 33685: stage1.bmp(700): ERROR: 868686 != 000000 at address 0x000002bb.
+# @ 33705: stage1.bmp(703): ERROR: 7e7e7e != 000000 at address 0x000002be.
+# @ 33725: stage1.bmp(706): ERROR: 888888 != 000000 at address 0x000002c1.
+# @ 33745: stage1.bmp(709): ERROR: 8c8c8c != 000000 at address 0x000002c4.
+# @ 33765: stage1.bmp(712): ERROR: 878787 != 000000 at address 0x000002c7.
+# @ 33785: stage1.bmp(715): ERROR: 838383 != 000000 at address 0x000002ca.
+# @ 33805: stage1.bmp(718): ERROR: 7e7e7e != 000000 at address 0x000002cd.
+# @ 33825: stage1.bmp(721): ERROR: 7b7b7b != 000000 at address 0x000002d0.
+# @ 33845: stage1.bmp(724): ERROR: 757575 != 000000 at address 0x000002d3.
+# @ 33865: stage1.bmp(727): ERROR: 626262 != 000000 at address 0x000002d6.
+# @ 33885: stage1.bmp(730): ERROR: 4f4f4f != 000000 at address 0x000002d9.
+# @ 33905: stage1.bmp(733): ERROR: 5f5f5f != 000000 at address 0x000002dc.
+# @ 33925: stage1.bmp(736): ERROR: 6b6b6b != 000000 at address 0x000002df.
+# @ 33945: stage1.bmp(739): ERROR: 6a6a6a != 000000 at address 0x000002e2.
+# @ 33965: stage1.bmp(742): ERROR: 737373 != 000000 at address 0x000002e5.
+# @ 33985: stage1.bmp(745): ERROR: 727272 != 000000 at address 0x000002e8.
+# @ 34005: stage1.bmp(748): ERROR: 6b6b6b != 000000 at address 0x000002eb.
+# @ 34025: stage1.bmp(751): ERROR: 606060 != 000000 at address 0x000002ee.
+# @ 34045: stage1.bmp(754): ERROR: 545454 != 000000 at address 0x000002f1.
+# @ 34065: stage1.bmp(757): ERROR: 545454 != 000000 at address 0x000002f4.
+# @ 34085: stage1.bmp(760): ERROR: 575757 != 000000 at address 0x000002f7.
+# @ 34105: stage1.bmp(763): ERROR: 565656 != 000000 at address 0x000002fa.
+# @ 34125: stage1.bmp(766): ERROR: 5c5c5c != 000000 at address 0x000002fd.
+# @ 34145: stage1.bmp(769): ERROR: 555555 != 000000 at address 0x00000300.
+# @ 34165: stage1.bmp(772): ERROR: 565656 != 000000 at address 0x00000303.
+# @ 34185: stage1.bmp(775): ERROR: 676767 != 000000 at address 0x00000306.
+# @ 34205: stage1.bmp(778): ERROR: 7f7f7f != 000000 at address 0x00000309.
+# @ 34225: stage1.bmp(781): ERROR: 919191 != 000000 at address 0x0000030c.
+# @ 34245: stage1.bmp(784): ERROR: 9a9a9a != 000000 at address 0x0000030f.
+# @ 34265: stage1.bmp(787): ERROR: a5a5a5 != 000000 at address 0x00000312.
+# @ 34285: stage1.bmp(790): ERROR: aeaeae != 000000 at address 0x00000315.
+# @ 34305: stage1.bmp(793): ERROR: a8a8a8 != 000000 at address 0x00000318.
+# @ 34325: stage1.bmp(796): ERROR: b3b3b3 != 000000 at address 0x0000031b.
+# @ 34345: stage1.bmp(799): ERROR: b3b3b3 != 000000 at address 0x0000031e.
+# @ 34365: stage1.bmp(802): ERROR: a8a8a8 != 000000 at address 0x00000321.
+# @ 34385: stage1.bmp(805): ERROR: 959595 != 000000 at address 0x00000324.
+# @ 34405: stage1.bmp(808): ERROR: 8a8a8a != 000000 at address 0x00000327.
+# @ 34425: stage1.bmp(811): ERROR: 838383 != 000000 at address 0x0000032a.
+# @ 34445: stage1.bmp(814): ERROR: 7d7d7d != 000000 at address 0x0000032d.
+# @ 34465: stage1.bmp(817): ERROR: 757575 != 000000 at address 0x00000330.
+# @ 34485: stage1.bmp(820): ERROR: 6f6f6f != 000000 at address 0x00000333.
+# @ 34505: stage1.bmp(823): ERROR: 727272 != 000000 at address 0x00000336.
+# @ 34525: stage1.bmp(826): ERROR: 737373 != 000000 at address 0x00000339.
+# @ 34545: stage1.bmp(829): ERROR: 777777 != 000000 at address 0x0000033c.
+# @ 34565: stage1.bmp(832): ERROR: 818181 != 000000 at address 0x0000033f.
+# @ 34585: stage1.bmp(835): ERROR: 878787 != 000000 at address 0x00000342.
+# @ 34605: stage1.bmp(838): ERROR: 888888 != 000000 at address 0x00000345.
+# @ 34625: stage1.bmp(841): ERROR: 898989 != 000000 at address 0x00000348.
+# @ 34645: stage1.bmp(844): ERROR: 898989 != 000000 at address 0x0000034b.
+# @ 34665: stage1.bmp(847): ERROR: 868686 != 000000 at address 0x0000034e.
+# @ 34685: stage1.bmp(850): ERROR: 888888 != 000000 at address 0x00000351.
+# @ 34705: stage1.bmp(853): ERROR: 868686 != 000000 at address 0x00000354.
+# @ 34725: stage1.bmp(856): ERROR: 7f7f7f != 000000 at address 0x00000357.
+# @ 34745: stage1.bmp(859): ERROR: 797979 != 000000 at address 0x0000035a.
+# @ 34765: stage1.bmp(862): ERROR: 777777 != 000000 at address 0x0000035d.
+# @ 34785: stage1.bmp(865): ERROR: 737373 != 000000 at address 0x00000360.
+# @ 34805: stage1.bmp(868): ERROR: 6f6f6f != 000000 at address 0x00000363.
+# @ 34825: stage1.bmp(871): ERROR: 707070 != 000000 at address 0x00000366.
+# @ 34845: stage1.bmp(874): ERROR: 727272 != 000000 at address 0x00000369.
+# @ 34865: stage1.bmp(877): ERROR: 717171 != 000000 at address 0x0000036c.
+# @ 34885: stage1.bmp(880): ERROR: 6d6d6d != 000000 at address 0x0000036f.
+# @ 34905: stage1.bmp(883): ERROR: 666666 != 000000 at address 0x00000372.
+# @ 34925: stage1.bmp(886): ERROR: 5c5c5c != 000000 at address 0x00000375.
+# @ 34945: stage1.bmp(889): ERROR: 4f4f4f != 000000 at address 0x00000378.
+# @ 34965: stage1.bmp(892): ERROR: 484848 != 000000 at address 0x0000037b.
+# @ 34985: stage1.bmp(895): ERROR: 454545 != 000000 at address 0x0000037e.
+# @ 35005: stage1.bmp(898): ERROR: 444444 != 000000 at address 0x00000381.
+# @ 35025: stage1.bmp(901): ERROR: 595959 != 000000 at address 0x00000384.
+# @ 35045: stage1.bmp(904): ERROR: 717171 != 000000 at address 0x00000387.
+# @ 35065: stage1.bmp(907): ERROR: 7a7a7a != 000000 at address 0x0000038a.
+# @ 35085: stage1.bmp(910): ERROR: 727272 != 000000 at address 0x0000038d.
+# @ 35105: stage1.bmp(913): ERROR: 6f6f6f != 000000 at address 0x00000390.
+# @ 35125: stage1.bmp(916): ERROR: 6a6a6a != 000000 at address 0x00000393.
+# @ 35145: stage1.bmp(919): ERROR: 757575 != 000000 at address 0x00000396.
+# @ 35165: stage1.bmp(922): ERROR: 808080 != 000000 at address 0x00000399.
+# @ 35185: stage1.bmp(925): ERROR: 868686 != 000000 at address 0x0000039c.
+# @ 35205: stage1.bmp(928): ERROR: 858585 != 000000 at address 0x0000039f.
+# @ 35225: stage1.bmp(931): ERROR: 898989 != 000000 at address 0x000003a2.
+# @ 35245: stage1.bmp(934): ERROR: 858585 != 000000 at address 0x000003a5.
+# @ 35265: stage1.bmp(937): ERROR: 808080 != 000000 at address 0x000003a8.
+# @ 35285: stage1.bmp(940): ERROR: 767676 != 000000 at address 0x000003ab.
+# @ 35305: stage1.bmp(943): ERROR: 878787 != 000000 at address 0x000003ae.
+# @ 35325: stage1.bmp(946): ERROR: a4a4a4 != 000000 at address 0x000003b1.
+# @ 35345: stage1.bmp(949): ERROR: bbbbbb != 000000 at address 0x000003b4.
+# @ 35365: stage1.bmp(952): ERROR: c3c3c3 != 000000 at address 0x000003b7.
+# @ 35385: stage1.bmp(955): ERROR: bbbbbb != 000000 at address 0x000003ba.
+# @ 35405: stage1.bmp(958): ERROR: b9b9b9 != 000000 at address 0x000003bd.
+# @ 35425: stage1.bmp(961): ERROR: bbbbbb != 000000 at address 0x000003c0.
+# @ 35445: stage1.bmp(964): ERROR: b1b1b1 != 000000 at address 0x000003c3.
+# @ 35465: stage1.bmp(967): ERROR: a4a4a4 != 000000 at address 0x000003c6.
+# @ 35485: stage1.bmp(970): ERROR: 989898 != 000000 at address 0x000003c9.
+# @ 35505: stage1.bmp(973): ERROR: 939393 != 000000 at address 0x000003cc.
+# @ 35525: stage1.bmp(976): ERROR: 8b8b8b != 000000 at address 0x000003cf.
+# @ 35545: stage1.bmp(979): ERROR: 707070 != 000000 at address 0x000003d2.
+# @ 35565: stage1.bmp(982): ERROR: 535353 != 000000 at address 0x000003d5.
+# @ 35585: stage1.bmp(985): ERROR: 444444 != 000000 at address 0x000003d8.
+# @ 35605: stage1.bmp(988): ERROR: 3d3d3d != 000000 at address 0x000003db.
+# @ 35625: stage1.bmp(991): ERROR: 3b3b3b != 000000 at address 0x000003de.
+# @ 35645: stage1.bmp(994): ERROR: 4b4b4b != 000000 at address 0x000003e1.
+# @ 35665: stage1.bmp(997): ERROR: 575757 != 000000 at address 0x000003e4.
+# @ 35685: stage1.bmp(1000): ERROR: 565656 != 000000 at address 0x000003e7.
+# @ 35705: stage1.bmp(1003): ERROR: 5b5b5b != 000000 at address 0x000003ea.
+# @ 35725: stage1.bmp(1006): ERROR: 575757 != 000000 at address 0x000003ed.
+# @ 35745: stage1.bmp(1009): ERROR: 535353 != 000000 at address 0x000003f0.
+# @ 35765: stage1.bmp(1012): ERROR: 656565 != 000000 at address 0x000003f3.
+# @ 35785: stage1.bmp(1015): ERROR: 787878 != 000000 at address 0x000003f6.
+# @ 35805: stage1.bmp(1018): ERROR: 7d7d7d != 000000 at address 0x000003f9.
+# @ 35825: stage1.bmp(1021): ERROR: 727272 != 000000 at address 0x000003fc.
+# @ 35845: stage1.bmp(1024): ERROR: 737373 != 000000 at address 0x000003ff.
+# @ 35865: stage1.bmp(1027): ERROR: 6f6f6f != 000000 at address 0x00000402.
+# @ 35885: stage1.bmp(1030): ERROR: 6a6a6a != 000000 at address 0x00000405.
+# @ 35905: stage1.bmp(1033): ERROR: 676767 != 000000 at address 0x00000408.
+# @ 35925: stage1.bmp(1036): ERROR: 656565 != 000000 at address 0x0000040b.
+# @ 35945: stage1.bmp(1039): ERROR: 656565 != 000000 at address 0x0000040e.
+# @ 35965: stage1.bmp(1042): ERROR: 696969 != 000000 at address 0x00000411.
+# @ 35985: stage1.bmp(1045): ERROR: 6b6b6b != 000000 at address 0x00000414.
+# @ 36005: stage1.bmp(1048): ERROR: 626262 != 000000 at address 0x00000417.
+# @ 36025: stage1.bmp(1051): ERROR: 5a5a5a != 000000 at address 0x0000041a.
+# @ 36045: stage1.bmp(1054): ERROR: 5e5e5e != 000000 at address 0x0000041d.
+# @ 36065: stage1.bmp(1057): ERROR: 717171 != 000000 at address 0x00000420.
+# @ 36085: stage1.bmp(1060): ERROR: 8b8b8b != 000000 at address 0x00000423.
+# @ 36105: stage1.bmp(1063): ERROR: a3a3a3 != 000000 at address 0x00000426.
+# @ 36125: stage1.bmp(1066): ERROR: b2b2b2 != 000000 at address 0x00000429.
+# @ 36145: stage1.bmp(1069): ERROR: b9b9b9 != 000000 at address 0x0000042c.
+# @ 36165: stage1.bmp(1072): ERROR: b3b3b3 != 000000 at address 0x0000042f.
+# @ 36185: stage1.bmp(1075): ERROR: c3c3c3 != 000000 at address 0x00000432.
+# @ 36205: stage1.bmp(1078): ERROR: c1c1c1 != 000000 at address 0x00000435.
+# @ 36225: stage1.bmp(1081): ERROR: a7a7a7 != 000000 at address 0x00000438.
+# @ 36245: stage1.bmp(1084): ERROR: 848484 != 000000 at address 0x0000043b.
+# @ 36265: stage1.bmp(1087): ERROR: 676767 != 000000 at address 0x0000043e.
+# @ 36285: stage1.bmp(1090): ERROR: 6a6a6a != 000000 at address 0x00000441.
+# @ 36305: stage1.bmp(1093): ERROR: 7b7b7b != 000000 at address 0x00000444.
+# @ 36325: stage1.bmp(1096): ERROR: 828282 != 000000 at address 0x00000447.
+# @ 36345: stage1.bmp(1099): ERROR: 818181 != 000000 at address 0x0000044a.
+# @ 36365: stage1.bmp(1102): ERROR: 858585 != 000000 at address 0x0000044d.
+# @ 36385: stage1.bmp(1105): ERROR: 777777 != 000000 at address 0x00000450.
+# @ 36405: stage1.bmp(1108): ERROR: 676767 != 000000 at address 0x00000453.
+# @ 36425: stage1.bmp(1111): ERROR: 5b5b5b != 000000 at address 0x00000456.
+# @ 36445: stage1.bmp(1114): ERROR: 565656 != 000000 at address 0x00000459.
+# @ 36465: stage1.bmp(1117): ERROR: 525252 != 000000 at address 0x0000045c.
+# @ 36485: stage1.bmp(1120): ERROR: 515151 != 000000 at address 0x0000045f.
+# @ 36505: stage1.bmp(1123): ERROR: 515151 != 000000 at address 0x00000462.
+# @ 36525: stage1.bmp(1126): ERROR: 515151 != 000000 at address 0x00000465.
+# @ 36545: stage1.bmp(1129): ERROR: 505050 != 000000 at address 0x00000468.
+# @ 36565: stage1.bmp(1132): ERROR: 4e4e4e != 000000 at address 0x0000046b.
+# @ 36585: stage1.bmp(1135): ERROR: 4e4e4e != 000000 at address 0x0000046e.
+# @ 36605: stage1.bmp(1138): ERROR: 4e4e4e != 000000 at address 0x00000471.
+# @ 36625: stage1.bmp(1141): ERROR: 515151 != 000000 at address 0x00000474.
+# @ 36645: stage1.bmp(1144): ERROR: 4f4f4f != 000000 at address 0x00000477.
+# @ 36665: stage1.bmp(1147): ERROR: 4d4d4d != 000000 at address 0x0000047a.
+# @ 36685: stage1.bmp(1150): ERROR: 4b4b4b != 000000 at address 0x0000047d.
+# @ 36705: stage1.bmp(1153): ERROR: 464646 != 000000 at address 0x00000480.
+# @ 36725: stage1.bmp(1156): ERROR: 3f3f3f != 000000 at address 0x00000483.
+# @ 36745: stage1.bmp(1159): ERROR: 434343 != 000000 at address 0x00000486.
+# @ 36765: stage1.bmp(1162): ERROR: 626262 != 000000 at address 0x00000489.
+# @ 36785: stage1.bmp(1165): ERROR: 858585 != 000000 at address 0x0000048c.
+# @ 36805: stage1.bmp(1168): ERROR: 9e9e9e != 000000 at address 0x0000048f.
+# @ 36825: stage1.bmp(1171): ERROR: a2a2a2 != 000000 at address 0x00000492.
+# @ 36845: stage1.bmp(1174): ERROR: a0a0a0 != 000000 at address 0x00000495.
+# @ 36865: stage1.bmp(1177): ERROR: a4a4a4 != 000000 at address 0x00000498.
+# @ 36885: stage1.bmp(1180): ERROR: a9a9a9 != 000000 at address 0x0000049b.
+# @ 36905: stage1.bmp(1183): ERROR: b0b0b0 != 000000 at address 0x0000049e.
+# @ 36925: stage1.bmp(1186): ERROR: aeaeae != 000000 at address 0x000004a1.
+# @ 36945: stage1.bmp(1189): ERROR: aeaeae != 000000 at address 0x000004a4.
+# @ 36965: stage1.bmp(1192): ERROR: bfbfbf != 000000 at address 0x000004a7.
+# @ 36985: stage1.bmp(1195): ERROR: cfcfcf != 000000 at address 0x000004aa.
+# @ 37005: stage1.bmp(1198): ERROR: d5d5d5 != 000000 at address 0x000004ad.
+# @ 37025: stage1.bmp(1201): ERROR: d1d1d1 != 000000 at address 0x000004b0.
+# @ 37045: stage1.bmp(1204): ERROR: d3d3d3 != 000000 at address 0x000004b3.
+# @ 37065: stage1.bmp(1207): ERROR: d6d6d6 != 000000 at address 0x000004b6.
+# @ 37085: stage1.bmp(1210): ERROR: d6d6d6 != 000000 at address 0x000004b9.
+# @ 37105: stage1.bmp(1213): ERROR: d3d3d3 != 000000 at address 0x000004bc.
+# @ 37125: stage1.bmp(1216): ERROR: d2d2d2 != 000000 at address 0x000004bf.
+# @ 37145: stage1.bmp(1219): ERROR: d0d0d0 != 000000 at address 0x000004c2.
+# @ 37165: stage1.bmp(1222): ERROR: c5c5c5 != 000000 at address 0x000004c5.
+# @ 37185: stage1.bmp(1225): ERROR: bababa != 000000 at address 0x000004c8.
+# @ 37205: stage1.bmp(1228): ERROR: b4b4b4 != 000000 at address 0x000004cb.
+# @ 37225: stage1.bmp(1231): ERROR: b2b2b2 != 000000 at address 0x000004ce.
+# @ 37245: stage1.bmp(1234): ERROR: b2b2b2 != 000000 at address 0x000004d1.
+# @ 37265: stage1.bmp(1237): ERROR: a7a7a7 != 000000 at address 0x000004d4.
+# @ 37285: stage1.bmp(1240): ERROR: 8e8e8e != 000000 at address 0x000004d7.
+# @ 37305: stage1.bmp(1243): ERROR: 747474 != 000000 at address 0x000004da.
+# @ 37325: stage1.bmp(1246): ERROR: 666666 != 000000 at address 0x000004dd.
+# @ 37345: stage1.bmp(1249): ERROR: 6a6a6a != 000000 at address 0x000004e0.
+# @ 37365: stage1.bmp(1252): ERROR: 6b6b6b != 000000 at address 0x000004e3.
+# @ 37385: stage1.bmp(1255): ERROR: 6a6a6a != 000000 at address 0x000004e6.
+# @ 37405: stage1.bmp(1258): ERROR: 6a6a6a != 000000 at address 0x000004e9.
+# @ 37425: stage1.bmp(1261): ERROR: 696969 != 000000 at address 0x000004ec.
+# @ 37445: stage1.bmp(1264): ERROR: 6a6a6a != 000000 at address 0x000004ef.
+# @ 37465: stage1.bmp(1267): ERROR: 6f6f6f != 000000 at address 0x000004f2.
+# @ 37485: stage1.bmp(1270): ERROR: 717171 != 000000 at address 0x000004f5.
+# @ 37505: stage1.bmp(1273): ERROR: 6b6b6b != 000000 at address 0x000004f8.
+# @ 37525: stage1.bmp(1276): ERROR: 696969 != 000000 at address 0x000004fb.
+# @ 37545: stage1.bmp(1279): ERROR: 646464 != 000000 at address 0x000004fe.
+# @ 37565: stage1.bmp(1282): ERROR: 5f5f5f != 000000 at address 0x00000501.
+# @ 37585: stage1.bmp(1285): ERROR: 5a5a5a != 000000 at address 0x00000504.
+# @ 37605: stage1.bmp(1288): ERROR: 545454 != 000000 at address 0x00000507.
+# @ 37625: stage1.bmp(1291): ERROR: 4c4c4c != 000000 at address 0x0000050a.
+# @ 37645: stage1.bmp(1294): ERROR: 4c4c4c != 000000 at address 0x0000050d.
+# @ 37665: stage1.bmp(1297): ERROR: 4e4e4e != 000000 at address 0x00000510.
+# @ 37685: stage1.bmp(1300): ERROR: 535353 != 000000 at address 0x00000513.
+# @ 37705: stage1.bmp(1303): ERROR: 6e6e6e != 000000 at address 0x00000516.
+# @ 37725: stage1.bmp(1306): ERROR: 828282 != 000000 at address 0x00000519.
+# @ 37745: stage1.bmp(1309): ERROR: 8a8a8a != 000000 at address 0x0000051c.
+# @ 37765: stage1.bmp(1312): ERROR: 878787 != 000000 at address 0x0000051f.
+# @ 37785: stage1.bmp(1315): ERROR: 838383 != 000000 at address 0x00000522.
+# @ 37805: stage1.bmp(1318): ERROR: 848484 != 000000 at address 0x00000525.
+# @ 37825: stage1.bmp(1321): ERROR: 818181 != 000000 at address 0x00000528.
+# @ 37845: stage1.bmp(1324): ERROR: 7b7b7b != 000000 at address 0x0000052b.
+# @ 37865: stage1.bmp(1327): ERROR: 7a7a7a != 000000 at address 0x0000052e.
+# @ 37885: stage1.bmp(1330): ERROR: 797979 != 000000 at address 0x00000531.
+# @ 37905: stage1.bmp(1333): ERROR: 707070 != 000000 at address 0x00000534.
+# @ 37925: stage1.bmp(1336): ERROR: 666666 != 000000 at address 0x00000537.
+# @ 37945: stage1.bmp(1339): ERROR: 5d5d5d != 000000 at address 0x0000053a.
+# @ 37965: stage1.bmp(1342): ERROR: 5b5b5b != 000000 at address 0x0000053d.
+# @ 37985: stage1.bmp(1345): ERROR: 606060 != 000000 at address 0x00000540.
+# @ 38005: stage1.bmp(1348): ERROR: 606060 != 000000 at address 0x00000543.
+# @ 38025: stage1.bmp(1351): ERROR: 6a6a6a != 000000 at address 0x00000546.
+# @ 38045: stage1.bmp(1354): ERROR: 8b8b8b != 000000 at address 0x00000549.
+# @ 38065: stage1.bmp(1357): ERROR: adadad != 000000 at address 0x0000054c.
+# @ 38085: stage1.bmp(1360): ERROR: b6b6b6 != 000000 at address 0x0000054f.
+# @ 38105: stage1.bmp(1363): ERROR: 9f9f9f != 000000 at address 0x00000552.
+# @ 38125: stage1.bmp(1366): ERROR: a5a5a5 != 000000 at address 0x00000555.
+# @ 38145: stage1.bmp(1369): ERROR: 9a9a9a != 000000 at address 0x00000558.
+# @ 38165: stage1.bmp(1372): ERROR: 8a8a8a != 000000 at address 0x0000055b.
+# @ 38185: stage1.bmp(1375): ERROR: 7f7f7f != 000000 at address 0x0000055e.
+# @ 38205: stage1.bmp(1378): ERROR: 797979 != 000000 at address 0x00000561.
+# @ 38225: stage1.bmp(1381): ERROR: 747474 != 000000 at address 0x00000564.
+# @ 38245: stage1.bmp(1384): ERROR: 6a6a6a != 000000 at address 0x00000567.
+# @ 38265: stage1.bmp(1387): ERROR: 626262 != 000000 at address 0x0000056a.
+# @ 38285: stage1.bmp(1390): ERROR: 5d5d5d != 000000 at address 0x0000056d.
+# @ 38305: stage1.bmp(1393): ERROR: 5a5a5a != 000000 at address 0x00000570.
+# @ 38325: stage1.bmp(1396): ERROR: 5f5f5f != 000000 at address 0x00000573.
+# @ 38345: stage1.bmp(1399): ERROR: 5e5e5e != 000000 at address 0x00000576.
+# @ 38365: stage1.bmp(1402): ERROR: 585858 != 000000 at address 0x00000579.
+# @ 38385: stage1.bmp(1405): ERROR: 535353 != 000000 at address 0x0000057c.
+# @ 38405: stage1.bmp(1408): ERROR: 545454 != 000000 at address 0x0000057f.
+# @ 38425: stage1.bmp(1411): ERROR: 5a5a5a != 000000 at address 0x00000582.
+# @ 38445: stage1.bmp(1414): ERROR: 5f5f5f != 000000 at address 0x00000585.
+# @ 38465: stage1.bmp(1417): ERROR: 636363 != 000000 at address 0x00000588.
+# @ 38485: stage1.bmp(1420): ERROR: 666666 != 000000 at address 0x0000058b.
+# @ 38505: stage1.bmp(1423): ERROR: 686868 != 000000 at address 0x0000058e.
+# @ 38525: stage1.bmp(1426): ERROR: 676767 != 000000 at address 0x00000591.
+# @ 38545: stage1.bmp(1429): ERROR: 686868 != 000000 at address 0x00000594.
+# @ 38565: stage1.bmp(1432): ERROR: 686868 != 000000 at address 0x00000597.
+# @ 38585: stage1.bmp(1435): ERROR: 6a6a6a != 000000 at address 0x0000059a.
+# @ 38605: stage1.bmp(1438): ERROR: 636363 != 000000 at address 0x0000059d.
+# @ 38625: stage1.bmp(1441): ERROR: 575757 != 000000 at address 0x000005a0.
+# @ 38645: stage1.bmp(1444): ERROR: 5c5c5c != 000000 at address 0x000005a3.
+# @ 38665: stage1.bmp(1447): ERROR: 6e6e6e != 000000 at address 0x000005a6.
+# @ 38685: stage1.bmp(1450): ERROR: 838383 != 000000 at address 0x000005a9.
+# @ 38705: stage1.bmp(1453): ERROR: 949494 != 000000 at address 0x000005ac.
+# @ 38725: stage1.bmp(1456): ERROR: 9c9c9c != 000000 at address 0x000005af.
+# @ 38745: stage1.bmp(1459): ERROR: 9e9e9e != 000000 at address 0x000005b2.
+# @ 38765: stage1.bmp(1462): ERROR: 9e9e9e != 000000 at address 0x000005b5.
+# @ 38785: stage1.bmp(1465): ERROR: 9d9d9d != 000000 at address 0x000005b8.
+# @ 38805: stage1.bmp(1468): ERROR: 9d9d9d != 000000 at address 0x000005bb.
+# @ 38825: stage1.bmp(1471): ERROR: a0a0a0 != 000000 at address 0x000005be.
+# @ 38845: stage1.bmp(1474): ERROR: 999999 != 000000 at address 0x000005c1.
+# @ 38865: stage1.bmp(1477): ERROR: 8e8e8e != 000000 at address 0x000005c4.
+# @ 38885: stage1.bmp(1480): ERROR: 7b7b7b != 000000 at address 0x000005c7.
+# @ 38905: stage1.bmp(1483): ERROR: 5f5f5f != 000000 at address 0x000005ca.
+# @ 38925: stage1.bmp(1486): ERROR: 4a4a4a != 000000 at address 0x000005cd.
+# @ 38945: stage1.bmp(1489): ERROR: 434343 != 000000 at address 0x000005d0.
+# @ 38965: stage1.bmp(1492): ERROR: 454545 != 000000 at address 0x000005d3.
+# @ 38985: stage1.bmp(1495): ERROR: 484848 != 000000 at address 0x000005d6.
+# @ 39005: stage1.bmp(1498): ERROR: 545454 != 000000 at address 0x000005d9.
+# @ 39025: stage1.bmp(1501): ERROR: 646464 != 000000 at address 0x000005dc.
+# @ 39045: stage1.bmp(1504): ERROR: 737373 != 000000 at address 0x000005df.
+# @ 39065: stage1.bmp(1507): ERROR: 7d7d7d != 000000 at address 0x000005e2.
+# @ 39085: stage1.bmp(1510): ERROR: 797979 != 000000 at address 0x000005e5.
+# @ 39105: stage1.bmp(1513): ERROR: 808080 != 000000 at address 0x000005e8.
+# @ 39125: stage1.bmp(1516): ERROR: 787878 != 000000 at address 0x000005eb.
+# @ 39145: stage1.bmp(1519): ERROR: 777777 != 000000 at address 0x000005ee.
+# @ 39165: stage1.bmp(1522): ERROR: a1a1a1 != 000000 at address 0x000005f1.
+# @ 39185: stage1.bmp(1525): ERROR: c9c9c9 != 000000 at address 0x000005f4.
+# @ 39205: stage1.bmp(1528): ERROR: eaeaea != 000000 at address 0x000005f7.
+# @ 39225: stage1.bmp(1531): ERROR: f7f7f7 != 000000 at address 0x000005fa.
+# @ 39245: stage1.bmp(1534): ERROR: e0e0e0 != 000000 at address 0x000005fd.
+# @ 39265: stage1.bmp(1537): ERROR: ececec != 000000 at address 0x00000600.
+# @ 39285: stage1.bmp(1540): ERROR: dbdbdb != 000000 at address 0x00000603.
+# @ 39305: stage1.bmp(1543): ERROR: b1b1b1 != 000000 at address 0x00000606.
+# @ 39325: stage1.bmp(1546): ERROR: 929292 != 000000 at address 0x00000609.
+# @ 39345: stage1.bmp(1549): ERROR: 9e9e9e != 000000 at address 0x0000060c.
+# @ 39365: stage1.bmp(1552): ERROR: a6a6a6 != 000000 at address 0x0000060f.
+# @ 39385: stage1.bmp(1555): ERROR: a5a5a5 != 000000 at address 0x00000612.
+# @ 39405: stage1.bmp(1558): ERROR: b0b0b0 != 000000 at address 0x00000615.
+# @ 39425: stage1.bmp(1561): ERROR: ababab != 000000 at address 0x00000618.
+# @ 39445: stage1.bmp(1564): ERROR: 9a9a9a != 000000 at address 0x0000061b.
+# @ 39465: stage1.bmp(1567): ERROR: 848484 != 000000 at address 0x0000061e.
+# @ 39485: stage1.bmp(1570): ERROR: 767676 != 000000 at address 0x00000621.
+# @ 39505: stage1.bmp(1573): ERROR: 6f6f6f != 000000 at address 0x00000624.
+# @ 39525: stage1.bmp(1576): ERROR: 666666 != 000000 at address 0x00000627.
+# @ 39545: stage1.bmp(1579): ERROR: 525252 != 000000 at address 0x0000062a.
+# @ 39565: stage1.bmp(1582): ERROR: 626262 != 000000 at address 0x0000062d.
+# @ 39585: stage1.bmp(1585): ERROR: 888888 != 000000 at address 0x00000630.
+# @ 39605: stage1.bmp(1588): ERROR: a3a3a3 != 000000 at address 0x00000633.
+# @ 39625: stage1.bmp(1591): ERROR: a6a6a6 != 000000 at address 0x00000636.
+# @ 39645: stage1.bmp(1594): ERROR: 999999 != 000000 at address 0x00000639.
+# @ 39665: stage1.bmp(1597): ERROR: a1a1a1 != 000000 at address 0x0000063c.
+# @ 39685: stage1.bmp(1600): ERROR: a2a2a2 != 000000 at address 0x0000063f.
+# @ 39705: stage1.bmp(1603): ERROR: 959595 != 000000 at address 0x00000642.
+# @ 39725: stage1.bmp(1606): ERROR: 787878 != 000000 at address 0x00000645.
+# @ 39745: stage1.bmp(1609): ERROR: 5b5b5b != 000000 at address 0x00000648.
+# @ 39765: stage1.bmp(1612): ERROR: 444444 != 000000 at address 0x0000064b.
+# @ 39785: stage1.bmp(1615): ERROR: 555555 != 000000 at address 0x0000064e.
+# @ 39805: stage1.bmp(1618): ERROR: 5e5e5e != 000000 at address 0x00000651.
+# @ 39825: stage1.bmp(1621): ERROR: 666666 != 000000 at address 0x00000654.
+# @ 39845: stage1.bmp(1624): ERROR: 707070 != 000000 at address 0x00000657.
+# @ 39865: stage1.bmp(1627): ERROR: 757575 != 000000 at address 0x0000065a.
+# @ 39885: stage1.bmp(1630): ERROR: 767676 != 000000 at address 0x0000065d.
+# @ 39905: stage1.bmp(1633): ERROR: 777777 != 000000 at address 0x00000660.
+# @ 39925: stage1.bmp(1636): ERROR: 7b7b7b != 000000 at address 0x00000663.
+# @ 39945: stage1.bmp(1639): ERROR: 777777 != 000000 at address 0x00000666.
+# @ 39965: stage1.bmp(1642): ERROR: 6c6c6c != 000000 at address 0x00000669.
+# @ 39985: stage1.bmp(1645): ERROR: 636363 != 000000 at address 0x0000066c.
+# @ 40005: stage1.bmp(1648): ERROR: 5a5a5a != 000000 at address 0x0000066f.
+# @ 40025: stage1.bmp(1651): ERROR: 4e4e4e != 000000 at address 0x00000672.
+# @ 40045: stage1.bmp(1654): ERROR: 434343 != 000000 at address 0x00000675.
+# @ 40065: stage1.bmp(1657): ERROR: 4b4b4b != 000000 at address 0x00000678.
+# @ 40085: stage1.bmp(1660): ERROR: 5d5d5d != 000000 at address 0x0000067b.
+# @ 40105: stage1.bmp(1663): ERROR: 707070 != 000000 at address 0x0000067e.
+# @ 40125: stage1.bmp(1666): ERROR: 808080 != 000000 at address 0x00000681.
+# @ 40145: stage1.bmp(1669): ERROR: 878787 != 000000 at address 0x00000684.
+# @ 40165: stage1.bmp(1672): ERROR: 888888 != 000000 at address 0x00000687.
+# @ 40185: stage1.bmp(1675): ERROR: 8b8b8b != 000000 at address 0x0000068a.
+# @ 40205: stage1.bmp(1678): ERROR: 969696 != 000000 at address 0x0000068d.
+# @ 40225: stage1.bmp(1681): ERROR: 9c9c9c != 000000 at address 0x00000690.
+# @ 40245: stage1.bmp(1684): ERROR: 9b9b9b != 000000 at address 0x00000693.
+# @ 40265: stage1.bmp(1687): ERROR: 9e9e9e != 000000 at address 0x00000696.
+# @ 40285: stage1.bmp(1690): ERROR: 929292 != 000000 at address 0x00000699.
+# @ 40305: stage1.bmp(1693): ERROR: 828282 != 000000 at address 0x0000069c.
+# @ 40325: stage1.bmp(1696): ERROR: 797979 != 000000 at address 0x0000069f.
+# @ 40345: stage1.bmp(1699): ERROR: 747474 != 000000 at address 0x000006a2.
+# @ 40365: stage1.bmp(1702): ERROR: 747474 != 000000 at address 0x000006a5.
+# @ 40385: stage1.bmp(1705): ERROR: 767676 != 000000 at address 0x000006a8.
+# @ 40405: stage1.bmp(1708): ERROR: 757575 != 000000 at address 0x000006ab.
+# @ 40425: stage1.bmp(1711): ERROR: 828282 != 000000 at address 0x000006ae.
+# @ 40445: stage1.bmp(1714): ERROR: 969696 != 000000 at address 0x000006b1.
+# @ 40465: stage1.bmp(1717): ERROR: a2a2a2 != 000000 at address 0x000006b4.
+# @ 40485: stage1.bmp(1720): ERROR: 9b9b9b != 000000 at address 0x000006b7.
+# @ 40505: stage1.bmp(1723): ERROR: a6a6a6 != 000000 at address 0x000006ba.
+# @ 40525: stage1.bmp(1726): ERROR: 9b9b9b != 000000 at address 0x000006bd.
+# @ 40545: stage1.bmp(1729): ERROR: 7e7e7e != 000000 at address 0x000006c0.
+# @ 40565: stage1.bmp(1732): ERROR: 747474 != 000000 at address 0x000006c3.
+# @ 40585: stage1.bmp(1735): ERROR: 787878 != 000000 at address 0x000006c6.
+# @ 40605: stage1.bmp(1738): ERROR: 767676 != 000000 at address 0x000006c9.
+# @ 40625: stage1.bmp(1741): ERROR: 7c7c7c != 000000 at address 0x000006cc.
+# @ 40645: stage1.bmp(1744): ERROR: 7f7f7f != 000000 at address 0x000006cf.
+# @ 40665: stage1.bmp(1747): ERROR: 7d7d7d != 000000 at address 0x000006d2.
+# @ 40685: stage1.bmp(1750): ERROR: 6b6b6b != 000000 at address 0x000006d5.
+# @ 40705: stage1.bmp(1753): ERROR: 575757 != 000000 at address 0x000006d8.
+# @ 40725: stage1.bmp(1756): ERROR: 4d4d4d != 000000 at address 0x000006db.
+# @ 40745: stage1.bmp(1759): ERROR: 474747 != 000000 at address 0x000006de.
+# @ 40765: stage1.bmp(1762): ERROR: 434343 != 000000 at address 0x000006e1.
+# @ 40785: stage1.bmp(1765): ERROR: 4a4a4a != 000000 at address 0x000006e4.
+# @ 40805: stage1.bmp(1768): ERROR: 565656 != 000000 at address 0x000006e7.
+# @ 40825: stage1.bmp(1771): ERROR: 5e5e5e != 000000 at address 0x000006ea.
+# @ 40845: stage1.bmp(1774): ERROR: 5c5c5c != 000000 at address 0x000006ed.
+# @ 40865: stage1.bmp(1777): ERROR: 646464 != 000000 at address 0x000006f0.
+# @ 40885: stage1.bmp(1780): ERROR: 616161 != 000000 at address 0x000006f3.
+# @ 40905: stage1.bmp(1783): ERROR: 4e4e4e != 000000 at address 0x000006f6.
+# @ 40925: stage1.bmp(1786): ERROR: 3e3e3e != 000000 at address 0x000006f9.
+# @ 40945: stage1.bmp(1789): ERROR: 4b4b4b != 000000 at address 0x000006fc.
+# @ 40965: stage1.bmp(1792): ERROR: 555555 != 000000 at address 0x000006ff.
+# @ 40985: stage1.bmp(1795): ERROR: 616161 != 000000 at address 0x00000702.
+# @ 41005: stage1.bmp(1798): ERROR: 717171 != 000000 at address 0x00000705.
+# @ 41025: stage1.bmp(1801): ERROR: 808080 != 000000 at address 0x00000708.
+# @ 41045: stage1.bmp(1804): ERROR: 858585 != 000000 at address 0x0000070b.
+# @ 41065: stage1.bmp(1807): ERROR: 828282 != 000000 at address 0x0000070e.
+# @ 41085: stage1.bmp(1810): ERROR: 8b8b8b != 000000 at address 0x00000711.
+# @ 41105: stage1.bmp(1813): ERROR: 808080 != 000000 at address 0x00000714.
+# @ 41125: stage1.bmp(1816): ERROR: 767676 != 000000 at address 0x00000717.
+# @ 41145: stage1.bmp(1819): ERROR: 909090 != 000000 at address 0x0000071a.
+# @ 41165: stage1.bmp(1822): ERROR: b2b2b2 != 000000 at address 0x0000071d.
+# @ 41185: stage1.bmp(1825): ERROR: cacaca != 000000 at address 0x00000720.
+# @ 41205: stage1.bmp(1828): ERROR: cfcfcf != 000000 at address 0x00000723.
+# @ 41225: stage1.bmp(1831): ERROR: d4d4d4 != 000000 at address 0x00000726.
+# @ 41245: stage1.bmp(1834): ERROR: dadada != 000000 at address 0x00000729.
+# @ 41265: stage1.bmp(1837): ERROR: dadada != 000000 at address 0x0000072c.
+# @ 41285: stage1.bmp(1840): ERROR: d9d9d9 != 000000 at address 0x0000072f.
+# @ 41305: stage1.bmp(1843): ERROR: dadada != 000000 at address 0x00000732.
+# @ 41325: stage1.bmp(1846): ERROR: e0e0e0 != 000000 at address 0x00000735.
+# @ 41345: stage1.bmp(1849): ERROR: dedede != 000000 at address 0x00000738.
+# @ 41365: stage1.bmp(1852): ERROR: e2e2e2 != 000000 at address 0x0000073b.
+# @ 41385: stage1.bmp(1855): ERROR: e0e0e0 != 000000 at address 0x0000073e.
+# @ 41405: stage1.bmp(1858): ERROR: d1d1d1 != 000000 at address 0x00000741.
+# @ 41425: stage1.bmp(1861): ERROR: c7c7c7 != 000000 at address 0x00000744.
+# @ 41445: stage1.bmp(1864): ERROR: c0c0c0 != 000000 at address 0x00000747.
+# @ 41465: stage1.bmp(1867): ERROR: b8b8b8 != 000000 at address 0x0000074a.
+# @ 41485: stage1.bmp(1870): ERROR: b0b0b0 != 000000 at address 0x0000074d.
+# @ 41505: stage1.bmp(1873): ERROR: a8a8a8 != 000000 at address 0x00000750.
+# @ 41525: stage1.bmp(1876): ERROR: 9f9f9f != 000000 at address 0x00000753.
+# @ 41545: stage1.bmp(1879): ERROR: 979797 != 000000 at address 0x00000756.
+# @ 41565: stage1.bmp(1882): ERROR: 919191 != 000000 at address 0x00000759.
+# @ 41585: stage1.bmp(1885): ERROR: 8d8d8d != 000000 at address 0x0000075c.
+# @ 41605: stage1.bmp(1888): ERROR: 888888 != 000000 at address 0x0000075f.
+# @ 41625: stage1.bmp(1891): ERROR: 808080 != 000000 at address 0x00000762.
+# @ 41645: stage1.bmp(1894): ERROR: 828282 != 000000 at address 0x00000765.
+# @ 41665: stage1.bmp(1897): ERROR: 959595 != 000000 at address 0x00000768.
+# @ 41685: stage1.bmp(1900): ERROR: c3c3c3 != 000000 at address 0x0000076b.
+# @ 41705: stage1.bmp(1903): ERROR: 010101 != 000000 at address 0x0000076e.
+# @ 41725: stage1.bmp(1906): ERROR: 2c2c2c != 000000 at address 0x00000771.
+# @ 41745: stage1.bmp(1909): ERROR: 303030 != 000000 at address 0x00000774.
+# @ 41765: stage1.bmp(1912): ERROR: 191919 != 000000 at address 0x00000777.
+# @ 41785: stage1.bmp(1915): ERROR: 1b1b1b != 000000 at address 0x0000077a.
+# @ 41805: stage1.bmp(1918): ERROR: 191919 != 000000 at address 0x0000077d.
+# @ 41825: stage1.bmp(1921): ERROR: 090909 != 000000 at address 0x00000780.
+# @ 41845: stage1.bmp(1924): ERROR: efefef != 000000 at address 0x00000783.
+# @ 41865: stage1.bmp(1927): ERROR: d0d0d0 != 000000 at address 0x00000786.
+# @ 41885: stage1.bmp(1930): ERROR: a7a7a7 != 000000 at address 0x00000789.
+# @ 41905: stage1.bmp(1933): ERROR: 7e7e7e != 000000 at address 0x0000078c.
+# @ 41925: stage1.bmp(1936): ERROR: 676767 != 000000 at address 0x0000078f.
+# @ 41945: stage1.bmp(1939): ERROR: 5d5d5d != 000000 at address 0x00000792.
+# @ 41965: stage1.bmp(1942): ERROR: 5a5a5a != 000000 at address 0x00000795.
+# @ 41985: stage1.bmp(1945): ERROR: 5b5b5b != 000000 at address 0x00000798.
+# @ 42005: stage1.bmp(1948): ERROR: 5a5a5a != 000000 at address 0x0000079b.
+# @ 42025: stage1.bmp(1951): ERROR: 565656 != 000000 at address 0x0000079e.
+# @ 42045: stage1.bmp(1954): ERROR: 4d4d4d != 000000 at address 0x000007a1.
+# @ 42065: stage1.bmp(1957): ERROR: 424242 != 000000 at address 0x000007a4.
+# @ 42085: stage1.bmp(1960): ERROR: 353535 != 000000 at address 0x000007a7.
+# @ 42105: stage1.bmp(1963): ERROR: 2d2d2d != 000000 at address 0x000007aa.
+# @ 42125: stage1.bmp(1966): ERROR: 2c2c2c != 000000 at address 0x000007ad.
+# @ 42145: stage1.bmp(1969): ERROR: 2c2c2c != 000000 at address 0x000007b0.
+# @ 42165: stage1.bmp(1972): ERROR: 2f2f2f != 000000 at address 0x000007b3.
+# @ 42185: stage1.bmp(1975): ERROR: 303030 != 000000 at address 0x000007b6.
+# @ 42205: stage1.bmp(1978): ERROR: 2e2e2e != 000000 at address 0x000007b9.
+# @ 42225: stage1.bmp(1981): ERROR: 303030 != 000000 at address 0x000007bc.
+# @ 42245: stage1.bmp(1984): ERROR: 343434 != 000000 at address 0x000007bf.
+# @ 42265: stage1.bmp(1987): ERROR: 323232 != 000000 at address 0x000007c2.
+# @ 42285: stage1.bmp(1990): ERROR: 333333 != 000000 at address 0x000007c5.
+# @ 42305: stage1.bmp(1993): ERROR: 333333 != 000000 at address 0x000007c8.
+# @ 42325: stage1.bmp(1996): ERROR: 333333 != 000000 at address 0x000007cb.
+# @ 42345: stage1.bmp(1999): ERROR: 313131 != 000000 at address 0x000007ce.
+# @ 42365: stage1.bmp(2002): ERROR: 323232 != 000000 at address 0x000007d1.
+# @ 42385: stage1.bmp(2005): ERROR: 303030 != 000000 at address 0x000007d4.
+# @ 42405: stage1.bmp(2008): ERROR: 2b2b2b != 000000 at address 0x000007d7.
+# @ 42425: stage1.bmp(2011): ERROR: 2c2c2c != 000000 at address 0x000007da.
+# @ 42445: stage1.bmp(2014): ERROR: 2c2c2c != 000000 at address 0x000007dd.
+# @ 42465: stage1.bmp(2017): ERROR: 2b2b2b != 000000 at address 0x000007e0.
+# @ 42485: stage1.bmp(2020): ERROR: 2b2b2b != 000000 at address 0x000007e3.
+# @ 42505: stage1.bmp(2023): ERROR: 2c2c2c != 000000 at address 0x000007e6.
+# @ 42525: stage1.bmp(2026): ERROR: 2b2b2b != 000000 at address 0x000007e9.
+# @ 42545: stage1.bmp(2029): ERROR: 2a2a2a != 000000 at address 0x000007ec.
+# @ 42565: stage1.bmp(2032): ERROR: 2b2b2b != 000000 at address 0x000007ef.
+# @ 42585: stage1.bmp(2035): ERROR: 2b2b2b != 000000 at address 0x000007f2.
+# @ 42605: stage1.bmp(2038): ERROR: 2a2a2a != 000000 at address 0x000007f5.
+# @ 42625: stage1.bmp(2041): ERROR: 292929 != 000000 at address 0x000007f8.
+# @ 42645: stage1.bmp(2044): ERROR: 292929 != 000000 at address 0x000007fb.
+# @ 42665: stage1.bmp(2047): ERROR: 292929 != 000000 at address 0x000007fe.
+# @ 42685: stage1.bmp(2050): ERROR: 282828 != 000000 at address 0x00000801.
+# @ 42705: stage1.bmp(2053): ERROR: 282828 != 000000 at address 0x00000804.
+# @ 42725: stage1.bmp(2056): ERROR: 2b2b2b != 000000 at address 0x00000807.
+# @ 42745: stage1.bmp(2059): ERROR: 2d2d2d != 000000 at address 0x0000080a.
+# @ 42765: stage1.bmp(2062): ERROR: 2e2e2e != 000000 at address 0x0000080d.
+# @ 42785: stage1.bmp(2065): ERROR: 303030 != 000000 at address 0x00000810.
+# @ 42805: stage1.bmp(2068): ERROR: 313131 != 000000 at address 0x00000813.
+# @ 42825: stage1.bmp(2071): ERROR: 333333 != 000000 at address 0x00000816.
+# @ 42845: stage1.bmp(2074): ERROR: 333333 != 000000 at address 0x00000819.
+# @ 42865: stage1.bmp(2077): ERROR: 343434 != 000000 at address 0x0000081c.
+# @ 42885: stage1.bmp(2080): ERROR: 323232 != 000000 at address 0x0000081f.
+# @ 42905: stage1.bmp(2083): ERROR: 313131 != 000000 at address 0x00000822.
+# @ 42925: stage1.bmp(2086): ERROR: 313131 != 000000 at address 0x00000825.
+# @ 42945: stage1.bmp(2089): ERROR: 333333 != 000000 at address 0x00000828.
+# @ 42965: stage1.bmp(2092): ERROR: 333333 != 000000 at address 0x0000082b.
+# @ 42985: stage1.bmp(2095): ERROR: 323232 != 000000 at address 0x0000082e.
+# @ 43005: stage1.bmp(2098): ERROR: 333333 != 000000 at address 0x00000831.
+# @ 43025: stage1.bmp(2101): ERROR: 343434 != 000000 at address 0x00000834.
+# @ 43045: stage1.bmp(2104): ERROR: 353535 != 000000 at address 0x00000837.
+# @ 43065: stage1.bmp(2107): ERROR: 353535 != 000000 at address 0x0000083a.
+# @ 43085: stage1.bmp(2110): ERROR: 343434 != 000000 at address 0x0000083d.
+# @ 43105: stage1.bmp(2113): ERROR: 343434 != 000000 at address 0x00000840.
+# @ 43125: stage1.bmp(2116): ERROR: 333333 != 000000 at address 0x00000843.
+# @ 43145: stage1.bmp(2119): ERROR: 323232 != 000000 at address 0x00000846.
+# @ 43165: stage1.bmp(2122): ERROR: 313131 != 000000 at address 0x00000849.
+# @ 43185: stage1.bmp(2125): ERROR: 393939 != 000000 at address 0x0000084c.
+# @ 43205: stage1.bmp(2128): ERROR: 3f3f3f != 000000 at address 0x0000084f.
+# @ 43225: stage1.bmp(2131): ERROR: 424242 != 000000 at address 0x00000852.
+# @ 43245: stage1.bmp(2134): ERROR: 444444 != 000000 at address 0x00000855.
+# @ 43265: stage1.bmp(2137): ERROR: 454545 != 000000 at address 0x00000858.
+# @ 43285: stage1.bmp(2140): ERROR: 444444 != 000000 at address 0x0000085b.
+# @ 43305: stage1.bmp(2143): ERROR: 444444 != 000000 at address 0x0000085e.
+# @ 43325: stage1.bmp(2146): ERROR: 444444 != 000000 at address 0x00000861.
+# @ 43345: stage1.bmp(2149): ERROR: 424242 != 000000 at address 0x00000864.
+# @ 43365: stage1.bmp(2152): ERROR: 414141 != 000000 at address 0x00000867.
+# @ 43385: stage1.bmp(2155): ERROR: 434343 != 000000 at address 0x0000086a.
+# @ 43405: stage1.bmp(2158): ERROR: 606060 != 000000 at address 0x0000086d.
+# @ 43425: stage1.bmp(2161): ERROR: 3d3d3d != 000000 at address 0x00000870.
+# @ 57845: stage1.bmp(4318): ERROR: 454545 != 000000 at address 0x000010dd.
+# @ 57865: stage1.bmp(4321): ERROR: 404040 != 000000 at address 0x000010e0.
+# @ 72285: stage1.bmp(6478): ERROR: 464646 != 000000 at address 0x0000194d.
+# @ 72305: stage1.bmp(6481): ERROR: 444444 != 000000 at address 0x00001950.
+# @ 86725: stage1.bmp(8638): ERROR: 494949 != 000000 at address 0x000021bd.
+# @ 86745: stage1.bmp(8641): ERROR: 484848 != 000000 at address 0x000021c0.
+# @ 101165: stage1.bmp(10798): ERROR: 525252 != 000000 at address 0x00002a2d.
+# @ 101185: stage1.bmp(10801): ERROR: 4e4e4e != 000000 at address 0x00002a30.
+# @ 115605: stage1.bmp(12958): ERROR: 5b5b5b != 000000 at address 0x0000329d.
+# @ 115625: stage1.bmp(12961): ERROR: 555555 != 000000 at address 0x000032a0.
+# @ 130045: stage1.bmp(15118): ERROR: 5f5f5f != 000000 at address 0x00003b0d.
+# @ 130065: stage1.bmp(15121): ERROR: 5a5a5a != 000000 at address 0x00003b10.
+# @ 144485: stage1.bmp(17278): ERROR: 5f5f5f != 000000 at address 0x0000437d.
+# @ 144505: stage1.bmp(17281): ERROR: 5c5c5c != 000000 at address 0x00004380.
+# @ 158925: stage1.bmp(19438): ERROR: 616161 != 000000 at address 0x00004bed.
+# @ 158945: stage1.bmp(19441): ERROR: 5e5e5e != 000000 at address 0x00004bf0.
+# @ 173365: stage1.bmp(21598): ERROR: 636363 != 000000 at address 0x0000545d.
+# @ 173385: stage1.bmp(21601): ERROR: 606060 != 000000 at address 0x00005460.
+# @ 187805: stage1.bmp(23758): ERROR: 636363 != 000000 at address 0x00005ccd.
+# @ 187825: stage1.bmp(23761): ERROR: 616161 != 000000 at address 0x00005cd0.
+# @ 202245: stage1.bmp(25918): ERROR: 666666 != 000000 at address 0x0000653d.
+# @ 202265: stage1.bmp(25921): ERROR: 646464 != 000000 at address 0x00006540.
+# @ 216685: stage1.bmp(28078): ERROR: 6a6a6a != 000000 at address 0x00006dad.
+# @ 216705: stage1.bmp(28081): ERROR: 686868 != 000000 at address 0x00006db0.
+# @ 231125: stage1.bmp(30238): ERROR: 676767 != 000000 at address 0x0000761d.
+# @ 231145: stage1.bmp(30241): ERROR: 686868 != 000000 at address 0x00007620.
+# @ 245565: stage1.bmp(32398): ERROR: 707070 != 000000 at address 0x00007e8d.
+# @ 245585: stage1.bmp(32401): ERROR: 676767 != 000000 at address 0x00007e90.
+# @ 260005: stage1.bmp(34558): ERROR: 6b6b6b != 000000 at address 0x000086fd.
+# @ 260025: stage1.bmp(34561): ERROR: 5b5b5b != 000000 at address 0x00008700.
+# @ 274445: stage1.bmp(36718): ERROR: 555555 != 000000 at address 0x00008f6d.
+# @ 274465: stage1.bmp(36721): ERROR: 474747 != 000000 at address 0x00008f70.
+# @ 288885: stage1.bmp(38878): ERROR: 3a3a3a != 000000 at address 0x000097dd.
+# @ 288905: stage1.bmp(38881): ERROR: 373737 != 000000 at address 0x000097e0.
+# @ 303325: stage1.bmp(41038): ERROR: 575757 != 000000 at address 0x0000a04d.
+# @ 303345: stage1.bmp(41041): ERROR: 444444 != 000000 at address 0x0000a050.
+# @ 317765: stage1.bmp(43198): ERROR: 676767 != 000000 at address 0x0000a8bd.
+# @ 317785: stage1.bmp(43201): ERROR: 545454 != 000000 at address 0x0000a8c0.
+# @ 332205: stage1.bmp(45358): ERROR: 646464 != 000000 at address 0x0000b12d.
+# @ 332225: stage1.bmp(45361): ERROR: 5b5b5b != 000000 at address 0x0000b130.
+# @ 346645: stage1.bmp(47518): ERROR: 5e5e5e != 000000 at address 0x0000b99d.
+# @ 346665: stage1.bmp(47521): ERROR: 5b5b5b != 000000 at address 0x0000b9a0.
+# @ 361085: stage1.bmp(49678): ERROR: 676767 != 000000 at address 0x0000c20d.
+# @ 361105: stage1.bmp(49681): ERROR: 5a5a5a != 000000 at address 0x0000c210.
+# @ 375525: stage1.bmp(51838): ERROR: 646464 != 000000 at address 0x0000ca7d.
+# @ 375545: stage1.bmp(51841): ERROR: 4e4e4e != 000000 at address 0x0000ca80.
+# @ 389965: stage1.bmp(53998): ERROR: 4d4d4d != 000000 at address 0x0000d2ed.
+# @ 389985: stage1.bmp(54001): ERROR: 393939 != 000000 at address 0x0000d2f0.
+# @ 390985: stage1.bmp(54145): ERROR: 191919 != ffffff at address 0x0000d380.
+# @ 404405: stage1.bmp(56158): ERROR: 323232 != 000000 at address 0x0000db5d.
+# @ 404425: stage1.bmp(56161): ERROR: 262626 != 000000 at address 0x0000db60.
+# @ 405445: stage1.bmp(56308): ERROR: 0e0e0e != ffffff at address 0x0000dbf3.
+# @ 418845: stage1.bmp(58318): ERROR: 1e1e1e != 000000 at address 0x0000e3cd.
+# @ 418865: stage1.bmp(58321): ERROR: 1a1a1a != 000000 at address 0x0000e3d0.
+# @ 433285: stage1.bmp(60478): ERROR: 272727 != 000000 at address 0x0000ec3d.
+# @ 433305: stage1.bmp(60481): ERROR: 1f1f1f != 000000 at address 0x0000ec40.
+# @ 447725: stage1.bmp(62638): ERROR: 414141 != 000000 at address 0x0000f4ad.
+# @ 447745: stage1.bmp(62641): ERROR: 303030 != 000000 at address 0x0000f4b0.
+# @ 459925: stage1.bmp(64462): ERROR: 0c0c0c != ffffff at address 0x0000fbcd.
+# @ 459945: stage1.bmp(64465): ERROR: 2d2d2d != ffffff at address 0x0000fbd0.
+# @ 459965: stage1.bmp(64468): ERROR: 252525 != ffffff at address 0x0000fbd3.
+# @ 462165: stage1.bmp(64798): ERROR: 4d4d4d != 000000 at address 0x0000fd1d.
+# @ 462185: stage1.bmp(64801): ERROR: 3e3e3e != 000000 at address 0x0000fd20.
+# @ 474405: stage1.bmp(66628): ERROR: 090909 != ffffff at address 0x00010443.
+# @ 474425: stage1.bmp(66631): ERROR: 252525 != ffffff at address 0x00010446.
+# @ 474445: stage1.bmp(66634): ERROR: 272727 != ffffff at address 0x00010449.
+# @ 474465: stage1.bmp(66637): ERROR: 171717 != ffffff at address 0x0001044c.
+# @ 474485: stage1.bmp(66640): ERROR: 020202 != ffffff at address 0x0001044f.
+# @ 476605: stage1.bmp(66958): ERROR: 4c4c4c != 000000 at address 0x0001058d.
+# @ 476625: stage1.bmp(66961): ERROR: 444444 != 000000 at address 0x00010590.
+# @ 488925: stage1.bmp(68800): ERROR: 030303 != ffffff at address 0x00010cbf.
+# @ 488945: stage1.bmp(68803): ERROR: 111111 != ffffff at address 0x00010cc2.
+# @ 488965: stage1.bmp(68806): ERROR: 0d0d0d != ffffff at address 0x00010cc5.
+# @ 491045: stage1.bmp(69118): ERROR: 4b4b4b != 000000 at address 0x00010dfd.
+# @ 491065: stage1.bmp(69121): ERROR: 454545 != 000000 at address 0x00010e00.
+# @ 505485: stage1.bmp(71278): ERROR: 4d4d4d != 000000 at address 0x0001166d.
+# @ 505505: stage1.bmp(71281): ERROR: 454545 != 000000 at address 0x00011670.
+# @ 519925: stage1.bmp(73438): ERROR: 525252 != 000000 at address 0x00011edd.
+# @ 519945: stage1.bmp(73441): ERROR: 424242 != 000000 at address 0x00011ee0.
+# @ 534365: stage1.bmp(75598): ERROR: 5b5b5b != 000000 at address 0x0001274d.
+# @ 534385: stage1.bmp(75601): ERROR: 454545 != 000000 at address 0x00012750.
+# @ 534745: stage1.bmp(75649): ERROR: 010101 != ffffff at address 0x00012780.
+# @ 548805: stage1.bmp(77758): ERROR: 626262 != 000000 at address 0x00012fbd.
+# @ 548825: stage1.bmp(77761): ERROR: 494949 != 000000 at address 0x00012fc0.
+# @ 549165: stage1.bmp(77806): ERROR: 0d0d0d != ffffff at address 0x00012fed.
+# @ 563245: stage1.bmp(79918): ERROR: 6b6b6b != 000000 at address 0x0001382d.
+# @ 563265: stage1.bmp(79921): ERROR: 505050 != 000000 at address 0x00013830.
+# @ 577685: stage1.bmp(82078): ERROR: 737373 != 000000 at address 0x0001409d.
+# @ 577705: stage1.bmp(82081): ERROR: 585858 != 000000 at address 0x000140a0.
+# @ 592125: stage1.bmp(84238): ERROR: 707070 != 000000 at address 0x0001490d.
+# @ 592145: stage1.bmp(84241): ERROR: 5c5c5c != 000000 at address 0x00014910.
+# @ 606565: stage1.bmp(86398): ERROR: 707070 != 000000 at address 0x0001517d.
+# @ 606585: stage1.bmp(86401): ERROR: 5c5c5c != 000000 at address 0x00015180.
+# @ 621005: stage1.bmp(88558): ERROR: 6c6c6c != 000000 at address 0x000159ed.
+# @ 621025: stage1.bmp(88561): ERROR: 585858 != 000000 at address 0x000159f0.
+# @ 635445: stage1.bmp(90718): ERROR: 5a5a5a != 000000 at address 0x0001625d.
+# @ 635465: stage1.bmp(90721): ERROR: 4f4f4f != 000000 at address 0x00016260.
+# @ 649885: stage1.bmp(92878): ERROR: 585858 != 000000 at address 0x00016acd.
+# @ 649905: stage1.bmp(92881): ERROR: 515151 != 000000 at address 0x00016ad0.
+# @ 664325: stage1.bmp(95038): ERROR: 707070 != 000000 at address 0x0001733d.
+# @ 664345: stage1.bmp(95041): ERROR: 626262 != 000000 at address 0x00017340.
+# @ 678765: stage1.bmp(97198): ERROR: 7b7b7b != 000000 at address 0x00017bad.
+# @ 678785: stage1.bmp(97201): ERROR: 707070 != 000000 at address 0x00017bb0.
+# @ 693205: stage1.bmp(99358): ERROR: 6e6e6e != 000000 at address 0x0001841d.
+# @ 693225: stage1.bmp(99361): ERROR: 707070 != 000000 at address 0x00018420.
+# @ 707645: stage1.bmp(101518): ERROR: 797979 != 000000 at address 0x00018c8d.
+# @ 707665: stage1.bmp(101521): ERROR: 6f6f6f != 000000 at address 0x00018c90.
+# @ 722085: stage1.bmp(103678): ERROR: 707070 != 000000 at address 0x000194fd.
+# @ 722105: stage1.bmp(103681): ERROR: 646464 != 000000 at address 0x00019500.
+# @ 736525: stage1.bmp(105838): ERROR: 676767 != 000000 at address 0x00019d6d.
+# @ 736545: stage1.bmp(105841): ERROR: 595959 != 000000 at address 0x00019d70.
+# @ 750965: stage1.bmp(107998): ERROR: 5b5b5b != 000000 at address 0x0001a5dd.
+# @ 750985: stage1.bmp(108001): ERROR: 4d4d4d != 000000 at address 0x0001a5e0.
+# @ 765405: stage1.bmp(110158): ERROR: 4c4c4c != 000000 at address 0x0001ae4d.
+# @ 765425: stage1.bmp(110161): ERROR: 424242 != 000000 at address 0x0001ae50.
+# @ 779845: stage1.bmp(112318): ERROR: 414141 != 000000 at address 0x0001b6bd.
+# @ 779865: stage1.bmp(112321): ERROR: 3b3b3b != 000000 at address 0x0001b6c0.
+# @ 794285: stage1.bmp(114478): ERROR: 373737 != 000000 at address 0x0001bf2d.
+# @ 794305: stage1.bmp(114481): ERROR: 363636 != 000000 at address 0x0001bf30.
+# @ 808725: stage1.bmp(116638): ERROR: 3a3a3a != 000000 at address 0x0001c79d.
+# @ 808745: stage1.bmp(116641): ERROR: 373737 != 000000 at address 0x0001c7a0.
+# @ 823165: stage1.bmp(118798): ERROR: 474747 != 000000 at address 0x0001d00d.
+# @ 823185: stage1.bmp(118801): ERROR: 3f3f3f != 000000 at address 0x0001d010.
+# @ 837605: stage1.bmp(120958): ERROR: 565656 != 000000 at address 0x0001d87d.
+# @ 837625: stage1.bmp(120961): ERROR: 4a4a4a != 000000 at address 0x0001d880.
+# @ 852045: stage1.bmp(123118): ERROR: 646464 != 000000 at address 0x0001e0ed.
+# @ 852065: stage1.bmp(123121): ERROR: 565656 != 000000 at address 0x0001e0f0.
+# @ 866485: stage1.bmp(125278): ERROR: 6c6c6c != 000000 at address 0x0001e95d.
+# @ 866505: stage1.bmp(125281): ERROR: 616161 != 000000 at address 0x0001e960.
+# @ 880925: stage1.bmp(127438): ERROR: 686868 != 000000 at address 0x0001f1cd.
+# @ 880945: stage1.bmp(127441): ERROR: 676767 != 000000 at address 0x0001f1d0.
+# @ 895365: stage1.bmp(129598): ERROR: 606060 != 000000 at address 0x0001fa3d.
+# @ 895385: stage1.bmp(129601): ERROR: 696969 != 000000 at address 0x0001fa40.
+# @ 909805: stage1.bmp(131758): ERROR: 5f5f5f != 000000 at address 0x000202ad.
+# @ 909825: stage1.bmp(131761): ERROR: 6c6c6c != 000000 at address 0x000202b0.
+# @ 924245: stage1.bmp(133918): ERROR: 606060 != 000000 at address 0x00020b1d.
+# @ 924265: stage1.bmp(133921): ERROR: 6f6f6f != 000000 at address 0x00020b20.
+# @ 938685: stage1.bmp(136078): ERROR: 636363 != 000000 at address 0x0002138d.
+# @ 938705: stage1.bmp(136081): ERROR: 717171 != 000000 at address 0x00021390.
+# @ 953125: stage1.bmp(138238): ERROR: 6c6c6c != 000000 at address 0x00021bfd.
+# @ 953145: stage1.bmp(138241): ERROR: 747474 != 000000 at address 0x00021c00.
+# @ 967565: stage1.bmp(140398): ERROR: 737373 != 000000 at address 0x0002246d.
+# @ 967585: stage1.bmp(140401): ERROR: 767676 != 000000 at address 0x00022470.
+# @ 982005: stage1.bmp(142558): ERROR: 747474 != 000000 at address 0x00022cdd.
+# @ 982025: stage1.bmp(142561): ERROR: 767676 != 000000 at address 0x00022ce0.
+# @ 996445: stage1.bmp(144718): ERROR: 787878 != 000000 at address 0x0002354d.
+# @ 996465: stage1.bmp(144721): ERROR: 737373 != 000000 at address 0x00023550.
+# @ 1010885: stage1.bmp(146878): ERROR: 737373 != 000000 at address 0x00023dbd.
+# @ 1010905: stage1.bmp(146881): ERROR: 6c6c6c != 000000 at address 0x00023dc0.
+# @ 1025325: stage1.bmp(149038): ERROR: 6a6a6a != 000000 at address 0x0002462d.
+# @ 1025345: stage1.bmp(149041): ERROR: 636363 != 000000 at address 0x00024630.
+# @ 1039765: stage1.bmp(151198): ERROR: 5c5c5c != 000000 at address 0x00024e9d.
+# @ 1039785: stage1.bmp(151201): ERROR: 5b5b5b != 000000 at address 0x00024ea0.
+# @ 1054205: stage1.bmp(153358): ERROR: 585858 != 000000 at address 0x0002570d.
+# @ 1054225: stage1.bmp(153361): ERROR: 5c5c5c != 000000 at address 0x00025710.
+# @ 1068645: stage1.bmp(155518): ERROR: 5c5c5c != 000000 at address 0x00025f7d.
+# @ 1068665: stage1.bmp(155521): ERROR: 606060 != 000000 at address 0x00025f80.
+# @ 1083085: stage1.bmp(157678): ERROR: 5f5f5f != 000000 at address 0x000267ed.
+# @ 1083105: stage1.bmp(157681): ERROR: 636363 != 000000 at address 0x000267f0.
+# @ 1097525: stage1.bmp(159838): ERROR: 666666 != 000000 at address 0x0002705d.
+# @ 1097545: stage1.bmp(159841): ERROR: 686868 != 000000 at address 0x00027060.
+# @ 1111965: stage1.bmp(161998): ERROR: 6e6e6e != 000000 at address 0x000278cd.
+# @ 1111985: stage1.bmp(162001): ERROR: 707070 != 000000 at address 0x000278d0.
+# @ 1126405: stage1.bmp(164158): ERROR: 6f6f6f != 000000 at address 0x0002813d.
+# @ 1126425: stage1.bmp(164161): ERROR: 767676 != 000000 at address 0x00028140.
+# @ 1140845: stage1.bmp(166318): ERROR: 6d6d6d != 000000 at address 0x000289ad.
+# @ 1140865: stage1.bmp(166321): ERROR: 787878 != 000000 at address 0x000289b0.
+# @ 1155285: stage1.bmp(168478): ERROR: 737373 != 000000 at address 0x0002921d.
+# @ 1155305: stage1.bmp(168481): ERROR: 7b7b7b != 000000 at address 0x00029220.
+# @ 1169725: stage1.bmp(170638): ERROR: 848484 != 000000 at address 0x00029a8d.
+# @ 1169745: stage1.bmp(170641): ERROR: 858585 != 000000 at address 0x00029a90.
+# @ 1184165: stage1.bmp(172798): ERROR: 8b8b8b != 000000 at address 0x0002a2fd.
+# @ 1184185: stage1.bmp(172801): ERROR: 8f8f8f != 000000 at address 0x0002a300.
+# @ 1198605: stage1.bmp(174958): ERROR: 808080 != 000000 at address 0x0002ab6d.
+# @ 1198625: stage1.bmp(174961): ERROR: 909090 != 000000 at address 0x0002ab70.
+# @ 1213045: stage1.bmp(177118): ERROR: 878787 != 000000 at address 0x0002b3dd.
+# @ 1213065: stage1.bmp(177121): ERROR: 909090 != 000000 at address 0x0002b3e0.
+# @ 1227485: stage1.bmp(179278): ERROR: 838383 != 000000 at address 0x0002bc4d.
+# @ 1227505: stage1.bmp(179281): ERROR: 888888 != 000000 at address 0x0002bc50.
+# @ 1241925: stage1.bmp(181438): ERROR: 767676 != 000000 at address 0x0002c4bd.
+# @ 1241945: stage1.bmp(181441): ERROR: 7b7b7b != 000000 at address 0x0002c4c0.
+# @ 1256365: stage1.bmp(183598): ERROR: 6c6c6c != 000000 at address 0x0002cd2d.
+# @ 1256385: stage1.bmp(183601): ERROR: 707070 != 000000 at address 0x0002cd30.
+# @ 1270805: stage1.bmp(185758): ERROR: 666666 != 000000 at address 0x0002d59d.
+# @ 1270825: stage1.bmp(185761): ERROR: 696969 != 000000 at address 0x0002d5a0.
+# @ 1285245: stage1.bmp(187918): ERROR: 6e6e6e != 000000 at address 0x0002de0d.
+# @ 1285265: stage1.bmp(187921): ERROR: 6a6a6a != 000000 at address 0x0002de10.
+# @ 1299685: stage1.bmp(190078): ERROR: 6c6c6c != 000000 at address 0x0002e67d.
+# @ 1299705: stage1.bmp(190081): ERROR: 6a6a6a != 000000 at address 0x0002e680.
+# @ 1314125: stage1.bmp(192238): ERROR: 717171 != 000000 at address 0x0002eeed.
+# @ 1314145: stage1.bmp(192241): ERROR: 6a6a6a != 000000 at address 0x0002eef0.
+# @ 1328565: stage1.bmp(194398): ERROR: 6c6c6c != 000000 at address 0x0002f75d.
+# @ 1328585: stage1.bmp(194401): ERROR: 656565 != 000000 at address 0x0002f760.
+# @ 1343005: stage1.bmp(196558): ERROR: 656565 != 000000 at address 0x0002ffcd.
+# @ 1343025: stage1.bmp(196561): ERROR: 616161 != 000000 at address 0x0002ffd0.
+# @ 1357445: stage1.bmp(198718): ERROR: 606060 != 000000 at address 0x0003083d.
+# @ 1357465: stage1.bmp(198721): ERROR: 5f5f5f != 000000 at address 0x00030840.
+# @ 1371885: stage1.bmp(200878): ERROR: 646464 != 000000 at address 0x000310ad.
+# @ 1371905: stage1.bmp(200881): ERROR: 626262 != 000000 at address 0x000310b0.
+# @ 1386325: stage1.bmp(203038): ERROR: 747474 != 000000 at address 0x0003191d.
+# @ 1386345: stage1.bmp(203041): ERROR: 6b6b6b != 000000 at address 0x00031920.
+# @ 1400765: stage1.bmp(205198): ERROR: 808080 != 000000 at address 0x0003218d.
+# @ 1400785: stage1.bmp(205201): ERROR: 747474 != 000000 at address 0x00032190.
+# @ 1415205: stage1.bmp(207358): ERROR: 838383 != 000000 at address 0x000329fd.
+# @ 1415225: stage1.bmp(207361): ERROR: 7a7a7a != 000000 at address 0x00032a00.
+# @ 1429645: stage1.bmp(209518): ERROR: 7e7e7e != 000000 at address 0x0003326d.
+# @ 1429665: stage1.bmp(209521): ERROR: 7b7b7b != 000000 at address 0x00033270.
+# @ 1441005: stage1.bmp(211216): ERROR: 050505 != ffffff at address 0x0003390f.
+# @ 1444085: stage1.bmp(211678): ERROR: 7f7f7f != 000000 at address 0x00033add.
+# @ 1444105: stage1.bmp(211681): ERROR: 7b7b7b != 000000 at address 0x00033ae0.
+# @ 1455465: stage1.bmp(213379): ERROR: 080808 != ffffff at address 0x00034182.
+# @ 1458525: stage1.bmp(213838): ERROR: 7c7c7c != 000000 at address 0x0003434d.
+# @ 1458545: stage1.bmp(213841): ERROR: 797979 != 000000 at address 0x00034350.
+# @ 1472965: stage1.bmp(215998): ERROR: 797979 != 000000 at address 0x00034bbd.
+# @ 1472985: stage1.bmp(216001): ERROR: 797979 != 000000 at address 0x00034bc0.
+# @ 1487405: stage1.bmp(218158): ERROR: 797979 != 000000 at address 0x0003542d.
+# @ 1487425: stage1.bmp(218161): ERROR: 7b7b7b != 000000 at address 0x00035430.
+# @ 1501845: stage1.bmp(220318): ERROR: 787878 != 000000 at address 0x00035c9d.
+# @ 1501865: stage1.bmp(220321): ERROR: 7c7c7c != 000000 at address 0x00035ca0.
+# @ 1516285: stage1.bmp(222478): ERROR: 787878 != 000000 at address 0x0003650d.
+# @ 1516305: stage1.bmp(222481): ERROR: 7c7c7c != 000000 at address 0x00036510.
+# @ 1527485: stage1.bmp(224152): ERROR: 040404 != ffffff at address 0x00036b97.
+# @ 1530725: stage1.bmp(224638): ERROR: 797979 != 000000 at address 0x00036d7d.
+# @ 1530745: stage1.bmp(224641): ERROR: 7c7c7c != 000000 at address 0x00036d80.
+# @ 1541945: stage1.bmp(226315): ERROR: 1a1a1a != ffffff at address 0x0003740a.
+# @ 1545165: stage1.bmp(226798): ERROR: 787878 != 000000 at address 0x000375ed.
+# @ 1545185: stage1.bmp(226801): ERROR: 7b7b7b != 000000 at address 0x000375f0.
+# @ 1556405: stage1.bmp(228478): ERROR: 1d1d1d != ffffff at address 0x00037c7d.
+# @ 1559605: stage1.bmp(228958): ERROR: 767676 != 000000 at address 0x00037e5d.
+# @ 1559625: stage1.bmp(228961): ERROR: 7b7b7b != 000000 at address 0x00037e60.
+# @ 1570865: stage1.bmp(230641): ERROR: 131313 != ffffff at address 0x000384f0.
+# @ 1570885: stage1.bmp(230644): ERROR: 0b0b0b != ffffff at address 0x000384f3.
+# @ 1574045: stage1.bmp(231118): ERROR: 7d7d7d != 000000 at address 0x000386cd.
+# @ 1574065: stage1.bmp(231121): ERROR: 7f7f7f != 000000 at address 0x000386d0.
+# @ 1585325: stage1.bmp(232804): ERROR: 050505 != ffffff at address 0x00038d63.
+# @ 1585345: stage1.bmp(232807): ERROR: 1b1b1b != ffffff at address 0x00038d66.
+# @ 1588485: stage1.bmp(233278): ERROR: 808080 != 000000 at address 0x00038f3d.
+# @ 1588505: stage1.bmp(233281): ERROR: 808080 != 000000 at address 0x00038f40.
+# @ 1599805: stage1.bmp(234970): ERROR: 0b0b0b != ffffff at address 0x000395d9.
+# @ 1602925: stage1.bmp(235438): ERROR: 878787 != 000000 at address 0x000397ad.
+# @ 1602945: stage1.bmp(235441): ERROR: 828282 != 000000 at address 0x000397b0.
+# @ 1617365: stage1.bmp(237598): ERROR: 8d8d8d != 000000 at address 0x0003a01d.
+# @ 1617385: stage1.bmp(237601): ERROR: 858585 != 000000 at address 0x0003a020.
+# @ 1631805: stage1.bmp(239758): ERROR: 8b8b8b != 000000 at address 0x0003a88d.
+# @ 1631825: stage1.bmp(239761): ERROR: 858585 != 000000 at address 0x0003a890.
+# @ 1646245: stage1.bmp(241918): ERROR: 909090 != 000000 at address 0x0003b0fd.
+# @ 1646265: stage1.bmp(241921): ERROR: 848484 != 000000 at address 0x0003b100.
+# @ 1660685: stage1.bmp(244078): ERROR: 8b8b8b != 000000 at address 0x0003b96d.
+# @ 1660705: stage1.bmp(244081): ERROR: 7e7e7e != 000000 at address 0x0003b970.
+# @ 1675125: stage1.bmp(246238): ERROR: 828282 != 000000 at address 0x0003c1dd.
+# @ 1675145: stage1.bmp(246241): ERROR: 777777 != 000000 at address 0x0003c1e0.
+# @ 1689565: stage1.bmp(248398): ERROR: 797979 != 000000 at address 0x0003ca4d.
+# @ 1689585: stage1.bmp(248401): ERROR: 727272 != 000000 at address 0x0003ca50.
+# @ 1704005: stage1.bmp(250558): ERROR: 717171 != 000000 at address 0x0003d2bd.
+# @ 1704025: stage1.bmp(250561): ERROR: 6f6f6f != 000000 at address 0x0003d2c0.
+# @ 1718445: stage1.bmp(252718): ERROR: 727272 != 000000 at address 0x0003db2d.
+# @ 1718465: stage1.bmp(252721): ERROR: 717171 != 000000 at address 0x0003db30.
+# @ 1732885: stage1.bmp(254878): ERROR: 707070 != 000000 at address 0x0003e39d.
+# @ 1732905: stage1.bmp(254881): ERROR: 727272 != 000000 at address 0x0003e3a0.
+# @ 1747325: stage1.bmp(257038): ERROR: 717171 != 000000 at address 0x0003ec0d.
+# @ 1747345: stage1.bmp(257041): ERROR: 727272 != 000000 at address 0x0003ec10.
+# @ 1761765: stage1.bmp(259198): ERROR: 717171 != 000000 at address 0x0003f47d.
+# @ 1761785: stage1.bmp(259201): ERROR: 707070 != 000000 at address 0x0003f480.
+# @ 1776205: stage1.bmp(261358): ERROR: 6f6f6f != 000000 at address 0x0003fced.
+# @ 1776225: stage1.bmp(261361): ERROR: 6b6b6b != 000000 at address 0x0003fcf0.
+# @ 1790645: stage1.bmp(263518): ERROR: 6a6a6a != 000000 at address 0x0004055d.
+# @ 1790665: stage1.bmp(263521): ERROR: 646464 != 000000 at address 0x00040560.
+# @ 1792605: stage1.bmp(263806): ERROR: 131313 != ffffff at address 0x0004067d.
+# @ 1805085: stage1.bmp(265678): ERROR: 626262 != 000000 at address 0x00040dcd.
+# @ 1805105: stage1.bmp(265681): ERROR: 5d5d5d != 000000 at address 0x00040dd0.
+# @ 1807045: stage1.bmp(265966): ERROR: 161616 != ffffff at address 0x00040eed.
+# @ 1807065: stage1.bmp(265969): ERROR: 010101 != ffffff at address 0x00040ef0.
+# @ 1819525: stage1.bmp(267838): ERROR: 5b5b5b != 000000 at address 0x0004163d.
+# @ 1819545: stage1.bmp(267841): ERROR: 575757 != 000000 at address 0x00041640.
+# @ 1821505: stage1.bmp(268129): ERROR: 232323 != ffffff at address 0x00041760.
+# @ 1833965: stage1.bmp(269998): ERROR: 555555 != 000000 at address 0x00041ead.
+# @ 1833985: stage1.bmp(270001): ERROR: 525252 != 000000 at address 0x00041eb0.
+# @ 1835965: stage1.bmp(270292): ERROR: 0d0d0d != ffffff at address 0x00041fd3.
+# @ 1848405: stage1.bmp(272158): ERROR: 515151 != 000000 at address 0x0004271d.
+# @ 1848425: stage1.bmp(272161): ERROR: 4f4f4f != 000000 at address 0x00042720.
+# @ 1862845: stage1.bmp(274318): ERROR: 4f4f4f != 000000 at address 0x00042f8d.
+# @ 1862865: stage1.bmp(274321): ERROR: 4e4e4e != 000000 at address 0x00042f90.
+# @ 1877285: stage1.bmp(276478): ERROR: 525252 != 000000 at address 0x000437fd.
+# @ 1877305: stage1.bmp(276481): ERROR: 4f4f4f != 000000 at address 0x00043800.
+# @ 1891725: stage1.bmp(278638): ERROR: 595959 != 000000 at address 0x0004406d.
+# @ 1891745: stage1.bmp(278641): ERROR: 535353 != 000000 at address 0x00044070.
+# @ 1906165: stage1.bmp(280798): ERROR: 5f5f5f != 000000 at address 0x000448dd.
+# @ 1906185: stage1.bmp(280801): ERROR: 585858 != 000000 at address 0x000448e0.
+# @ 1920605: stage1.bmp(282958): ERROR: 646464 != 000000 at address 0x0004514d.
+# @ 1920625: stage1.bmp(282961): ERROR: 5d5d5d != 000000 at address 0x00045150.
+# @ 1935045: stage1.bmp(285118): ERROR: 696969 != 000000 at address 0x000459bd.
+# @ 1935065: stage1.bmp(285121): ERROR: 626262 != 000000 at address 0x000459c0.
+# @ 1949485: stage1.bmp(287278): ERROR: 6b6b6b != 000000 at address 0x0004622d.
+# @ 1949505: stage1.bmp(287281): ERROR: 666666 != 000000 at address 0x00046230.
+# @ 1963925: stage1.bmp(289438): ERROR: 686868 != 000000 at address 0x00046a9d.
+# @ 1963945: stage1.bmp(289441): ERROR: 676767 != 000000 at address 0x00046aa0.
+# @ 1978365: stage1.bmp(291598): ERROR: 676767 != 000000 at address 0x0004730d.
+# @ 1978385: stage1.bmp(291601): ERROR: 676767 != 000000 at address 0x00047310.
+# @ 1992805: stage1.bmp(293758): ERROR: 6d6d6d != 000000 at address 0x00047b7d.
+# @ 1992825: stage1.bmp(293761): ERROR: 6a6a6a != 000000 at address 0x00047b80.
+# @ 2007245: stage1.bmp(295918): ERROR: 737373 != 000000 at address 0x000483ed.
+# @ 2007265: stage1.bmp(295921): ERROR: 707070 != 000000 at address 0x000483f0.
+# @ 2021685: stage1.bmp(298078): ERROR: 757575 != 000000 at address 0x00048c5d.
+# @ 2021705: stage1.bmp(298081): ERROR: 767676 != 000000 at address 0x00048c60.
+# @ 2036125: stage1.bmp(300238): ERROR: 747474 != 000000 at address 0x000494cd.
+# @ 2036145: stage1.bmp(300241): ERROR: 797979 != 000000 at address 0x000494d0.
+# @ 2050565: stage1.bmp(302398): ERROR: 717171 != 000000 at address 0x00049d3d.
+# @ 2050585: stage1.bmp(302401): ERROR: 797979 != 000000 at address 0x00049d40.
+# @ 2065005: stage1.bmp(304558): ERROR: 777777 != 000000 at address 0x0004a5ad.
+# @ 2065025: stage1.bmp(304561): ERROR: 797979 != 000000 at address 0x0004a5b0.
+# @ 2079445: stage1.bmp(306718): ERROR: 757575 != 000000 at address 0x0004ae1d.
+# @ 2079465: stage1.bmp(306721): ERROR: 737373 != 000000 at address 0x0004ae20.
+# @ 2093885: stage1.bmp(308878): ERROR: 696969 != 000000 at address 0x0004b68d.
+# @ 2093905: stage1.bmp(308881): ERROR: 6b6b6b != 000000 at address 0x0004b690.
+# @ 2108325: stage1.bmp(311038): ERROR: 676767 != 000000 at address 0x0004befd.
+# @ 2108345: stage1.bmp(311041): ERROR: 6a6a6a != 000000 at address 0x0004bf00.
+# @ 2122765: stage1.bmp(313198): ERROR: 676767 != 000000 at address 0x0004c76d.
+# @ 2122785: stage1.bmp(313201): ERROR: 6a6a6a != 000000 at address 0x0004c770.
+# @ 2137205: stage1.bmp(315358): ERROR: 666666 != 000000 at address 0x0004cfdd.
+# @ 2137225: stage1.bmp(315361): ERROR: 696969 != 000000 at address 0x0004cfe0.
+# @ 2139245: stage1.bmp(315658): ERROR: 0b0b0b != ffffff at address 0x0004d109.
+# @ 2151645: stage1.bmp(317518): ERROR: 626262 != 000000 at address 0x0004d84d.
+# @ 2151665: stage1.bmp(317521): ERROR: 676767 != 000000 at address 0x0004d850.
+# @ 2166085: stage1.bmp(319678): ERROR: 656565 != 000000 at address 0x0004e0bd.
+# @ 2166105: stage1.bmp(319681): ERROR: 676767 != 000000 at address 0x0004e0c0.
+# @ 2180525: stage1.bmp(321838): ERROR: 6c6c6c != 000000 at address 0x0004e92d.
+# @ 2180545: stage1.bmp(321841): ERROR: 696969 != 000000 at address 0x0004e930.
+# @ 2194965: stage1.bmp(323998): ERROR: 7b7b7b != 000000 at address 0x0004f19d.
+# @ 2194985: stage1.bmp(324001): ERROR: 6e6e6e != 000000 at address 0x0004f1a0.
+# @ 2209405: stage1.bmp(326158): ERROR: 8f8f8f != 000000 at address 0x0004fa0d.
+# @ 2209425: stage1.bmp(326161): ERROR: 797979 != 000000 at address 0x0004fa10.
+# @ 2223845: stage1.bmp(328318): ERROR: 959595 != 000000 at address 0x0005027d.
+# @ 2223865: stage1.bmp(328321): ERROR: 828282 != 000000 at address 0x00050280.
+# @ 2238285: stage1.bmp(330478): ERROR: 929292 != 000000 at address 0x00050aed.
+# @ 2238305: stage1.bmp(330481): ERROR: 858585 != 000000 at address 0x00050af0.
+# @ 2252725: stage1.bmp(332638): ERROR: a6a6a6 != 000000 at address 0x0005135d.
+# @ 2252745: stage1.bmp(332641): ERROR: 929292 != 000000 at address 0x00051360.
+# @ 2267165: stage1.bmp(334798): ERROR: cbcbcb != 000000 at address 0x00051bcd.
+# @ 2267185: stage1.bmp(334801): ERROR: acacac != 000000 at address 0x00051bd0.
+# @ 2281605: stage1.bmp(336958): ERROR: dbdbdb != 000000 at address 0x0005243d.
+# @ 2281625: stage1.bmp(336961): ERROR: bfbfbf != 000000 at address 0x00052440.
+# @ 2296045: stage1.bmp(339118): ERROR: d3d3d3 != 000000 at address 0x00052cad.
+# @ 2296065: stage1.bmp(339121): ERROR: c3c3c3 != 000000 at address 0x00052cb0.
+# @ 2310485: stage1.bmp(341278): ERROR: d0d0d0 != 000000 at address 0x0005351d.
+# @ 2310505: stage1.bmp(341281): ERROR: c5c5c5 != 000000 at address 0x00053520.
+# @ 2324925: stage1.bmp(343438): ERROR: d0d0d0 != 000000 at address 0x00053d8d.
+# @ 2324945: stage1.bmp(343441): ERROR: c5c5c5 != 000000 at address 0x00053d90.
+# @ 2339365: stage1.bmp(345598): ERROR: dedede != 000000 at address 0x000545fd.
+# @ 2339385: stage1.bmp(345601): ERROR: c3c3c3 != 000000 at address 0x00054600.
+# @ 2353805: stage1.bmp(347758): ERROR: d1d1d1 != 000000 at address 0x00054e6d.
+# @ 2353825: stage1.bmp(347761): ERROR: adadad != 000000 at address 0x00054e70.
+# @ 2368245: stage1.bmp(349918): ERROR: a4a4a4 != 000000 at address 0x000556dd.
+# @ 2368265: stage1.bmp(349921): ERROR: 8d8d8d != 000000 at address 0x000556e0.
+# @ 2382685: stage1.bmp(352078): ERROR: 868686 != 000000 at address 0x00055f4d.
+# @ 2382705: stage1.bmp(352081): ERROR: 7c7c7c != 000000 at address 0x00055f50.
+# @ 2397125: stage1.bmp(354238): ERROR: 8a8a8a != 000000 at address 0x000567bd.
+# @ 2397145: stage1.bmp(354241): ERROR: 7b7b7b != 000000 at address 0x000567c0.
+# @ 2411565: stage1.bmp(356398): ERROR: 8b8b8b != 000000 at address 0x0005702d.
+# @ 2411585: stage1.bmp(356401): ERROR: 7b7b7b != 000000 at address 0x00057030.
+# @ 2426005: stage1.bmp(358558): ERROR: 8d8d8d != 000000 at address 0x0005789d.
+# @ 2426025: stage1.bmp(358561): ERROR: 7c7c7c != 000000 at address 0x000578a0.
+# @ 2440445: stage1.bmp(360718): ERROR: 929292 != 000000 at address 0x0005810d.
+# @ 2440465: stage1.bmp(360721): ERROR: 818181 != 000000 at address 0x00058110.
+# @ 2454885: stage1.bmp(362878): ERROR: 8f8f8f != 000000 at address 0x0005897d.
+# @ 2454905: stage1.bmp(362881): ERROR: 848484 != 000000 at address 0x00058980.
+# @ 2469325: stage1.bmp(365038): ERROR: 8d8d8d != 000000 at address 0x000591ed.
+# @ 2469345: stage1.bmp(365041): ERROR: 848484 != 000000 at address 0x000591f0.
+# @ 2483765: stage1.bmp(367198): ERROR: 898989 != 000000 at address 0x00059a5d.
+# @ 2483785: stage1.bmp(367201): ERROR: 838383 != 000000 at address 0x00059a60.
+# Break key hit
+# Break in Module shift_reg at ../sv/shift_reg.sv line 39
+# End time: 19:39:51 on Feb 17,2024, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0

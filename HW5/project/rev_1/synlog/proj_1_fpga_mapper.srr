@@ -1,0 +1,511 @@
+# Mon Feb 19 09:38:34 2024
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify (R) Premier
+Build: O-2018.09-SP1
+Install: /vol/synopsys/fpga/O-2018.09-SP1
+OS: Red Hat Enterprise Linux 8.9 (Ootpa)
+Hostname: moore.wot.eecs.northwestern.edu
+max virtual memory: unlimited (bytes)
+max user processes: 1027961
+max stack size: 8388608 (bytes)
+
+
+Implementation : rev_1
+Synopsys Intel FPGA Technology Mapper, Version maprc, Build 4745R, Built Nov 27 2018 21:14:52
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF915 |Option synthesis_strategy=advanced is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@W: FA406 |Environment variable QUARTUS_ROOTDIR not set. Cannot determine PAR version.
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 117MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 117MB)
+
+@N: MO231 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/read_data.sv":80:0:80:8|Found counter in view:work.read_data(verilog) instance num_bytes[15:0] 
+Encoding state machine state[13:0] (in view: work.read_data(verilog))
+original code -> new code
+   0000 -> 00000000000001
+   0001 -> 00000000000010
+   0010 -> 00000000000100
+   0011 -> 00000000001000
+   0100 -> 00000000010000
+   0101 -> 00000000100000
+   0110 -> 00000001000000
+   0111 -> 00000010000000
+   1000 -> 00000100000000
+   1001 -> 00001000000000
+   1010 -> 00010000000000
+   1011 -> 00100000000000
+   1100 -> 01000000000000
+   1111 -> 10000000000000
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 117MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 117MB)
+
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[0] (in view: work.fifo_2s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[1] (in view: work.fifo_2s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[0] (in view: work.fifo_8s_32s_6s_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[1] (in view: work.fifo_8s_32s_6s_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[2] (in view: work.fifo_8s_32s_6s_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[3] (in view: work.fifo_8s_32s_6s_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[4] (in view: work.fifo_8s_32s_6s_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[5] (in view: work.fifo_8s_32s_6s_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[6] (in view: work.fifo_8s_32s_6s_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[7] (in view: work.fifo_8s_32s_6s_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[0] (in view: work.fifo_8s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A: BN291 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Boundary register dout[0] (in view: work.fifo_8s_32s_6s(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[1] (in view: work.fifo_8s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A: BN291 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Boundary register dout[1] (in view: work.fifo_8s_32s_6s(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[2] (in view: work.fifo_8s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A: BN291 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Boundary register dout[2] (in view: work.fifo_8s_32s_6s(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[3] (in view: work.fifo_8s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A: BN291 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Boundary register dout[3] (in view: work.fifo_8s_32s_6s(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[4] (in view: work.fifo_8s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A: BN291 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Boundary register dout[4] (in view: work.fifo_8s_32s_6s(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[5] (in view: work.fifo_8s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A: BN291 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Boundary register dout[5] (in view: work.fifo_8s_32s_6s(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[6] (in view: work.fifo_8s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A: BN291 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Boundary register dout[6] (in view: work.fifo_8s_32s_6s(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[7] (in view: work.fifo_8s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A: BN291 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Boundary register dout[7] (in view: work.fifo_8s_32s_6s(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@W: FX107 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":35:4:35:12|RAM fifo_buf[7:0] (in view: work.fifo_8s_32s_6s(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":35:4:35:12|RAM fifo_buf[7:0] (in view: work.fifo_8s_32s_6s_0(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":35:4:35:12|RAM fifo_buf[1:0] (in view: work.fifo_2s_32s_6s(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@A: BN291 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Boundary register dout[7:0] (in view: work.fifo_8s_32s_6s(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 118MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 120MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 120MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 120MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 120MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 120MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 120MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 120MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 120MB peak: 120MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 120MB peak: 120MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 146MB)
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 145MB peak: 146MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 146MB peak: 148MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 81 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================= Non-Gated/Non-Generated Clocks ==============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance    
+-------------------------------------------------------------------------------------------
+@K:CKID0001       clk_in              cycloneive_io_ibuf     81         fifo_data_out.empty
+===========================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 134MB peak: 148MB)
+
+Writing Analyst data base /home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/project/rev_1/synwork/proj_1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 144MB peak: 148MB)
+
+Writing Verilog Netlist and constraint files
+Writing .vqm output for Quartus
+
+Writing scf file... (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 146MB peak: 148MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+Writing FDC file /home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/project/rev_1/proj_1_synplify.fdc
+
+Finished Writing Verilog Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 144MB peak: 148MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 144MB peak: 148MB)
+
+@W: MT420 |Found inferred clock udp_top|clk with period 4.65ns. Please declare a user-defined clock on port clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Feb 19 09:38:37 2024
+#
+
+
+Top view:               udp_top
+Requested Frequency:    214.9 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.821
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group                
+------------------------------------------------------------------------------------------------------------------------
+udp_top|clk        214.9 MHz     182.7 MHz     4.653         5.474         -0.821     inferred     Autoconstr_clkgroup_0
+========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                    |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------
+Starting     Ending       |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------
+udp_top|clk  udp_top|clk  |  4.653       -0.821  |  No paths    -      |  No paths    -      |  No paths    -    
+=================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: udp_top|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                 Starting                                                                         Arrival           
+Instance                         Reference       Type                                Pin        Net               Time        Slack 
+                                 Clock                                                                                              
+------------------------------------------------------------------------------------------------------------------------------------
+fifo_ctrl.fifo_sfef.fifo_buf     udp_top|clk     synplicity_altsyncram_RAM_R_W_1     q_b[0]     rd_eof            4.154       -0.821
+fifo_ctrl.fifo_sfef.fifo_buf     udp_top|clk     synplicity_altsyncram_RAM_R_W_1     q_b[1]     rd_sof            4.154       -0.503
+read_data.num_bytes[0]           udp_top|clk     dffeas                              q          num_bytes[0]      0.845       -0.448
+read_data.state[3]               udp_top|clk     dffeas                              q          state[3]          0.845       -0.353
+read_data.num_bytes[6]           udp_top|clk     dffeas                              q          num_bytes[6]      0.845       -0.285
+read_data.num_bytes[4]           udp_top|clk     dffeas                              q          num_bytes[4]      0.845       -0.279
+read_data.num_bytes[14]          udp_top|clk     dffeas                              q          num_bytes[14]     0.845       -0.279
+read_data.num_bytes[11]          udp_top|clk     dffeas                              q          num_bytes[11]     0.845       -0.273
+read_data.num_bytes[5]           udp_top|clk     dffeas                              q          num_bytes[5]      0.845       -0.271
+read_data.num_bytes[10]          udp_top|clk     dffeas                              q          num_bytes[10]     0.845       -0.271
+====================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                           Starting                                                                   Required           
+Instance                   Reference       Type       Pin      Net                                    Time         Slack 
+                           Clock                                                                                         
+-------------------------------------------------------------------------------------------------------------------------
+read_data.num_bytes[0]     udp_top|clk     dffeas     sclr     un1_next_state_0_sqmuxa_1_0_o2_i_1     4.657        -0.821
+read_data.num_bytes[1]     udp_top|clk     dffeas     sclr     un1_next_state_0_sqmuxa_1_0_o2_i_1     4.657        -0.821
+read_data.num_bytes[2]     udp_top|clk     dffeas     sclr     un1_next_state_0_sqmuxa_1_0_o2_i_1     4.657        -0.821
+read_data.num_bytes[3]     udp_top|clk     dffeas     sclr     un1_next_state_0_sqmuxa_1_0_o2_i_1     4.657        -0.821
+read_data.num_bytes[4]     udp_top|clk     dffeas     sclr     un1_next_state_0_sqmuxa_1_0_o2_i_1     4.657        -0.821
+read_data.num_bytes[5]     udp_top|clk     dffeas     sclr     un1_next_state_0_sqmuxa_1_0_o2_i_1     4.657        -0.821
+read_data.num_bytes[6]     udp_top|clk     dffeas     sclr     un1_next_state_0_sqmuxa_1_0_o2_i_1     4.657        -0.821
+read_data.num_bytes[7]     udp_top|clk     dffeas     sclr     un1_next_state_0_sqmuxa_1_0_o2_i_1     4.657        -0.821
+read_data.num_bytes[8]     udp_top|clk     dffeas     sclr     un1_next_state_0_sqmuxa_1_0_o2_i_1     4.657        -0.821
+read_data.num_bytes[9]     udp_top|clk     dffeas     sclr     un1_next_state_0_sqmuxa_1_0_o2_i_1     4.657        -0.821
+=========================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      4.653
+    - Setup time:                            0.609
+    + Intrinsic clock delay:                 0.613
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.657
+
+    - Propagation time:                      5.478
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.821
+
+    Number of logic level(s):                2
+    Starting point:                          fifo_ctrl.fifo_sfef.fifo_buf / q_b[0]
+    Ending point:                            read_data.num_bytes[0] / sclr
+    The start point is clocked by            udp_top|clk [rising] on pin clock0
+    The end   point is clocked by            udp_top|clk [rising] on pin clk
+
+Instance / Net                                                                        Pin         Pin               Arrival     No. of    
+Name                                              Type                                Name        Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------------
+fifo_ctrl.fifo_sfef.fifo_buf                      synplicity_altsyncram_RAM_R_W_1     q_b[0]      Out     4.154     4.154       -         
+rd_eof                                            Net                                 -           -       0.340     -           3         
+read_data.un1_next_state_0_sqmuxa_1_0_o2_i_a1     cycloneive_lcell_comb               datad       In      -         4.494       -         
+read_data.un1_next_state_0_sqmuxa_1_0_o2_i_a1     cycloneive_lcell_comb               combout     Out     0.155     4.649       -         
+un1_next_state_0_sqmuxa_1_0_o2_i_a1               Net                                 -           -       0.326     -           1         
+read_data.un1_next_state_0_sqmuxa_1_0_o2_i_1      cycloneive_lcell_comb               datad       In      -         4.975       -         
+read_data.un1_next_state_0_sqmuxa_1_0_o2_i_1      cycloneive_lcell_comb               combout     Out     0.155     5.130       -         
+un1_next_state_0_sqmuxa_1_0_o2_i_1                Net                                 -           -       0.348     -           16        
+read_data.num_bytes[0]                            dffeas                              sclr        In      -         5.478       -         
+==========================================================================================================================================
+Total path delay (propagation time + setup - ICD at endpoint) of 5.474 is 4.460(81.5%) logic and 1.014(18.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      4.653
+    - Setup time:                            0.609
+    + Intrinsic clock delay:                 0.613
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.657
+
+    - Propagation time:                      5.478
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.821
+
+    Number of logic level(s):                2
+    Starting point:                          fifo_ctrl.fifo_sfef.fifo_buf / q_b[0]
+    Ending point:                            read_data.num_bytes[15] / sclr
+    The start point is clocked by            udp_top|clk [rising] on pin clock0
+    The end   point is clocked by            udp_top|clk [rising] on pin clk
+
+Instance / Net                                                                        Pin         Pin               Arrival     No. of    
+Name                                              Type                                Name        Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------------
+fifo_ctrl.fifo_sfef.fifo_buf                      synplicity_altsyncram_RAM_R_W_1     q_b[0]      Out     4.154     4.154       -         
+rd_eof                                            Net                                 -           -       0.340     -           3         
+read_data.un1_next_state_0_sqmuxa_1_0_o2_i_a1     cycloneive_lcell_comb               datad       In      -         4.494       -         
+read_data.un1_next_state_0_sqmuxa_1_0_o2_i_a1     cycloneive_lcell_comb               combout     Out     0.155     4.649       -         
+un1_next_state_0_sqmuxa_1_0_o2_i_a1               Net                                 -           -       0.326     -           1         
+read_data.un1_next_state_0_sqmuxa_1_0_o2_i_1      cycloneive_lcell_comb               datad       In      -         4.975       -         
+read_data.un1_next_state_0_sqmuxa_1_0_o2_i_1      cycloneive_lcell_comb               combout     Out     0.155     5.130       -         
+un1_next_state_0_sqmuxa_1_0_o2_i_1                Net                                 -           -       0.348     -           16        
+read_data.num_bytes[15]                           dffeas                              sclr        In      -         5.478       -         
+==========================================================================================================================================
+Total path delay (propagation time + setup - ICD at endpoint) of 5.474 is 4.460(81.5%) logic and 1.014(18.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      4.653
+    - Setup time:                            0.609
+    + Intrinsic clock delay:                 0.613
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.657
+
+    - Propagation time:                      5.478
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.821
+
+    Number of logic level(s):                2
+    Starting point:                          fifo_ctrl.fifo_sfef.fifo_buf / q_b[0]
+    Ending point:                            read_data.num_bytes[14] / sclr
+    The start point is clocked by            udp_top|clk [rising] on pin clock0
+    The end   point is clocked by            udp_top|clk [rising] on pin clk
+
+Instance / Net                                                                        Pin         Pin               Arrival     No. of    
+Name                                              Type                                Name        Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------------
+fifo_ctrl.fifo_sfef.fifo_buf                      synplicity_altsyncram_RAM_R_W_1     q_b[0]      Out     4.154     4.154       -         
+rd_eof                                            Net                                 -           -       0.340     -           3         
+read_data.un1_next_state_0_sqmuxa_1_0_o2_i_a1     cycloneive_lcell_comb               datad       In      -         4.494       -         
+read_data.un1_next_state_0_sqmuxa_1_0_o2_i_a1     cycloneive_lcell_comb               combout     Out     0.155     4.649       -         
+un1_next_state_0_sqmuxa_1_0_o2_i_a1               Net                                 -           -       0.326     -           1         
+read_data.un1_next_state_0_sqmuxa_1_0_o2_i_1      cycloneive_lcell_comb               datad       In      -         4.975       -         
+read_data.un1_next_state_0_sqmuxa_1_0_o2_i_1      cycloneive_lcell_comb               combout     Out     0.155     5.130       -         
+un1_next_state_0_sqmuxa_1_0_o2_i_1                Net                                 -           -       0.348     -           16        
+read_data.num_bytes[14]                           dffeas                              sclr        In      -         5.478       -         
+==========================================================================================================================================
+Total path delay (propagation time + setup - ICD at endpoint) of 5.474 is 4.460(81.5%) logic and 1.014(18.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      4.653
+    - Setup time:                            0.609
+    + Intrinsic clock delay:                 0.613
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.657
+
+    - Propagation time:                      5.478
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.821
+
+    Number of logic level(s):                2
+    Starting point:                          fifo_ctrl.fifo_sfef.fifo_buf / q_b[0]
+    Ending point:                            read_data.num_bytes[13] / sclr
+    The start point is clocked by            udp_top|clk [rising] on pin clock0
+    The end   point is clocked by            udp_top|clk [rising] on pin clk
+
+Instance / Net                                                                        Pin         Pin               Arrival     No. of    
+Name                                              Type                                Name        Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------------
+fifo_ctrl.fifo_sfef.fifo_buf                      synplicity_altsyncram_RAM_R_W_1     q_b[0]      Out     4.154     4.154       -         
+rd_eof                                            Net                                 -           -       0.340     -           3         
+read_data.un1_next_state_0_sqmuxa_1_0_o2_i_a1     cycloneive_lcell_comb               datad       In      -         4.494       -         
+read_data.un1_next_state_0_sqmuxa_1_0_o2_i_a1     cycloneive_lcell_comb               combout     Out     0.155     4.649       -         
+un1_next_state_0_sqmuxa_1_0_o2_i_a1               Net                                 -           -       0.326     -           1         
+read_data.un1_next_state_0_sqmuxa_1_0_o2_i_1      cycloneive_lcell_comb               datad       In      -         4.975       -         
+read_data.un1_next_state_0_sqmuxa_1_0_o2_i_1      cycloneive_lcell_comb               combout     Out     0.155     5.130       -         
+un1_next_state_0_sqmuxa_1_0_o2_i_1                Net                                 -           -       0.348     -           16        
+read_data.num_bytes[13]                           dffeas                              sclr        In      -         5.478       -         
+==========================================================================================================================================
+Total path delay (propagation time + setup - ICD at endpoint) of 5.474 is 4.460(81.5%) logic and 1.014(18.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      4.653
+    - Setup time:                            0.609
+    + Intrinsic clock delay:                 0.613
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.657
+
+    - Propagation time:                      5.478
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.821
+
+    Number of logic level(s):                2
+    Starting point:                          fifo_ctrl.fifo_sfef.fifo_buf / q_b[0]
+    Ending point:                            read_data.num_bytes[12] / sclr
+    The start point is clocked by            udp_top|clk [rising] on pin clock0
+    The end   point is clocked by            udp_top|clk [rising] on pin clk
+
+Instance / Net                                                                        Pin         Pin               Arrival     No. of    
+Name                                              Type                                Name        Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------------
+fifo_ctrl.fifo_sfef.fifo_buf                      synplicity_altsyncram_RAM_R_W_1     q_b[0]      Out     4.154     4.154       -         
+rd_eof                                            Net                                 -           -       0.340     -           3         
+read_data.un1_next_state_0_sqmuxa_1_0_o2_i_a1     cycloneive_lcell_comb               datad       In      -         4.494       -         
+read_data.un1_next_state_0_sqmuxa_1_0_o2_i_a1     cycloneive_lcell_comb               combout     Out     0.155     4.649       -         
+un1_next_state_0_sqmuxa_1_0_o2_i_a1               Net                                 -           -       0.326     -           1         
+read_data.un1_next_state_0_sqmuxa_1_0_o2_i_1      cycloneive_lcell_comb               datad       In      -         4.975       -         
+read_data.un1_next_state_0_sqmuxa_1_0_o2_i_1      cycloneive_lcell_comb               combout     Out     0.155     5.130       -         
+un1_next_state_0_sqmuxa_1_0_o2_i_1                Net                                 -           -       0.348     -           16        
+read_data.num_bytes[12]                           dffeas                              sclr        In      -         5.478       -         
+==========================================================================================================================================
+Total path delay (propagation time + setup - ICD at endpoint) of 5.474 is 4.460(81.5%) logic and 1.014(18.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 144MB peak: 148MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 144MB peak: 148MB)
+
+##### START OF AREA REPORT #####[
+Design view:work.udp_top(verilog)
+Selecting part EP4CE6E22A7
+@N: FA174 |The following device usage report estimates place and route data. Please look at the place and route report for final resource usage.
+
+Total combinational functions 184 of 6272 ( 2%)
+Logic element usage by number of inputs
+		  4 input functions 	 87
+		  3 input functions 	 30
+		  <=2 input functions 	 67
+Logic elements by mode
+		  normal mode            150
+		  arithmetic mode        34
+Total registers 78 of 6272 ( 1%)
+I/O pins 24 of 180 (13%), total I/O based on largest package of this part.
+
+Number of I/O registers
+			Input DDRs    :0
+			Output DDRs   :0
+
+DSP Blocks:     0  (0 nine-bit DSP elements).
+DSP Utilization: 0.00% of available 15 blocks (30 nine-bit).
+ShiftTap:       0  (0 registers)
+Ena:             35
+Sload:           0
+Sclr:            16
+Total ESB:      576 bits 
+
+##### END OF AREA REPORT #####]
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 27MB peak: 148MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Mon Feb 19 09:38:37 2024
+
+###########################################################]

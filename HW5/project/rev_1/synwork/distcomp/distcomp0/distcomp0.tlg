@@ -1,0 +1,76 @@
+@N:: Applying property .distcompmodetop with value 1 on module udp_top in library work
+@N:: Applying property .distcompnoprune with value 1 on module udp_top in library work
+@N:: Applying property .noprune with value 1 on module udp_top in library work
+@N:: Applying property .distcompnoprune with value 1 on module fifo in library work
+@N:: Applying property .noprune with value 1 on module fifo in library work
+@N:: Applying property .distcompnoprune with value 1 on module read_data in library work
+@N:: Applying property .noprune with value 1 on module read_data in library work
+@N:: Applying property .distcompnoprune with value 1 on module fifo_ctrl in library work
+@N:: Applying property .noprune with value 1 on module fifo_ctrl in library work
+Selecting top level module udp_top
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":2:7:2:10|Synthesizing module fifo in library work.
+
+	FIFO_DATA_WIDTH=32'b00000000000000000000000000000010
+	FIFO_BUFFER_SIZE=32'b00000000000000000000000000100000
+	FIFO_ADDR_WIDTH=32'b00000000000000000000000000000110
+   Generated name = fifo_2s_32s_6s
+Running optimization stage 1 on fifo_2s_32s_6s .......
+@N: CL134 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":35:4:35:12|Found RAM fifo_buf, depth=32, width=2
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":2:7:2:10|Synthesizing module fifo in library work.
+
+	FIFO_DATA_WIDTH=32'b00000000000000000000000000001000
+	FIFO_BUFFER_SIZE=32'b00000000000000000000000000100000
+	FIFO_ADDR_WIDTH=32'b00000000000000000000000000000110
+   Generated name = fifo_8s_32s_6s
+Running optimization stage 1 on fifo_8s_32s_6s .......
+@N: CL134 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":35:4:35:12|Found RAM fifo_buf, depth=32, width=8
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo_ctrl.sv":1:7:1:15|Synthesizing module fifo_ctrl in library work.
+
+	FIFO_DATA_WIDTH=32'b00000000000000000000000000001000
+	FIFO_BUFFER_SIZE=32'b00000000000000000000000000100000
+   Generated name = fifo_ctrl_8s_32s
+Running optimization stage 1 on fifo_ctrl_8s_32s .......
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/read_data.sv":2:7:2:15|Synthesizing module read_data in library work.
+Running optimization stage 1 on read_data .......
+@W: CL169 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/read_data.sv":80:0:80:8|Pruning unused register ip_length[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/read_data.sv":80:0:80:8|Pruning unused register ip_protocol[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/read_data.sv":80:0:80:8|Pruning unused register ip_src_addr[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/read_data.sv":80:0:80:8|Pruning unused register ip_dst_addr[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/read_data.sv":80:0:80:8|Pruning unused register udp_dst_port[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/read_data.sv":80:0:80:8|Pruning unused register udp_src_port[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/read_data.sv":80:0:80:8|Pruning unused register udp_length[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/read_data.sv":80:0:80:8|Pruning unused register udp_checksum[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/read_data.sv":80:0:80:8|Pruning unused register data_length[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/read_data.sv":80:0:80:8|Pruning unused register out_count[15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/read_data.sv":80:0:80:8|Pruning unused register frame_num[1:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/read_data.sv":80:0:80:8|Pruning unused register sum[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL279 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/read_data.sv":80:0:80:8|Pruning register bits 15 to 8 of udp_data[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/udp_top.sv":1:7:1:13|Synthesizing module udp_top in library work.
+Running optimization stage 1 on udp_top .......
+Running optimization stage 2 on udp_top .......
+Running optimization stage 2 on read_data .......
+@N: CL201 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/read_data.sv":80:0:80:8|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 14 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+   1010
+   1011
+   1100
+   1111
+Running optimization stage 2 on fifo_ctrl_8s_32s .......
+Running optimization stage 2 on fifo_8s_32s_6s .......
+Running optimization stage 2 on fifo_2s_32s_6s .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/project/rev_1/synwork//distcomp/distcomp0/distcomp0.rt.csv
+

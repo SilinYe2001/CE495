@@ -1,0 +1,165 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sim
+T_opt
+!s110 1708357029
+V>dYDIKdHQl[N7]NcYVZ923
+Z1 04 6 4 work udp_tb fast 0
+=1-b49691574b56-65d375a5-4028a-b3589
+Z2 o-quiet -auto_acc_if_foreign -work work -L work +acc
+Z3 tCvgOpt 0
+n@_opt
+OL;O;2020.1;71
+T_opt1
+!s110 1708311209
+V9>K<2Jh2Ljhk:fXjz0G6J1
+R1
+=1-000ae431a4f1-65d2c2a8-c4f84-89d89
+R2
+R3
+n@_opt1
+Z4 OE;O;2019.3_2;69
+R0
+T_opt2
+!s110 1708322263
+VKg_4fleG_]_ojN^LU]1I82
+R1
+=1-000ae431a4f1-65d2edd7-21116-8e700
+R2
+R3
+n@_opt2
+R4
+R0
+vfifo
+Z5 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z6 !s110 1708357028
+!i10b 1
+!s100 JJ9WTn?^46FJn6Sib6ECo1
+Z7 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ij:[k:a4XRZ6Im<1oU4m=41
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1644080212
+8../sv/fifo.sv
+F../sv/fifo.sv
+!i122 7
+L0 2 77
+Z9 OL;L;2020.1;71
+r1
+!s85 0
+31
+Z10 !s108 1708357028.000000
+!s107 ../sv/fifo.sv|
+!s90 -reportprogress|300|-work|work|../sv/fifo.sv|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vfifo_ctrl
+R5
+R6
+!i10b 1
+!s100 WZ@;i^g?ZCn8Z<ljmWS7I3
+R7
+I9ccHBL9_JdI7M?iLDgRMo2
+R8
+S1
+R0
+w1708221121
+8../sv/fifo_ctrl.sv
+F../sv/fifo_ctrl.sv
+!i122 8
+L0 1 56
+R9
+r1
+!s85 0
+31
+R10
+!s107 ../sv/fifo_ctrl.sv|
+!s90 -reportprogress|300|-work|work|../sv/fifo_ctrl.sv|
+!i113 0
+R11
+R3
+vread_data
+R5
+R6
+!i10b 1
+!s100 `k_fWLdN5bZ[45CX6Ze?P2
+R7
+IfeznN:TNN8KeE89JFG_;?2
+R8
+S1
+R0
+w1708357018
+8../sv/read_data.sv
+F../sv/read_data.sv
+!i122 9
+L0 2 389
+R9
+r1
+!s85 0
+31
+R10
+!s107 ../sv/read_data.sv|
+!s90 -reportprogress|300|-work|work|../sv/read_data.sv|
+!i113 0
+R11
+R3
+vudp_tb
+R5
+R6
+!i10b 1
+!s100 :KoWdhlbRSVd^zzeL7F631
+R7
+I34J1>BC_`n8F`5cJk]9J]2
+R8
+S1
+R0
+w1708311260
+8../sv/udp_tb.sv
+F../sv/udp_tb.sv
+!i122 10
+L0 3 182
+R9
+r1
+!s85 0
+31
+R10
+!s107 ../sv/udp_tb.sv|
+!s90 -reportprogress|300|-work|work|../sv/udp_tb.sv|
+!i113 0
+R11
+R3
+vudp_top
+R5
+R6
+!i10b 1
+!s100 ;?:en]Be`@V:ahKIBma0d1
+R7
+I];1Wk2cH;3HjzhnUbR7eK1
+R8
+S1
+R0
+w1708221167
+8../sv/udp_top.sv
+F../sv/udp_top.sv
+!i122 11
+L0 1 76
+R9
+r1
+!s85 0
+31
+R10
+!s107 ../sv/udp_top.sv|
+!s90 -reportprogress|300|-work|work|../sv/udp_top.sv|
+!i113 0
+R11
+R3

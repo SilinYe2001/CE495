@@ -1,0 +1,5 @@
+udp_top.fifo_data_out work fifo 0 1
+udp_top.read_data work read_data 0 1
+udp_top.fifo_ctrl.fifo_data work fifo 0 1
+udp_top.fifo_ctrl.fifo_sfef work fifo 0 1
+udp_top.fifo_ctrl work fifo_ctrl 0 1

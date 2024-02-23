@@ -1,0 +1,3 @@
+@W: CG450 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/read_data.sv":288:43:288:84|Size is out of range for this type, truncating to 32 bits
+@W: CG450 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/read_data.sv":295:47:295:71|Size is out of range for this type, truncating to 32 bits
+

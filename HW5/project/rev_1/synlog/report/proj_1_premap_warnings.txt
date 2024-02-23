@@ -1,0 +1,2 @@
+@W: FA406 |Environment variable QUARTUS_ROOTDIR not set. Cannot determine PAR version.
+@W: MT529 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":63:4:63:12|Found inferred clock udp_top|clk which controls 114 sequential elements including fifo_ctrl.fifo_sfef.empty. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

@@ -6,9 +6,9 @@ uvm_reg_bd_cb
 uvm_pkg::<uvm_mem_shared_access_seq#215181159#206-defspec>
 83 23
 uvm_pkg::uvm_config_int
-3 34
+5 34
 uvm_pkg::uvm_tlm_response_status_e
-28 12
+20 12
 uvm_access_e
 115 19
 uvm_objection_cbs_t
@@ -16,7 +16,7 @@ uvm_objection_cbs_t
 uvm_report_cb
 72 16
 uvm_barrier_pool
-52 15
+50 15
 uvm_elem_kind_e
 128 30
 uvm_pkg::uvm_virtual_sequencer
@@ -34,9 +34,9 @@ uvm_pkg::uvm_config_wrapper
 uvm_dpi_regexec
 85 26
 uvm_pkg::uvm_config_string
-45 19
+49 19
 uvm_pkg::uvm_hier_e
-32 16
+34 16
 uvm_endianness_e
 126 23
 uvm_pkg::uvm_config_seq
@@ -52,7 +52,7 @@ uvm_pkg::<uvm_exhaustive_sequence#215181159#160-defspec>
 uvm_pkg::uvm_mem_cb_iter
 123 56
 <uvm_component_name_check_visitor#215181159#243-defspec>
-35 25
+15 25
 uvm_pkg::UVM_SEQ_ARB_TYPE
 233 7
 message
@@ -60,7 +60,7 @@ message
 <imp_type#143>
 150 26
 uvm_pkg::uvm_reg_byte_en_t
-9 22
+7 22
 uvm_pkg::uvm_verbosity
 64 23
 uvm_active_passive_enum
@@ -76,7 +76,7 @@ uvm_pkg::<uvm_reg_bit_bash_seq#215181159#203-defspec>
 uvm_pkg::uvm_integral_t
 127 21
 uvm_virtual_sequencer
-18 17
+10 17
 uvm_tlm_command_e
 232 2
 id
@@ -86,7 +86,7 @@ byte_en
 uvm_reg_map_addr_range
 90 20
 uvm_printer_row_info
-6 13
+2 13
 uvm_apprepend
 144 19
 uvm_pkg::uvm_tlm_gp
@@ -108,7 +108,7 @@ preg
 /vol/mentor/questa_sim-2019.3_2/questasim/verilog_src/uvm-1.2/src/base/uvm_globals.svh
 228 48
 <uvm_reg_mem_hdl_paths_seq#215181159#48-defspec>
-48 15
+30 15
 uvm_port_type_e
 133 43
 <uvm_simple_sequence#215181159#264-defspec>
@@ -126,34 +126,34 @@ uvm_dpi_regfree
 uvm_vreg_cb
 231 8
 severity
-50 19
+18 19
 uvm_heartbeat_modes
 164 14
 uvm_reg_bus_op
 256 5
 value
-14 15
-uvm_tlm_phase_e
+11 26
+uvm_pkg::uvm_tlm_command_e
 148 29
 uvm_pkg::uvm_reg_addr_logic_t
-16 19
+36 19
 uvm_objection_event
-38 14
+16 14
 uvm_tlm_sync_e
-39 23
+17 23
 uvm_pkg::uvm_tlm_sync_e
 259 15
 uvm_hdl_release
-5 24
+9 24
 uvm_pkg::uvm_action_type
-31 26
+23 26
 uvm_pkg::uvm_severity_type
 167 4
 addr
 77 44
 uvm_pkg::<uvm_int_rsrc#215181159#69-defspec>
-19 26
-uvm_pkg::uvm_tlm_command_e
+28 15
+uvm_tlm_phase_e
 63 34
 uvm_pkg::uvm_recursion_policy_enum
 235 8
@@ -172,9 +172,9 @@ uvm_pkg::<uvm_reg_mem_access_seq#215181159#318-defspec>
 name
 145 19
 uvm_reg_mem_tests_e
-29 21
+21 21
 uvm_pkg::uvm_access_e
-12 12
+46 12
 uvm_status_e
 146 28
 uvm_pkg::uvm_reg_mem_tests_e
@@ -224,11 +224,11 @@ uvm_pkg::uvm_id_file_array
 verbosity
 177 24
 uvm_pkg::uvm_reg_cb_iter
-33 25
+35 25
 uvm_pkg::uvm_endianness_e
 135 25
 uvm_default_sequence_type
-4 15
+8 15
 uvm_action_type
 199 25
 uvm_pkg::uvm_vreg_cb_iter
@@ -244,7 +244,7 @@ uvm_dpi_get_next_arg_c
 uvm_recursion_policy_enum
 213 51
 uvm_pkg::<uvm_mem_access_seq#215181159#195-defspec>
-40 15
+42 15
 uvm_phase_state
 184 15
 uvm_mem_cb_iter
@@ -260,7 +260,7 @@ uvm_pkg::<uvm_reg_single_bit_bash_seq#215181159#54-defspec>
 uvm_pkg::uvm_vreg_field_cb
 239 4
 init
-22 14
+26 14
 uvm_phase_type
 236 4
 line
@@ -268,7 +268,7 @@ line
 uvm_pkg::uvm_callbacks_objection
 94 9
 type_name
-15 24
+29 24
 uvm_pkg::uvm_tlm_phase_e
 202 50
 <uvm_reg_single_bit_bash_seq#215181159#54-defspec>
@@ -276,7 +276,7 @@ uvm_pkg::uvm_tlm_phase_e
 <uvm_mem_access_seq#215181159#195-defspec>
 103 18
 uvm_report_cb_iter
-46 8
+32 8
 UVM_FILE
 143 10
 uvm_tlm_gp
@@ -292,7 +292,7 @@ uvm_pkg::<uvm_simple_sequence#215181159#264-defspec>
 /vol/mentor/questa_sim-2019.3_2/questasim/verilog_src/uvm-1.2/src/dpi/uvm_svcmd_dpi.svh
 244 5
 regex
-41 24
+43 24
 uvm_pkg::uvm_phase_state
 54 14
 uvm_hdl_data_t
@@ -312,15 +312,15 @@ uvm_pkg::uvm_report_cb_iter
 /vol/mentor/questa_sim-2019.3_2/questasim/verilog_src/uvm-1.2/src/dpi/uvm_regex.svh
 88 18
 uvm_config_wrapper
-51 28
+19 28
 uvm_pkg::uvm_heartbeat_modes
 137 26
 uvm_default_sequencer_type
-20 11
+52 11
 uvm_wait_op
 166 4
 kind
-26 10
+12 10
 uvm_path_e
 113 17
 uvm_phase_cb_pool
@@ -340,17 +340,17 @@ path
 uvm_dpi_get_tool_version_c
 136 34
 uvm_pkg::uvm_default_sequence_type
-37 20
+25 20
 uvm_pkg::uvm_check_e
-36 11
+24 11
 uvm_check_e
 75 23
 uvm_pkg::uvm_event_pool
 173 50
 uvm_pkg::<uvm_reg_frontdoor#215181159#517-defspec>
-10 23
+40 23
 uvm_sequence_state_enum
-13 21
+47 21
 uvm_pkg::uvm_status_e
 163 6
 stride
@@ -358,15 +358,15 @@ stride
 uvm_pkg::<uvm_reg_indirect_ftdr_seq#215181159#282-defspec>
 125 14
 uvm_config_seq
-17 28
-uvm_pkg::uvm_objection_event
+14 16
+UVM_SEQ_ARB_TYPE
 76 35
 <uvm_int_rsrc#215181159#69-defspec>
 122 52
 uvm_pkg::<uvm_component_proxy#215181159#214-defspec>
 73 25
 uvm_pkg::uvm_barrier_pool
-25 30
+39 30
 uvm_pkg::uvm_sequence_lib_mode
 78 38
 <uvm_string_rsrc#215181159#92-defspec>
@@ -380,9 +380,9 @@ uvm_pkg::uvm_config_object
 uvm_pkg::uvm_hdl_data_t
 65 32
 uvm_pkg::uvm_active_passive_enum
-34 16
-UVM_SEQ_ARB_TYPE
-2 25
+37 28
+uvm_pkg::uvm_objection_event
+4 25
 uvm_tlm_response_status_e
 182 10
 uvm_mem_cb
@@ -390,7 +390,7 @@ uvm_mem_cb
 uvm_config_string
 67 23
 uvm_pkg::<imp_type#143>
-23 23
+27 23
 uvm_pkg::uvm_phase_type
 162 3
 max
@@ -402,7 +402,7 @@ m_uvm_config_obj_misc
 uvm_pkg::<imp_type#63>
 183 19
 uvm_pkg::uvm_mem_cb
-7 22
+3 22
 uvm_pkg::uvm_apprepend
 138 35
 uvm_pkg::uvm_default_sequencer_type
@@ -430,7 +430,7 @@ uvm_pkg::uvm_reg_cvr_rsrc_db
 glob
 79 47
 uvm_pkg::<uvm_string_rsrc#215181159#92-defspec>
-21 20
+53 20
 uvm_pkg::uvm_wait_op
 142 41
 uvm_pkg::uvm_default_sequencer_param_type
@@ -442,11 +442,11 @@ uvm_vreg_field_cb_iter
 uvm_hdl_release_and_read
 105 20
 uvm_id_actions_array
-43 24
+45 24
 uvm_pkg::uvm_bitstream_t
 187 25
 uvm_pkg::uvm_reg_field_cb
-53 24
+51 24
 uvm_pkg::uvm_elem_kind_e
 112 31
 uvm_pkg::uvm_sev_override_array
@@ -454,7 +454,7 @@ uvm_pkg::uvm_sev_override_array
 uvm_pkg::<uvm_reg_single_access_seq#215181159#62-defspec>
 193 31
 uvm_pkg::uvm_vreg_field_cb_iter
-8 13
+6 13
 uvm_verbosity
 258 12
 uvm_hdl_read
@@ -472,7 +472,7 @@ uvm_pkg::uvm_printer_row_info
 uvm_reg_cb_iter
 147 20
 uvm_reg_addr_logic_t
-42 15
+44 15
 uvm_bitstream_t
 198 16
 uvm_vreg_cb_iter
@@ -482,8 +482,8 @@ min
 uvm_pkg::<uvm_reg_hw_reset_seq#215181159#48-defspec>
 255 15
 uvm_hdl_deposit
-24 21
-uvm_sequence_lib_mode
+22 17
+uvm_severity_type
 247 3
 str
 175 19
@@ -492,7 +492,7 @@ uvm_pkg::uvm_reg_cb
 uvm_pkg::uvm_reg_field_cb_iter
 56 13
 <imp_type#63>
-11 32
+41 32
 uvm_pkg::uvm_sequence_state_enum
 257 13
 uvm_hdl_force
@@ -500,8 +500,8 @@ uvm_hdl_force
 val
 152 29
 uvm_pkg::uvm_coverage_model_e
-30 17
-uvm_severity_type
+38 21
+uvm_sequence_lib_mode
 140 32
 uvm_pkg::uvm_default_driver_type
 92 5
@@ -510,19 +510,19 @@ level
 uvm_reg_cb
 200 43
 <uvm_reg_hw_reset_seq#215181159#48-defspec>
-44 10
+48 10
 uvm_hier_e
 74 14
 uvm_event_pool
-49 24
+31 24
 uvm_pkg::uvm_port_type_e
 111 22
 uvm_sev_override_array
 261 12
 uvm_re_match
-47 17
+33 17
 uvm_pkg::UVM_FILE
-27 19
+13 19
 uvm_pkg::uvm_path_e
 188 21
 uvm_reg_field_cb_iter
@@ -550,16 +550,16 @@ TYPEDEF_BEGIN 107
 18 -1 19 0x0 1 0 12 0 -1 4 278571 32 0 31 31 0 32 0x1 10 0  
 20 59 
 20 -1 21 0x0 1 0 12 0 -1 4 278571 32 0 31 31 0 32 0x1 11 0  
-22 59 
-22 -1 23 0x0 1 0 12 0 -1 4 278571 32 0 31 31 0 32 0x1 12 0  
+22 55 
+22 -1 23 0x0 1 0 12 0 -1 4 262185 2 0 1 1 0 2 0x1 12 0  
 24 59 
 24 -1 25 0x0 1 0 12 0 -1 4 278571 32 0 31 31 0 32 0x1 13 0  
 26 59 
 26 -1 27 0x0 1 0 12 0 -1 4 278571 32 0 31 31 0 32 0x1 14 0  
 28 59 
 28 -1 29 0x0 1 0 12 0 -1 4 278571 32 0 31 31 0 32 0x1 15 0  
-30 55 
-30 -1 31 0x0 1 0 12 0 -1 4 262185 2 0 1 1 0 2 0x1 16 0  
+30 59 
+30 -1 31 0x0 1 0 12 0 -1 4 278571 32 0 31 31 0 32 0x1 16 0  
 32 59 
 32 -1 33 0x0 1 0 12 0 -1 4 278571 32 0 31 31 0 32 0x1 17 0  
 34 59 
@@ -570,10 +570,10 @@ TYPEDEF_BEGIN 107
 38 -1 39 0x0 1 0 12 0 -1 4 278571 32 0 31 31 0 32 0x1 20 0  
 40 59 
 40 -1 41 0x0 1 0 12 0 -1 4 278571 32 0 31 31 0 32 0x1 21 0  
-42 70 
-42 -1 43 0x0 1 0 10 0 -1 1024 262155 4096 0 4095 4095 0 4096 0x1 22 0  
-44 59 
-44 -1 45 0x0 1 0 12 0 -1 4 278571 32 0 31 31 0 32 0x1 23 0  
+42 59 
+42 -1 43 0x0 1 0 12 0 -1 4 278571 32 0 31 31 0 32 0x1 22 0  
+44 70 
+44 -1 45 0x0 1 0 10 0 -1 1024 262155 4096 0 4095 4095 0 4096 0x1 23 0  
 46 59 
 46 -1 47 0x0 1 0 12 0 -1 4 278571 32 0 31 31 0 32 0x1 24 0  
 48 59 

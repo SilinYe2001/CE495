@@ -1,0 +1,1047 @@
+#Build: Synplify (R) Premier O-2018.09-SP1, Build 3588R, Nov 27 2018
+#install: /vol/synopsys/fpga/O-2018.09-SP1
+#OS: Linux 
+#Hostname: moore.wot.eecs.northwestern.edu
+
+# Mon Feb 19 00:25:17 2024
+
+#Implementation: rev_1
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify (R) Premier
+Build: O-2018.09-SP1
+Install: /vol/synopsys/fpga/O-2018.09-SP1
+OS: Red Hat Enterprise Linux 8.9 (Ootpa)
+Hostname: moore.wot.eecs.northwestern.edu
+max virtual memory: unlimited (bytes)
+max user processes: 1027961
+max stack size: 8388608 (bytes)
+
+
+Implementation : rev_1
+Synopsys HDL Compiler, Version comp2018q4p1, Build 004R, Built Nov 27 2018 21:19:49
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify (R) Premier
+Build: O-2018.09-SP1
+Install: /vol/synopsys/fpga/O-2018.09-SP1
+OS: Red Hat Enterprise Linux 8.9 (Ootpa)
+Hostname: moore.wot.eecs.northwestern.edu
+max virtual memory: unlimited (bytes)
+max user processes: 1027961
+max stack size: 8388608 (bytes)
+
+
+Implementation : rev_1
+Synopsys Verilog Compiler, Version comp2018q4p1, Build 004R, Built Nov 27 2018 21:19:49
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+
+@I::"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/altera.v" (library work)
+@I::"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/cycloneive.v" (library work)
+@I::"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v" (library work)
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53001:16:53001:28|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53051:16:53051:27|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53060:16:53060:28|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53074:16:53074:27|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53221:20:53221:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53226:20:53226:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53229:20:53229:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53232:20:53232:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53346:20:53346:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53351:20:53351:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53354:20:53354:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53357:20:53357:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53446:20:53446:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53451:20:53451:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53454:20:53454:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53457:20:53457:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53545:20:53545:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53550:20:53550:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53553:20:53553:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53556:20:53556:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53642:20:53642:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53647:20:53647:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53650:20:53650:32|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53653:20:53653:31|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53861:12:53861:24|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":53875:12:53875:23|Read directive translate_on.
+@N: CG334 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":54140:12:54140:24|Read directive translate_off.
+@N: CG333 :"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_mf.v":54154:12:54154:23|Read directive translate_on.
+@I::"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_lpm.v" (library work)
+@I::"/vol/synopsys/fpga/O-2018.09-SP1/lib/altera/quartus_prime181/altera_primitives.v" (library work)
+@I::"/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/hypermods.v" (library __hyper__lib__)
+@I::"/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/umr_capim.v" (library snps_haps)
+@I::"/vol/synopsys/fpga/O-2018.09-SP1/lib/synip/hcei/zceistubs.v" (library snps_haps)
+@I::"/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/scemi_objects.v" (library snps_haps)
+@I::"/vol/synopsys/fpga/O-2018.09-SP1/lib/vlog/scemi_pipes.svh" (library snps_haps)
+@I::"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv" (library work)
+@I::"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo_ctrl.sv" (library work)
+@I::"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/read_data.sv" (library work)
+@I::"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/udp_top.sv" (library work)
+Verilog syntax check successful!
+Selecting top level module udp_top
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":2:7:2:10|Synthesizing module fifo in library work.
+
+	FIFO_DATA_WIDTH=32'b00000000000000000000000000000010
+	FIFO_BUFFER_SIZE=32'b00000000000000000000000000100000
+	FIFO_ADDR_WIDTH=32'b00000000000000000000000000000110
+   Generated name = fifo_2s_32s_6s
+Running optimization stage 1 on fifo_2s_32s_6s .......
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":2:7:2:10|Synthesizing module fifo in library work.
+
+	FIFO_DATA_WIDTH=32'b00000000000000000000000000001000
+	FIFO_BUFFER_SIZE=32'b00000000000000000000000000100000
+	FIFO_ADDR_WIDTH=32'b00000000000000000000000000000110
+   Generated name = fifo_8s_32s_6s
+Running optimization stage 1 on fifo_8s_32s_6s .......
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo_ctrl.sv":1:7:1:15|Synthesizing module fifo_ctrl in library work.
+
+	FIFO_DATA_WIDTH=32'b00000000000000000000000000001000
+	FIFO_BUFFER_SIZE=32'b00000000000000000000000000100000
+   Generated name = fifo_ctrl_8s_32s
+Running optimization stage 1 on fifo_ctrl_8s_32s .......
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/read_data.sv":2:7:2:15|Synthesizing module read_data in library work.
+@W: CG450 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/read_data.sv":288:43:288:84|Size is out of range for this type, truncating to 32 bits
+@W: CG450 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/read_data.sv":295:47:295:71|Size is out of range for this type, truncating to 32 bits
+Running optimization stage 1 on read_data .......
+@N: CG364 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/udp_top.sv":1:7:1:13|Synthesizing module udp_top in library work.
+Running optimization stage 1 on udp_top .......
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 78MB peak: 79MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Feb 19 00:25:17 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify (R) Premier
+Build: O-2018.09-SP1
+Install: /vol/synopsys/fpga/O-2018.09-SP1
+OS: Red Hat Enterprise Linux 8.9 (Ootpa)
+Hostname: moore.wot.eecs.northwestern.edu
+max virtual memory: unlimited (bytes)
+max user processes: 1027961
+max stack size: 8388608 (bytes)
+
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp2018q4p1, Build 004R, Built Nov 27 2018 21:19:49
+
+@N|Running in 64-bit mode
+@N: NF107 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/udp_top.sv":1:7:1:13|Selected library: work cell: udp_top view verilog as top level
+@N: NF107 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/udp_top.sv":1:7:1:13|Selected library: work cell: udp_top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Feb 19 00:25:17 2024
+
+###########################################################]
+
+Finished Containment srs generation. (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Divided design in to 1 groups
+@L:"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/project/rev_1/synwork//distcomp/distcomp0/distcomp0.log" "Log file for distribution node work.udp_top.verilog "
+Compiling work_udp_top_verilog as a separate process
+Compilation of node work.udp_top finished successfully.Real start time 0h:00m:00s, Real end time = 0h:00m:04s, Total real run time = 0h:00m:04s
+
+Distributed Compiler Report
+***************************
+
+DP Name                  Status      Start time     End Time       Total Real Time     Log File                                                                                                                 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+work.udp_top.verilog     Success     0h:00m:00s     0h:00m:04s     0h:00m:04s          /home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/project/rev_1/synwork//distcomp/distcomp0/distcomp0.log
+================================================================================================================================================================================================================
+###########################################################[
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify (R) Premier
+Build: O-2018.09-SP1
+Install: /vol/synopsys/fpga/O-2018.09-SP1
+OS: Red Hat Enterprise Linux 8.9 (Ootpa)
+Hostname: moore.wot.eecs.northwestern.edu
+max virtual memory: unlimited (bytes)
+max user processes: 1027961
+max stack size: 8388608 (bytes)
+
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp2018q4p1, Build 004R, Built Nov 27 2018 21:19:49
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 79MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Feb 19 00:25:22 2024
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:05s realtime, 0h:00m:04s cputime
+
+Process completed successfully.
+# Mon Feb 19 00:25:22 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify (R) Premier
+Build: O-2018.09-SP1
+Install: /vol/synopsys/fpga/O-2018.09-SP1
+OS: Red Hat Enterprise Linux 8.9 (Ootpa)
+Hostname: moore.wot.eecs.northwestern.edu
+max virtual memory: unlimited (bytes)
+max user processes: 1027961
+max stack size: 8388608 (bytes)
+
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp2018q4p1, Build 004R, Built Nov 27 2018 21:19:49
+
+@N|Running in 64-bit mode
+@N: NF107 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/udp_top.sv":1:7:1:13|Selected library: work cell: udp_top view verilog as top level
+@N: NF107 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/udp_top.sv":1:7:1:13|Selected library: work cell: udp_top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 78MB peak: 80MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Feb 19 00:25:24 2024
+
+###########################################################]
+Premap Report
+
+# Mon Feb 19 00:25:24 2024
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify (R) Premier
+Build: O-2018.09-SP1
+Install: /vol/synopsys/fpga/O-2018.09-SP1
+OS: Red Hat Enterprise Linux 8.9 (Ootpa)
+Hostname: moore.wot.eecs.northwestern.edu
+max virtual memory: unlimited (bytes)
+max user processes: 1027961
+max stack size: 8388608 (bytes)
+
+
+Implementation : rev_1
+Synopsys Intel FPGA Technology Pre-mapping, Version maprc, Build 4745R, Built Nov 27 2018 21:14:52
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@N: MF284 |Setting synthesis effort to medium for the design
+@L: /home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/project/rev_1/proj_1_scck.rpt 
+Printing clock  summary report in "/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/project/rev_1/proj_1_scck.rpt" file 
+@N: MF915 |Option synthesis_strategy=advanced is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+@W: FA406 |Environment variable QUARTUS_ROOTDIR not set. Cannot determine PAR version.
+@N: MF284 |Setting synthesis effort to medium for the design
+
+Finished Clear Box Flow. (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 135MB)
+
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+
+Finished netlist restructuring (Real Time elapsed 0h:01m:09s; CPU Time elapsed 0h:01m:09s; Memory used current: 225MB peak: 231MB)
+
+
+
+Clock Summary
+******************
+
+          Start           Requested     Requested     Clock        Clock                     Clock
+Level     Clock           Frequency     Period        Type         Group                     Load 
+--------------------------------------------------------------------------------------------------
+0 -       udp_top|clk     163.3 MHz     6.125         inferred     Autoconstr_clkgroup_0     8314 
+==================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                Clock     Source        Clock Pin                           Non-clock Pin     Non-clock Pin
+Clock           Load      Pin           Seq Example                         Seq Example       Comb Example 
+-----------------------------------------------------------------------------------------------------------
+udp_top|clk     8314      clk(port)     fifo_data_out.fifo_buf[7:0].CLK     -                 -            
+===========================================================================================================
+
+@W: MT529 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":63:4:63:12|Found inferred clock udp_top|clk which controls 8314 sequential elements including fifo_ctrl.fifo_sfef.empty. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file /home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/project/rev_1/proj_1.sap.
+
+Starting constraint checker (Real Time elapsed 0h:01m:10s; CPU Time elapsed 0h:01m:10s; Memory used current: 209MB peak: 231MB)
+
+Encoding state machine state[13:0] (in view: work.read_data(verilog))
+original code -> new code
+   0000 -> 00000000000001
+   0001 -> 00000000000010
+   0010 -> 00000000000100
+   0011 -> 00000000001000
+   0100 -> 00000000010000
+   0101 -> 00000000100000
+   0110 -> 00000001000000
+   0111 -> 00000010000000
+   1000 -> 00000100000000
+   1001 -> 00001000000000
+   1010 -> 00010000000000
+   1011 -> 00100000000000
+   1100 -> 01000000000000
+   1111 -> 10000000000000
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:01m:10s; CPU Time elapsed 0h:01m:10s; Memory used current: 216MB peak: 231MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:01m:11s; CPU Time elapsed 0h:01m:10s; Memory used current: 217MB peak: 231MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:01m:11s; CPU Time elapsed 0h:01m:10s; Memory used current: 101MB peak: 231MB)
+
+Process took 0h:01m:11s realtime, 0h:01m:10s cputime
+# Mon Feb 19 00:26:35 2024
+
+###########################################################]
+Map & Optimize Report
+
+# Mon Feb 19 00:26:35 2024
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify (R) Premier
+Build: O-2018.09-SP1
+Install: /vol/synopsys/fpga/O-2018.09-SP1
+OS: Red Hat Enterprise Linux 8.9 (Ootpa)
+Hostname: moore.wot.eecs.northwestern.edu
+max virtual memory: unlimited (bytes)
+max user processes: 1027961
+max stack size: 8388608 (bytes)
+
+
+Implementation : rev_1
+Synopsys Intel FPGA Technology Mapper, Version maprc, Build 4745R, Built Nov 27 2018 21:14:52
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF915 |Option synthesis_strategy=advanced is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@W: FA406 |Environment variable QUARTUS_ROOTDIR not set. Cannot determine PAR version.
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 149MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 152MB peak: 159MB)
+
+Encoding state machine state[13:0] (in view: work.read_data(verilog))
+original code -> new code
+   0000 -> 00000000000001
+   0001 -> 00000000000010
+   0010 -> 00000000000100
+   0011 -> 00000000001000
+   0100 -> 00000000010000
+   0101 -> 00000000100000
+   0110 -> 00000001000000
+   0111 -> 00000010000000
+   1000 -> 00000100000000
+   1001 -> 00001000000000
+   1010 -> 00010000000000
+   1011 -> 00100000000000
+   1100 -> 01000000000000
+   1111 -> 10000000000000
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 166MB peak: 168MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 169MB peak: 170MB)
+
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[0] (in view: work.fifo_2s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[1] (in view: work.fifo_2s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[0] (in view: work.fifo_8s_32s_6s_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[1] (in view: work.fifo_8s_32s_6s_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[2] (in view: work.fifo_8s_32s_6s_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[3] (in view: work.fifo_8s_32s_6s_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[4] (in view: work.fifo_8s_32s_6s_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[5] (in view: work.fifo_8s_32s_6s_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[6] (in view: work.fifo_8s_32s_6s_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[7] (in view: work.fifo_8s_32s_6s_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[0] (in view: work.fifo_8s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A: BN291 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Boundary register dout[0] (in view: work.fifo_8s_32s_6s(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[1] (in view: work.fifo_8s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A: BN291 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Boundary register dout[1] (in view: work.fifo_8s_32s_6s(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[2] (in view: work.fifo_8s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A: BN291 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Boundary register dout[2] (in view: work.fifo_8s_32s_6s(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[3] (in view: work.fifo_8s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A: BN291 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Boundary register dout[3] (in view: work.fifo_8s_32s_6s(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[4] (in view: work.fifo_8s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A: BN291 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Boundary register dout[4] (in view: work.fifo_8s_32s_6s(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[5] (in view: work.fifo_8s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A: BN291 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Boundary register dout[5] (in view: work.fifo_8s_32s_6s(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[6] (in view: work.fifo_8s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A: BN291 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Boundary register dout[6] (in view: work.fifo_8s_32s_6s(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Removing sequential instance dout[7] (in view: work.fifo_8s_32s_6s(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@A: BN291 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Boundary register dout[7] (in view: work.fifo_8s_32s_6s(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@W: FX107 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":35:4:35:12|RAM fifo_buf[7:0] (in view: work.fifo_8s_32s_6s(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":35:4:35:12|RAM fifo_buf[7:0] (in view: work.fifo_8s_32s_6s_0(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":35:4:35:12|RAM fifo_buf[1:0] (in view: work.fifo_2s_32s_6s(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@A: BN291 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/sv/fifo.sv":50:4:50:12|Boundary register dout[7:0] (in view: work.fifo_8s_32s_6s(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Starting factoring (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 163MB peak: 172MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:43s; CPU Time elapsed 0h:00m:43s; Memory used current: 246MB peak: 248MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:21m:10s; CPU Time elapsed 0h:21m:06s; Memory used current: 229MB peak: 273MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:21m:10s; CPU Time elapsed 0h:21m:06s; Memory used current: 229MB peak: 273MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:21m:14s; CPU Time elapsed 0h:21m:10s; Memory used current: 269MB peak: 311MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:21m:16s; CPU Time elapsed 0h:21m:12s; Memory used current: 274MB peak: 311MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:21m:24s; CPU Time elapsed 0h:21m:20s; Memory used current: 274MB peak: 311MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:21m:24s; CPU Time elapsed 0h:21m:21s; Memory used current: 269MB peak: 311MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:21m:28s; CPU Time elapsed 0h:21m:25s; Memory used current: 267MB peak: 311MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:21m:38s; CPU Time elapsed 0h:21m:35s; Memory used current: 268MB peak: 311MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:21m:39s; CPU Time elapsed 0h:21m:36s; Memory used current: 268MB peak: 311MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:21m:47s; CPU Time elapsed 0h:21m:43s; Memory used current: 271MB peak: 311MB)
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:21m:56s; CPU Time elapsed 0h:21m:53s; Memory used current: 250MB peak: 311MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:21m:57s; CPU Time elapsed 0h:21m:53s; Memory used current: 252MB peak: 311MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 8281 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================= Non-Gated/Non-Generated Clocks ==============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance    
+-------------------------------------------------------------------------------------------
+@K:CKID0001       clk_in              cycloneive_io_ibuf     8281       fifo_data_out.empty
+===========================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+
+Start Writing Netlists (Real Time elapsed 0h:21m:57s; CPU Time elapsed 0h:21m:54s; Memory used current: 210MB peak: 311MB)
+
+Writing Analyst data base /home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/project/rev_1/synwork/proj_1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:21m:59s; CPU Time elapsed 0h:21m:55s; Memory used current: 246MB peak: 311MB)
+
+Writing Verilog Netlist and constraint files
+Writing .vqm output for Quartus
+
+Writing scf file... (Real Time elapsed 0h:22m:01s; CPU Time elapsed 0h:21m:57s; Memory used current: 251MB peak: 311MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+Writing FDC file /home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/project/rev_1/proj_1_synplify.fdc
+
+Finished Writing Verilog Netlist and constraint files (Real Time elapsed 0h:22m:01s; CPU Time elapsed 0h:21m:57s; Memory used current: 246MB peak: 311MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:22m:02s; CPU Time elapsed 0h:21m:58s; Memory used current: 239MB peak: 311MB)
+
+@W: MT420 |Found inferred clock udp_top|clk with period 11.49ns. Please declare a user-defined clock on port clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Feb 19 00:48:37 2024
+#
+
+
+Top view:               udp_top
+Requested Frequency:    87.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -2.028
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group                
+------------------------------------------------------------------------------------------------------------------------
+udp_top|clk        87.0 MHz      74.0 MHz      11.493        13.521        -2.028     inferred     Autoconstr_clkgroup_0
+========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                    |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------
+Starting     Ending       |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------
+udp_top|clk  udp_top|clk  |  11.493      -2.028  |  No paths    -      |  No paths    -      |  No paths    -    
+=================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: udp_top|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                           Starting                                            Arrival           
+Instance                   Reference       Type       Pin     Net              Time        Slack 
+                           Clock                                                                 
+-------------------------------------------------------------------------------------------------
+read_data.out_count[0]     udp_top|clk     dffeas     q       out_count[0]     0.845       -2.028
+read_data.out_count[1]     udp_top|clk     dffeas     q       out_count[1]     0.845       -0.039
+read_data.out_count[3]     udp_top|clk     dffeas     q       out_count[3]     0.845       0.027 
+read_data.out_count[2]     udp_top|clk     dffeas     q       out_count[2]     0.845       0.038 
+read_data.out_count[5]     udp_top|clk     dffeas     q       out_count[5]     0.845       0.093 
+read_data.out_count[4]     udp_top|clk     dffeas     q       out_count[4]     0.845       0.104 
+read_data.out_count[7]     udp_top|clk     dffeas     q       out_count[7]     0.845       0.159 
+read_data.out_count[6]     udp_top|clk     dffeas     q       out_count[6]     0.845       0.165 
+read_data.out_count[8]     udp_top|clk     dffeas     q       out_count[8]     0.845       0.397 
+read_data.out_count[9]     udp_top|clk     dffeas     q       out_count[9]     0.845       0.405 
+=================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                           Starting                                                                                   Required           
+Instance                   Reference       Type                              Pin           Net                        Time         Slack 
+                           Clock                                                                                                         
+-----------------------------------------------------------------------------------------------------------------------------------------
+fifo_data_out.fifo_buf     udp_top|clk     synplicity_altsyncram_RAM_R_W     data_a[0]     out_din_0                  12.471       -2.028
+fifo_data_out.fifo_buf     udp_top|clk     synplicity_altsyncram_RAM_R_W     data_a[2]     out_din_2                  12.471       -1.877
+fifo_data_out.fifo_buf     udp_top|clk     synplicity_altsyncram_RAM_R_W     data_a[1]     out_din_1                  12.471       -1.862
+fifo_data_out.fifo_buf     udp_top|clk     synplicity_altsyncram_RAM_R_W     data_a[3]     out_din_3                  12.471       -1.862
+fifo_data_out.fifo_buf     udp_top|clk     synplicity_altsyncram_RAM_R_W     data_a[4]     out_din_4                  12.471       -1.848
+fifo_data_out.fifo_buf     udp_top|clk     synplicity_altsyncram_RAM_R_W     data_a[6]     out_din_6                  12.471       -1.848
+fifo_data_out.fifo_buf     udp_top|clk     synplicity_altsyncram_RAM_R_W     data_a[7]     out_din_7                  12.471       -1.834
+fifo_data_out.fifo_buf     udp_top|clk     synplicity_altsyncram_RAM_R_W     data_a[5]     out_din_5                  12.471       -1.716
+read_data.udp_data[0]      udp_top|clk     dffeas                            ena           udp_data_c_1_0__g0_i_0     11.416       3.239 
+read_data.udp_data[1]      udp_top|clk     dffeas                            ena           udp_data_c_1_0__g0_i_0     11.416       3.239 
+=========================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      11.493
+    - Setup time:                            -0.978
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         12.471
+
+    - Propagation time:                      13.886
+    - Intrinsic clock delay:                 0.613
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.028
+
+    Number of logic level(s):                15
+    Starting point:                          read_data.out_count[0] / q
+    Ending point:                            fifo_data_out.fifo_buf / data_a[0]
+    The start point is clocked by            udp_top|clk [rising] on pin clk
+    The end   point is clocked by            udp_top|clk [rising] on pin clock0
+
+Instance / Net                                                   Pin           Pin               Arrival     No. of    
+Name                           Type                              Name          Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------
+read_data.out_count[0]         dffeas                            q             Out     0.232     0.845       -         
+out_count[0]                   Net                               -             -       2.341     -           1585      
+read_data.un1_out_din_1[1]     cycloneive_lcell_comb             dataa         In      -         3.186       -         
+read_data.un1_out_din_1[1]     cycloneive_lcell_comb             cout          Out     0.498     3.684       -         
+un1_out_din_1_cout[1]          Net                               -             -       0.000     -           1         
+read_data.un1_out_din_1[3]     cycloneive_lcell_comb             cin           In      -         3.684       -         
+read_data.un1_out_din_1[3]     cycloneive_lcell_comb             cout          Out     0.066     3.750       -         
+un1_out_din_1_cout[3]          Net                               -             -       0.000     -           1         
+read_data.un1_out_din_1[5]     cycloneive_lcell_comb             cin           In      -         3.750       -         
+read_data.un1_out_din_1[5]     cycloneive_lcell_comb             cout          Out     0.066     3.816       -         
+un1_out_din_1_cout[5]          Net                               -             -       0.000     -           1         
+read_data.un1_out_din_1[7]     cycloneive_lcell_comb             cin           In      -         3.816       -         
+read_data.un1_out_din_1[7]     cycloneive_lcell_comb             combout       Out     0.000     3.816       -         
+un1_out_din_1_combout[7]       Net                               -             -       2.341     -           798       
+read_data.out_din_303[0]       cycloneive_lcell_comb             datac         In      -         6.157       -         
+read_data.out_din_303[0]       cycloneive_lcell_comb             combout       Out     0.429     6.586       -         
+out_din_303[0]                 Net                               -             -       0.326     -           1         
+read_data.out_din_611[0]       cycloneive_lcell_comb             datab         In      -         6.911       -         
+read_data.out_din_611[0]       cycloneive_lcell_comb             combout       Out     0.443     7.354       -         
+out_din_611[0]                 Net                               -             -       0.326     -           1         
+read_data.out_din_779[0]       cycloneive_lcell_comb             datac         In      -         7.680       -         
+read_data.out_din_779[0]       cycloneive_lcell_comb             combout       Out     0.429     8.109       -         
+out_din_779[0]                 Net                               -             -       0.326     -           1         
+read_data.out_din_910[0]       cycloneive_lcell_comb             datac         In      -         8.435       -         
+read_data.out_din_910[0]       cycloneive_lcell_comb             combout       Out     0.429     8.864       -         
+out_din_910[0]                 Net                               -             -       0.326     -           1         
+read_data.out_din_968[0]       cycloneive_lcell_comb             datac         In      -         9.189       -         
+read_data.out_din_968[0]       cycloneive_lcell_comb             combout       Out     0.429     9.618       -         
+out_din_968[0]                 Net                               -             -       0.326     -           1         
+read_data.out_din_995[0]       cycloneive_lcell_comb             datac         In      -         9.944       -         
+read_data.out_din_995[0]       cycloneive_lcell_comb             combout       Out     0.429     10.373      -         
+out_din_995[0]                 Net                               -             -       0.326     -           1         
+read_data.out_din_1011[0]      cycloneive_lcell_comb             datab         In      -         10.698      -         
+read_data.out_din_1011[0]      cycloneive_lcell_comb             combout       Out     0.443     11.141      -         
+out_din_1011[0]                Net                               -             -       0.326     -           1         
+read_data.out_din_1017[0]      cycloneive_lcell_comb             datab         In      -         11.467      -         
+read_data.out_din_1017[0]      cycloneive_lcell_comb             combout       Out     0.443     11.910      -         
+out_din_1017[0]                Net                               -             -       0.326     -           1         
+read_data.out_din_1021[0]      cycloneive_lcell_comb             datac         In      -         12.236      -         
+read_data.out_din_1021[0]      cycloneive_lcell_comb             combout       Out     0.429     12.665      -         
+out_din_1021[0]                Net                               -             -       0.326     -           1         
+read_data.out_din_1023[0]      cycloneive_lcell_comb             datac         In      -         12.990      -         
+read_data.out_din_1023[0]      cycloneive_lcell_comb             combout       Out     0.429     13.419      -         
+out_din_1023[0]                Net                               -             -       0.326     -           1         
+read_data.out_din[0]           cycloneive_lcell_comb             datac         In      -         13.745      -         
+read_data.out_din[0]           cycloneive_lcell_comb             combout       Out     0.429     14.174      -         
+out_din_0                      Net                               -             -       0.326     -           1         
+fifo_data_out.fifo_buf         synplicity_altsyncram_RAM_R_W     data_a[0]     In      -         14.499      -         
+=======================================================================================================================
+Total path delay (propagation time + ICD at startpoint + setup) of 13.521 is 5.258(38.9%) logic and 8.263(61.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 2: 
+      Requested Period:                      11.493
+    - Setup time:                            -0.978
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         12.471
+
+    - Propagation time:                      13.872
+    - Intrinsic clock delay:                 0.613
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.014
+
+    Number of logic level(s):                15
+    Starting point:                          read_data.out_count[0] / q
+    Ending point:                            fifo_data_out.fifo_buf / data_a[0]
+    The start point is clocked by            udp_top|clk [rising] on pin clk
+    The end   point is clocked by            udp_top|clk [rising] on pin clock0
+
+Instance / Net                                                   Pin           Pin               Arrival     No. of    
+Name                           Type                              Name          Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------
+read_data.out_count[0]         dffeas                            q             Out     0.232     0.845       -         
+out_count[0]                   Net                               -             -       2.341     -           1585      
+read_data.un1_out_din_1[1]     cycloneive_lcell_comb             dataa         In      -         3.186       -         
+read_data.un1_out_din_1[1]     cycloneive_lcell_comb             cout          Out     0.498     3.684       -         
+un1_out_din_1_cout[1]          Net                               -             -       0.000     -           1         
+read_data.un1_out_din_1[3]     cycloneive_lcell_comb             cin           In      -         3.684       -         
+read_data.un1_out_din_1[3]     cycloneive_lcell_comb             cout          Out     0.066     3.750       -         
+un1_out_din_1_cout[3]          Net                               -             -       0.000     -           1         
+read_data.un1_out_din_1[5]     cycloneive_lcell_comb             cin           In      -         3.750       -         
+read_data.un1_out_din_1[5]     cycloneive_lcell_comb             cout          Out     0.066     3.816       -         
+un1_out_din_1_cout[5]          Net                               -             -       0.000     -           1         
+read_data.un1_out_din_1[7]     cycloneive_lcell_comb             cin           In      -         3.816       -         
+read_data.un1_out_din_1[7]     cycloneive_lcell_comb             combout       Out     0.000     3.816       -         
+un1_out_din_1_combout[7]       Net                               -             -       2.341     -           798       
+read_data.out_din_21[0]        cycloneive_lcell_comb             datac         In      -         6.157       -         
+read_data.out_din_21[0]        cycloneive_lcell_comb             combout       Out     0.429     6.586       -         
+out_din_21[0]                  Net                               -             -       0.326     -           1         
+read_data.out_din_611[0]       cycloneive_lcell_comb             datac         In      -         6.911       -         
+read_data.out_din_611[0]       cycloneive_lcell_comb             combout       Out     0.429     7.340       -         
+out_din_611[0]                 Net                               -             -       0.326     -           1         
+read_data.out_din_779[0]       cycloneive_lcell_comb             datac         In      -         7.666       -         
+read_data.out_din_779[0]       cycloneive_lcell_comb             combout       Out     0.429     8.095       -         
+out_din_779[0]                 Net                               -             -       0.326     -           1         
+read_data.out_din_910[0]       cycloneive_lcell_comb             datac         In      -         8.421       -         
+read_data.out_din_910[0]       cycloneive_lcell_comb             combout       Out     0.429     8.850       -         
+out_din_910[0]                 Net                               -             -       0.326     -           1         
+read_data.out_din_968[0]       cycloneive_lcell_comb             datac         In      -         9.175       -         
+read_data.out_din_968[0]       cycloneive_lcell_comb             combout       Out     0.429     9.604       -         
+out_din_968[0]                 Net                               -             -       0.326     -           1         
+read_data.out_din_995[0]       cycloneive_lcell_comb             datac         In      -         9.930       -         
+read_data.out_din_995[0]       cycloneive_lcell_comb             combout       Out     0.429     10.359      -         
+out_din_995[0]                 Net                               -             -       0.326     -           1         
+read_data.out_din_1011[0]      cycloneive_lcell_comb             datab         In      -         10.684      -         
+read_data.out_din_1011[0]      cycloneive_lcell_comb             combout       Out     0.443     11.127      -         
+out_din_1011[0]                Net                               -             -       0.326     -           1         
+read_data.out_din_1017[0]      cycloneive_lcell_comb             datab         In      -         11.453      -         
+read_data.out_din_1017[0]      cycloneive_lcell_comb             combout       Out     0.443     11.896      -         
+out_din_1017[0]                Net                               -             -       0.326     -           1         
+read_data.out_din_1021[0]      cycloneive_lcell_comb             datac         In      -         12.222      -         
+read_data.out_din_1021[0]      cycloneive_lcell_comb             combout       Out     0.429     12.651      -         
+out_din_1021[0]                Net                               -             -       0.326     -           1         
+read_data.out_din_1023[0]      cycloneive_lcell_comb             datac         In      -         12.976      -         
+read_data.out_din_1023[0]      cycloneive_lcell_comb             combout       Out     0.429     13.405      -         
+out_din_1023[0]                Net                               -             -       0.326     -           1         
+read_data.out_din[0]           cycloneive_lcell_comb             datac         In      -         13.731      -         
+read_data.out_din[0]           cycloneive_lcell_comb             combout       Out     0.429     14.160      -         
+out_din_0                      Net                               -             -       0.326     -           1         
+fifo_data_out.fifo_buf         synplicity_altsyncram_RAM_R_W     data_a[0]     In      -         14.485      -         
+=======================================================================================================================
+Total path delay (propagation time + ICD at startpoint + setup) of 13.507 is 5.244(38.8%) logic and 8.263(61.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 3: 
+      Requested Period:                      11.493
+    - Setup time:                            -0.978
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         12.471
+
+    - Propagation time:                      13.735
+    - Intrinsic clock delay:                 0.613
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.877
+
+    Number of logic level(s):                12
+    Starting point:                          read_data.out_count[0] / q
+    Ending point:                            fifo_data_out.fifo_buf / data_a[2]
+    The start point is clocked by            udp_top|clk [rising] on pin clk
+    The end   point is clocked by            udp_top|clk [rising] on pin clock0
+
+Instance / Net                                                   Pin           Pin               Arrival     No. of    
+Name                           Type                              Name          Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------
+read_data.out_count[0]         dffeas                            q             Out     0.232     0.845       -         
+out_count[0]                   Net                               -             -       2.341     -           1585      
+read_data.un1_out_din_1[1]     cycloneive_lcell_comb             dataa         In      -         3.186       -         
+read_data.un1_out_din_1[1]     cycloneive_lcell_comb             combout       Out     0.437     3.623       -         
+un1_out_din_1_combout[1]       Net                               -             -       2.341     -           1304      
+read_data.out_din_270[2]       cycloneive_lcell_comb             datac         In      -         5.964       -         
+read_data.out_din_270[2]       cycloneive_lcell_comb             combout       Out     0.429     6.393       -         
+out_din_270[2]                 Net                               -             -       0.326     -           1         
+read_data.out_din_561[2]       cycloneive_lcell_comb             datab         In      -         6.718       -         
+read_data.out_din_561[2]       cycloneive_lcell_comb             combout       Out     0.443     7.161       -         
+out_din_561[2]                 Net                               -             -       0.326     -           1         
+read_data.out_din_812[2]       cycloneive_lcell_comb             datab         In      -         7.487       -         
+read_data.out_din_812[2]       cycloneive_lcell_comb             combout       Out     0.443     7.930       -         
+out_din_812[2]                 Net                               -             -       0.326     -           1         
+read_data.out_din_917[2]       cycloneive_lcell_comb             datab         In      -         8.256       -         
+read_data.out_din_917[2]       cycloneive_lcell_comb             combout       Out     0.443     8.699       -         
+out_din_917[2]                 Net                               -             -       0.326     -           1         
+read_data.out_din_968[2]       cycloneive_lcell_comb             datab         In      -         9.024       -         
+read_data.out_din_968[2]       cycloneive_lcell_comb             combout       Out     0.443     9.467       -         
+out_din_968[2]                 Net                               -             -       0.326     -           1         
+read_data.out_din_995[2]       cycloneive_lcell_comb             datac         In      -         9.793       -         
+read_data.out_din_995[2]       cycloneive_lcell_comb             combout       Out     0.429     10.222      -         
+out_din_995[2]                 Net                               -             -       0.326     -           1         
+read_data.out_din_1011[2]      cycloneive_lcell_comb             datab         In      -         10.547      -         
+read_data.out_din_1011[2]      cycloneive_lcell_comb             combout       Out     0.443     10.990      -         
+out_din_1011[2]                Net                               -             -       0.326     -           1         
+read_data.out_din_1017[2]      cycloneive_lcell_comb             datab         In      -         11.316      -         
+read_data.out_din_1017[2]      cycloneive_lcell_comb             combout       Out     0.443     11.759      -         
+out_din_1017[2]                Net                               -             -       0.326     -           1         
+read_data.out_din_1021[2]      cycloneive_lcell_comb             datac         In      -         12.085      -         
+read_data.out_din_1021[2]      cycloneive_lcell_comb             combout       Out     0.429     12.514      -         
+out_din_1021[2]                Net                               -             -       0.326     -           1         
+read_data.out_din_1023[2]      cycloneive_lcell_comb             datac         In      -         12.839      -         
+read_data.out_din_1023[2]      cycloneive_lcell_comb             combout       Out     0.429     13.268      -         
+out_din_1023[2]                Net                               -             -       0.326     -           1         
+read_data.out_din[2]           cycloneive_lcell_comb             datac         In      -         13.594      -         
+read_data.out_din[2]           cycloneive_lcell_comb             combout       Out     0.429     14.023      -         
+out_din_2                      Net                               -             -       0.326     -           1         
+fifo_data_out.fifo_buf         synplicity_altsyncram_RAM_R_W     data_a[2]     In      -         14.348      -         
+=======================================================================================================================
+Total path delay (propagation time + ICD at startpoint + setup) of 13.370 is 5.107(38.2%) logic and 8.263(61.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 4: 
+      Requested Period:                      11.493
+    - Setup time:                            -0.978
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         12.471
+
+    - Propagation time:                      13.721
+    - Intrinsic clock delay:                 0.613
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.863
+
+    Number of logic level(s):                12
+    Starting point:                          read_data.out_count[0] / q
+    Ending point:                            fifo_data_out.fifo_buf / data_a[2]
+    The start point is clocked by            udp_top|clk [rising] on pin clk
+    The end   point is clocked by            udp_top|clk [rising] on pin clock0
+
+Instance / Net                                                   Pin           Pin               Arrival     No. of    
+Name                           Type                              Name          Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------
+read_data.out_count[0]         dffeas                            q             Out     0.232     0.845       -         
+out_count[0]                   Net                               -             -       2.341     -           1585      
+read_data.un1_out_din_1[1]     cycloneive_lcell_comb             dataa         In      -         3.186       -         
+read_data.un1_out_din_1[1]     cycloneive_lcell_comb             combout       Out     0.437     3.623       -         
+un1_out_din_1_combout[1]       Net                               -             -       2.341     -           1304      
+read_data.out_din_254[2]       cycloneive_lcell_comb             datac         In      -         5.964       -         
+read_data.out_din_254[2]       cycloneive_lcell_comb             combout       Out     0.429     6.393       -         
+out_din_254[2]                 Net                               -             -       0.326     -           1         
+read_data.out_din_561[2]       cycloneive_lcell_comb             datac         In      -         6.718       -         
+read_data.out_din_561[2]       cycloneive_lcell_comb             combout       Out     0.429     7.147       -         
+out_din_561[2]                 Net                               -             -       0.326     -           1         
+read_data.out_din_812[2]       cycloneive_lcell_comb             datab         In      -         7.473       -         
+read_data.out_din_812[2]       cycloneive_lcell_comb             combout       Out     0.443     7.916       -         
+out_din_812[2]                 Net                               -             -       0.326     -           1         
+read_data.out_din_917[2]       cycloneive_lcell_comb             datab         In      -         8.242       -         
+read_data.out_din_917[2]       cycloneive_lcell_comb             combout       Out     0.443     8.685       -         
+out_din_917[2]                 Net                               -             -       0.326     -           1         
+read_data.out_din_968[2]       cycloneive_lcell_comb             datab         In      -         9.010       -         
+read_data.out_din_968[2]       cycloneive_lcell_comb             combout       Out     0.443     9.453       -         
+out_din_968[2]                 Net                               -             -       0.326     -           1         
+read_data.out_din_995[2]       cycloneive_lcell_comb             datac         In      -         9.779       -         
+read_data.out_din_995[2]       cycloneive_lcell_comb             combout       Out     0.429     10.208      -         
+out_din_995[2]                 Net                               -             -       0.326     -           1         
+read_data.out_din_1011[2]      cycloneive_lcell_comb             datab         In      -         10.533      -         
+read_data.out_din_1011[2]      cycloneive_lcell_comb             combout       Out     0.443     10.976      -         
+out_din_1011[2]                Net                               -             -       0.326     -           1         
+read_data.out_din_1017[2]      cycloneive_lcell_comb             datab         In      -         11.302      -         
+read_data.out_din_1017[2]      cycloneive_lcell_comb             combout       Out     0.443     11.745      -         
+out_din_1017[2]                Net                               -             -       0.326     -           1         
+read_data.out_din_1021[2]      cycloneive_lcell_comb             datac         In      -         12.071      -         
+read_data.out_din_1021[2]      cycloneive_lcell_comb             combout       Out     0.429     12.500      -         
+out_din_1021[2]                Net                               -             -       0.326     -           1         
+read_data.out_din_1023[2]      cycloneive_lcell_comb             datac         In      -         12.825      -         
+read_data.out_din_1023[2]      cycloneive_lcell_comb             combout       Out     0.429     13.254      -         
+out_din_1023[2]                Net                               -             -       0.326     -           1         
+read_data.out_din[2]           cycloneive_lcell_comb             datac         In      -         13.580      -         
+read_data.out_din[2]           cycloneive_lcell_comb             combout       Out     0.429     14.009      -         
+out_din_2                      Net                               -             -       0.326     -           1         
+fifo_data_out.fifo_buf         synplicity_altsyncram_RAM_R_W     data_a[2]     In      -         14.334      -         
+=======================================================================================================================
+Total path delay (propagation time + ICD at startpoint + setup) of 13.356 is 5.093(38.1%) logic and 8.263(61.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 5: 
+      Requested Period:                      11.493
+    - Setup time:                            -0.978
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         12.471
+
+    - Propagation time:                      13.721
+    - Intrinsic clock delay:                 0.613
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.863
+
+    Number of logic level(s):                12
+    Starting point:                          read_data.out_count[0] / q
+    Ending point:                            fifo_data_out.fifo_buf / data_a[2]
+    The start point is clocked by            udp_top|clk [rising] on pin clk
+    The end   point is clocked by            udp_top|clk [rising] on pin clock0
+
+Instance / Net                                                   Pin           Pin               Arrival     No. of    
+Name                           Type                              Name          Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------
+read_data.out_count[0]         dffeas                            q             Out     0.232     0.845       -         
+out_count[0]                   Net                               -             -       2.341     -           1585      
+read_data.un1_out_din_1[1]     cycloneive_lcell_comb             dataa         In      -         3.186       -         
+read_data.un1_out_din_1[1]     cycloneive_lcell_comb             combout       Out     0.437     3.623       -         
+un1_out_din_1_combout[1]       Net                               -             -       2.341     -           1304      
+read_data.out_din_210[2]       cycloneive_lcell_comb             datac         In      -         5.964       -         
+read_data.out_din_210[2]       cycloneive_lcell_comb             combout       Out     0.429     6.393       -         
+out_din_210[2]                 Net                               -             -       0.326     -           1         
+read_data.out_din_624[2]       cycloneive_lcell_comb             datab         In      -         6.718       -         
+read_data.out_din_624[2]       cycloneive_lcell_comb             combout       Out     0.443     7.161       -         
+out_din_624[2]                 Net                               -             -       0.326     -           1         
+read_data.out_din_812[2]       cycloneive_lcell_comb             datac         In      -         7.487       -         
+read_data.out_din_812[2]       cycloneive_lcell_comb             combout       Out     0.429     7.916       -         
+out_din_812[2]                 Net                               -             -       0.326     -           1         
+read_data.out_din_917[2]       cycloneive_lcell_comb             datab         In      -         8.242       -         
+read_data.out_din_917[2]       cycloneive_lcell_comb             combout       Out     0.443     8.685       -         
+out_din_917[2]                 Net                               -             -       0.326     -           1         
+read_data.out_din_968[2]       cycloneive_lcell_comb             datab         In      -         9.010       -         
+read_data.out_din_968[2]       cycloneive_lcell_comb             combout       Out     0.443     9.453       -         
+out_din_968[2]                 Net                               -             -       0.326     -           1         
+read_data.out_din_995[2]       cycloneive_lcell_comb             datac         In      -         9.779       -         
+read_data.out_din_995[2]       cycloneive_lcell_comb             combout       Out     0.429     10.208      -         
+out_din_995[2]                 Net                               -             -       0.326     -           1         
+read_data.out_din_1011[2]      cycloneive_lcell_comb             datab         In      -         10.533      -         
+read_data.out_din_1011[2]      cycloneive_lcell_comb             combout       Out     0.443     10.976      -         
+out_din_1011[2]                Net                               -             -       0.326     -           1         
+read_data.out_din_1017[2]      cycloneive_lcell_comb             datab         In      -         11.302      -         
+read_data.out_din_1017[2]      cycloneive_lcell_comb             combout       Out     0.443     11.745      -         
+out_din_1017[2]                Net                               -             -       0.326     -           1         
+read_data.out_din_1021[2]      cycloneive_lcell_comb             datac         In      -         12.071      -         
+read_data.out_din_1021[2]      cycloneive_lcell_comb             combout       Out     0.429     12.500      -         
+out_din_1021[2]                Net                               -             -       0.326     -           1         
+read_data.out_din_1023[2]      cycloneive_lcell_comb             datac         In      -         12.825      -         
+read_data.out_din_1023[2]      cycloneive_lcell_comb             combout       Out     0.429     13.254      -         
+out_din_1023[2]                Net                               -             -       0.326     -           1         
+read_data.out_din[2]           cycloneive_lcell_comb             datac         In      -         13.580      -         
+read_data.out_din[2]           cycloneive_lcell_comb             combout       Out     0.429     14.009      -         
+out_din_2                      Net                               -             -       0.326     -           1         
+fifo_data_out.fifo_buf         synplicity_altsyncram_RAM_R_W     data_a[2]     In      -         14.334      -         
+=======================================================================================================================
+Total path delay (propagation time + ICD at startpoint + setup) of 13.356 is 5.093(38.1%) logic and 8.263(61.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:22m:02s; CPU Time elapsed 0h:21m:58s; Memory used current: 239MB peak: 311MB)
+
+
+Finished timing report (Real Time elapsed 0h:22m:02s; CPU Time elapsed 0h:21m:58s; Memory used current: 239MB peak: 311MB)
+
+##### START OF AREA REPORT #####[
+Design view:work.udp_top(verilog)
+Selecting part EP4CE6E22A7
+@N: FA174 |The following device usage report estimates place and route data. Please look at the place and route report for final resource usage.
+
+Total combinational functions 7873 of 6272 (125%)
+Logic element usage by number of inputs
+		  4 input functions 	 3685
+		  3 input functions 	 4077
+		  <=2 input functions 	 111
+Logic elements by mode
+		  normal mode            7823
+		  arithmetic mode        50
+Total registers 8278 of 6272 (131%)
+I/O pins 24 of 180 (13%), total I/O based on largest package of this part.
+
+Number of I/O registers
+			Input DDRs    :0
+			Output DDRs   :0
+
+DSP Blocks:     0  (0 nine-bit DSP elements).
+DSP Utilization: 0.00% of available 15 blocks (30 nine-bit).
+ShiftTap:       0  (0 registers)
+Ena:             8227
+Sload:           15
+Sclr:            8224
+Total ESB:      576 bits 
+
+##### END OF AREA REPORT #####]
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:22m:02s; CPU Time elapsed 0h:21m:58s; Memory used current: 87MB peak: 311MB)
+
+Process took 0h:22m:02s realtime, 0h:21m:58s cputime
+# Mon Feb 19 00:48:38 2024
+
+###########################################################]

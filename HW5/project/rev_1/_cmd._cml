@@ -1,0 +1,1 @@
+-distcompmode -link    -encrypt       -top work.udp_top -osyn /home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/project/rev_1/synwork/proj_1_comp.srs /home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW5/project/rev_1/synwork//distcomp/distcomp0/distcomp0.srs    

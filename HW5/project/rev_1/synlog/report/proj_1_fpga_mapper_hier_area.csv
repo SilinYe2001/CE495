@@ -1,0 +1,8 @@
+
+. Module name, ATOMS, ARITHMETIC MODE, REGISTERS, SYNC RAMS, MACs
+. udp_top, 150, 0, 78, 3, 0
+.	. fifo_8s_32s_6s_1, 26, 0, 13, 1, 0
+.	. fifo_ctrl_8s_32s, 66, 0, 26, 2, 0
+.	.	. fifo_2s_32s_6s, 31, 0, 13, 1, 0
+.	.	. fifo_8s_32s_6s, 33, 0, 13, 1, 0
+.	. read_data, 56, 0, 39, 0, 0

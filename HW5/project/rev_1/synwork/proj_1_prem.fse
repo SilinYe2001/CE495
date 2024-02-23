@@ -1,0 +1,32 @@
+
+fsm_encoding {13800801} onehot
+
+fsm_state_encoding {13800801} WAIT_FOR_SOF {00000000000001}
+
+fsm_state_encoding {13800801} COUNT {00000000000010}
+
+fsm_state_encoding {13800801} IP_LENGTH {00000000000100}
+
+fsm_state_encoding {13800801} COUNT1 {00000000001000}
+
+fsm_state_encoding {13800801} IP_PROTOCOL {00000000010000}
+
+fsm_state_encoding {13800801} COUNT2 {00000000100000}
+
+fsm_state_encoding {13800801} IP_SRC_ADDR {00000001000000}
+
+fsm_state_encoding {13800801} IP_DST_ADDR {00000010000000}
+
+fsm_state_encoding {13800801} UDP_DST_PORT {00000100000000}
+
+fsm_state_encoding {13800801} UDP_SRC_PORT {00001000000000}
+
+fsm_state_encoding {13800801} UDP_LENGTH {00010000000000}
+
+fsm_state_encoding {13800801} UDP_CHECKSUM {00100000000000}
+
+fsm_state_encoding {13800801} UDP_DATA {01000000000000}
+
+fsm_state_encoding {13800801} DATAOUT {10000000000000}
+
+fsm_registers {13800801} {state[13]}  {state[12]}  {state[11]}  {state[10]}  {state[9]}  {state[8]}  {state[7]}  {state[6]}  {state[5]}  {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state[0]} 
