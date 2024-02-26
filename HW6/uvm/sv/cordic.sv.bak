@@ -1,0 +1,181 @@
+module cordic_module (
+    input logic clk,
+    input logic reset,
+    //input fifo
+    input logic in_empty,
+    input int in_rad,
+    output logic rd_en,
+    //output fifo
+    input logic out_full_sin,
+    output shortint out_sin,
+    output logic wr_en_sin,
+    input logic out_full_cos,
+    output shortint out_cos,
+    output logic wr_en_cos
+);
+localparam real M_PI = 3.14159265358979323846;
+localparam real K = 1.646760258121066;
+// Define the number of elements in the CORDIC table
+localparam CORDIC_NTAB = 16;
+// Define the CORDIC table as a constant array
+shortint signed cordic_table[CORDIC_NTAB-1:0] = {
+    16'sh3243, 16'sh1DAC, 16'sh0FAD, 16'sh07F5, 
+    16'sh03FE, 16'sh01FF, 16'sh00FF, 16'sh007F, 
+    16'sh003F, 16'sh001F, 16'sh000F, 16'sh0007, 
+    16'sh0003, 16'sh0001, 16'sh0000, 16'sh0000
+};
+shortint cordic_1k,pi,two_pi,half_pi;
+always_comb begin 
+    cordic_1k = quantize_f(1.0 / K);
+    pi = quantize_f(M_PI);
+    two_pi = quantize_f(M_PI * 2.0);
+    half_pi = quantize_f(M_PI / 2.0);
+end
+int r_imm;
+shortint x_inter[CORDIC_NTAB:0];
+shortint y_inter[CORDIC_NTAB:0];
+shortint z_inter[CORDIC_NTAB:0];
+logic [CORDIC_NTAB:0]valid_inter;
+typedef enum logic[1:0]{READ,RW,WRITE}state_types;
+state_types state,next_state;
+// shortint counter, c_counter;
+assign x_inter[0] = -cordic_1k;
+assign y_inter[0]= 0;
+always @(posedge clk or posedge reset) begin
+    if (reset) begin
+        state<=READ;
+        //counter<='0;
+    end
+    else begin
+        state<=next_state;
+        //counter<=c_counter;
+    end
+end
+
+
+always_comb begin
+    next_state=state;
+    r_imm='0;
+    rd_en=1'b0;
+    wr_en_sin=1'b0;
+    wr_en_cos=1'b0;
+    valid_inter[0]=1'b0;
+    out_sin='0;
+    out_cos='0;
+    z_inter[0]='0;
+    case (state) 
+       READ: begin
+         if (in_empty==1'b0) begin
+            next_state=WRITE;
+            rd_en=1'b1;
+            //pre calculate z first input 
+            if (in_rad>pi) begin
+                r_imm=in_rad-two_pi;
+            end
+            else if (in_rad<-pi) begin
+                r_imm=in_rad+two_pi;
+            end
+            else begin
+                r_imm=in_rad;
+            end
+            if (r_imm>half_pi) begin
+                z_inter[0]=r_imm-pi;  
+            end
+            else if (r_imm<-half_pi) begin
+                z_inter[0]=r_imm+pi;
+            end
+            else begin
+                z_inter[0]=r_imm;
+            end
+            valid_inter[0]=1'b1;
+            if (valid_inter[16]==1'b1) begin
+                next_state=RW;
+            end
+         end
+       end
+       RW: begin
+        //read process
+        if (in_empty==1'b0) begin
+            next_state=WRITE;
+            rd_en=1'b1;
+            //pre calculate z first input 
+            if (in_rad>pi) begin
+                r_imm=in_rad-two_pi;
+            end
+            else if (in_rad<-pi) begin
+                r_imm=in_rad+two_pi;
+            end
+            else begin
+                r_imm=in_rad;
+            end
+            if (r_imm>half_pi) begin
+                z_inter[0]=r_imm-pi;  
+            end
+            else if (r_imm<-half_pi) begin
+                z_inter[0]=r_imm+pi;
+            end
+            else begin
+                z_inter[0]=r_imm;
+            end
+            valid_inter[0]=1'b1;
+         end 
+        else begin
+            next_state=WRITE;
+        end
+        //write process
+        if (out_full_cos==1'b0 && out_full_sin==1'b0) begin
+            wr_en_sin=1'b1;
+            wr_en_cos=1'b1;
+            out_cos=x_inter[16];
+            out_sin=y_inter[16];
+        end
+       end
+       WRITE: begin
+        //write only 
+        if (out_full_cos==1'b0 && out_full_sin==1'b0) begin
+            if(valid_inter[16]==1'b1) begin
+                wr_en_sin=1'b1;
+                wr_en_cos=1'b1;
+                out_cos=x_inter[16];
+                out_sin=y_inter[16];
+            end
+        end
+       end
+        default: begin
+            next_state=state;
+            r_imm='0;
+            rd_en=1'b0;
+            wr_en_sin=1'b0;
+            wr_en_cos=1'b0;
+            valid_inter[0]=1'b0;
+            out_sin='0;
+            out_cos='0;
+            z_inter[0]='0;
+        end
+    endcase
+end
+
+// generate 16 stages of cordic
+generate
+    genvar i;
+    for (i = 0; i < CORDIC_NTAB; i++) begin : cordic_stage
+        cordic_stage cordic_stage(
+            .clk(clk),
+            .reset(reset),
+            .valid_in(valid_inter[i]),
+            .k(i),
+            .c(cordic_table[i]),
+            .xk(x_inter[i]),
+            .yk(y_inter[i]),
+            .zk(z_inter[i]),
+            .valid_out(valid_inter[i+1]),
+            .x_out(x_inter[i+1]),
+            .y_out(y_inter[i+1]),
+            .z_out(z_inter[i+1])
+        );
+    end
+endgenerate
+
+
+
+endmodule

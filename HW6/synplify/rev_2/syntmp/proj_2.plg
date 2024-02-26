@@ -1,0 +1,13 @@
+@P:  Part : ep4ce6ea22-7
+@P:  Worst Slack : -2.507
+@P:  cordic_top|clk - Estimated Frequency : 59.8 MHz
+@P:  cordic_top|clk - Requested Frequency : 70.4 MHz
+@P:  cordic_top|clk - Estimated Period : 16.712
+@P:  cordic_top|clk - Requested Period : 14.205
+@P:  cordic_top|clk - Slack : -2.507
+@P: cordic_top Part : ep4ce6ea22-7
+@P: cordic_top I/O ATOMs : 37
+@P: cordic_top Total LUTs : 1726 
+@P: cordic_top Register bits : 750
+@P: cordic_top DSP Blocks : 0 (0 nine-bit DSP elements)
+@P:  CPU Time : 0h:00m:03s

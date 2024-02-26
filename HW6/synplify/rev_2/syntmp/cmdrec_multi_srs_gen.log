@@ -1,0 +1,8 @@
+/vol/synopsys/fpga/O-2018.09-SP1/bin/syn_nfilter  -link  -multisrs  /home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW6/synplify/rev_2/synwork/proj_2_comp.srs  -osyn  /home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW6/synplify/rev_2/synwork/proj_2_mult.srs  -log  /home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW6/synplify/rev_2/synlog/proj_2_multi_srs_gen.srr 
+relcom:/vol/synopsys/fpga/O-2018.09-SP1/bin/syn_nfilter -link -multisrs ../synwork/proj_2_comp.srs -osyn ../synwork/proj_2_mult.srs -log ../synlog/proj_2_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:../synwork/proj_2_comp.srs|io:i|time:1708830420|size:11626|exec:0|csum:71F419537E68414DCD938C80D9EEBC97
+file:../synwork/proj_2_mult.srs|io:o|time:1708830422|size:3366|exec:0|csum:
+file:../synlog/proj_2_multi_srs_gen.srr|io:o|time:1708830422|size:1627|exec:0|csum:
+file:/vol/synopsys/fpga/O-2018.09-SP1/linux_a_64/syn_nfilter|io:i|time:1543382463|size:12202632|exec:1|csum:2CF5CA82A12C53A85C3E36D57C2461DC
+file:/vol/synopsys/fpga/O-2018.09-SP1/bin/syn_nfilter|io:i|time:1543382354|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0
