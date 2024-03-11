@@ -1,1 +1,0 @@
--distcompmode -link    -encrypt       -top work.cordic_top -osyn /home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW6/synplify/rev_2/synwork/proj_2_comp.srs /home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW6/synplify/rev_2/synwork//distcomp/distcomp0/distcomp0.srs    

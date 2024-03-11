@@ -1,4 +1,0 @@
-@E: CS112 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW6/uvm/sv/cordic.sv":182:30:182:33|Expecting port name
-@E: CG376 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW6/uvm/sv/cordic.sv":182:36:182:36|Expecting variable name
-@E: CS187 :"/home/sfs6562/CE495-Digital-design-and-Verification-with-FPGA/HW6/uvm/sv/cordic.sv":186:0:186:8|Expecting endmodule
-
